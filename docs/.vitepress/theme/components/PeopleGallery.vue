@@ -59,12 +59,12 @@ const peoples = [
   {
     name: 'Koboldlar', type: 'Yeraltı', status: 'Kayıt açık',
     description: 'Tünelleri, ortak emekleri ve ejderha çağından kalan söylenceleriyle tanınan küçük halk.',
-    crest: '◈', className: 'kobold', link: '/irklar/koboldlar'
+    crest: '◈', className: 'kobold', image: '/assets/illustrations/kobold.png', link: '/irklar/koboldlar'
   },
   {
     name: 'Veyranlar', type: 'Ölümlü', status: 'Kayıt açık',
     description: 'Ordan İmparatorluğu’nun kurucu halkı; ölçüm, kayıt ve yazılı hukukla şekillenmiş kültürler.',
-    crest: '═', className: 'veyran', link: '/irklar/veyranlar'
+    crest: '═', className: 'veyran', image: '/assets/illustrations/veyran.png', link: '/irklar/veyranlar'
   },
   {
     name: 'Svirfneblinler', type: 'Yeraltı', status: 'Kayıt açık',
