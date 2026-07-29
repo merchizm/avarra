@@ -1,6 +1,16 @@
-# Avarra Wiki
+# Avarra
 
-GitHub Pages üzerinde yayınlanmak üzere hazırlanmış, dosya-temelli VitePress wiki'si.
+Kendi yarattığım Dungeons & Dragons evreni **Avarra** ve bu evren için hazırlanmış yaşayan dünya wiki’si.
+
+Wiki; halkları, devletleri, inançları, şehirleri, tarihçeyi, ticaret yollarını ve macera için kullanılabilecek dünya kayıtlarını bir araya getirir. Avarra’yı oyun masasında geliştirdikçe kayıtlar da büyür; bu yüzden içerik dosya-temelli, görsel ve harita eklemeye açık biçimde tutulur.
+
+## Evren rehberi
+
+- **Halklar:** Soy, kültür, yurttaşlık ve toplumsal durumun birbirinden ayrıldığı Avarra toplulukları.
+- **Devletler:** Veraset savaşları, ittifaklar, kaynak çatışmaları ve diplomatik gerilimler.
+- **Yerleşimler:** Başkentler, limanlar, yeraltı şehirleri ve gündelik hayat kayıtları.
+- **Dinler ve kültürler:** İnanç aileleri, ritüeller, ölüm ve dönüş gelenekleri.
+- **Atlas ve varlıklar:** Haritalar, çizimler, PDF’ler ve oyun sırasında kullanılacak diğer dünya varlıkları.
 
 ## Yerelde çalıştırma
 
