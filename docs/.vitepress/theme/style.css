@@ -239,6 +239,8 @@ a.people-card:hover .people-visual img { transform: scale(1.06); }
 .map-editor-placeholder { display: grid; place-content: center; text-align: center; background-image: radial-gradient(circle at 50% 50%, rgba(154, 78, 59, .1), transparent 20rem); }
 .map-editor-placeholder h1, .world-section-placeholder h1 { margin: .45rem 0 1rem; font-family: Cinzel, Georgia, serif; font-size: clamp(2.3rem, 5vw, 4.6rem); }
 .map-editor-placeholder p:last-child, .world-section-placeholder p:last-child { max-width: 38rem; color: var(--vp-c-text-2); font-size: 1.1rem; line-height: 1.7; }
+.world-section-content { min-height: auto; margin-bottom: 2rem; }
+.world-content-grid { max-width: 1180px; margin: 0 auto 5rem; }
 
 /* Ansiklopedik dünya sayfaları */
 .lore-kicker { color: var(--vp-c-brand-1); font-family: Cinzel, Georgia, serif; font-size: .75rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; }
