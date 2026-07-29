@@ -4,24 +4,35 @@ title: Dinler ve Kültürler
 outline: false
 ---
 
-<main class="world-page">
-<section class="world-section-placeholder world-section-content">
-  <p class="lore-kicker">Avarra Ansiklopedisi · Yaşayan Gelenekler</p>
-  <h1>Dinler ve Kültürler</h1>
-  <p>İnanç, ölüm, ritüel ve gündelik hayat için gezilebilir kayıt odası. Avarra’da mucize gerçektir; kaynağının tanrı, dünya, ata veya inancın kendisi olduğu ise tartışmalıdır.</p>
-  <p><a class="chronicle-button" href="./dinler/">Din Kayıtlarını Aç</a></p>
-</section>
+<main class="culture-hall">
+  <header class="culture-hero">
+    <div class="culture-hero-copy">
+      <p class="lore-kicker">Avarra Ansiklopedisi · Yaşayan Gelenekler</p>
+      <h1>Dinler<br><em>ve Kültürler</em></h1>
+      <p>Avarra’da mucize gerçektir; fakat onun tanrıdan mı, yaşayan dünyadan mı, atalardan mı yoksa inancın kendisinden mi doğduğu kesin değildir. Bu salon, o belirsizlikten doğan ritüellerin, yasaların ve gündelik hayatların giriş kapısıdır.</p>
+      <a class="chronicle-button" href="./dinler/">İnanç Arşivine Gir</a>
+    </div>
+    <div class="culture-orb" aria-hidden="true"><span>✦</span><small>ÜÇ BÜYÜK GELENEK</small></div>
+  </header>
 
-<div class="lore-grid world-content-grid">
-  <a class="lore-card" href="./dinler/"><h3>Üç din ailesi</h3><p>Canlı Bütün, Göksel Taç, Eşik ve Atalar: mezhepleri, simgeleri ve uygulamaları ayrı kayıtlarda.</p></a>
-  <a class="lore-card" href="./ruh-ogretisi"><h3>Ruh ve ölüm</h3><p>Nefes, Ad ve İz; Eşik Aralığı, cenaze hukuku ve diriltmenin bedeli.</p></a>
-  <a class="lore-card" href="./muhur-nizami"><h3>Din ve devlet</h3><p>Ordan’ın Mühür Nizamı, kayıtlı tapınaklar ve kutsal otoritenin denetimi.</p></a>
-  <div class="lore-card"><h3>Mevsim halkları</h3><p>Kış Eladrinleri korumayı değişimi durdurmak sayar; Yaz Eladrinleri ikiz taç geleneğiyle yaşar. Sonbahar prenslikleri kaybı ve gönüllü vazgeçişi, İlkbahar şehirleri yeniliği ve borç affını öne çıkarır.</p></div>
-  <div class="lore-card"><h3>Su hukuku</h3><p>Nehir Tahtı için kaynak, kol, delta ve taşkın alanı aynı siyasi bedenin parçasıdır. Lizardfolk krallıklarında nezaket; yüz ifadesi yerine beden sıcaklığı, koku ve hediye edilen yiyecekle kurulur.</p></div>
-  <div class="lore-card"><h3>Göç ve geçiş</h3><p>Uçsuz Yol Konfederasyonu mülkiyet yerine geçiş hakkını savunur. Halflinglerin yol, nehir ve ada kolları; haber, tahıl ve sigorta ağlarını yaşatır.</p></div>
-  <div class="lore-card"><h3>Şehir hayatı</h3><p>Gece Mahallesi, Oyuk Mahallesi, Spor Bahçesi, Köz Sokağı, Yurtsuz Çevre ve Su Kapısı; çok halklı şehirlerin ortak mahalle biçimleridir.</p></div>
-  <div class="lore-card"><h3>Taş ve emek</h3><p>Kar-Dur'da ocak aileleri dağın katmanlarını paylaşır; Kor-Dum, Duergarların zorunlu emeğe karşı kurduğu meclis düzenini yurttaşlığın temeli sayar. Koboldlar için hava ve atık sistemini sabote etmek en ağır suçtur.</p></div>
-  <div class="lore-card"><h3>Hafıza kültürleri</h3><p>Kristal Hafızacılar anıları mineral yapılarda saklar; Myconid şehirleri aynı hafızayı paylaşan canlı ağlardır. Drow Ayaltı sürgünleri, yüzeye dönüşü siyasi bir hafıza meselesi sayar.</p></div>
-  <div class="lore-card"><h3>İnanç için açık alan</h3><p>Tanrılar, mezhepler ve dinî hukuk atlasın sonraki kanon sürümünde kesinleşecek. Bu sayfa, yeni din kayıtlarının kültür ve şehir hayatıyla bağlandığı ana dizin olarak kalacak.</p></div>
-</div>
+  <section class="culture-ledger" aria-label="Kültür envanteri"><div><b>3</b><span>inanç ailesi</span></div><div><b>10</b><span>mezhep kaydı</span></div><div><b>4</b><span>ölüm ve dönüş ayini</span></div><div><b>∞</b><span>yerel ruh ve gelenek</span></div></section>
+
+  <section class="culture-section">
+    <div class="culture-section-heading"><p class="lore-kicker">İnanç Salonları</p><h2>Üç büyük yol</h2><p>Her biri başka bir kutsallık dili konuşur. Birini seçin; içindeki mezhepler, ihtilaflar ve ayinler için arşive ilerleyin.</p></div>
+    <div class="faith-gates">
+      <a href="./dinler/canli-butun" class="faith-gate living"><span>◉</span><small>Yaşayan dünya</small><h3>Canlı Bütün</h3><p>Dağın kemik, nehrin damar, ormanın hafıza olduğu inanç ailesi.</p><b>Kök, taş, akış, ocak →</b></a>
+      <a href="./dinler/goksel-tac" class="faith-gate celestial"><span>✧</span><small>Dokuz makam</small><h3>Göksel Taç</h3><p>Yıldızların, mevsimlerin ve ilk alevin ilahî düzeni.</p><b>Yıldız, taç, alev →</b></a>
+      <a href="./dinler/esik-ve-atalar" class="faith-gate threshold"><span>◐</span><small>Yaşayanlar ve ölüler</small><h3>Eşik ve Atalar</h3><p>Ölüyle konuşmanın değil, sınırı zorlamanın tehlikeli sayıldığı gelenekler.</p><b>Maske, perde, sofra →</b></a>
+    </div>
+  </section>
+
+  <section class="culture-crossroads">
+    <div class="crossroads-copy"><p class="lore-kicker">Eşik Kayıtları</p><h2>Ölüm, ad ve geri dönüş</h2><p>Ruh; <b>Nefes</b>, <b>Ad</b> ve <b>İz</b> olarak anlaşılır. Bir ayinin neyi çağırdığı, kimi geri getirdiği ve hangi bedeli yarattığı bütün şehirlerin hukukunu değiştirir.</p><a href="./ruh-ogretisi">Ruh öğretisini oku →</a></div>
+    <div class="crossroads-links"><a href="./esik-araligi"><span>Ⅰ</span><div><small>Geçiş tamamlanmazsa</small><strong>Eşik Aralığı</strong></div></a><a href="./diriltme-ayinleri"><span>Ⅱ</span><div><small>Geri dönüşün bedeli</small><strong>Diriltme Ayinleri</strong></div></a><a href="./muhur-nizami"><span>Ⅲ</span><div><small>İnanç ve iktidar</small><strong>Mühür Nizamı</strong></div></a></div>
+  </section>
+
+  <section class="culture-section culture-section--quiet">
+    <div class="culture-section-heading"><p class="lore-kicker">Gündelik Hayat Atlası</p><h2>Kültürün izleri</h2></div>
+    <div class="culture-trails"><article><span>❋</span><h3>Mevsim halkları</h3><p>Kış korur, Yaz paylaşır, Sonbahar bırakmayı öğrenir, İlkbahar borç affeder.</p></article><article><span>≋</span><h3>Su hukuku</h3><p>Kaynak, kol, delta ve taşkın alanı aynı siyasî bedenin parçalarıdır.</p></article><article><span>↠</span><h3>Göç ve geçiş</h3><p>Uçsuz Yol’da mülkiyet değil, geçiş hakkı kutsal bir sorumluluktur.</p></article><article><span>◇</span><h3>Taş ve emek</h3><p>Ocak aileleri, meclisler ve tünel loncaları emeği yurttaşlığın ölçüsü sayar.</p></article><article><span>☾</span><h3>Hafıza kültürleri</h3><p>Kristal, spor ve rüya; şehrin hatırlama biçimi olabilir.</p></article></div>
+  </section>
 </main>
