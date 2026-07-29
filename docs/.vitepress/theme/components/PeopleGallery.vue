@@ -91,6 +91,66 @@ const peoples = [
     name: 'Warforgedler', type: 'Soy ve dönüşüm', status: 'Kayıt açık',
     description: 'Antik cüce ve Gnom kentlerinde uyanan yapay halklar; yurttaşlıkları hâlâ tartışmalıdır.',
     crest: '▣', className: 'warforged', link: '/irklar/warforgedler'
+  },
+  {
+    name: 'Elf Halkları', type: 'Fey kökenli', status: 'Kayıt açık',
+    description: 'Orman, Yüksek ve Deniz Elfleri; Diken Tacı, Lethar ve Mercan Sarayları arasında farklı hayatlar kurar.',
+    crest: '☽', className: 'elf', link: '/irklar/diger-halklar#elf-halkları'
+  },
+  {
+    name: 'Firbolglar', type: 'Fey kökenli', status: 'Kayıt açık',
+    description: 'Kutsal alanları, hayvan göçlerini ve cenaze koruluklarını koruyan Diken Tacı topluluğu.',
+    crest: '♣', className: 'firbolg', link: '/irklar/diger-halklar#firbolglar'
+  },
+  {
+    name: 'Dikenkanlılar', type: 'Fey kökenli', status: 'Kayıt açık',
+    description: 'Tenlerinde kabuk, yaprak veya boynuz taşıyan; eşit yurttaşlık isteyen kadim humanoidler.',
+    crest: '✤', className: 'thornblood', link: '/irklar/diger-halklar#dikenkanlılar'
+  },
+  {
+    name: 'Changelingler', type: 'Soy ve dönüşüm', status: 'Kayıt açık',
+    description: `Sis Adaları'nda farklı aile sözleşmelerine bağlı yurttaşlar; birden fazla yasal kimlik taşıyabilirler.`,
+    crest: '◌', className: 'changeling', link: '/irklar/diger-halklar#changelingler'
+  },
+  {
+    name: 'Duergarlar', type: 'Yeraltı', status: 'Kayıt açık',
+    description: 'Kor-Dum meclisleri ile Kara Örs Krallığı arasında farklı emek, miras ve yurttaşlık anlayışları.',
+    crest: '▰', className: 'duergar', link: '/irklar/diger-halklar#duergarlar'
+  },
+  {
+    name: 'Myconidler', type: 'Yeraltı', status: 'Kayıt açık',
+    description: 'Şehri aynı hafızayı paylaşan canlı ağ olarak gören ortak bilinç çemberleri.',
+    crest: '❋', className: 'myconid', link: '/irklar/diger-halklar#myconidler'
+  },
+  {
+    name: 'Deniz Halkları', type: 'Yeraltı', status: 'Kayıt açık',
+    description: 'Locathahlar, Kuo-Toalar, Tritonlar ve Sahuaginler; havza, derinlik ve av sahası hukuklarıyla ayrılır.',
+    crest: '≋', className: 'sea', link: '/irklar/diger-halklar#deniz-halkları'
+  },
+  {
+    name: 'Tortlelar', type: 'Ölümlü', status: 'Kayıt açık',
+    description: 'Ada, manastır ve göç rotalarından oluşan Uzun Kabuk Yolları kültürel birliği.',
+    crest: '◒', className: 'tortle', link: '/irklar/diger-halklar#tortlelar'
+  },
+  {
+    name: 'Centaurlar', type: 'Ölümlü', status: 'Kayıt açık',
+    description: `Uçsuz Yol Konfederasyonu'nda mülkiyetten çok geçiş hakkını önemseyen göç toplulukları.`,
+    crest: '↠', className: 'centaur', link: '/irklar/diger-halklar#centaurlar'
+  },
+  {
+    name: 'Orman ve Gökyüzü Halkları', type: 'Ölümlü', status: 'Kayıt açık',
+    description: 'Tabaxi, Kenku, Aarakocra, Owlin, Grung ve Satyr toplulukları farklı orman ile hava koridorlarında yaşar.',
+    crest: '⌁', className: 'skyfolk', link: '/irklar/diger-halklar#orman-ve-gökyüzü-halkları'
+  },
+  {
+    name: 'Orclar ve Hobgoblinler', type: 'Ölümlü', status: 'Kayıt açık',
+    description: `Kızıl Toprak'ın kontrollü yakma bilgisi ve Külordu'nun profesyonel askerî düzeni farklı yollar gösterir.`,
+    crest: '▲', className: 'orc', link: '/irklar/diger-halklar#orclar-ve-hobgoblinler'
+  },
+  {
+    name: 'Rebornlar, Hexbloodlar, Dhampirler', type: 'Soy ve dönüşüm', status: 'Kayıt açık',
+    description: 'Durgunluk, cadı antları, fey anlaşmaları ve kan lanetleriyle şekillenmiş dağınık topluluklar.',
+    crest: '☿', className: 'changed', link: '/irklar/diger-halklar#dönüşmüş-halklar'
   }
 ]
 
