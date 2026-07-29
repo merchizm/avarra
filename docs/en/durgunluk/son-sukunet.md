@@ -1,5 +1,5 @@
 ---
-title: Final Stillness
+title: Son Sükûnet
 ---
-# Final Stillness
-The forbidden belief that the Stagnation is not disaster, but an incomplete escape from pain and change.
+# Last Tranquility
+The forbidden view that stagnation is not a disaster but an incomplete example of freedom from pain and change.

@@ -1,6 +1,8 @@
 ---
-title: Threshold Interval
+title: Eşik Aralığı
 outline: false
 ---
-# Threshold Interval
-<p class="lore-lead">Not a separate afterlife, but a soul’s failure to complete its crossing. A Nameless Soul may steal or imitate memory, name, and face.</p>
+<div class="lore-kicker"> Death Record · Purgatory </div>
+# Threshold Range
+ <p class="lore-lead"> Not a separate afterlife; It is the situation where the soul cannot complete its passage over the Threshold. </p>
+ <p> Stolen true name, half-oath, corrupted funeral, obsessive mourning, failed ritual, necromantic bond, or Stagnation can cause this. Those who stay a long time may become Anonymous; Completely anonymous, Empty Spirits mimic the faces and memories of others. </p>

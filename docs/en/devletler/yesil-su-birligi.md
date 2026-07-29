@@ -1,8 +1,8 @@
 ---
-title: Greenwater League
+title: Yeşil Su Birliği
 outline: false
 ---
-<div class="lore-kicker">States · Spring Realms</div>
-# Greenwater League
-<p class="lore-lead">Spring city-states that turn renewal and debt forgiveness into public law.</p>
-<div class="record-layout"><div><h2>Avarra record</h2><p>Its river markets use seasonal amnesties to keep trade and migration moving.</p></div><aside class="record-profile"><div class="portrait-placeholder"><span>GREENWATER</span><small>Image to be added</small></div></aside></div>
+<div class="lore-kicker"> Nareth · Government Registration </div>
+# Green Water Association
+ <p class="lore-lead"> Five city-states consisting of Spring Eladrins, Halflings, Gnomes, and various peoples. Every seventh year, certain debts are written off. </p>
+ <div class="lore-grid"> <div class="lore-card"> <h3> Cities </h3> <p> Filizliman, Yeni Kök, Yağmurkapı, Arıbahçe, Yeşil Köprü </p> </div> <div class="lore-card"> <h3> Tension </h3> <p> Merchant families and seasonal priests are in a power struggle. </p> </div> </div>

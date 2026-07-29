@@ -1,5 +1,5 @@
 ---
-title: Wounded World Theory
+title: Yaralanmış Dünya Teorisi
 ---
-# Wounded World Theory
-A Root Compact interpretation that coercive borders, records, and oaths wounded Avarra’s memory.
+# Wounded Earth Theory
+Interpretation of the Root Treaty, which says that imposing limits, records and oaths wound the memory of Avarra.

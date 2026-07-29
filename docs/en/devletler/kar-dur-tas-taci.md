@@ -1,8 +1,8 @@
 ---
-title: Kar-Dur Stone Crown
+title: Kar-Dur Taş Tacı
 outline: false
 ---
-<div class="lore-kicker">States · Nareth</div>
+<div class="lore-kicker"> Nareth · Government Registration </div>
 # Kar-Dur Stone Crown
-<p class="lore-lead">A dwarven crown balanced against hearth councils and a contested heir.</p>
-<div class="record-layout"><div><h2>Avarra record</h2><p>Its law divides the mountain by working layers, not simple surface borders.</p></div><aside class="record-profile"><div class="portrait-placeholder"><span>KAR-DUR</span><small>Image to be added</small></div></aside></div>
+ <p class="lore-lead"> The hereditary dwarven kingdom and the hearth councils share the layers of the ancient mountain belt. The crown rules foreign war and roads; It has limited direct authority over mines. </p>
+ <div class="lore-grid"> <div class="lore-card"> <h3> Capital </h3> <p> Kar-Dur </p> </div> <div class="lore-card"> <h3> Current situation </h3> <p> Seventeen years later The identity of the ageless crown prince Doran is disputed. </p> </div> <div class="lore-card"> <h3> Locations </h3> <p> Nine Vaults, Stone Choir, Upper Gate, Demirkök </p> </div> </div>

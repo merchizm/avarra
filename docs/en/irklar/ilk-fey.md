@@ -1,9 +1,15 @@
 ---
-title: First Fey Legacy
+title: İlk Fey Mirası
 outline: false
 ---
+<div class="lore-kicker"> Ancient Great Peoples · Concept Guardians </div>
 # First Fey Legacy
+ <p class="lore-lead"> The legacy of the first fey beings, who were associated with concepts such as Hunger, Hunt, Mourning, Spring, Oblivion, Hospitality, Echo and Revenge rather than fixed bodies. </p>
+ <p> Elven, Eladrin, Satyr, Firbolg, Goblin, and some Gnomish traditions bind themselves to this heritage; no people is its sole heir. </p>
 
-<p class="lore-lead">The inheritance of first fey beings bound less to fixed bodies than to concepts such as Hunger, Spring, Mourning, Forgetting, Hospitality, Echo, and Vengeance.</p>
+## Canonical record
 
-Elves, Eladrin, Satyrs, Firbolg, Goblins, and some Gnomish traditions claim this inheritance; no one people owns it alone.
+ <p> The first Fey do not live as a single people today. It continues in different forms in the Elf, Eladrin, Satyr, Firbolg, Goblin, and some Gnome lineages. </p>
+ <p> Rare independent First Fey beings are bound to concepts. A “Fey of Hospitality” can protect anyone who enters their home while brutally punishing anyone who breaks the rules. Their bodies and tendencies vary depending on the concept they represent. </p>
+
+ <div class="creature-layout"> <section class="creature-statblock"> <h2> First Fey Concept Guardian </h2> <p class="creature-type"> Medium Fey, any disposition </p> <div class="creature-vitals"> <p> <b> Defense </b> 17 (conceptual body) </p> <p> <b> Hit Points </b> 110 (13d8 + 52) </p> <p> <b> Speed </b> 12 m., teleport 12 m. </p> </div> <div class="ability-grid"> <div> <b> POWER </b> <strong> 15 </strong> <span> (+2) </span> </div> <div> <b> ENGLISH </b> <strong> 19 </strong> <span> (+4) </span> </div> <div> <b> DAY </b> <strong> 18 </strong> <span> (+4) </span> </div> <div> <b> ZEK </b> <strong> 17 </strong> <span> (+3) </span> </div> <div> <b> COMP </b> <strong> 18 </strong> <span> (+4) </span> </div> <div> <b> SNOW </b> <strong> 20 </strong> <span> (+5) </span> </div> </div> <div class="creature-details"> <p> <b> Saves </b> Turn +8, Know +8, Snow +9 </p> <p> <b> Skills </b> Insight +8, Perception +8, Persuasion +9 </p> <p> <b> Damage Resistances </b> non-magical attacks </p> <p> <b> Senses </b> true vision 18 m., passive Perception 18 </p> <p> <b> Languages </b> Sylvan, telepathy 18 m. </p> <p> <b> Threat </b> 9 (5,000 XP) • <b> Proficiency Bonus </b> +4 </p> </div> <div class="creature-section"> <h3> Features </h3> <p> <b> Concept Link. </b> The Guardian chooses a specific concept: Hunt, Mourning, Spring, Oblivion, Hospitality, or Revenge. Creatures that behave in accordance with the concept have an advantage on saves against it; violators gain a disadvantage. </p> <p> <b> Spell Resistance. </b> Has advantage on saves against spells. </p> </div> <div class="creature-section"> <h3> Actions </h3> <p> <b> Multi Attack. </b> The Guardian makes two attacks with concept touch. </p> <p> <b> Concept Touch. </b> Melee Magic Attack: +9 to hit, range 3 m., one target. Hit: 18 (3d8 + 5) psychic or radiant damage. </p> <p> <b> Apply Rule (Recharge 5–6). </b> If selected creatures within 60 feet fail a GM 17 Charisma save, they experience a one-minute condition appropriate to the concept: frightened, charmed, blinded, or have 0 speed. It repeats the save at the end of each turn. </p> <p> # XII. INTERCULTURAL CANON </p> </div> </section> <aside class="creature-profile"> <div class="portrait-placeholder"> <span> ILK-FEY </span> <small> Image to be added </small> </div> </aside> </div>

@@ -1,5 +1,5 @@
 ---
-title: High Crown Kingdom
+title: Yüksek Taç Krallığı
 ---
 # High Crown Kingdom
-An old human kingdom of eastern Nareth’s fertile river plains, conquered by Ordan.
+An ancient human kingdom in the fertile river plains of Eastern Nareth; It was conquered by Ordan.

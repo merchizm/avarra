@@ -1,9 +1,14 @@
 ---
-title: Tieflings
+title: Tieflingler
 outline: false
 ---
+<div class="lore-kicker"> Peoples · Lineage and Transformation </div>
+# tieflings
+ <p class="lore-lead"> Tieflings are not descended from a single infernal race. Ember, Frost, sea cliff, fey-thorn and pale races changed by Stagnation; It carries different origins of agreement and transformation. </p>
 
-<div class="lore-kicker">Peoples · Lineage and Transformation</div>
-# Tieflings
-<p class="lore-lead">Tieflings do not descend from one infernal lineage. Ember, Frost, Sea Abyss, Fey-Thorn and Stagnation-pale houses have distinct origins.</p>
-<div class="lore-grid"><div class="lore-card"><h3>Neighbourhoods</h3><p>Red Lantern, Ember Street and Salt Horn are major Tiefling quarters.</p></div><div class="lore-card"><h3>Identity</h3><p>They are lineages living among many peoples, not one separate nation.</p></div></div>
+## Canonical record
+
+ <p> Tieflings are not descended from a single infernal race. There are Ember, Frost, Sea Abyss, Fey-Thorn, and Stasis-altered Pale lineages. </p>
+ <p> A Tiefling child carries the culture of the people into which he is born. Velis Red Lantern, Ordanor Ember Street, and Mazaros Salt Horn are dense Tiefling neighborhoods. Lineage houses provide business, legal, and magical support to their members; may ask for long-term commitment in return. </p>
+
+ <div class="creature-layout"> <section class="creature-statblock"> <h2> Tiefling Lineage Defender </h2> <p class="creature-type"> Medium humanoid (Tiefling), any disposition </p> <div class="creature-vitals"> <p> <b> Defense </b> 16 (hidden breastplate) </p> <p> <b> Hit Points </b> 58 (9d8 + 18) </p> <p> <b> Speed </b> 9 m. </p> </div> <div class="ability-grid"> <div> <b> POWER </b> <strong> 11 </strong> <span> (+0) </span> </div> <div> <b> ENGLISH </b> <strong> 16 </strong> <span> (+3) </span> </div> <div> <b> DAY </b> <strong> 14 </strong> <span> (+2) </span> </div> <div> <b> ZEK </b> <strong> 14 </strong> <span> (+2) </span> </div> <div> <b> COMP </b> <strong> 12 </strong> <span> (+1) </span> </div> <div> <b> SNOW </b> <strong> 18 </strong> <span> (+4) </span> </div> </div> <div class="creature-details"> <p> <b> Saves </b> Turn +5, Snow +6 </p> <p> <b> Skills </b> Deception +6, Arcana +4, Persuasion +6 </p> <p> <b> Damage Resistances </b> fire </p> <p> <b> Senses </b> darkvision 18 m., passive Perception 11 </p> <p> <b> Languages </b> Common Tongue, Infernal, and a regional language </p> <p> <b> Threat </b> 3 (700 XP) • <b> Proficiency Bonus </b> +2 </p> </div> <div class="creature-section"> <h3> Traits </h3> <p> <b> Bloodline Variant. </b> Fire resistance can be cold, necrotic, psychic, or poison resistance depending on the lineage. </p> <p> <b> Contract Ear. </b> Has advantage on Insight checks to detect lies in official promises and negotiations. </p> </div> <div class="creature-section"> <h3> Actions </h3> <p> <b> Multi Attack. </b> The defender makes two attacks with his noble blade. </p> <p> <b> Family Knife. </b> Melee Spell Attack: +6 to hit, range 5 ft., one target. Hit: 10 (1d8 + 4 plus 1d4) slashing and fire damage. </p> <p> <b> Legacy Flame (Recharge 5–6). </b> Sends magical flame at two creatures within 12 meters. Each target takes 14 (4d6) fire damage if the target fails a 14 Agility save; Takes half damage on a success. The type of damage may vary depending on the lineage variant. </p> </div> </section> <aside class="creature-profile"> <div class="portrait-placeholder"> <span> TIEFLINGS </span> <small> Image to be added </small> </div> </aside> </div>

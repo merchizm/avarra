@@ -1,9 +1,36 @@
 ---
-title: Thorn Crown
+title: Diken Tacı
 outline: false
 ---
+<div class="lore-kicker"> Nareth · Government Registration </div>
 
-<div class="lore-kicker">Nareth · State Record</div>
-# Thorn Crown
-<p class="lore-lead">The Thorn Crown does not merely stand in a forest: it treats the forest as a sovereign being. Queen Elyra Thornspirit is slowly becoming a living tree, leaving succession unresolved.</p>
-<div class="lore-grid"><div class="lore-card"><h3>Capital</h3><p>Elyraroot, built among root halls and living trees.</p></div><div class="lore-card"><h3>Key factions</h3><p>Root Guards, Open Branch Council, Red Hunt and the Hornless Army.</p></div></div>
+# Crown of Thorns
+
+ <div class="lore-grid">
+   <div class="lore-card"> <h3> Administration </h3> <p> Elective forest monarchy </p> </div>
+   <div class="lore-card"> <h3> Capital City </h3> <p> Elyrakök </p> </div>
+   <div class="lore-card"> <h3> Major peoples </h3> <p> Wood Elves, Firbolgs, Thornbloods, Forest Gnomes </p> </div>
+   <div class="lore-card"> <h3> Current situation </h3> <p> Throne crisis and impending civil war </p> </div>
+ </div>
+
+The Crown of Thorns is not a state established in a forest, but a legal order that considers the forest itself as a sovereign entity. Land cannot be sold; Groves, valleys and hunting grounds can only be used for certain periods of time. For a large structure, permission is required from the ruler as well as from the druids who interpret the root network in the region.
+
+Queen Elyra Thornsoul is slowly turning into a living tree because of a treaty made forty years ago. He can talk less, but still has not announced his successor.
+
+## Communities and groups
+
+- **Crown Elves:** Influences foreign policy, archives, and major settlements.
+- **Root Firbolgs:** Protects sacred sites, migrations and funerary groves; is distant from the central government.
+- **Thornbloods:** Ancient humanoid society that is the backbone of the army and demands equal citizenship.
+- **Sub-Branch Gnomes:** Manages sub-root passages, seed archives and communication networks.
+- **Root Guardians / Open Branch Council:** The main blocs fighting between human removal and limited settlement rights.
+
+## Major settlements
+
+| Location | Description |
+| --- | --- |
+| Elyrakök | The capital city, surrounded by giant trees with their root halls, around the Throne Tree. |
+| Salkımkent | Eastern border trading city with hanging bridges. |
+| Deerpass | The military center where three natural roads leading from there to the border meet. |
+| Kokaltı | Semi-independent underground settlement ruled by Forest Gnomes. |
+| wildocak | Officially non-existent human refugee city where five exiled dynasties meet. |

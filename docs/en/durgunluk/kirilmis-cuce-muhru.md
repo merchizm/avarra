@@ -1,5 +1,5 @@
 ---
-title: Broken Dwarf Seal
+title: Kırılmış Cüce Mührü
 ---
-# Broken Dwarf Seal
-The theory that an ancient dwarven structure beneath the first event was activated without being understood.
+# Broken Dwarven Seal
+The theory that there was an ancient dwarf structure underlying the first event and that humans were operating the unknown system.

@@ -1,5 +1,5 @@
 ---
-title: Broken Tower Kingdom
+title: Kırık Kule Krallığı
 ---
-# Broken Tower Kingdom
-An old realm of eastern coasts and strait fortresses, conquered by Ordan.
+# Kingdom of the Broken Tower
+The ancient kingdom of the eastern shores and Bosphorus castles overlooking Seyvar; It was conquered by Ordan.

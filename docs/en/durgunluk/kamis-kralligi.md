@@ -1,5 +1,5 @@
 ---
-title: Reed Kingdom
+title: Kamış Krallığı
 ---
-# Reed Kingdom
-A southeastern marsh and delta kingdom, broken by dynastic war, floods, and internal collapse.
+# Kingdom of Reed
+The kingdom in the southeastern swamps and the great delta; disintegrated by dynastic war, flood, and internal collapse.

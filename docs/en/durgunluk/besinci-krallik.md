@@ -1,5 +1,5 @@
 ---
-title: Fifth Kingdom
+title: Beşinci Krallık
 ---
 # Fifth Kingdom
-The kingdom on the dried inland sea’s eastern shore, whose true name and identity were erased in the Stagnation.
+The true name, arms and political identity of the kingdom on the eastern shore of the dried inland sea were erased during the Recession.

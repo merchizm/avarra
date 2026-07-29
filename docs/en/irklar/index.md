@@ -1,7 +1,6 @@
 ---
 layout: page
-title: Peoples and Lineages
+title: Irklar ve Halklar
 outline: false
 ---
-
 <PeopleGallery />

@@ -1,5 +1,5 @@
 ---
-title: Stillwater
+title: Akıntısız
 ---
-# Stillwater
-An abandoned River Throne border town where moving water never reaches the lower watershed.
+# No leakage
+Abandoned town on the border of the River Throne, where the water that appears to be moving does not reach the downstream basin.

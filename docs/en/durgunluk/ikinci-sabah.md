@@ -1,5 +1,5 @@
 ---
-title: Second Morning
+title: İkinci Sabah
 ---
 # Second Morning
-A Reborn settlement near Stillwater, home to people who returned imperfectly from Stagnation lands.
+Reborn settlement near Akıntısız; Some of the inhabitants have returned to life incompletely in the Stagnation areas.

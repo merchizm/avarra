@@ -1,5 +1,5 @@
 ---
-title: Last Glimmer
+title: Son Parıltı
 ---
-# Last Glimmer
-A lost settlement near Nine Lanterns whose visible lights cannot be reached by its looping tunnels.
+#Last Glow
+The lost settlement whose lights can be seen on the border of Dokuz Fener, but whose tunnels always lead to the same point.

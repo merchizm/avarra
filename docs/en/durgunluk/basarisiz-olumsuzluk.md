@@ -1,5 +1,5 @@
 ---
-title: Failed Immortality Rite
+title: Başarısız Ölümsüzlük Ayini
 ---
-# Failed Immortality Rite
-The unproven claim that the Fifth Kingdom’s ruler tried to protect a self, dynasty, or realm from death.
+# Failed Rite of Immortality
+Unsubstantiated view that a Fifth Kingdom ruler sought to protect himself, his dynasty, or his country from death.

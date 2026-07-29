@@ -1,8 +1,8 @@
 ---
-title: Lethar Star Kingdom
+title: Lethar Yıldız Krallığı
 outline: false
 ---
-<div class="lore-kicker">States · Nareth</div>
-# Lethar Star Kingdom
-<p class="lore-lead">A High Elf monarchy governed from Astereth through star records and long treaties.</p>
-<div class="record-layout"><div><h2>Avarra record</h2><p>Its diplomatic houses plan in generations rather than seasons.</p></div><aside class="record-profile"><div class="portrait-placeholder"><span>LETHAR</span><small>Image to be added</small></div></aside></div>
+<div class="lore-kicker"> Nareth · Government Registration </div>
+# Star Kingdom of Lethar
+ <p class="lore-lead"> The Lethar, the hereditary High Elven monarchy, regard nature as a system that is not free but must be understood and elegantly ordered. </p>
+ <div class="lore-grid"> <div class="lore-card"> <h3> Capital </h3> <p> Astereth </p> </div> <div class="lore-card"> <h3> Current situation </h3> <p> For the child ruler Serel Three families are fighting for custody. </p> </div> <div class="lore-card"> <h3> Locations </h3> <p> Miravel, Telor Gate, Silent Meridian, Low Star </p> </div> </div>

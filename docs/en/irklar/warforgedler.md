@@ -1,9 +1,15 @@
 ---
-title: Warforged and Autognomes
+title: Warforgedler
 outline: false
 ---
-
-<div class="lore-kicker">Peoples · Constructed Folk</div>
+<div class="lore-kicker"> Peoples · Artificial Peoples </div>
 # Warforged and Autognomes
-<p class="lore-lead">Constructed people awakened in ancient Dwarven and Gnomish cities. Kar-Dur tends to treat them as property; Kor-Dum recognises full citizenship.</p>
-<div class="lore-grid"><div class="lore-card"><h3>Citizenship</h3><p>Free Hammer was the first city to recognise Warforged citizens.</p></div><div class="lore-card"><h3>Autognomes</h3><p>Tick-Tock Garden is an abandoned workshop restored by Autognomes.</p></div></div>
+ <p class="lore-lead"> Warforged and Autognomes are artificial peoples awakened in ancient Dwarven and Gnome cities. While Kar-Dur tends to consider them the property of their producers, Kor-Dum grants full citizenship. </p>
+
+## Canonical record
+
+ <p> Warforged are people born from artificial bodies produced during the Damar Civilization period. It is uncertain whether their consciousness arose as a result of design, Earth Vessels, shared experience, or an unknown awakening. </p>
+ <p> Kar-Dur tends to consider them the heritage of the manufacturers. Kor-Dum recognizes full citizenship. The Free Hammer is the first independent political center of the artificial peoples. </p>
+ <p> A Warforged's duty may be his cultural past, but it is not his immutable fate. The ceremonies of changing their bodies, removing old command seals, and receiving new names are important. </p>
+
+ <div class="creature-layout"> <section class="creature-statblock"> <h2> Warforged Unleashed Hammer Citizen </h2> <p class="creature-type"> Medium artifact, any disposition </p> <div class="creature-vitals"> <p> <b> Defense </b> 18 (integrated armor) </p> <p> <b> Hit Points </b> 85 (10d8 + 40) </p> <p> <b> Speed </b> 9 m. </p> </div> <div class="ability-grid"> <div> <b> POWER </b> <strong> 18 </strong> <span> (+4) </span> </div> <div> <b> ENGLISH </b> <strong> 12 </strong> <span> (+1) </span> </div> <div> <b> DAY </b> <strong> 18 </strong> <span> (+4) </span> </div> <div> <b> ZEK </b> <strong> 14 </strong> <span> (+2) </span> </div> <div> <b> COMP </b> <strong> 14 </strong> <span> (+2) </span> </div> <div> <b> SNOW </b> <strong> 12 </strong> <span> (+1) </span> </div> </div> <div class="creature-details"> <p> <b> Saves </b> Strength +7, Day +7 </p> <p> <b> Skills </b> Athletics +7, History +5 </p> <p> <b> Damage Resistances </b> poison </p> <p> <b> Status Immunities </b> diseased; magical sleep </p> <p> <b> Senses </b> darkvision 18 m., passive Perception 12 </p> <p> <b> Languages </b> Common Tongue, Dwarven, and a quest language </p> <p> <b> Threat </b> 5 (1,800 XP) • <b> Proficiency Bonus </b> +3 </p> </div> <div class="creature-section"> <h3> Features </h3> <p> <b> Artificial Resistance. </b> Does not have to eat, drink, breathe or sleep. Has advantage on saves against poison. </p> <p> <b> Reject Order Seal. </b> Repeats the save once when failed against a charm or control effect. Regenerates after short or long rest. </p> <p> <b> Integrated Protection. </b> His armor cannot be removed against his will. </p> </div> <div class="creature-section"> <h3> Actions </h3> <p> <b> Multi Attack. </b> The citizen makes two attacks with his casting hammer. </p> <p> <b> Casting Hammer. </b> Melee Weapon Attack: +7 to hit, range 1.5 m., one target. Hit: 11 (2d6 + 4) crushing damage. </p> <p> <b> Free Will Strike (Recharge 5–6). </b> Ends the spellbound or frightened status on allies within 15 feet. If enemy artifacts fail a GM 14 Charisma save, they are stunned until the end of the next turn. </p> </div> </section> <aside class="creature-profile"> <div class="portrait-placeholder"> <span> WARFORGEDS </span> <small> Image to be added </small> </div> </aside> </div>

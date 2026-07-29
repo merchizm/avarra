@@ -1,8 +1,8 @@
 ---
-title: Copper Principalities
+title: Bakır Prenslikler
 outline: false
 ---
-<div class="lore-kicker">States · Autumn Realms</div>
+<div class="lore-kicker"> Nareth · Government Registration </div>
 # Copper Principalities
-<p class="lore-lead">Seven Autumn principalities bound by loss, succession, and voluntary relinquishment.</p>
-<div class="record-layout"><div><h2>Avarra record</h2><p>Their councils consider a ruler’s graceful departure a measure of legitimacy.</p></div><aside class="record-profile"><div class="portrait-placeholder"><span>COPPER</span><small>Image to be added</small></div></aside></div>
+ <p class="lore-lead"> Seven independent principalities of Autumn Eladrin, High Elves, and Men. Loss, memory, harvest and voluntary renunciation are considered sacred. </p>
+ <div class="lore-grid"> <div class="lore-card"> <h3> Common headquarters </h3> <p> Copper Council </p> </div> <div class="lore-card"> <h3> Seven principalities </h3> <p> Crimson Leaf, Pale Vineyard, Long Shadow, Last Harvest, Copper Key, Silent Fruit, Falling Crown </p> </div> </div>

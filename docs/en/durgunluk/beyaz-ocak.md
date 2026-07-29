@@ -1,5 +1,5 @@
 ---
-title: White Hearth Kingdom
+title: Beyaz Ocak Krallığı
 ---
-# White Hearth Kingdom
-An old human kingdom in the foothills north of the Thorn Crown, conquered by Ordan.
+# Kingdom of White Hearth
+An ancient human kingdom founded in the foothills north of the Crown of Thorns; It was conquered by Ordan.

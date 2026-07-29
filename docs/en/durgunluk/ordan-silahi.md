@@ -1,5 +1,5 @@
 ---
-title: Ordan Weapon Theory
+title: Ordan Silahı Teorisi
 ---
 # Ordan Weapon Theory
-The unproven claim that Ordan used experimental magic or a device to force the Fifth Kingdom’s surrender.
+Unsubstantiated view that Ordan used an experimental spell or device to force the Fifth Kingdom to surrender.

@@ -1,13 +1,8 @@
----
-title: Continents
-outline: false
----
+#continents
 
-# Continents
+Use this page as a starting index for continents, seas, and major geographic areas.
 
-Use this page as the starting index for continents, seas, and major geographical regions.
-
-## Record template
+## Registration template
 
 ```md
 ## Region name

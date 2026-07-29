@@ -1,8 +1,8 @@
 ---
-title: River Throne
+title: Nehir Tahtı
 outline: false
 ---
-<div class="lore-kicker">States · Nareth</div>
+<div class="lore-kicker"> Nareth · Government Registration </div>
 # River Throne
-<p class="lore-lead">A matrilineal elective monarchy that understands a watershed as one political body.</p>
-<div class="record-layout"><div><h2>Avarra record</h2><p>Queen Samara’s illness is said to coincide with the slowing of the currents.</p></div><aside class="record-profile"><div class="portrait-placeholder"><span>RIVER THRONE</span><small>Image to be added</small></div></aside></div>
+ <p class="lore-lead"> A matriarchal elective monarchy defines the border by watershed, not land. The source, tributary, delta and floodplain are parts of the same political body. </p>
+ <div class="lore-grid"> <div class="lore-card"> <h3> Capital </h3> <p> Namaris </p> </div> <div class="lore-card"> <h3> Current situation </h3> <p> Currents As she slows down, Queen Samara's body also weakens. </p> </div> <div class="lore-card"> <h3> Locations </h3> <p> Three Mouths, Reeds, Blue Ladder, No Stream </p> </div> </div>

@@ -1,5 +1,5 @@
 ---
-title: Celestial Punishment Theory
+title: Göksel Ceza Teorisi
 ---
 # Celestial Punishment Theory
-The claim that the Fifth Kingdom’s rulers sought to rise to divine offices and were punished.
+The view that the rulers of the Fifth Kingdom tried to elevate themselves to divine Offices and were punished.

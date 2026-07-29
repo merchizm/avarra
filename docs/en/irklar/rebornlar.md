@@ -1,8 +1,14 @@
 ---
-title: Reborn
+title: Rebornlar
 outline: false
 ---
-<div class="lore-kicker">Peoples · The Second Breath</div>
-# Reborn
-<p class="lore-lead">People returned from death, building identity between broken memory and new will.</p>
-<div class="record-layout"><div><h2>Avarra record</h2><p>Some cities keep a second-name register separating old debts from new rights.</p><h2>D&D reference</h2><p>A death-defying lineage built for mysteries of lost memory, unusual resilience, and liminal life.</p></div><aside class="record-profile"><div class="portrait-placeholder"><span>REBORN</span><small>Image to be added</small></div></aside></div>
+<div class="lore-kicker"> Peoples · Second Breath </div>
+#Reborns
+ <p class="lore-lead"> People who have come back from the brink of death and establish an identity between broken memories and a new will. </p>
+
+## Canonical record
+
+ <p> The Reborn are not the only biological people. It is the common identity used for people who cannot die in stasis, who are resurrected incompletely, or who have part of their name remaining in the Threshold. </p>
+ <p> Some states consider them legally dead. Second Sabah settlement develops new name, property and family law. Not all Reborns are memoryless or emotionless; The losses are different. </p>
+
+ <div class="creature-layout"> <section class="creature-statblock"> <h2> Reborn Second Morning Watchman </h2> <p class="creature-type"> Medium humanoid (Reborn), any disposition </p> <div class="creature-vitals"> <p> <b> Defense </b> 16 (old armor) </p> <p> <b> Hit Points </b> 68 (8d8 + 32) </p> <p> <b> Speed </b> 9 m. </p> </div> <div class="ability-grid"> <div> <b> POWER </b> <strong> 16 </strong> <span> (+3) </span> </div> <div> <b> ENGLISH </b> <strong> 13 </strong> <span> (+1) </span> </div> <div> <b> DAY </b> <strong> 18 </strong> <span> (+4) </span> </div> <div> <b> ZEK </b> <strong> 12 </strong> <span> (+1) </span> </div> <div> <b> COMP </b> <strong> 15 </strong> <span> (+2) </span> </div> <div> <b> SNOW </b> <strong> 11 </strong> <span> (+0) </span> </div> </div> <div class="creature-details"> <p> <b> Saves </b> Day +6, Bil +4 </p> <p> <b> Damage Resistances </b> necrotic, poison </p> <p> <b> Status Immunities </b> diseased </p> <p> <b> Senses </b> darkvision 18 m., passive Perception 12 </p> <p> <b> Languages </b> Two languages from his previous life </p> <p> <b> Threat </b> 4 (1,100 XP) • <b> Proficiency Bonus </b> +2 </p> </div> <div class="creature-section"> <h3> Features </h3> <p> <b> Immortal Nature. </b> Does not have to eat, drink, breathe or sleep. </p> <p> <b> Past Life Information (3/Day). </b> Adds 1d6 to an ability check. </p> <p> <b> Threshold Hold (1/Day). When </b> drops to 0 hit points, it remains at 1 hit point. </p> </div> <div class="creature-section"> <h3> Actions </h3> <p> <b> Multi Attack. </b> The Keeper makes two attacks with his remembrance sword. </p> <p> <b> Remembrance Sword. </b> Melee Weapon Attack: +5 to hit, range 1.5 m., one target. Hit: 9 (1d8 + 3 plus 1d4) cutting and necrotic damage. </p> <p> <b> Missing Morning (Recharge 5–6). </b> If enemies within 10 feet fail a GM 14 Wisdom save, they see the image of their own death, take 14 (4d6) psychic damage, and are frightened until the end of their next turn. </p> </div> </section> <aside class="creature-profile"> <div class="portrait-placeholder"> <span> REBORNS </span> <small> Image to be added </small> </div> </aside> </div>
