@@ -1,0 +1,9 @@
+---
+title: Goblinler
+outline: false
+---
+
+<div class="lore-kicker">Halklar · Loncalar</div>
+# Goblinler
+<p class="lore-lead">Goblinler büyük bir imparatorluktan çok şehirlerin görünmeyen işlerinden güç alır: gece pazarları, mantar ilaçları, atık ayrıştırma, kanal bakımı ve cenaze hizmetleri onların lonca kültürlerinde birleşir.</p>
+<div class="creature-layout"><section class="creature-statblock"><h2>Gece Sepeti Lonca İşçisi</h2><p class="creature-type">Küçük humanoid (Goblin), herhangi bir eğilim</p><div class="creature-vitals"><p><b>Savunma</b> 14</p><p><b>Can Puanı</b> 14 (4d6)</p><p><b>Hız</b> 9 m.</p></div><div class="ability-grid"><div><b>GÜÇ</b><strong>8</strong><span>(-1)</span></div><div><b>ÇEV</b><strong>15</strong><span>(+2)</span></div><div><b>DAY</b><strong>10</strong><span>(+0)</span></div><div><b>ZEK</b><strong>12</strong><span>(+1)</span></div><div><b>BİL</b><strong>11</strong><span>(+0)</span></div><div><b>KAR</b><strong>10</strong><span>(+0)</span></div></div><div class="creature-details"><p><b>Beceriler</b> İnce İş +4, Gizlilik +4</p><p><b>Duyular</b> Karanlık görüş 18 m.</p><p><b>Diller</b> Ortak Dil, Goblince</p><p><b>Tehdit</b> 1/4 (50 DP)</p></div><div class="creature-section"><h3>Özellikler</h3><p><b>Hurda Ustalığı.</b> İşçi, bir dakikada basit mekanik arıza veya kapı kilidiyle ilgili geçici çözüm üretebilir.</p></div><div class="creature-section"><h3>Eylemler</h3><p><b>Çakı.</b> +4, 1d4 + 2 delici hasar.</p></div></section><aside class="creature-profile"><div class="portrait-placeholder"><span>GOBLİN</span><small>Görsel eklenecek</small></div><div class="lore-facts"><h2>Goblinler</h2><dl><dt>Önemli loncalar</dt><dd>Yeşil Şişe, Son Süpürge, Gece Sepeti, Kemik Defteri</dd><dt>Gerginlik</dt><dd>Tuz Ocakları'nda yurttaşlık hareketi</dd><dt>Uzmanlık</dt><dd>Atık, kanal, ilaç ve cenaze hizmetleri</dd></dl></div></aside></div>

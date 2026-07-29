@@ -58,39 +58,39 @@ const peoples = [
     crest: '◇', className: 'genasi', link: '/irklar/genasiler'
   },
   {
-    name: 'Minotaurlar', type: 'Ölümlü', status: 'Kayıt bekliyor',
+    name: 'Minotaurlar', type: 'Ölümlü', status: 'Kayıt açık',
     description: 'Labirenti hapis değil, doğru kararın tek bir düz yoldan ibaret olmadığının kutsal simgesi sayarlar.',
-    crest: '⌘', className: 'minotaur'
+    crest: '⌘', className: 'minotaur', link: '/irklar/minotaurlar'
   },
   {
-    name: 'Halflingler', type: 'Ölümlü', status: 'Kayıt bekliyor',
+    name: 'Halflingler', type: 'Ölümlü', status: 'Kayıt açık',
     description: 'Nehir, yol ve ada kollarına ayrılan; tahıl, haber ve sigorta ağlarını koruyan topluluklar.',
-    crest: '☘', className: 'halfling'
+    crest: '☘', className: 'halfling', link: '/irklar/halflingler'
   },
   {
-    name: 'Goblinler', type: 'Ölümlü', status: 'Kayıt bekliyor',
+    name: 'Goblinler', type: 'Ölümlü', status: 'Kayıt açık',
     description: 'Büyük imparatorluklardan çok şehirlerin görünmeyen işlerini sürdüren lonca kültürleri.',
-    crest: '⚙', className: 'goblin'
+    crest: '⚙', className: 'goblin', link: '/irklar/goblinler'
   },
   {
-    name: 'Tieflingler', type: 'Soy ve dönüşüm', status: 'Kayıt bekliyor',
+    name: 'Tieflingler', type: 'Soy ve dönüşüm', status: 'Kayıt açık',
     description: 'Kor, ayaz, deniz uçurumu, fey-diken ve Durgunluk kaynaklı farklı soy evleri.',
-    crest: '⌁', className: 'tiefling'
+    crest: '⌁', className: 'tiefling', link: '/irklar/tieflingler'
   },
   {
-    name: 'Aasimarlar', type: 'Soy ve dönüşüm', status: 'Kayıt bekliyor',
+    name: 'Aasimarlar', type: 'Soy ve dönüşüm', status: 'Kayıt açık',
     description: 'Ayrı bir millet değil, birçok halk içinde görülebilen kutsal veya kozmik işaretliler.',
-    crest: '✧', className: 'aasimar'
+    crest: '✧', className: 'aasimar', link: '/irklar/aasimarlar'
   },
   {
-    name: 'Shifterlar', type: 'Soy ve dönüşüm', status: 'Kayıt bekliyor',
+    name: 'Shifterlar', type: 'Soy ve dönüşüm', status: 'Kayıt açık',
     description: 'Kuzey ormanları ve dağ sınırlarında, av hayvanlarının mevsimsel davranışlarıyla yaşayan topluluklar.',
-    crest: '◖', className: 'shifter'
+    crest: '◖', className: 'shifter', link: '/irklar/shifterlar'
   },
   {
-    name: 'Warforgedler', type: 'Soy ve dönüşüm', status: 'Kayıt bekliyor',
+    name: 'Warforgedler', type: 'Soy ve dönüşüm', status: 'Kayıt açık',
     description: 'Antik cüce ve Gnom kentlerinde uyanan yapay halklar; yurttaşlıkları hâlâ tartışmalıdır.',
-    crest: '▣', className: 'warforged'
+    crest: '▣', className: 'warforged', link: '/irklar/warforgedler'
   }
 ]
 

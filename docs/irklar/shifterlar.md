@@ -1,0 +1,9 @@
+---
+title: Shifterlar
+outline: false
+---
+
+<div class="lore-kicker">Halklar · Soy ve Dönüşüm</div>
+# Shifterlar
+<p class="lore-lead">Shifterlar lycanthrope değildir. Kuzey ormanları ve dağ sınırlarında, ay döngüsünden çok av hayvanlarının mevsimsel davranışlarıyla ilişkili kültürler kurarlar.</p>
+<div class="creature-layout"><section class="creature-statblock"><h2>Kızıl İz Avcısı</h2><p class="creature-type">Orta Boy humanoid (Shifter), herhangi bir eğilim</p><div class="creature-vitals"><p><b>Savunma</b> 14</p><p><b>Can Puanı</b> 34 (6d8 + 6)</p><p><b>Hız</b> 10,5 m.</p></div><div class="ability-grid"><div><b>GÜÇ</b><strong>12</strong><span>(+1)</span></div><div><b>ÇEV</b><strong>16</strong><span>(+3)</span></div><div><b>DAY</b><strong>12</strong><span>(+1)</span></div><div><b>ZEK</b><strong>10</strong><span>(+0)</span></div><div><b>BİL</b><strong>14</strong><span>(+2)</span></div><div><b>KAR</b><strong>11</strong><span>(+0)</span></div></div><div class="creature-details"><p><b>Beceriler</b> Algı +4, Hayatta Kalma +4</p><p><b>Diller</b> Ortak Dil, yerel işaret dili</p><p><b>Tehdit</b> 1 (200 DP)</p></div><div class="creature-section"><h3>Özellikler</h3><p><b>Mevsimsel İz.</b> Avcı, son 24 saatte geçen hayvan veya humanoidlerin izini sürmede avantaj sahibidir.</p></div><div class="creature-section"><h3>Eylemler</h3><p><b>Avcı Bıçağı.</b> +5, 1d6 + 3 delici hasar.</p><p><b>Kısa Yay.</b> +5, 24/96 m., 1d6 + 3 delici hasar.</p></div></section><aside class="creature-profile"><div class="portrait-placeholder"><span>SHIFTER</span><small>Görsel eklenecek</small></div><div class="lore-facts"><h2>Shifterlar</h2><dl><dt>Bölgeler</dt><dd>Kuzey ormanları ve dağ sınırları</dd><dt>Topluluklar</dt><dd>Kurt Çanağı, Ayı Eşiği, Kızıl İz</dd><dt>Yanlış anlama</dt><dd>Lycanthrope değildirler</dd></dl></div></aside></div>

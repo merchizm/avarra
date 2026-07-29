@@ -1,0 +1,9 @@
+---
+title: Aasimarlar
+outline: false
+---
+
+<div class="lore-kicker">Halklar · Soy ve Dönüşüm</div>
+# Aasimarlar
+<p class="lore-lead">Aasimar olmak ayrı bir milliyet değildir. Elf, cüce, insan veya Veyran bir Aasimar doğabilir; devletler onları peygamber, tehlike, miras aracı veya devlet malı olarak değerlendirebilir.</p>
+<div class="creature-layout"><section class="creature-statblock"><h2>Sessiz Meridyen Gözcüsü</h2><p class="creature-type">Orta Boy humanoid (Aasimar), herhangi bir eğilim</p><div class="creature-vitals"><p><b>Savunma</b> 14</p><p><b>Can Puanı</b> 38 (7d8 + 7)</p><p><b>Hız</b> 9 m.</p></div><div class="ability-grid"><div><b>GÜÇ</b><strong>11</strong><span>(+0)</span></div><div><b>ÇEV</b><strong>12</strong><span>(+1)</span></div><div><b>DAY</b><strong>12</strong><span>(+1)</span></div><div><b>ZEK</b><strong>13</strong><span>(+1)</span></div><div><b>BİL</b><strong>14</strong><span>(+2)</span></div><div><b>KAR</b><strong>15</strong><span>(+2)</span></div></div><div class="creature-details"><p><b>Beceriler</b> İçgörü +4, Din +3</p><p><b>Direnç</b> ışıltılı hasar</p><p><b>Diller</b> Ortak Dil, Gökselce</p><p><b>Tehdit</b> 2 (450 DP)</p></div><div class="creature-section"><h3>Özellikler</h3><p><b>İşaret Işığı.</b> Gözcü, 9 metre içindeki görünmez bir yaratığın bulunduğu kareyi kısa süreli parıltıyla açığa çıkarabilir.</p></div><div class="creature-section"><h3>Eylemler</h3><p><b>Işık Mızrağı.</b> +4, 18 m., 2d8 ışıltılı hasar.</p></div></section><aside class="creature-profile"><div class="portrait-placeholder"><span>AASIMAR</span><small>Görsel eklenecek</small></div><div class="lore-facts"><h2>Aasimarlar</h2><dl><dt>Eğitim merkezi</dt><dd>Lethar'daki Sessiz Meridyen</dd><dt>Devlet tavrı</dt><dd>Ordan kayıt altına alır; diğerleri farklı anlamlar yükler</dd><dt>Kimlik</dt><dd>Halklar içinde beliren kutsal/kozmik işaret</dd></dl></div></aside></div>

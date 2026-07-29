@@ -1,0 +1,9 @@
+---
+title: Minotaurlar
+outline: false
+---
+
+<div class="lore-kicker">Halklar · Odraka Kıyıları</div>
+# Minotaurlar
+<p class="lore-lead">Minotaurlar labirenti hapishane değil, doğru kararın tek bir düz yoldan ibaret olmadığını anlatan kutsal simge sayar. Labirent Limanları'nın hukuku, denizciliği ve şehir planı bu anlayışla biçimlenir.</p>
+<div class="creature-layout"><section class="creature-statblock"><h2>Mazaros Güverte Muhafızı</h2><p class="creature-type">Orta Boy humanoid (Minotaur), herhangi bir eğilim</p><div class="creature-vitals"><p><b>Savunma</b> 14</p><p><b>Can Puanı</b> 58 (9d8 + 18)</p><p><b>Hız</b> 9 m.</p></div><div class="ability-grid"><div><b>GÜÇ</b><strong>17</strong><span>(+3)</span></div><div><b>ÇEV</b><strong>12</strong><span>(+1)</span></div><div><b>DAY</b><strong>15</strong><span>(+2)</span></div><div><b>ZEK</b><strong>10</strong><span>(+0)</span></div><div><b>BİL</b><strong>11</strong><span>(+0)</span></div><div><b>KAR</b><strong>12</strong><span>(+1)</span></div></div><div class="creature-details"><p><b>Beceriler</b> Atletizm +5, Hayatta Kalma +2</p><p><b>Diller</b> Ortak Dil, Liman İşaretleri</p><p><b>Tehdit</b> 2 (450 DP)</p></div><div class="creature-section"><h3>Özellikler</h3><p><b>Labirent Hafızası.</b> Muhafız, daha önce geçtiği koridor ve sokaklarda yönünü şaşırmaz.</p></div><div class="creature-section"><h3>Eylemler</h3><p><b>Boynuz Hücumu.</b> +5, 1d8 + 3 delici hasar; hedefi geri iter.</p><p><b>Kanca Balta.</b> +5, 1d8 + 3 kesici hasar.</p></div></section><aside class="creature-profile"><div class="portrait-placeholder"><span>MİNOTAUR</span><small>Görsel eklenecek</small></div><div class="lore-facts"><h2>Minotaurlar</h2><dl><dt>Başlıca düzen</dt><dd>Labirent Limanları</dd><dt>Şehirler</dt><dd>Mazaros, Vel-Koridor, Boynuzliman, Dönüşkapı</dd><dt>Kültür</dt><dd>Denizcilik, hukuk, matematik, dolaylı konuşma</dd></dl></div></aside></div>

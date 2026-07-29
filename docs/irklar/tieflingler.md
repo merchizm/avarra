@@ -1,0 +1,9 @@
+---
+title: Tieflingler
+outline: false
+---
+
+<div class="lore-kicker">Halklar · Soy ve Dönüşüm</div>
+# Tieflingler
+<p class="lore-lead">Tieflingler tek bir cehennem soyundan gelmez. Kor, Ayaz, deniz uçurumu, fey-diken ve Durgunlukla değişmiş solgun soylar; farklı anlaşma ve dönüşüm kökenlerini taşır.</p>
+<div class="creature-layout"><section class="creature-statblock"><h2>Kızıl Fener Arabulucusu</h2><p class="creature-type">Orta Boy humanoid (Tiefling), herhangi bir eğilim</p><div class="creature-vitals"><p><b>Savunma</b> 13</p><p><b>Can Puanı</b> 27 (6d8)</p><p><b>Hız</b> 9 m.</p></div><div class="ability-grid"><div><b>GÜÇ</b><strong>9</strong><span>(-1)</span></div><div><b>ÇEV</b><strong>14</strong><span>(+2)</span></div><div><b>DAY</b><strong>10</strong><span>(+0)</span></div><div><b>ZEK</b><strong>12</strong><span>(+1)</span></div><div><b>BİL</b><strong>11</strong><span>(+0)</span></div><div><b>KAR</b><strong>16</strong><span>(+3)</span></div></div><div class="creature-details"><p><b>Beceriler</b> İkna +5, Aldatma +5</p><p><b>Direnç</b> soya göre ateş veya soğuk</p><p><b>Diller</b> Ortak Dil, iki sözleşme dili</p><p><b>Tehdit</b> 1 (200 DP)</p></div><div class="creature-section"><h3>Özellikler</h3><p><b>Çifte Kimlik.</b> Arabulucu, farklı soy evlerinin hukuk ve borç kurallarını tanır.</p></div><div class="creature-section"><h3>Eylemler</h3><p><b>Kor Kıvılcımı.</b> +5, 18 m., 2d6 ateş hasarı.</p></div></section><aside class="creature-profile"><div class="portrait-placeholder"><span>TIEFLING</span><small>Görsel eklenecek</small></div><div class="lore-facts"><h2>Tieflingler</h2><dl><dt>Yoğun mahalleler</dt><dd>Kızıl Fener, Köz Sokağı, Tuz Boynuzu</dd><dt>Soy evleri</dt><dd>Kor, Ayaz, Deniz Uçurumu, Fey-Diken, Solgun</dd><dt>Durum</dt><dd>Ayrı ulus değil, farklı halklar içindeki soy ağları</dd></dl></div></aside></div>

@@ -29,11 +29,11 @@ export default defineConfig({
     locales: {
       en: {
         nav: [
-          { text: 'Atlas', link: '/en/atlas' },
-          { text: 'Peoples', link: '/en/peoples/' },
-          { text: 'States', link: '/en/states/' },
-          { text: 'Cultures', link: '/en/cultures/' },
-          { text: 'Settlements', link: '/en/settlements/' }
+          { text: 'Atlas', link: '/en/haritalar/dunya' },
+          { text: 'Peoples', link: '/en/irklar/' },
+          { text: 'States', link: '/en/devletler/' },
+          { text: 'Cultures', link: '/en/kulturler/' },
+          { text: 'Settlements', link: '/en/yerlesimler/' }
         ],
         outline: false,
         docFooter: { prev: false, next: false },
