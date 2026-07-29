@@ -19,6 +19,7 @@ export default defineConfig({
           { text: 'Peoples', link: '/en/irklar/' },
           { text: 'States', link: '/en/devletler/' },
           { text: 'Faiths & Cultures', link: '/en/kulturler/' },
+          { text: 'Stagnation', link: '/en/durgunluk/' },
           { text: 'Settlements', link: '/en/yerlesimler/' }
         ],
         outline: false,
@@ -36,6 +37,7 @@ export default defineConfig({
       { text: 'Halklar', link: '/irklar/' },
       { text: 'Devletler', link: '/devletler/' },
       { text: 'Dinler ve Kültürler', link: '/kulturler/' },
+      { text: 'Durgunluk', link: '/durgunluk/' },
       { text: 'Yerleşimler', link: '/yerlesimler/' }
     ],
     sidebar: false,
