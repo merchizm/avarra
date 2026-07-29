@@ -4,7 +4,7 @@ layout: home
 hero:
   name: Avarra
   text: Dünya Wiki'si
-  tagline: Coğrafya, tarih, kültür ve karakterler için yaşayan başvuru kaynağı.
+  tagline: Coğrafya, tarih, kültür ve karakterlerin izini süren yaşayan bir dünya rehberi.
   actions:
     - theme: brand
       text: Wiki'ye başla
