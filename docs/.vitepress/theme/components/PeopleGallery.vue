@@ -69,22 +69,22 @@ const peoples = [
   {
     name: 'Svirfneblinler', type: 'Yeraltı', status: 'Kayıt açık',
     description: 'Kendilerine Nimrûn diyen, taşın içindeki yankılardan doğduğuna inanan derin Gnom halkı.',
-    crest: '◉', className: 'svirfneblin', link: '/irklar/svirfneblinler'
+    crest: '◉', className: 'svirfneblin', image: '/assets/illustrations/nimrun.png', link: '/irklar/svirfneblinler'
   },
   {
     name: 'Drowlar', type: 'Yeraltı', status: 'Kayıt açık',
     description: 'İpek Tahtı, Karanlık Liman ve Ayaltı sürgünleri arasında farklı hukuklar altında yaşayan halk.',
-    crest: '☾', className: 'drow', link: '/irklar/drowlar'
+    crest: '☾', className: 'drow', image: '/assets/illustrations/drow.png', link: '/irklar/drowlar'
   },
   {
     name: 'Dragonbornlar', type: 'Drakonik', status: 'Kayıt açık',
     description: 'Odraka’da Kızıl Saar ve Mücevher Yemini arasında ejderha mirasını farklı yorumlayan soylar.',
-    crest: '♢', className: 'dragonborn', link: '/irklar/dragonbornlar'
+    crest: '♢', className: 'dragonborn', image: '/assets/illustrations/dragonborn.png', link: '/irklar/dragonbornlar'
   },
   {
     name: 'Lizardfolklar', type: 'Ölümlü', status: 'Kayıt açık',
     description: 'Delta krallıklarında sulak alan mühendisliği ve atalara dayalı su hukukuyla yaşayan halklar.',
-    crest: '≋', className: 'lizardfolk', link: '/irklar/lizardfolklar'
+    crest: '≋', className: 'lizardfolk', image: '/assets/illustrations/lizardfolk.png', link: '/irklar/lizardfolklar'
   },
   {
     name: 'Genasiler', type: 'Ölümlü', status: 'Kayıt açık',
@@ -94,12 +94,12 @@ const peoples = [
   {
     name: 'Minotaurlar', type: 'Ölümlü', status: 'Kayıt açık',
     description: 'Labirenti hapis değil, doğru kararın tek bir düz yoldan ibaret olmadığının kutsal simgesi sayarlar.',
-    crest: '⌘', className: 'minotaur', link: '/irklar/minotaurlar'
+    crest: '⌘', className: 'minotaur', image: '/assets/illustrations/minatour.png', link: '/irklar/minotaurlar'
   },
   {
     name: 'Halflingler', type: 'Ölümlü', status: 'Kayıt açık',
     description: 'Nehir, yol ve ada kollarına ayrılan; tahıl, haber ve sigorta ağlarını koruyan topluluklar.',
-    crest: '☘', className: 'halfling', link: '/irklar/halflingler'
+    crest: '☘', className: 'halfling', image: '/assets/illustrations/halfling.png', link: '/irklar/halflingler'
   },
   {
     name: 'Goblinler', type: 'Ölümlü', status: 'Kayıt açık',
