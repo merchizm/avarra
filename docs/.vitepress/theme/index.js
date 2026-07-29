@@ -7,12 +7,13 @@ import PeopleHistoryReference from './components/PeopleHistoryReference.vue'
 import PeopleCultureReference from './components/PeopleCultureReference.vue'
 import StateRelations from './components/StateRelations.vue'
 import CapitalLife from './components/CapitalLife.vue'
+import PeoplePortrait from './components/PeoplePortrait.vue'
 import EraFooter from './components/EraFooter.vue'
 
 export default {
   extends: DefaultTheme,
   Layout: () => h(DefaultTheme.Layout, null, {
-      'doc-after': () => [h(PeopleHistoryReference), h(PeopleCultureReference), h(StateRelations), h(CapitalLife), h(EraFooter)]
+      'doc-after': () => [h(PeoplePortrait), h(PeopleHistoryReference), h(PeopleCultureReference), h(StateRelations), h(CapitalLife), h(EraFooter)]
   }),
   enhanceApp({ app }) {
     app.component('PeopleGallery', PeopleGallery)
