@@ -10,6 +10,7 @@ export default defineConfig({
     nav: [
       { text: 'Başlangıç', link: '/baslangic' },
       { text: 'Atlas', link: '/haritalar/dunya' },
+      { text: 'Halklar', link: '/irklar/' },
       { text: 'Varlıklar', link: '/varliklar' }
     ],
     sidebar: [
@@ -26,6 +27,13 @@ export default defineConfig({
           { text: 'Genel bakış', link: '/cografya/' },
           { text: 'Kıtalar', link: '/cografya/kitallar' },
           { text: 'Dünya haritası', link: '/haritalar/dunya' }
+        ]
+      },
+      {
+        text: 'Halklar',
+        items: [
+          { text: 'Tüm halklar', link: '/irklar/' },
+          { text: 'Eladrin', link: '/irklar/eladrin' }
         ]
       },
       {
