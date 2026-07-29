@@ -32,7 +32,11 @@ const englishNames = {
   '/irklar/tabaxiler': 'Tabaxi', '/irklar/kenkular': 'Kenku', '/irklar/aarakocralar': 'Aarakocra',
   '/irklar/owlinler': 'Owlin', '/irklar/grunglar': 'Grung', '/irklar/satyrler': 'Satyrs',
   '/irklar/orclar': 'Orcs', '/irklar/hobgoblinler': 'Hobgoblins', '/irklar/rebornlar': 'Reborn',
-  '/irklar/hexbloodlar': 'Hexbloods', '/irklar/dhampirler': 'Dhampirs', '/irklar/autognomlar': 'Autognomes'
+  '/irklar/hexbloodlar': 'Hexbloods', '/irklar/dhampirler': 'Dhampirs', '/irklar/autognomlar': 'Autognomes',
+  '/irklar/goliathlar': 'Goliaths', '/irklar/tuz-cuceleri': 'Salt Dwarves', '/irklar/choldrithler': 'Choldriths',
+  '/irklar/grimlocklar': 'Grimlocks', '/irklar/derrolar': 'Derro', '/irklar/yuan-ti': 'Yuan-ti',
+  '/irklar/nagalar': 'Nagas', '/irklar/psiyonik-kalintilar': 'Psionic Remnants', '/irklar/ejderhalar': 'Dragons',
+  '/irklar/devler-ve-fomorianlar': 'Giants & Fomorians', '/irklar/abolethler': 'Aboleths', '/irklar/ilk-fey': 'First Fey Legacy'
 }
 
 const peoples = [
@@ -250,6 +254,66 @@ const peoples = [
     name: 'Autognomlar', type: 'Soy ve dönüşüm', status: 'Kayıt açık',
     description: 'Eski atölyelerde uyanmış, ad ve bakım hakkı arayan pirinç kalpli halk.',
     crest: '⚙', className: 'changed', link: '/irklar/autognomlar'
+  },
+  {
+    name: 'Goliathlar', type: 'Ölümlü', status: 'Kayıt açık',
+    description: 'Ilyr-Khaz’ın buz yollarında geçiş hakkını ve yük paylaşımını koruyan yüksek dağ halkı.',
+    crest: '△', className: 'dwarf', link: '/irklar/goliathlar'
+  },
+  {
+    name: 'Tuz Cüceleri', type: 'Yeraltı', status: 'Kayıt açık',
+    description: 'Kuru havzalarda tuz, su payı ve mahzen hukukunu yaşamın temel bilgisi sayan cüce toplulukları.',
+    crest: '◇', className: 'dwarf', link: '/irklar/tuz-cuceleri'
+  },
+  {
+    name: 'Choldrithler', type: 'Yeraltı', status: 'Kayıt açık',
+    description: 'İpek, soy borcu ve kutsal hukuk çevresinde örgütlenen örümcek bağlantılı yeraltı toplulukları.',
+    crest: '✣', className: 'drow', link: '/irklar/choldrithler'
+  },
+  {
+    name: 'Grimlocklar', type: 'Yeraltı', status: 'Kayıt açık',
+    description: 'Taşın, havanın ve adımların titreşimini ayrıntılı bir dil gibi okuyan derinlik halkları.',
+    crest: '◌', className: 'svirfneblin', link: '/irklar/grimlocklar'
+  },
+  {
+    name: 'Derrolar', type: 'Yeraltı', status: 'Kayıt açık',
+    description: 'Mühürlü hafıza, kırık rüya ve tuhaf zanaat çevresinde yaşayan dağınık yeraltı halkları.',
+    crest: '⌁', className: 'svirfneblin', link: '/irklar/derrolar'
+  },
+  {
+    name: 'Yuan-ti', type: 'Soy ve dönüşüm', status: 'Kayıt açık',
+    description: 'Kadim yılan medeniyetinin beden, soy ve kutsal dönüşümü yazı gibi işleyen mirasçıları.',
+    crest: '∿', className: 'changed', link: '/irklar/yuan-ti'
+  },
+  {
+    name: 'Nagalar', type: 'Soy ve dönüşüm', status: 'Kayıt açık',
+    description: 'Eski yılan uygarlıklarının su, taş ve harabe nöbeti etrafında yaşayan uzun ömürlü muhafızları.',
+    crest: '♒', className: 'sea', link: '/irklar/nagalar'
+  },
+  {
+    name: 'Psiyonik Kalıntılar', type: 'Soy ve dönüşüm', status: 'Kayıt açık',
+    description: 'Mühürlerden ve parçalanmış psişik ağlardan gelen; soy değil toplumsal durum olarak tanınanlar.',
+    crest: '◈', className: 'changed', link: '/irklar/psiyonik-kalintilar'
+  },
+  {
+    name: 'Ejderhalar', type: 'Drakonik', status: 'Kayıt açık',
+    description: 'Volkan, nehir, buzul ve fırtına gibi dünya süreçleriyle antlaşmalar kuran kadim büyük varlıklar.',
+    crest: '♢', className: 'dragonborn', link: '/irklar/ejderhalar'
+  },
+  {
+    name: 'Devler ve Fomorianlar', type: 'Fey kökenli', status: 'Kayıt açık',
+    description: 'Buz yolları ve batık sütunlarda iz bırakan, geçmişi hâlâ tartışmalı kadim büyük halklar.',
+    crest: '⛰', className: 'dwarf', link: '/irklar/devler-ve-fomorianlar'
+  },
+  {
+    name: 'Abolethler', type: 'Deniz', status: 'Kayıt açık',
+    description: 'Derin sularda kendi hafızalarının dünyadan eski olduğunu ileri süren kadim zeki varlıklar.',
+    crest: '◉', className: 'sea', link: '/irklar/abolethler'
+  },
+  {
+    name: 'İlk Fey Mirası', type: 'Fey kökenli', status: 'Kayıt açık',
+    description: 'Açlık, Bahar, Yas ve Unutuluş gibi kavramlara bağlanan ilk fey varlıklarının yaşayan mirası.',
+    crest: '✦', className: 'eladrin', link: '/irklar/ilk-fey'
   }
 ]
 
@@ -306,12 +370,12 @@ const visiblePeople = computed(() => {
           <span class="people-status">{{ isEnglish ? 'Record open' : person.status }}</span>
           <h2>{{ person.name }}</h2>
           <p>{{ person.description }}</p>
-          <span v-if="person.link" class="people-link">Kaydı aç <b>→</b></span>
-          <span v-else class="people-draft">Arşivci kaydı hazırlıyor</span>
+          <span v-if="person.link" class="people-link">{{ isEnglish ? 'Open record' : 'Kaydı aç' }} <b>→</b></span>
+          <span v-else class="people-draft">{{ isEnglish ? 'Record in preparation' : 'Arşivci kaydı hazırlıyor' }}</span>
         </div>
       </component>
     </div>
 
-    <p v-if="!visiblePeople.length" class="people-empty">Bu arama veya filtreyle eşleşen bir halk bulunamadı.</p>
+    <p v-if="!visiblePeople.length" class="people-empty">{{ isEnglish ? 'No people match this search or filter.' : 'Bu arama veya filtreyle eşleşen bir halk bulunamadı.' }}</p>
   </section>
 </template>
