@@ -47,7 +47,7 @@ outline: false
 </section>
 
 <aside class="creature-profile">
-  <img src="/assets/illustrations/eladrin-portre.png" alt="Ay ışığı altında, gümüş saçlı bir Eladrin gezgini" />
+  <div class="portrait-placeholder" role="img" aria-label="Eladrin portresi için yer tutucu"><span>ELADRIN</span><small>Görsel eklenecek</small></div>
   <div class="lore-facts">
     <h2>Eladrin</h2>
     <dl>

@@ -4,6 +4,7 @@ title: Yerleşimler
 outline: false
 ---
 
+<main class="world-page">
 <section class="world-section-placeholder world-section-content">
   <p class="lore-kicker">Avarra Ansiklopedisi</p>
   <h1>Yerleşimler</h1>
@@ -16,3 +17,14 @@ outline: false
   <div class="lore-card"><h3>Odraka</h3><p><b>Saar-Kor</b> kaldera başkenti, <b>Mazaros</b> Minotaur donanmasının tersane şehri, <b>Sazkalp</b> Ulu Saz'ın kanal başkentidir.</p></div>
   <div class="lore-card"><h3>Yeraltı ve deniz</h3><p><b>Birinci Işık</b> Dokuz Fener meclisi; <b>Vel-Shaar</b> İpek Tahtı'nın ipek köprülü başkenti; <b>Mavi Taç</b> Mercan Sarayları'nın merkezidir.</p></div>
 </div>
+
+<section class="settlement-register">
+  <h2>Kanon yerleşim rehberi</h2>
+  <p>Bir yerleşim kaydı hazırlanırken şu dört soru korunur: neden burada kuruldu, su/yiyecek kaynağı nedir, hangi hukuka bağlıdır ve Durgunlukla ilişkisi nedir?</p>
+  <div class="settlement-columns">
+    <div><h3>Nareth</h3><p>Elyrakök, Salkımkent, Geyikgeçidi, Kökaltı, Yabanocak, Dumansız Köy, Kırık Çan, Kamışdibi, Son Tarla, Astereth, Miravel, Telor Kapısı, Sessiz Meridyen, Alçak Yıldız, Kar-Dur, Dokuz Kasa, Taşkorosu, Üstkapı, Demirkök, Hal-Sur, Kuru Liman, Acı Kuyu, Fosil Tahtı, Namaris, Üç Ağız, Saztaç, Mavi Merdiven, Akıntısız.</p></div>
+    <div><h3>Mevsimler ve Seyvar</h3><p>Nivarra, Beyaz Köprü, Gölgesiz Cam, Son Ocak, Solkar, İkiz Taht, Korhasat, Satyr Yamaçları, Bakır Meclis, Filizliman, Yeni Kök, Yağmurkapı, Arıbahçe, Yeşil Köprü, Ordanor, Serath, Vekra Limanı, Kızıl Meridyen, Halvek, Diken Sınırı, Vardessa, Kırk Köprü, Yüksek Eşik, Gece Kanadı, Bulutbasamak, Demir Talim.</p></div>
+    <div><h3>Odraka, Derinler, Deniz</h3><p>Saar-Kor, Prizma, Mazaros, Vel-Koridor, Boynuzliman, Dönüşkapı, Rüzgâr Çemberi, Dörtnal, Yağmur İzi, Sazkalp, Yeşil Diş, Üç Yumurta, Dokuz Can Pazarı, Yüksek Tırmanış, Taklit Limanı, Islak Mürekkep, Ur-Marak, Birinci Işık, Çan Kuyusu, Vel-Shaar, Karanlık Liman, Kor-Dum, Bakır Baca, İlk Spor, Mavi Taç, Üçlü Mızrak, Bin Halat.</p></div>
+  </div>
+</section>
+</main>

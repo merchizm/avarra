@@ -4,28 +4,93 @@ import { withBase } from 'vitepress'
 
 const query = ref('')
 const filter = ref('Tümü')
-const filters = ['Tümü', 'Fey kökenli', 'Ölümlü', 'Drakonik']
+const filters = ['Tümü', 'Fey kökenli', 'Ölümlü', 'Yeraltı', 'Drakonik', 'Soy ve dönüşüm']
 
 const peoples = [
   {
     name: 'Eladrin', type: 'Fey kökenli', status: 'Kayıt açık',
     description: 'Duygularını mevsimler gibi taşıyan, geçitler ve eski antlarla yaşayan uzun ömürlü halk.',
-    crest: '✦', className: 'eladrin', image: '/assets/illustrations/eladrin-portre.png', link: '/irklar/eladrin'
+    crest: '✦', className: 'eladrin', link: '/irklar/eladrin'
   },
   {
-    name: 'İnsanlar', type: 'Ölümlü', status: 'Kayıt bekliyor',
+    name: 'İnsanlar', type: 'Ölümlü', status: 'Kayıt açık',
     description: 'Kısa ömürlerini şehirler, hanedanlar ve yolculuklarla genişleten uyumlu halklar.',
-    crest: '⌂', className: 'human'
+    crest: '⌂', className: 'human', link: '/irklar/insanlar'
   },
   {
-    name: 'Cüceler', type: 'Ölümlü', status: 'Kayıt bekliyor',
+    name: 'Cüceler', type: 'Ölümlü', status: 'Kayıt açık',
     description: 'Taşın hafızasına, derin ocaklara ve kuşaklar boyu süren zanaat antlarına bağlı soylar.',
-    crest: '⛰', className: 'dwarf'
+    crest: '⛰', className: 'dwarf', link: '/irklar/cuceler'
   },
   {
-    name: 'Koboldlar', type: 'Drakonik', status: 'Kayıt bekliyor',
+    name: 'Koboldlar', type: 'Yeraltı', status: 'Kayıt açık',
     description: 'Tünelleri, ortak emekleri ve ejderha çağından kalan söylenceleriyle tanınan küçük halk.',
-    crest: '◈', className: 'kobold'
+    crest: '◈', className: 'kobold', link: '/irklar/koboldlar'
+  },
+  {
+    name: 'Veyranlar', type: 'Ölümlü', status: 'Kayıt açık',
+    description: 'Ordan İmparatorluğu’nun kurucu halkı; ölçüm, kayıt ve yazılı hukukla şekillenmiş kültürler.',
+    crest: '═', className: 'veyran', link: '/irklar/veyranlar'
+  },
+  {
+    name: 'Svirfneblinler', type: 'Yeraltı', status: 'Kayıt açık',
+    description: 'Kendilerine Nimrûn diyen, taşın içindeki yankılardan doğduğuna inanan derin Gnom halkı.',
+    crest: '◉', className: 'svirfneblin', link: '/irklar/svirfneblinler'
+  },
+  {
+    name: 'Drowlar', type: 'Yeraltı', status: 'Kayıt açık',
+    description: 'İpek Tahtı, Karanlık Liman ve Ayaltı sürgünleri arasında farklı hukuklar altında yaşayan halk.',
+    crest: '☾', className: 'drow', link: '/irklar/drowlar'
+  },
+  {
+    name: 'Dragonbornlar', type: 'Drakonik', status: 'Kayıt açık',
+    description: 'Odraka’da Kızıl Saar ve Mücevher Yemini arasında ejderha mirasını farklı yorumlayan soylar.',
+    crest: '♢', className: 'dragonborn', link: '/irklar/dragonbornlar'
+  },
+  {
+    name: 'Lizardfolklar', type: 'Ölümlü', status: 'Kayıt açık',
+    description: 'Delta krallıklarında sulak alan mühendisliği ve atalara dayalı su hukukuyla yaşayan halklar.',
+    crest: '≋', className: 'lizardfolk', link: '/irklar/lizardfolklar'
+  },
+  {
+    name: 'Genasiler', type: 'Ölümlü', status: 'Kayıt açık',
+    description: 'Toprak, ateş, kristal, kül, su ve buz soyları; tek bir meslek veya ulusla tanımlanmaz.',
+    crest: '◇', className: 'genasi', link: '/irklar/genasiler'
+  },
+  {
+    name: 'Minotaurlar', type: 'Ölümlü', status: 'Kayıt bekliyor',
+    description: 'Labirenti hapis değil, doğru kararın tek bir düz yoldan ibaret olmadığının kutsal simgesi sayarlar.',
+    crest: '⌘', className: 'minotaur'
+  },
+  {
+    name: 'Halflingler', type: 'Ölümlü', status: 'Kayıt bekliyor',
+    description: 'Nehir, yol ve ada kollarına ayrılan; tahıl, haber ve sigorta ağlarını koruyan topluluklar.',
+    crest: '☘', className: 'halfling'
+  },
+  {
+    name: 'Goblinler', type: 'Ölümlü', status: 'Kayıt bekliyor',
+    description: 'Büyük imparatorluklardan çok şehirlerin görünmeyen işlerini sürdüren lonca kültürleri.',
+    crest: '⚙', className: 'goblin'
+  },
+  {
+    name: 'Tieflingler', type: 'Soy ve dönüşüm', status: 'Kayıt bekliyor',
+    description: 'Kor, ayaz, deniz uçurumu, fey-diken ve Durgunluk kaynaklı farklı soy evleri.',
+    crest: '⌁', className: 'tiefling'
+  },
+  {
+    name: 'Aasimarlar', type: 'Soy ve dönüşüm', status: 'Kayıt bekliyor',
+    description: 'Ayrı bir millet değil, birçok halk içinde görülebilen kutsal veya kozmik işaretliler.',
+    crest: '✧', className: 'aasimar'
+  },
+  {
+    name: 'Shifterlar', type: 'Soy ve dönüşüm', status: 'Kayıt bekliyor',
+    description: 'Kuzey ormanları ve dağ sınırlarında, av hayvanlarının mevsimsel davranışlarıyla yaşayan topluluklar.',
+    crest: '◖', className: 'shifter'
+  },
+  {
+    name: 'Warforgedler', type: 'Soy ve dönüşüm', status: 'Kayıt bekliyor',
+    description: 'Antik cüce ve Gnom kentlerinde uyanan yapay halklar; yurttaşlıkları hâlâ tartışmalıdır.',
+    crest: '▣', className: 'warforged'
   }
 ]
 
