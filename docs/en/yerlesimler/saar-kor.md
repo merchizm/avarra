@@ -2,7 +2,10 @@
 title: Saar-Kor
 outline: false
 ---
-<div class="lore-kicker">Settlements · Odraka</div>
+<div class="lore-kicker">Settlements · Government Center</div>
+
 # Saar-Kor
-<p class="lore-lead">A caldera capital where the rival Dragon Crowns test their claims to heritage.</p>
-<div class="record-layout"><div><h2>Avarra record</h2><p>Its heat comes from young volcanic stone, its politics from older dragon oaths.</p></div><aside class="record-profile"><div class="portrait-placeholder"><span>SAAR-KOR</span><small>Image to be added</small></div></aside></div>
+
+<p class="lore-lead">It is the capital of the Red Saar, built on the terraces of the large inactive caldera. There are dragon tombs, war academies and genealogical archives.</p>
+
+<div class="record-layout"><div><h2>City identity</h2><p>It is the capital of the Red Saar, built on the terraces of the large inactive caldera. There are dragon tombs, war academies and genealogical archives.</p><h2>City information</h2><p>High status in the city is measured by proximity to the center of the caldera. Signs of fire are seen again in the lower hearths; Dynasties consider this as a sign of the dragon's return.</p></div><aside class="record-profile"><div class="portrait-placeholder"><span>SAAR-KOR</span><small>Image will be added</small></div></aside></div>

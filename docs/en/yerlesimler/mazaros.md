@@ -2,7 +2,10 @@
 title: Mazaros
 outline: false
 ---
-<div class="lore-kicker">Settlements · Odraka</div>
-# Mazaros
-<p class="lore-lead">A Minotaur shipyard city where fleets and labyrinth law meet the sea.</p>
-<div class="record-layout"><div><h2>Avarra record</h2><p>Its docks serve the turning routes of the Endless Road Confederacy.</p></div><aside class="record-profile"><div class="portrait-placeholder"><span>MAZAROS</span><small>Image to be added</small></div></aside></div>
+<div class="lore-kicker">Settlements · Government Center</div>
+
+#Mazaros
+
+<p class="lore-lead">It is the largest navy and shipyard city of the Labyrinth Ports. The streets are curved for defense, and the harbor pools are connected to each other by secret channels.</p>
+
+<div class="record-layout"><div><h2>City identity</h2><p>It is the largest navy and shipyard city of the Labyrinth Ports. The streets are curved for defense, and the harbor pools are connected to each other by secret channels.</p><h2>City information</h2><p>Minotaur captains, human sailors, and Tieflings live in the Salt Horn neighborhood. Mazaros tries to unite the other port republics under a single navy.</p></div><aside class="record-profile"><div class="portrait-placeholder"><span>MAZAROS</span><small>Image to be added</small></div></aside></div>
