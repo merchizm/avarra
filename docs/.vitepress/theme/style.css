@@ -78,10 +78,10 @@ body {
 .VPNavBarMenuLink:hover,
 .VPSidebarItem.is-active > .item > .link > .text { color: var(--vp-c-brand-1); }
 
-.VPDoc .container { max-width: 1040px; }
+.VPDoc .container { max-width: 1320px; }
 
 .VPDoc .content {
-  max-width: 820px;
+  max-width: 1120px;
   padding-top: 46px;
   padding-bottom: 88px;
 }
@@ -168,7 +168,7 @@ body {
 /* VitePress belge arayüzünü kronik sayfasına dönüştür */
 .VPDocAside, .VPLocalNav, .VPDocFooter, .pager, .VPNavBarAppearance, .VPNavBarExtra { display: none !important; }
 .VPContent.has-sidebar, .VPDoc.has-aside .content-container { padding-left: 0 !important; }
-.VPDoc.has-aside .content-container, .VPDoc .content-container { max-width: 1040px !important; }
+.VPDoc.has-aside .content-container, .VPDoc .content-container { max-width: 1180px !important; }
 .vp-doc .header-anchor { display: none; }
 .vp-doc h2 { position: relative; border-top: 0; padding-top: 0; }
 .vp-doc h2::after { content: ''; display: block; width: 66px; margin-top: .7rem; border-bottom: 2px solid var(--vp-c-brand-1); }
@@ -206,6 +206,21 @@ body {
 .lore-stat-grid div + div { border-left: 1px solid #cdb89b; }
 .lore-stat-grid small { display: block; color: #7a5242; font-family: Cinzel, Georgia, serif; font-size: .63rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
 .lore-stat-grid b { display: block; margin-top: .18rem; font-size: .92rem; }
+.creature-statblock { margin: 2.5rem 0 3.4rem; padding: 1.5rem 1.75rem 1.75rem; border-top: 5px solid #7b3028; border-bottom: 5px solid #7b3028; background: #f7f0e4; color: #261d1c; box-shadow: 0 8px 24px rgba(58, 34, 25, .1); }
+.creature-statblock h2 { margin: 0; padding: 0; border: 0; color: #7b3028; font-family: Georgia, serif; font-size: 2rem; font-variant: small-caps; letter-spacing: .02em; }
+.creature-statblock h2::after { display: none; }
+.creature-type { margin: .15rem 0 1.05rem; color: #4d3935; font-style: italic; }
+.creature-vitals, .creature-details { border-top: 1px solid #c49b7d; border-bottom: 1px solid #c49b7d; padding: .65rem 0; }
+.creature-vitals p, .creature-details p, .creature-section p { margin: .26rem 0; font-size: 1rem !important; line-height: 1.55 !important; }
+.creature-vitals b, .creature-details b, .creature-section b { color: #7b3028; }
+.ability-grid { display: grid; grid-template-columns: repeat(6, 1fr); padding: .85rem 0; text-align: center; }
+.ability-grid div { padding: 0 .35rem; }
+.ability-grid b { display: block; color: #7b3028; font-family: Georgia, serif; font-size: .8rem; letter-spacing: .05em; }
+.ability-grid strong { display: block; margin-top: .15rem; font-size: 1.45rem; line-height: 1.2; }
+.ability-grid span { font-size: .88rem; }
+.stat-separator { margin: 0 .35rem; color: #7b3028; }
+.creature-section { margin-top: 1.25rem; }
+.creature-section h3 { margin: 0 0 .45rem; color: #7b3028; font-family: Georgia, serif; font-size: 1.25rem; font-variant: small-caps; }
 .lore-hero { display: grid; grid-template-columns: minmax(0, 1fr) minmax(260px, .66fr); gap: 2.2rem; align-items: start; margin: 2.25rem 0 3.5rem; padding: 1.15rem; border: 1px solid var(--vp-c-divider); background: var(--vp-c-bg-elv); box-shadow: 0 18px 44px rgba(60, 35, 24, .12); }
 .lore-hero img { width: 100%; max-height: 570px; object-fit: cover; object-position: center top; }
 .lore-facts { margin: 0; padding: 1.25rem 1.25rem .4rem; border-top: 3px solid var(--vp-c-brand-1); }
@@ -219,7 +234,7 @@ body {
 .lore-card { padding: 1.25rem 1.35rem; border: 1px solid var(--vp-c-divider); background: color-mix(in srgb, var(--vp-c-bg-elv) 90%, transparent); }
 .lore-card h3 { margin: 0 0 .55rem; font-size: 1.05rem; }
 .lore-card p { margin: 0; font-size: .98rem !important; line-height: 1.65 !important; }
-@media (max-width: 700px) { .lore-hero, .lore-grid, .chronicle-index, .lore-stat-grid { grid-template-columns: 1fr; } .lore-facts { padding: .7rem .25rem; } .chronicle-cover { margin-top: 1.5rem; } .lore-stat-grid div + div { border-left: 0; border-top: 1px solid #cdb89b; } }
+@media (max-width: 700px) { .lore-hero, .lore-grid, .chronicle-index, .lore-stat-grid { grid-template-columns: 1fr; } .lore-facts { padding: .7rem .25rem; } .chronicle-cover { margin-top: 1.5rem; } .lore-stat-grid div + div { border-left: 0; border-top: 1px solid #cdb89b; } .ability-grid { grid-template-columns: repeat(3, 1fr); row-gap: 1rem; } .creature-statblock { padding: 1.15rem; } }
 
 @media (max-width: 640px) {
   .VPHero { padding-top: 76px; }
