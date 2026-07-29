@@ -1,5 +1,5 @@
 ---
-outline: [2, 3]
+outline: false
 ---
 
 <div class="lore-kicker">Halklar · Fey Kökenliler</div>
@@ -8,6 +8,7 @@ outline: [2, 3]
 
 <p class="lore-lead">Eladrinler, duygularını saklamayı değil mevsimler gibi yaşamayı öğrenmiş kadim bir halktır. Bir Eladrin'in yüzü, sesi ve hatta çevresindeki hava; ruhunun içinde hüküm süren mevsimle birlikte değişebilir.</p>
 
+<div class="creature-layout">
 <section class="creature-statblock">
   <h2>Eladrin Mevsim Muhafızı</h2>
   <p class="creature-type">Orta Boy fey, herhangi bir eğilim</p>
@@ -45,10 +46,10 @@ outline: [2, 3]
   </div>
 </section>
 
-<div class="lore-hero">
+<aside class="creature-profile">
   <img src="/assets/illustrations/eladrin-portre.png" alt="Ay ışığı altında, gümüş saçlı bir Eladrin gezgini" />
-  <aside class="lore-facts">
-    <h2>Hızlı kayıt</h2>
+  <div class="lore-facts">
+    <h2>Eladrin</h2>
     <dl>
       <dt>Köken</dt><dd>Fey Yabanı ile dünyanın sınırındaki eski geçitler</dd>
       <dt>Ömür</dt><dd>İnsan ölçüsüyle çok uzun; hafızaları daha da uzun</dd>
@@ -56,7 +57,8 @@ outline: [2, 3]
       <dt>Dil</dt><dd>Yüksek Elfçe, mevsim şarkıları ve ant dili</dd>
       <dt>Ayırt edici özellik</dt><dd>Ruh hâliyle değişen mevsimsel tezahür</dd>
     </dl>
-  </aside>
+  </div>
+</aside>
 </div>
 
 <div class="lore-callout">“Bir Eladrin'i tanımak için yüzüne değil, onun yanındayken rüzgârın ne söylediğine kulak ver.” <br>— <em>Gezgin Sera Venn'in notlarından</em></div>

@@ -78,10 +78,11 @@ body {
 .VPNavBarMenuLink:hover,
 .VPSidebarItem.is-active > .item > .link > .text { color: var(--vp-c-brand-1); }
 
-.VPDoc .container { max-width: 1320px; }
+.VPDoc .container { max-width: 1480px !important; }
 
 .VPDoc .content {
-  max-width: 1120px;
+  max-width: none;
+  width: 100%;
   padding-top: 46px;
   padding-bottom: 88px;
 }
@@ -168,7 +169,13 @@ body {
 /* VitePress belge arayüzünü kronik sayfasına dönüştür */
 .VPDocAside, .VPLocalNav, .VPDocFooter, .pager, .VPNavBarAppearance, .VPNavBarExtra { display: none !important; }
 .VPContent.has-sidebar, .VPDoc.has-aside .content-container { padding-left: 0 !important; }
-.VPDoc.has-aside .content-container, .VPDoc .content-container { max-width: 1180px !important; }
+.VPDoc.has-aside .content-container, .VPDoc .content-container { max-width: none !important; width: 100%; }
+.VPDoc:not(.has-sidebar) .container,
+.VPDoc.has-aside .container { max-width: 1480px !important; }
+.VPDoc:not(.has-sidebar) .content,
+.VPDoc.has-aside .content { max-width: none !important; width: 100% !important; }
+.VPDoc:not(.has-sidebar) .content-container,
+.VPDoc.has-aside .content-container { max-width: none !important; width: 100% !important; }
 .vp-doc .header-anchor { display: none; }
 .vp-doc h2 { position: relative; border-top: 0; padding-top: 0; }
 .vp-doc h2::after { content: ''; display: block; width: 66px; margin-top: .7rem; border-bottom: 2px solid var(--vp-c-brand-1); }
@@ -206,7 +213,8 @@ body {
 .lore-stat-grid div + div { border-left: 1px solid #cdb89b; }
 .lore-stat-grid small { display: block; color: #7a5242; font-family: Cinzel, Georgia, serif; font-size: .63rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
 .lore-stat-grid b { display: block; margin-top: .18rem; font-size: .92rem; }
-.creature-statblock { margin: 2.5rem 0 3.4rem; padding: 1.5rem 1.75rem 1.75rem; border-top: 5px solid #7b3028; border-bottom: 5px solid #7b3028; background: #f7f0e4; color: #261d1c; box-shadow: 0 8px 24px rgba(58, 34, 25, .1); }
+.creature-layout { display: grid; grid-template-columns: minmax(0, 1fr) 330px; gap: 2rem; align-items: start; margin: 2.5rem 0 3.4rem; }
+.creature-statblock { margin: 0; padding: 1.5rem 1.75rem 1.75rem; border-top: 5px solid #7b3028; border-bottom: 5px solid #7b3028; background: #f7f0e4; color: #261d1c; box-shadow: 0 8px 24px rgba(58, 34, 25, .1); }
 .creature-statblock h2 { margin: 0; padding: 0; border: 0; color: #7b3028; font-family: Georgia, serif; font-size: 2rem; font-variant: small-caps; letter-spacing: .02em; }
 .creature-statblock h2::after { display: none; }
 .creature-type { margin: .15rem 0 1.05rem; color: #4d3935; font-style: italic; }
@@ -221,6 +229,9 @@ body {
 .stat-separator { margin: 0 .35rem; color: #7b3028; }
 .creature-section { margin-top: 1.25rem; }
 .creature-section h3 { margin: 0 0 .45rem; color: #7b3028; font-family: Georgia, serif; font-size: 1.25rem; font-variant: small-caps; }
+.creature-profile { position: sticky; top: 92px; overflow: hidden; border: 1px solid var(--vp-c-divider); background: var(--vp-c-bg-elv); box-shadow: 0 14px 34px rgba(60, 35, 24, .12); }
+.creature-profile > img { display: block; width: 100%; max-height: 410px; object-fit: cover; object-position: center top; filter: saturate(.82) contrast(1.04); }
+.creature-profile .lore-facts { padding: 1.15rem 1.25rem 1.3rem; }
 .lore-hero { display: grid; grid-template-columns: minmax(0, 1fr) minmax(260px, .66fr); gap: 2.2rem; align-items: start; margin: 2.25rem 0 3.5rem; padding: 1.15rem; border: 1px solid var(--vp-c-divider); background: var(--vp-c-bg-elv); box-shadow: 0 18px 44px rgba(60, 35, 24, .12); }
 .lore-hero img { width: 100%; max-height: 570px; object-fit: cover; object-position: center top; }
 .lore-facts { margin: 0; padding: 1.25rem 1.25rem .4rem; border-top: 3px solid var(--vp-c-brand-1); }
@@ -234,7 +245,7 @@ body {
 .lore-card { padding: 1.25rem 1.35rem; border: 1px solid var(--vp-c-divider); background: color-mix(in srgb, var(--vp-c-bg-elv) 90%, transparent); }
 .lore-card h3 { margin: 0 0 .55rem; font-size: 1.05rem; }
 .lore-card p { margin: 0; font-size: .98rem !important; line-height: 1.65 !important; }
-@media (max-width: 700px) { .lore-hero, .lore-grid, .chronicle-index, .lore-stat-grid { grid-template-columns: 1fr; } .lore-facts { padding: .7rem .25rem; } .chronicle-cover { margin-top: 1.5rem; } .lore-stat-grid div + div { border-left: 0; border-top: 1px solid #cdb89b; } .ability-grid { grid-template-columns: repeat(3, 1fr); row-gap: 1rem; } .creature-statblock { padding: 1.15rem; } }
+@media (max-width: 700px) { .lore-hero, .lore-grid, .chronicle-index, .lore-stat-grid, .creature-layout { grid-template-columns: 1fr; } .lore-facts { padding: .7rem .25rem; } .chronicle-cover { margin-top: 1.5rem; } .lore-stat-grid div + div { border-left: 0; border-top: 1px solid #cdb89b; } .ability-grid { grid-template-columns: repeat(3, 1fr); row-gap: 1rem; } .creature-statblock { padding: 1.15rem; } .creature-profile { position: static; } }
 
 @media (max-width: 640px) {
   .VPHero { padding-top: 76px; }
