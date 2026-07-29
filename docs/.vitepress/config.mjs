@@ -4,7 +4,7 @@ export default defineConfig({
   lang: 'tr-TR',
   title: 'Avarra',
   description: 'Avarra dünya wiki’si',
-  appearance: false,
+  appearance: true,
   // GitHub deposu adı değişirse bunu da güncelleyin. Özel alan adında '/' kullanın.
   base: '/avarra/',
   themeConfig: {
@@ -12,10 +12,10 @@ export default defineConfig({
       provider: 'local'
     },
     nav: [
-      { text: 'Başlangıç', link: '/baslangic' },
       { text: 'Atlas', link: '/haritalar/dunya' },
       { text: 'Halklar', link: '/irklar/' },
-      { text: 'Varlıklar', link: '/varliklar' }
+      { text: 'Dinler ve Kültürler', link: '/kulturler/' },
+      { text: 'Yerleşimler', link: '/yerlesimler/' }
     ],
     sidebar: false,
     outline: false,
