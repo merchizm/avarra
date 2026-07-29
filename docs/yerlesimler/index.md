@@ -12,10 +12,10 @@ outline: false
 </section>
 
 <div class="lore-grid world-content-grid">
-  <div class="lore-card"><h3>Nareth</h3><p><b>Elyrakök</b> kök salonlu orman başkenti; <b>Kar-Dur</b> dağın katmanlarına yayılan cüce merkezi; <b>Namaris</b> kanallar ve yüzen saraylar şehridir.</p></div>
-  <div class="lore-card"><h3>Seyvar</h3><p><b>Ordanor</b> sayım kuleleriyle imparatorluk başkenti; <b>Kırk Köprü</b> her köprüsü ayrı lonca hukukuna bağlı ticaret cumhuriyetidir.</p></div>
-  <div class="lore-card"><h3>Odraka</h3><p><b>Saar-Kor</b> kaldera başkenti, <b>Mazaros</b> Minotaur donanmasının tersane şehri, <b>Sazkalp</b> Ulu Saz'ın kanal başkentidir.</p></div>
-  <div class="lore-card"><h3>Yeraltı ve deniz</h3><p><b>Birinci Işık</b> Dokuz Fener meclisi; <b>Vel-Shaar</b> İpek Tahtı'nın ipek köprülü başkenti; <b>Mavi Taç</b> Mercan Sarayları'nın merkezidir.</p></div>
+  <div class="lore-card"><h3>Nareth</h3><p><a href="./elyrakok">Elyrakök</a> kök salonlu orman başkenti; <a href="./kar-dur">Kar-Dur</a> dağın katmanlarına yayılan cüce merkezi; <a href="./namaris">Namaris</a> kanallar ve yüzen saraylar şehridir.</p></div>
+  <div class="lore-card"><h3>Seyvar</h3><p><a href="./ordanor">Ordanor</a> sayım kuleleriyle imparatorluk başkenti; Kırk Köprü her köprüsü ayrı lonca hukukuna bağlı ticaret cumhuriyetidir.</p></div>
+  <div class="lore-card"><h3>Odraka</h3><p><a href="./saar-kor">Saar-Kor</a> kaldera başkenti, <a href="./mazaros">Mazaros</a> Minotaur donanmasının tersane şehri, Sazkalp Ulu Saz'ın kanal başkentidir.</p></div>
+  <div class="lore-card"><h3>Yeraltı ve deniz</h3><p>Birinci Işık Dokuz Fener meclisi; <a href="./vel-shaar">Vel-Shaar</a> İpek Tahtı'nın ipek köprülü başkenti; Mavi Taç Mercan Sarayları'nın merkezidir.</p></div>
 </div>
 
 <section class="settlement-register">

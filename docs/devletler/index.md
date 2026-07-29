@@ -20,6 +20,19 @@ outline: false
   <div class="lore-card"><h3>Dokuz Fener Birliği</h3><p>Nimrûn Svirfneblinlerinin dokuz kentli yeraltı konfederasyonu; ses büyüsü ve yanıltıcı tünellerle savunulur.</p></div>
 </div>
 
+## Kayıtlar
+
+<div class="lore-grid">
+  <div class="lore-card"><h3><a href="./lethar-yildiz-kralligi">Lethar Yıldız Krallığı</a></h3><p>Astereth merkezli Yüksek Elf monarşisi.</p></div>
+  <div class="lore-card"><h3><a href="./kar-dur-tas-taci">Kar-Dur Taş Tacı</a></h3><p>Ocak meclisleri ve tartışmalı veliaht.</p></div>
+  <div class="lore-card"><h3><a href="./tuz-ocaklari-cumhuriyeti">Tuz Ocakları Cumhuriyeti</a></h3><p>Tuz domları üzerinde oligark meclisi.</p></div>
+  <div class="lore-card"><h3><a href="./camova-konfederasyonu">Camova Konfederasyonu</a></h3><p>Element ocakları ve gezici meclis.</p></div>
+  <div class="lore-card"><h3><a href="./sis-adalari-cumhuriyeti">Sis Adaları Cumhuriyeti</a></h3><p>Kimlik, borç ve sigorta ticareti.</p></div>
+  <div class="lore-card"><h3><a href="./altin-gunes-kralligi">Altıngüneş Krallığı</a></h3><p>Yaz Eladrinlerinin ikiz tacı.</p></div>
+  <div class="lore-card"><h3><a href="./bakir-prenslikler">Bakır Prenslikler</a></h3><p>Yedi Sonbahar prensliği.</p></div>
+  <div class="lore-card"><h3><a href="./yesil-su-birligi">Yeşil Su Birliği</a></h3><p>İlkbahar şehir devletleri.</p></div>
+</div>
+
 ## Siyasi düğümler
 
 - **Ordan Veraset Savaşı:** General Varessa, Prens Odran ve Başrahip Maelor'un mücadelesi bütün kıtaları etkiliyor.
