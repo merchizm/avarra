@@ -1,10 +1,39 @@
 <script setup>
 import { computed, ref } from 'vue'
-import { withBase } from 'vitepress'
+import { useData, withBase } from 'vitepress'
 
+const { lang } = useData()
+const isEnglish = computed(() => lang.value.startsWith('en'))
 const query = ref('')
-const filter = ref('Tümü')
-const filters = ['Tümü', 'Fey kökenli', 'Ölümlü', 'Yeraltı', 'Deniz', 'Drakonik', 'Soy ve dönüşüm']
+const filter = ref('all')
+const categories = {
+  'Fey kökenli': { tr: 'Fey kökenli', en: 'Fey-touched' },
+  'Ölümlü': { tr: 'Ölümlü', en: 'Mortal' },
+  'Yeraltı': { tr: 'Yeraltı', en: 'Underdark' },
+  'Deniz': { tr: 'Deniz', en: 'Sea' },
+  'Drakonik': { tr: 'Drakonik', en: 'Draconic' },
+  'Soy ve dönüşüm': { tr: 'Soy ve dönüşüm', en: 'Lineage & transformation' }
+}
+const filters = computed(() => [
+  { key: 'all', label: isEnglish.value ? 'All' : 'Tümü' },
+  ...Object.entries(categories).map(([key, value]) => ({ key, label: isEnglish.value ? value.en : value.tr }))
+])
+const englishNames = {
+  '/irklar/insanlar': 'Humans', '/irklar/cuceler': 'Dwarves', '/irklar/koboldlar': 'Kobolds',
+  '/irklar/veyranlar': 'Veyrans', '/irklar/svirfneblinler': 'Svirfneblins', '/irklar/drowlar': 'Drow',
+  '/irklar/dragonbornlar': 'Dragonborn', '/irklar/lizardfolklar': 'Lizardfolk', '/irklar/genasiler': 'Genasi',
+  '/irklar/minotaurlar': 'Minotaurs', '/irklar/halflingler': 'Halflings', '/irklar/goblinler': 'Goblins',
+  '/irklar/tieflingler': 'Tieflings', '/irklar/aasimarlar': 'Aasimar', '/irklar/shifterlar': 'Shifters',
+  '/irklar/warforgedler': 'Warforged', '/irklar/orman-elfleri': 'Wood Elves', '/irklar/yuksek-elfler': 'High Elves',
+  '/irklar/deniz-elfleri': 'Sea Elves', '/irklar/firbolglar': 'Firbolg', '/irklar/dikenkanlilar': 'Thornbloods',
+  '/irklar/changelingler': 'Changelings', '/irklar/duergarlar': 'Duergar', '/irklar/myconidler': 'Myconids',
+  '/irklar/locathahlar': 'Locathah', '/irklar/kuo-toalar': 'Kuo-Toa', '/irklar/tritonlar': 'Tritons',
+  '/irklar/sahuaginler': 'Sahuagin', '/irklar/tortlelar': 'Tortles', '/irklar/centaurlar': 'Centaurs',
+  '/irklar/tabaxiler': 'Tabaxi', '/irklar/kenkular': 'Kenku', '/irklar/aarakocralar': 'Aarakocra',
+  '/irklar/owlinler': 'Owlin', '/irklar/grunglar': 'Grung', '/irklar/satyrler': 'Satyrs',
+  '/irklar/orclar': 'Orcs', '/irklar/hobgoblinler': 'Hobgoblins', '/irklar/rebornlar': 'Reborn',
+  '/irklar/hexbloodlar': 'Hexbloods', '/irklar/dhampirler': 'Dhampirs', '/irklar/autognomlar': 'Autognomes'
+}
 
 const peoples = [
   {
@@ -224,12 +253,21 @@ const peoples = [
   }
 ]
 
+const localizedPeople = computed(() => peoples.map((person) => ({
+  ...person,
+  name: isEnglish.value ? (englishNames[person.link] || person.name) : person.name,
+  typeLabel: isEnglish.value ? categories[person.type].en : categories[person.type].tr,
+  description: isEnglish.value ? `A recorded ${categories[person.type].en.toLocaleLowerCase('en-US')} people of Avarra.` : person.description,
+  link: isEnglish.value ? `/en${person.link}` : person.link
+})))
+
 const visiblePeople = computed(() => {
-  const normalized = query.value.trim().toLocaleLowerCase('tr-TR')
-  return peoples.filter((person) => {
-    const matchesFilter = filter.value === 'Tümü' || person.type === filter.value
-    const matchesSearch = !normalized || `${person.name} ${person.type} ${person.description}`
-      .toLocaleLowerCase('tr-TR').includes(normalized)
+  const locale = isEnglish.value ? 'en-US' : 'tr-TR'
+  const normalized = query.value.trim().toLocaleLowerCase(locale)
+  return localizedPeople.value.filter((person) => {
+    const matchesFilter = filter.value === 'all' || person.type === filter.value
+    const matchesSearch = !normalized || `${person.name} ${person.typeLabel} ${person.description}`
+      .toLocaleLowerCase(locale).includes(normalized)
     return matchesFilter && matchesSearch
   })
 })
@@ -239,20 +277,20 @@ const visiblePeople = computed(() => {
   <section class="people-catalogue">
     <header class="people-catalogue-header">
       <div>
-        <p class="lore-kicker">Avarra Ansiklopedisi · Halklar</p>
-        <h1>Irklar ve Halklar</h1>
-        <p class="lore-lead">Soylar, halklar ve geçitlerden doğan kadim akrabalıklar için yaşayan kayıt defteri.</p>
+        <p class="lore-kicker">{{ isEnglish ? 'Avarra Encyclopaedia · Peoples' : 'Avarra Ansiklopedisi · Halklar' }}</p>
+        <h1>{{ isEnglish ? 'Peoples and Lineages' : 'Irklar ve Halklar' }}</h1>
+        <p class="lore-lead">{{ isEnglish ? 'A living register of peoples, lineages and ancient kinships born from the crossings.' : 'Soylar, halklar ve geçitlerden doğan kadim akrabalıklar için yaşayan kayıt defteri.' }}</p>
       </div>
       <label class="people-search">
         <span>⌕</span>
-        <input v-model="query" type="search" placeholder="Halk ara…" aria-label="Halk ara" />
+        <input v-model="query" type="search" :placeholder="isEnglish ? 'Search peoples…' : 'Halk ara…'" :aria-label="isEnglish ? 'Search peoples' : 'Halk ara'" />
       </label>
     </header>
 
     <div class="people-toolbar">
-      <p><b>{{ visiblePeople.length }}</b> kayıt gösteriliyor</p>
-      <div class="people-filters" aria-label="Halk türüne göre filtrele">
-        <button v-for="item in filters" :key="item" :class="{ active: filter === item }" @click="filter = item">{{ item }}</button>
+      <p><b>{{ visiblePeople.length }}</b> {{ isEnglish ? 'records shown' : 'kayıt gösteriliyor' }}</p>
+      <div class="people-filters" :aria-label="isEnglish ? 'Filter by people type' : 'Halk türüne göre filtrele'">
+        <button v-for="item in filters" :key="item.key" :class="{ active: filter === item.key }" @click="filter = item.key">{{ item.label }}</button>
       </div>
     </div>
 
@@ -262,10 +300,10 @@ const visiblePeople = computed(() => {
         <div class="people-visual" :class="{ 'has-image': person.image }">
           <img v-if="person.image" :src="person.image" :alt="person.name + ' portresi'" />
           <span v-else class="people-crest">{{ person.crest }}</span>
-          <span class="people-type">{{ person.type }}</span>
+          <span class="people-type">{{ person.typeLabel }}</span>
         </div>
         <div class="people-card-content">
-          <span class="people-status">{{ person.status }}</span>
+          <span class="people-status">{{ isEnglish ? 'Record open' : person.status }}</span>
           <h2>{{ person.name }}</h2>
           <p>{{ person.description }}</p>
           <span v-if="person.link" class="people-link">Kaydı aç <b>→</b></span>
