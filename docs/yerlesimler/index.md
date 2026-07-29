@@ -1,34 +1,14 @@
 ---
 layout: page
-title: Yerleşimler
+title: Avarra Şehir Atlası
 outline: false
 ---
 
-<main class="world-page">
-<section class="world-section-placeholder world-section-content">
-  <p class="lore-kicker">Avarra Ansiklopedisi · Yol ve Ocak Kayıtları</p>
-  <h1>Yerleşimler</h1>
-  <p>Şehirler, köyler, kaleler, limanlar ve unutulmuş mekânlar. Her kayıt su ve yiyecek kaynağı, hukuk, görünmeyen emek ve Durgunlukla ilişkisi üzerinden okunur.</p>
-</section>
-
-<div class="lore-grid world-content-grid">
-  <a class="lore-card" href="./elyrakok"><h3>Elyrakök · Nareth</h3><p>Kök salonlu orman başkenti ve Diken Tacı’nın yaşayan sarayı.</p></a>
-  <a class="lore-card" href="./kar-dur"><h3>Kar-Dur · Nareth</h3><p>Dağın katmanlarına yayılan cüce merkezi.</p></a>
-  <a class="lore-card" href="./namaris"><h3>Namaris · Nareth</h3><p>Kanallar ve yüzen saraylar şehri.</p></a>
-  <a class="lore-card" href="./ordanor"><h3>Ordanor · Seyvar</h3><p>Sayım kuleleri ve kayıtlarıyla imparatorluk başkenti.</p></a>
-  <a class="lore-card" href="./saar-kor"><h3>Saar-Kor · Odraka</h3><p>Ejderha taçlarının gölgesindeki kaldera başkenti.</p></a>
-  <a class="lore-card" href="./mazaros"><h3>Mazaros · Odraka</h3><p>Minotaur donanmasının tersane şehri.</p></a>
-  <a class="lore-card" href="./vel-shaar"><h3>Vel-Shaar · Yeraltı</h3><p>İpek Tahtı’nın ipek köprülü başkenti.</p></a>
-  <a class="lore-card" href="./nivarra"><h3>Nivarra · Mevsimler</h3><p>Mevsim geçitlerini tutan sınır yerleşimi.</p></a>
-</div>
-
-<section class="settlement-register">
-  <h2>Kanon yerleşim rehberi</h2>
-  <p>Bir yerleşim kaydı hazırlanırken şu dört soru korunur: neden burada kuruldu, su/yiyecek kaynağı nedir, hangi hukuka bağlıdır ve Durgunlukla ilişkisi nedir?</p>
-  <div class="settlement-columns">
-    <div><h3>Nareth</h3><p>Elyrakök, Salkımkent, Geyikgeçidi, Kökaltı, Yabanocak, Dumansız Köy, Kırık Çan, Kamışdibi, Son Tarla, Astereth, Miravel, Telor Kapısı, Sessiz Meridyen, Alçak Yıldız, Kar-Dur, Dokuz Kasa, Taşkorosu, Üstkapı, Demirkök, Hal-Sur, Kuru Liman, Acı Kuyu, Fosil Tahtı, Namaris, Üç Ağız, Saztaç, Mavi Merdiven, Akıntısız.</p></div>
-    <div><h3>Mevsimler ve Seyvar</h3><p>Nivarra, Beyaz Köprü, Gölgesiz Cam, Son Ocak, Solkar, İkiz Taht, Korhasat, Satyr Yamaçları, Bakır Meclis, Filizliman, Yeni Kök, Yağmurkapı, Arıbahçe, Yeşil Köprü, Ordanor, Serath, Vekra Limanı, Kızıl Meridyen, Halvek, Diken Sınırı, Vardessa, Kırk Köprü, Yüksek Eşik, Gece Kanadı, Bulutbasamak, Demir Talim.</p></div>
-    <div><h3>Odraka, Derinler, Deniz</h3><p>Saar-Kor, Prizma, Mazaros, Vel-Koridor, Boynuzliman, Dönüşkapı, Rüzgâr Çemberi, Dörtnal, Yağmur İzi, Sazkalp, Yeşil Diş, Üç Yumurta, Dokuz Can Pazarı, Yüksek Tırmanış, Taklit Limanı, Islak Mürekkep, Ur-Marak, Birinci Işık, Çan Kuyusu, Vel-Shaar, Karanlık Liman, Kor-Dum, Bakır Baca, İlk Spor, Mavi Taç, Üçlü Mızrak, Bin Halat.</p></div>
-  </div>
-</section>
+<main class="settlement-atlas">
+  <header class="settlement-atlas-hero"><div><p class="lore-kicker">Avarra Ansiklopedisi · İlk Sekiz Şehir</p><h1>Şehir<br><em>Atlası</em></h1><p>Her büyük şehir, devletinin idealini ve çelişkisini birlikte taşır. Mahalleler, su, emek, inanç ve yaklaşan krizler üzerinden okunur.</p></div><div class="atlas-compass"><span>✦</span><small>SEKİZ ŞEHİR<br>SEKİZ KIRILMA</small></div></header>
+  <section class="atlas-legend"><span><b>8</b> kanonik şehir</span><span><b>5</b> siyasî bölge</span><span><b>∞</b> açık hikâye</span></section>
+  <section class="atlas-chapter"><div class="atlas-chapter-head"><p class="lore-kicker">Nareth · Orman, Taş ve Su</p><h2>Yaşayan sınırlar</h2></div><div class="city-cards"><a class="city-card forest" href="./elyrakok"><span>Ⅰ</span><small>Diken Tacı · 45–65 bin</small><h3>Elyrakök</h3><p>Taht Ağacı’nın köklerine kadar uzanan canlı orman başkenti.</p><b>Taht krizi →</b></a><a class="city-card ember" href="./yabanocak"><span>Ⅱ</span><small>Gizli mülteci şehri · 22–35 bin</small><h3>Yabanocak</h3><p>Sökülebilir evler, ortak kor ve görünür olmaya korkan insan yurdu.</p><b>Kıtlık ve hanedanlar →</b></a><a class="city-card stone" href="./kar-dur"><span>Ⅴ</span><small>Taş Tacı · 110–155 bin</small><h3>Kar-Dur</h3><p>İsim mahzenleri ve mühürlü antik yolların katmanlı başkenti.</p><b>Doran’ın dönüşü →</b></a><a class="city-card river" href="./namaris"><span>Ⅵ</span><small>Nehir Tahtı · 105–165 bin</small><h3>Namaris</h3><p>Akıntıyla birlikte sınırları değişen kanallar ve yüzen saraylar.</p><b>Yavaşlayan nehirler →</b></a></div></section>
+  <section class="atlas-chapter"><div class="atlas-chapter-head"><p class="lore-kicker">Seyvar · Kayıt ve Fetih</p><h2>İmparatorluğun iki yüzü</h2></div><div class="city-cards city-cards--two"><a class="city-card ledger" href="./halvek"><span>Ⅲ</span><small>Ordan eyaleti · 95–130 bin</small><h3>Halvek</h3><p>İnsan başkentinin eğri sokakları ile Meridyen Planı’nın sürtüştüğü şehir.</p><b>İşgal, lonca, direniş →</b></a><a class="city-card ledger deep" href="./ordanor"><span>Ⅳ</span><small>Ordan başkenti · 380–520 bin</small><h3>Ordanor</h3><p>Her şeyin kayda alındığı, üçlü veraset savaşının merkezindeki imparatorluk.</p><b>Mühürler Sarayı →</b></a></div></section>
+  <section class="atlas-chapter"><div class="atlas-chapter-head"><p class="lore-kicker">Yıldızlar ve Derinler</p><h2>Yukarıdaki işaretler, aşağıdaki yankılar</h2></div><div class="city-cards city-cards--two"><a class="city-card star" href="./astereth"><span>Ⅶ</span><small>Lethar · 85–115 bin</small><h3>Astereth</h3><p>Göksel düzenin beyaz terasları; çocuk kral ve görünmeyen yeni yıldız.</p><b>Naiplik savaşı →</b></a><a class="city-card lantern" href="./dokuz-fener"><span>Ⅷ</span><small>Oyuk Ülkeler · 140–190 bin</small><h3>Dokuz Fener</h3><p>Sekiz çalışan kent ve ulaşılamayan Son Parıltı’yla ayakta kalan konfederasyon.</p><b>Boş koltuk →</b></a></div></section>
+  <section class="atlas-threads"><p class="lore-kicker">Şehirler Arası Gerilim Ağı</p><div><span>Elyrakök ↔ Yabanocak</span><span>Halvek ↔ Ordanor</span><span>Kar-Dur ↔ Dokuz Fener</span><span>Namaris ↔ Kar-Dur</span><span>Astereth ↔ Ordanor</span></div><p>Bu şehirlerin krizleri birbirinden bağımsız değildir: su, tahıl, antik yollar, veraset ve mülteci hareketi bütün kıtaya yayılır.</p></section>
 </main>
