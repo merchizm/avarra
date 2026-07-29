@@ -3,7 +3,10 @@ title: Vel-Shaar
 outline: false
 ---
 
-<div class="lore-kicker">Yerleşim · İpek Tahtı</div>
+<div class="lore-kicker">Yerleşimler · Devlet Merkezi</div>
+
 # Vel-Shaar
-<p class="lore-lead">İpek köprülerle bağlanan, Drow soy evleri ve tapınak hukukuyla yönetilen yeraltı başkenti.</p>
-<div class="record-layout"><div><h2>Yerleşim notları</h2><ul><li><b>Hukuk:</b> Soy aktarımı, mülkiyet ve tapınak düzeni.</li><li><b>Bağlantılar:</b> Sekiz Göz, Kara Koza, Kayıp Ay.</li><li><b>Düğüm:</b> Ayaltı sürgünleriyle yüzey siyaseti.</li></ul></div><aside class="record-profile"><div class="portrait-placeholder"><span>VEL-SHAAR</span><small>Görsel eklenecek</small></div></aside></div>
+
+<p class="lore-lead">İpek Tahtı'nın ipek köprülerle bağlanan Drow başkentidir. Anne soy evleri mülkiyet ve tapınak hukukunu kontrol eder.</p>
+
+<div class="record-layout"><div><h2>Şehir kimliği</h2><p>İpek Tahtı'nın ipek köprülerle bağlanan Drow başkentidir. Anne soy evleri mülkiyet ve tapınak hukukunu kontrol eder.</p><h2>Şehir bilgisi</h2><p>İpek köprülerin desenleri siyasi ittifakları gösterir. Son haftalarda bir köprü kimse dokumadan Kül Örgüsü işaretleri üretmektedir.</p></div><aside class="record-profile"><div class="portrait-placeholder"><span>VEL-SHAAR</span><small>Görsel eklenecek</small></div></aside></div>

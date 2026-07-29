@@ -3,7 +3,10 @@ title: Nivarra
 outline: false
 ---
 
-<div class="lore-kicker">Yerleşim · Ayaz Sarayı</div>
+<div class="lore-kicker">Yerleşimler · Devlet Merkezi</div>
+
 # Nivarra
-<p class="lore-lead">Buzul yarığına kurulmuş Ayaz Sarayı şehir-devleti ve Kış Eladrinleri monarşisinin başkenti.</p>
-<div class="record-layout"><div><h2>Yerleşim notları</h2><ul><li><b>Hafıza:</b> Buz, antlaşmaları ve suç mahallerini yüzyıllarca saklayabilir.</li><li><b>Ekonomi:</b> Kuzey ticaret yolları ve kıyı geçitleri.</li><li><b>Düğüm:</b> Prens Odran'a verilen dış destek.</li></ul></div><aside class="record-profile"><div class="portrait-placeholder"><span>NIVARRA</span><small>Görsel eklenecek</small></div></aside></div>
+
+<p class="lore-lead">Buzul yarığına kurulmuş Ayaz Sarayı başkentidir. Antlaşmalar, cesetler ve suç delilleri buz içinde yüzyıllarca saklanır.</p>
+
+<div class="record-layout"><div><h2>Şehir kimliği</h2><p>Buzul yarığına kurulmuş Ayaz Sarayı başkentidir. Antlaşmalar, cesetler ve suç delilleri buz içinde yüzyıllarca saklanır.</p><h2>Şehir bilgisi</h2><p><b>Mahalleler:</b> Ayaz Sarayı, Donmuş Şahitler, Kısa Yaz Pazarı, Eriyen Mahalle, Dev Uykusu.   <b>Güncel kriz:</b> Arşiv buzları erimekte; geçmiş savaşların delilleri ve hâlâ yaşayan bir esir ortaya çıkmaktadır.</p></div><aside class="record-profile"><div class="portrait-placeholder"><span>NIVARRA</span><small>Görsel eklenecek</small></div></aside></div>

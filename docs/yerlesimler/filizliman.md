@@ -7,11 +7,6 @@ outline: false
 
 # Filizliman
 
-+Yeşil Su Birliği'nin en büyük şehri ve fiilî dış politika merkezidir. İlkbahar borç affı geleneği bankacılarla rahipleri karşı karşıya getirir.
+<p class="lore-lead">Yeşil Su Birliği'nin en büyük şehri ve fiilî dış politika merkezidir. İlkbahar borç affı geleneği bankacılarla rahipleri karşı karşıya getirir.</p>
 
-**Mahalleler:** Yeni İskele, Yedinci Yıl Bankaları, Tohum Pazarı, Affedilenler Sokağı.  
-**Güncel kriz:** Yaklaşan genel borç affını engellemek için tüccarlar şehir meclisini satın almaktadır.
-
----
-
-## II. SEYVAR MERKEZLERİ
+<div class="record-layout"><div><h2>Şehir kimliği</h2><p>Yeşil Su Birliği'nin en büyük şehri ve fiilî dış politika merkezidir. İlkbahar borç affı geleneği bankacılarla rahipleri karşı karşıya getirir.</p><h2>Şehir bilgisi</h2><p><b>Mahalleler:</b> Yeni İskele, Yedinci Yıl Bankaları, Tohum Pazarı, Affedilenler Sokağı.   <b>Güncel kriz:</b> Yaklaşan genel borç affını engellemek için tüccarlar şehir meclisini satın almaktadır.</p><p>---</p><p>## II. SEYVAR MERKEZLERİ</p></div><aside class="record-profile"><div class="portrait-placeholder"><span>FILIZLIMAN</span><small>Görsel eklenecek</small></div></aside></div>

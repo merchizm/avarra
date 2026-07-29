@@ -3,7 +3,10 @@ title: Saar-Kor
 outline: false
 ---
 
-<div class="lore-kicker">Yerleşim · Kızıl Saar</div>
+<div class="lore-kicker">Yerleşimler · Devlet Merkezi</div>
+
 # Saar-Kor
-<p class="lore-lead">Kızıl Saar'ın kaldera başkenti; Dragonborn hanedanlarının ateş, şeref, askerî hizmet ve soy hafızası etrafında toplandığı volkan şehri.</p>
-<div class="record-layout"><div><h2>Yerleşim notları</h2><ul><li><b>Coğrafya:</b> Eski volkan kaleleri ve sıcak geçitler.</li><li><b>Hukuk:</b> Ejderha soylu hanedanlar.</li><li><b>Düğüm:</b> Mücevher Yemini ile miras çatışması.</li></ul></div><aside class="record-profile"><div class="portrait-placeholder"><span>SAAR-KOR</span><small>Görsel eklenecek</small></div></aside></div>
+
+<p class="lore-lead">Aktif olmayan büyük kalderanın teraslarına kurulmuş Kızıl Saar başkentidir. Ejderha mezarları, savaş akademileri ve soy arşivleri bulunur.</p>
+
+<div class="record-layout"><div><h2>Şehir kimliği</h2><p>Aktif olmayan büyük kalderanın teraslarına kurulmuş Kızıl Saar başkentidir. Ejderha mezarları, savaş akademileri ve soy arşivleri bulunur.</p><h2>Şehir bilgisi</h2><p>Şehirde yüksek statü kalderanın merkezine yakınlıkla ölçülür. Alt ocaklarda ateş belirtileri yeniden görülmekte; hanedanlar bunu ejderha dönüşünün işareti saymaktadır.</p></div><aside class="record-profile"><div class="portrait-placeholder"><span>SAAR-KOR</span><small>Görsel eklenecek</small></div></aside></div>

@@ -7,6 +7,6 @@ outline: false
 
 # Sessiz Oyuk
 
-+İzolasyoncu Nimrûn kentidir. Işığı dışarı sızmayan salonlar ve ses yutan taşlarla yapılmıştır.
+<p class="lore-lead">İzolasyoncu Nimrûn kentidir. Işığı dışarı sızmayan salonlar ve ses yutan taşlarla yapılmıştır.</p>
 
-Şehir yabancı elçi kabul etmez; ticaret eşyaları nötr tünelde değiştirilir. Son Parıltı'yla ilgili bilgi taşıdığına inanılır.
+<div class="record-layout"><div><h2>Şehir kimliği</h2><p>İzolasyoncu Nimrûn kentidir. Işığı dışarı sızmayan salonlar ve ses yutan taşlarla yapılmıştır.</p><h2>Şehir bilgisi</h2><p>Şehir yabancı elçi kabul etmez; ticaret eşyaları nötr tünelde değiştirilir. Son Parıltı'yla ilgili bilgi taşıdığına inanılır.</p></div><aside class="record-profile"><div class="portrait-placeholder"><span>SESSIZ OYUK</span><small>Görsel eklenecek</small></div></aside></div>

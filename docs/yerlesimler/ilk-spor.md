@@ -7,6 +7,6 @@ outline: false
 
 # İlk Spor
 
-+Derin Hafıza Çemberlerinin en eski Myconid merkezidir. Sokak yerine paylaşılan hafıza bölgeleri vardır.
+<p class="lore-lead">Derin Hafıza Çemberlerinin en eski Myconid merkezidir. Sokak yerine paylaşılan hafıza bölgeleri vardır.</p>
 
-Kara Hasat'ın anılarının ortak ağa kabul edilip edilmeyeceği çemberleri bölmektedir.
+<div class="record-layout"><div><h2>Şehir kimliği</h2><p>Derin Hafıza Çemberlerinin en eski Myconid merkezidir. Sokak yerine paylaşılan hafıza bölgeleri vardır.</p><h2>Şehir bilgisi</h2><p>Kara Hasat'ın anılarının ortak ağa kabul edilip edilmeyeceği çemberleri bölmektedir.</p></div><aside class="record-profile"><div class="portrait-placeholder"><span>İLK SPOR</span><small>Görsel eklenecek</small></div></aside></div>

@@ -7,10 +7,6 @@ outline: false
 
 # Derin Nabız
 
-+Grimlockların en büyük titreşim yerleşimidir. Duvar yazısı ve deprem kuyuları çevresinde kuruludur.
+<p class="lore-lead">Grimlockların en büyük titreşim yerleşimidir. Duvar yazısı ve deprem kuyuları çevresinde kuruludur.</p>
 
-Şehir bütün yeraltını etkileyebilecek düzenli ama yapay titreşimler algılamaktadır.
-
----
-
-## V. DENİZ MERKEZLERİ
+<div class="record-layout"><div><h2>Şehir kimliği</h2><p>Grimlockların en büyük titreşim yerleşimidir. Duvar yazısı ve deprem kuyuları çevresinde kuruludur.</p><h2>Şehir bilgisi</h2><p>Şehir bütün yeraltını etkileyebilecek düzenli ama yapay titreşimler algılamaktadır.</p><p>---</p><p>## V. DENİZ MERKEZLERİ</p></div><aside class="record-profile"><div class="portrait-placeholder"><span>DERIN NABIZ</span><small>Görsel eklenecek</small></div></aside></div>

@@ -3,7 +3,10 @@ title: Mazaros
 outline: false
 ---
 
-<div class="lore-kicker">Yerleşim · Labirent Limanları</div>
+<div class="lore-kicker">Yerleşimler · Devlet Merkezi</div>
+
 # Mazaros
-<p class="lore-lead">Labirent Limanları'nın en büyük donanmasına ve tersanesine sahip Minotaur deniz cumhuriyeti.</p>
-<div class="record-layout"><div><h2>Yerleşim notları</h2><ul><li><b>Ekonomi:</b> Tersane, deniz hukuku, paralı denizciler.</li><li><b>Plan:</b> Savunma ve tören için kıvrımlı sokaklar.</li><li><b>Hukuk:</b> Denizcilik, matematik ve dolaylı konuşma kültürü.</li></ul></div><aside class="record-profile"><div class="portrait-placeholder"><span>MAZAROS</span><small>Görsel eklenecek</small></div></aside></div>
+
+<p class="lore-lead">Labirent Limanlarının en büyük donanma ve tersane kentidir. Sokaklar savunma için kıvrımlı, liman havuzları birbirine gizli kanallarla bağlıdır.</p>
+
+<div class="record-layout"><div><h2>Şehir kimliği</h2><p>Labirent Limanlarının en büyük donanma ve tersane kentidir. Sokaklar savunma için kıvrımlı, liman havuzları birbirine gizli kanallarla bağlıdır.</p><h2>Şehir bilgisi</h2><p>Minotaur kaptanlar, insan gemiciler ve Tiefling Tuz Boynuzu mahallesi yaşar. Mazaros diğer liman cumhuriyetlerini tek donanma altında toplamaya çalışır.</p></div><aside class="record-profile"><div class="portrait-placeholder"><span>MAZAROS</span><small>Görsel eklenecek</small></div></aside></div>
