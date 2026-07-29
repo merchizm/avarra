@@ -14,10 +14,10 @@ outline: false
 <div class="lore-grid">
   <div class="lore-card"><h3><a href="./diken-taci">Diken Tacı</a></h3><p>Ormanı egemen varlık kabul eden seçimli monarşi. Kraliçenin dönüşümü iç savaşı yaklaştırıyor.</p></div>
   <div class="lore-card"><h3><a href="./ordan-imparatorlugu">Ordan İmparatorluğu</a></h3><p>Veyranların kurduğu, kayıt ve ölçüm düzenine dayalı imparatorluk; üçlü veraset savaşı içinde.</p></div>
-  <div class="lore-card"><h3>Nehir Tahtı</h3><p>Su havzasını siyasi beden sayan anaerkil seçimli monarşi. Kraliçe Samara'nın hastalığı akıntıların yavaşlamasıyla bağlantılı.</p></div>
-  <div class="lore-card"><h3>Ayaz Sarayı</h3><p>Ilyr-Khaz'ın Kış Eladrinleri; korumayı değişimi durdurmak olarak gören mutlak monarşi.</p></div>
-  <div class="lore-card"><h3>Saar'ın İki Ejderha Tacı</h3><p>Odraka'da Kızıl Saar ile Mücevher Yemini, ejderha mirasının anlamı üzerine rekabet eder.</p></div>
-  <div class="lore-card"><h3>Dokuz Fener Birliği</h3><p>Nimrûn Svirfneblinlerinin dokuz kentli yeraltı konfederasyonu; ses büyüsü ve yanıltıcı tünellerle savunulur.</p></div>
+  <div class="lore-card"><h3><a href="./nehir-tahti">Nehir Tahtı</a></h3><p>Su havzasını siyasi beden sayan anaerkil seçimli monarşi. Kraliçe Samara'nın hastalığı akıntıların yavaşlamasıyla bağlantılı.</p></div>
+  <div class="lore-card"><h3><a href="./ayaz-sarayi">Ayaz Sarayı</a></h3><p>Ilyr-Khaz'ın Kış Eladrinleri; korumayı değişimi durdurmak olarak gören mutlak monarşi.</p></div>
+  <div class="lore-card"><h3><a href="./saarin-iki-ejderha-taci">Saar'ın İki Ejderha Tacı</a></h3><p>Odraka'da Kızıl Saar ile Mücevher Yemini, ejderha mirasının anlamı üzerine rekabet eder.</p></div>
+  <div class="lore-card"><h3><a href="./dokuz-fener-birligi">Dokuz Fener Birliği</a></h3><p>Nimrûn Svirfneblinlerinin dokuz kentli yeraltı konfederasyonu; ses büyüsü ve yanıltıcı tünellerle savunulur.</p></div>
 </div>
 
 ## Kayıtlar
