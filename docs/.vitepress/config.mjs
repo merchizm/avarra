@@ -8,6 +8,9 @@ export default defineConfig({
   // GitHub deposu adı değişirse bunu da güncelleyin. Özel alan adında '/' kullanın.
   base: '/avarra/',
   themeConfig: {
+    search: {
+      provider: 'local'
+    },
     nav: [
       { text: 'Başlangıç', link: '/baslangic' },
       { text: 'Atlas', link: '/haritalar/dunya' },
