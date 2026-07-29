@@ -4,7 +4,7 @@ import { withBase } from 'vitepress'
 
 const query = ref('')
 const filter = ref('Tümü')
-const filters = ['Tümü', 'Fey kökenli', 'Ölümlü', 'Yeraltı', 'Drakonik', 'Soy ve dönüşüm']
+const filters = ['Tümü', 'Fey kökenli', 'Ölümlü', 'Yeraltı', 'Deniz', 'Drakonik', 'Soy ve dönüşüm']
 
 const peoples = [
   {
@@ -93,9 +93,19 @@ const peoples = [
     crest: '▣', className: 'warforged', link: '/irklar/warforgedler'
   },
   {
-    name: 'Elf Halkları', type: 'Fey kökenli', status: 'Kayıt açık',
-    description: 'Orman, Yüksek ve Deniz Elfleri; Diken Tacı, Lethar ve Mercan Sarayları arasında farklı hayatlar kurar.',
-    crest: '☽', className: 'elf', link: '/irklar/elf-halklari'
+    name: 'Orman Elfleri', type: 'Fey kökenli', status: 'Kayıt açık',
+    description: 'Diken Tacı’nın yaşayan koruluklarında, eski antları ve sınır patikalarını koruyan elf halkı.',
+    crest: '☽', className: 'elf', link: '/irklar/orman-elfleri'
+  },
+  {
+    name: 'Yüksek Elfler', type: 'Fey kökenli', status: 'Kayıt açık',
+    description: 'Lethar’ın yıldız kayıtları, diplomasi evleri ve uzun süreli bilgi gelenekleriyle yaşayan elfler.',
+    crest: '✧', className: 'elf', link: '/irklar/yuksek-elfler'
+  },
+  {
+    name: 'Deniz Elfleri', type: 'Deniz', status: 'Kayıt açık',
+    description: 'Mercan Sarayları ile gelgit sınırlarını paylaşan, sualtı yollarının eski bekçileri.',
+    crest: '≋', className: 'sea', link: '/irklar/deniz-elfleri'
   },
   {
     name: 'Firbolglar', type: 'Fey kökenli', status: 'Kayıt açık',
@@ -123,9 +133,24 @@ const peoples = [
     crest: '❋', className: 'myconid', link: '/irklar/myconidler'
   },
   {
-    name: 'Deniz Halkları', type: 'Yeraltı', status: 'Kayıt açık',
-    description: 'Locathahlar, Kuo-Toalar, Tritonlar ve Sahuaginler; havza, derinlik ve av sahası hukuklarıyla ayrılır.',
-    crest: '≋', className: 'sea', link: '/irklar/deniz-halklari'
+    name: 'Locathahlar', type: 'Deniz', status: 'Kayıt açık',
+    description: 'Sığlık, resif ve nehir ağzı topluluklarında balıkçılık hukukunu koruyan amfibi halk.',
+    crest: '≋', className: 'sea', link: '/irklar/locathahlar'
+  },
+  {
+    name: 'Kuo-Toalar', type: 'Deniz', status: 'Kayıt açık',
+    description: 'Derin sularda inanç, hafıza ve yön bulma ritüelleri çevresinde örgütlenen halk.',
+    crest: '◉', className: 'sea', link: '/irklar/kuo-toalar'
+  },
+  {
+    name: 'Tritonlar', type: 'Deniz', status: 'Kayıt açık',
+    description: 'Fırtına kapılarını ve derinlik akıntılarını gözeten, deniz yeminleriyle bağlı topluluklar.',
+    crest: '♆', className: 'sea', link: '/irklar/tritonlar'
+  },
+  {
+    name: 'Sahuaginler', type: 'Deniz', status: 'Kayıt açık',
+    description: 'Av sahaları ve derin resif hakları için sert yasalarla yaşayan köpekbalığı benzeri halk.',
+    crest: '▲', className: 'sea', link: '/irklar/sahuaginler'
   },
   {
     name: 'Tortlelar', type: 'Ölümlü', status: 'Kayıt açık',
@@ -138,19 +163,64 @@ const peoples = [
     crest: '↠', className: 'centaur', link: '/irklar/centaurlar'
   },
   {
-    name: 'Orman ve Gökyüzü Halkları', type: 'Ölümlü', status: 'Kayıt açık',
-    description: 'Tabaxi, Kenku, Aarakocra, Owlin, Grung ve Satyr toplulukları farklı orman ile hava koridorlarında yaşar.',
-    crest: '⌁', className: 'skyfolk', link: '/irklar/orman-ve-gokyuzu-halklari'
+    name: 'Tabaxiler', type: 'Ölümlü', status: 'Kayıt açık',
+    description: 'Yağmur ormanı şehirlerinde bilgi, hikâye ve nadir nesneleri servet kabul eden aileler.',
+    crest: '◖', className: 'skyfolk', link: '/irklar/tabaxiler'
   },
   {
-    name: 'Orclar ve Hobgoblinler', type: 'Ölümlü', status: 'Kayıt açık',
-    description: `Kızıl Toprak'ın kontrollü yakma bilgisi ve Külordu'nun profesyonel askerî düzeni farklı yollar gösterir.`,
-    crest: '▲', className: 'orc', link: '/irklar/orclar-ve-hobgoblinler'
+    name: 'Kenkular', type: 'Ölümlü', status: 'Kayıt açık',
+    description: 'Dünyadan topladıkları sesleri taşıyan göçebe haber ve zanaat halkı.',
+    crest: '⌁', className: 'skyfolk', link: '/irklar/kenkular'
   },
   {
-    name: 'Rebornlar, Hexbloodlar, Dhampirler', type: 'Soy ve dönüşüm', status: 'Kayıt açık',
-    description: 'Durgunluk, cadı antları, fey anlaşmaları ve kan lanetleriyle şekillenmiş dağınık topluluklar.',
-    crest: '☿', className: 'changed', link: '/irklar/donusmus-halklar'
+    name: 'Aarakocralar', type: 'Ölümlü', status: 'Kayıt açık',
+    description: 'Dağlar arası hava yollarını ve fırtına mevsimlerini ezbere bilen kanatlı halk.',
+    crest: '↟', className: 'skyfolk', link: '/irklar/aarakocralar'
+  },
+  {
+    name: 'Owlinler', type: 'Ölümlü', status: 'Kayıt açık',
+    description: 'Sessiz kurye ağları ve gece arşivleriyle tanınan alacakaranlık halkı.',
+    crest: '◉', className: 'skyfolk', link: '/irklar/owlinler'
+  },
+  {
+    name: 'Grunglar', type: 'Ölümlü', status: 'Kayıt açık',
+    description: 'Yağmur ormanlarının gölet kentlerinde renk ve görev düzeniyle yaşayan amfibiler.',
+    crest: '◒', className: 'skyfolk', link: '/irklar/grunglar'
+  },
+  {
+    name: 'Satyrler', type: 'Fey kökenli', status: 'Kayıt açık',
+    description: 'Fey geçitlerinin bağlarını, müziğini ve konukluk yasasını koruyan gezginler.',
+    crest: '♩', className: 'skyfolk', link: '/irklar/satyrler'
+  },
+  {
+    name: 'Orclar', type: 'Ölümlü', status: 'Kayıt açık',
+    description: 'Kızıl Toprak’ta akrabalık ve kontrollü ateş bilgisiyle yaşayan sınır toplulukları.',
+    crest: '▲', className: 'orc', link: '/irklar/orclar'
+  },
+  {
+    name: 'Hobgoblinler', type: 'Ölümlü', status: 'Kayıt açık',
+    description: 'Külordu kentlerinde kamu hizmeti ve disiplinle yükselen askerî yurttaşlar.',
+    crest: '▰', className: 'orc', link: '/irklar/hobgoblinler'
+  },
+  {
+    name: 'Rebornlar', type: 'Soy ve dönüşüm', status: 'Kayıt açık',
+    description: 'Ölümün eşiğinden dönmüş, ikinci hayatlarını kendi adlarıyla kuran kişiler.',
+    crest: '☿', className: 'changed', link: '/irklar/rebornlar'
+  },
+  {
+    name: 'Hexbloodlar', type: 'Soy ve dönüşüm', status: 'Kayıt açık',
+    description: 'Cadı antları veya fey büyüsüyle değişmiş, kökenleri kadar seçimleriyle tanımlananlar.',
+    crest: '⌘', className: 'changed', link: '/irklar/hexbloodlar'
+  },
+  {
+    name: 'Dhampirler', type: 'Soy ve dönüşüm', status: 'Kayıt açık',
+    description: 'Açlıklarını rıza, gözetim ve gece yasalarıyla dengelemeye çalışan gece soyu.',
+    crest: '☾', className: 'changed', link: '/irklar/dhampirler'
+  },
+  {
+    name: 'Autognomlar', type: 'Soy ve dönüşüm', status: 'Kayıt açık',
+    description: 'Eski atölyelerde uyanmış, ad ve bakım hakkı arayan pirinç kalpli halk.',
+    crest: '⚙', className: 'changed', link: '/irklar/autognomlar'
   }
 ]
 
