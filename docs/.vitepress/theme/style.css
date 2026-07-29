@@ -198,6 +198,14 @@ body {
 /* Ansiklopedik dünya sayfaları */
 .lore-kicker { color: var(--vp-c-brand-1); font-family: Cinzel, Georgia, serif; font-size: .75rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; }
 .lore-lead { max-width: 44rem; font-size: 1.26rem !important; line-height: 1.7 !important; color: var(--vp-c-text-2); }
+.lore-stat-block { margin: 2.4rem 0 1.1rem; padding: 1.25rem 1.45rem 0; border-top: 4px solid #71352c; border-bottom: 4px solid #71352c; background: #f6efe1; color: #332322; box-shadow: 0 5px 20px rgba(61, 36, 25, .1); }
+.lore-stat-block > p { margin: 0; color: #71352c; font-family: Cinzel, Georgia, serif; font-size: 1.32rem !important; }
+.lore-stat-block > em { display: block; margin-top: .12rem; color: #5e4740; font-size: 1rem; }
+.lore-stat-grid { display: grid; grid-template-columns: repeat(4, 1fr); margin-top: 1.15rem; border-top: 1px solid #cdb89b; }
+.lore-stat-grid div { padding: .8rem .7rem .9rem; text-align: center; }
+.lore-stat-grid div + div { border-left: 1px solid #cdb89b; }
+.lore-stat-grid small { display: block; color: #7a5242; font-family: Cinzel, Georgia, serif; font-size: .63rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.lore-stat-grid b { display: block; margin-top: .18rem; font-size: .92rem; }
 .lore-hero { display: grid; grid-template-columns: minmax(0, 1fr) minmax(260px, .66fr); gap: 2.2rem; align-items: start; margin: 2.25rem 0 3.5rem; padding: 1.15rem; border: 1px solid var(--vp-c-divider); background: var(--vp-c-bg-elv); box-shadow: 0 18px 44px rgba(60, 35, 24, .12); }
 .lore-hero img { width: 100%; max-height: 570px; object-fit: cover; object-position: center top; }
 .lore-facts { margin: 0; padding: 1.25rem 1.25rem .4rem; border-top: 3px solid var(--vp-c-brand-1); }
@@ -211,7 +219,7 @@ body {
 .lore-card { padding: 1.25rem 1.35rem; border: 1px solid var(--vp-c-divider); background: color-mix(in srgb, var(--vp-c-bg-elv) 90%, transparent); }
 .lore-card h3 { margin: 0 0 .55rem; font-size: 1.05rem; }
 .lore-card p { margin: 0; font-size: .98rem !important; line-height: 1.65 !important; }
-@media (max-width: 700px) { .lore-hero, .lore-grid, .chronicle-index { grid-template-columns: 1fr; } .lore-facts { padding: .7rem .25rem; } .chronicle-cover { margin-top: 1.5rem; } }
+@media (max-width: 700px) { .lore-hero, .lore-grid, .chronicle-index, .lore-stat-grid { grid-template-columns: 1fr; } .lore-facts { padding: .7rem .25rem; } .chronicle-cover { margin-top: 1.5rem; } .lore-stat-grid div + div { border-left: 0; border-top: 1px solid #cdb89b; } }
 
 @media (max-width: 640px) {
   .VPHero { padding-top: 76px; }

@@ -8,6 +8,17 @@ outline: [2, 3]
 
 <p class="lore-lead">Eladrinler, duygularını saklamayı değil mevsimler gibi yaşamayı öğrenmiş kadim bir halktır. Bir Eladrin'in yüzü, sesi ve hatta çevresindeki hava; ruhunun içinde hüküm süren mevsimle birlikte değişebilir.</p>
 
+<div class="lore-stat-block">
+  <p><strong>Eladrin</strong></p>
+  <em>Orta Boy Fey · Mevsimsel Soy</em>
+  <div class="lore-stat-grid">
+    <div><small>Ömür</small><b>500+ yıl</b></div>
+    <div><small>Ortalama boy</small><b>1,65–1,95 m</b></div>
+    <div><small>Diller</small><b>Elfçe · Ortak Dil</b></div>
+    <div><small>Köken</small><b>Fey Yabanı</b></div>
+  </div>
+</div>
+
 <div class="lore-hero">
   <img src="/assets/illustrations/eladrin-portre.png" alt="Ay ışığı altında, gümüş saçlı bir Eladrin gezgini" />
   <aside class="lore-facts">

@@ -10,7 +10,7 @@ outline: false
 
 <div class="lore-grid">
   <div class="lore-card">
-    <h3><a href="/irklar/eladrin">Eladrin</a></h3>
+    <h3><a href="./eladrin">Eladrin</a></h3>
     <p>Mevsim mahkemelerinin yankısını taşıyan, Fey Yabanı'na akraba uzun ömürlü yolcular.</p>
   </div>
   <div class="lore-card">
