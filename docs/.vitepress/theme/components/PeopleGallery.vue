@@ -44,17 +44,17 @@ const peoples = [
   {
     name: 'Eladrin', type: 'Fey kökenli', status: 'Kayıt açık',
     description: 'Duygularını mevsimler gibi taşıyan, geçitler ve eski antlarla yaşayan uzun ömürlü halk.',
-    crest: '✦', className: 'eladrin', link: '/irklar/eladrin'
+    crest: '✦', className: 'eladrin', image: '/assets/illustrations/eladrin.png', link: '/irklar/eladrin'
   },
   {
     name: 'İnsanlar', type: 'Ölümlü', status: 'Kayıt açık',
     description: 'Kısa ömürlerini şehirler, hanedanlar ve yolculuklarla genişleten uyumlu halklar.',
-    crest: '⌂', className: 'human', link: '/irklar/insanlar'
+    crest: '⌂', className: 'human', image: '/assets/illustrations/human.png', link: '/irklar/insanlar'
   },
   {
     name: 'Cüceler', type: 'Ölümlü', status: 'Kayıt açık',
     description: 'Taşın hafızasına, derin ocaklara ve kuşaklar boyu süren zanaat antlarına bağlı soylar.',
-    crest: '⛰', className: 'dwarf', link: '/irklar/cuceler'
+    crest: '⛰', className: 'dwarf', image: '/assets/illustrations/dwarf.png', link: '/irklar/cuceler'
   },
   {
     name: 'Koboldlar', type: 'Yeraltı', status: 'Kayıt açık',
@@ -89,7 +89,7 @@ const peoples = [
   {
     name: 'Genasiler', type: 'Ölümlü', status: 'Kayıt açık',
     description: 'Toprak, ateş, kristal, kül, su ve buz soyları; tek bir meslek veya ulusla tanımlanmaz.',
-    crest: '◇', className: 'genasi', link: '/irklar/genasiler'
+    crest: '◇', className: 'genasi', image: '/assets/illustrations/genasi.png', link: '/irklar/genasiler'
   },
   {
     name: 'Minotaurlar', type: 'Ölümlü', status: 'Kayıt açık',
