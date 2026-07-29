@@ -9,7 +9,23 @@ export default defineConfig({
   base: '/avarra/',
   locales: {
     root: { label: 'Türkçe', lang: 'tr-TR' },
-    en: { label: 'English', lang: 'en-US', link: '/en/' }
+    en: {
+      label: 'English',
+      lang: 'en-US',
+      link: '/en/',
+      themeConfig: {
+        nav: [
+          { text: 'Atlas', link: '/en/haritalar/dunya' },
+          { text: 'Peoples', link: '/en/irklar/' },
+          { text: 'States', link: '/en/devletler/' },
+          { text: 'Faiths & Cultures', link: '/en/kulturler/' },
+          { text: 'Settlements', link: '/en/yerlesimler/' }
+        ],
+        outline: false,
+        docFooter: { prev: false, next: false },
+        footer: { message: 'The Chronicles of Avarra', copyright: 'World guide' }
+      }
+    }
   },
   themeConfig: {
     search: {
@@ -25,20 +41,6 @@ export default defineConfig({
     sidebar: false,
     outline: false,
     docFooter: { prev: false, next: false },
-    footer: { message: 'Avarra Kronikleri', copyright: 'Dünya rehberi' },
-    locales: {
-      en: {
-        nav: [
-          { text: 'Atlas', link: '/en/haritalar/dunya' },
-          { text: 'Peoples', link: '/en/irklar/' },
-          { text: 'States', link: '/en/devletler/' },
-          { text: 'Cultures', link: '/en/kulturler/' },
-          { text: 'Settlements', link: '/en/yerlesimler/' }
-        ],
-        outline: false,
-        docFooter: { prev: false, next: false },
-        footer: { message: 'The Chronicles of Avarra', copyright: 'World guide' }
-      }
-    }
+    footer: { message: 'Avarra Kronikleri', copyright: 'Dünya rehberi' }
   }
 })

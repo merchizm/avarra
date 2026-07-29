@@ -6,16 +6,20 @@ outline: false
 
 <main class="world-page">
 <section class="world-section-placeholder world-section-content">
-  <p class="lore-kicker">Avarra Ansiklopedisi</p>
+  <p class="lore-kicker">Avarra Ansiklopedisi · Yol ve Ocak Kayıtları</p>
   <h1>Yerleşimler</h1>
-  <p>Şehirler, köyler, kaleler, limanlar ve unutulmuş mekânlar burada yer alacak. Her yerleşim su ve yiyecek kaynağı, hukuku, görünmeyen emeği ve Durgunlukla ilişkisi üzerinden kayda alınır.</p>
+  <p>Şehirler, köyler, kaleler, limanlar ve unutulmuş mekânlar. Her kayıt su ve yiyecek kaynağı, hukuk, görünmeyen emek ve Durgunlukla ilişkisi üzerinden okunur.</p>
 </section>
 
 <div class="lore-grid world-content-grid">
-  <div class="lore-card"><h3>Nareth</h3><p><a href="./elyrakok">Elyrakök</a> kök salonlu orman başkenti; <a href="./kar-dur">Kar-Dur</a> dağın katmanlarına yayılan cüce merkezi; <a href="./namaris">Namaris</a> kanallar ve yüzen saraylar şehridir.</p></div>
-  <div class="lore-card"><h3>Seyvar</h3><p><a href="./ordanor">Ordanor</a> sayım kuleleriyle imparatorluk başkenti; Kırk Köprü her köprüsü ayrı lonca hukukuna bağlı ticaret cumhuriyetidir.</p></div>
-  <div class="lore-card"><h3>Odraka</h3><p><a href="./saar-kor">Saar-Kor</a> kaldera başkenti, <a href="./mazaros">Mazaros</a> Minotaur donanmasının tersane şehri, Sazkalp Ulu Saz'ın kanal başkentidir.</p></div>
-  <div class="lore-card"><h3>Yeraltı ve deniz</h3><p>Birinci Işık Dokuz Fener meclisi; <a href="./vel-shaar">Vel-Shaar</a> İpek Tahtı'nın ipek köprülü başkenti; Mavi Taç Mercan Sarayları'nın merkezidir.</p></div>
+  <a class="lore-card" href="./elyrakok"><h3>Elyrakök · Nareth</h3><p>Kök salonlu orman başkenti ve Diken Tacı’nın yaşayan sarayı.</p></a>
+  <a class="lore-card" href="./kar-dur"><h3>Kar-Dur · Nareth</h3><p>Dağın katmanlarına yayılan cüce merkezi.</p></a>
+  <a class="lore-card" href="./namaris"><h3>Namaris · Nareth</h3><p>Kanallar ve yüzen saraylar şehri.</p></a>
+  <a class="lore-card" href="./ordanor"><h3>Ordanor · Seyvar</h3><p>Sayım kuleleri ve kayıtlarıyla imparatorluk başkenti.</p></a>
+  <a class="lore-card" href="./saar-kor"><h3>Saar-Kor · Odraka</h3><p>Ejderha taçlarının gölgesindeki kaldera başkenti.</p></a>
+  <a class="lore-card" href="./mazaros"><h3>Mazaros · Odraka</h3><p>Minotaur donanmasının tersane şehri.</p></a>
+  <a class="lore-card" href="./vel-shaar"><h3>Vel-Shaar · Yeraltı</h3><p>İpek Tahtı’nın ipek köprülü başkenti.</p></a>
+  <a class="lore-card" href="./nivarra"><h3>Nivarra · Mevsimler</h3><p>Mevsim geçitlerini tutan sınır yerleşimi.</p></a>
 </div>
 
 <section class="settlement-register">
