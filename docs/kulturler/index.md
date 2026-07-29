@@ -35,4 +35,9 @@ outline: false
     <div class="culture-section-heading"><p class="lore-kicker">Gündelik Hayat Atlası</p><h2>Kültürün izleri</h2></div>
     <div class="culture-trails"><article><span>❋</span><h3>Mevsim halkları</h3><p>Kış korur, Yaz paylaşır, Sonbahar bırakmayı öğrenir, İlkbahar borç affeder.</p></article><article><span>≋</span><h3>Su hukuku</h3><p>Kaynak, kol, delta ve taşkın alanı aynı siyasî bedenin parçalarıdır.</p></article><article><span>↠</span><h3>Göç ve geçiş</h3><p>Uçsuz Yol’da mülkiyet değil, geçiş hakkı kutsal bir sorumluluktur.</p></article><article><span>◇</span><h3>Taş ve emek</h3><p>Ocak aileleri, meclisler ve tünel loncaları emeği yurttaşlığın ölçüsü sayar.</p></article><article><span>☾</span><h3>Hafıza kültürleri</h3><p>Kristal, spor ve rüya; şehrin hatırlama biçimi olabilir.</p></article></div>
   </section>
+
+  <section class="culture-crossroads">
+    <div class="crossroads-copy"><p class="lore-kicker">Halkların Yaşayan Kayıtları</p><h2>Soy, kültür ve yurttaşlık</h2><p>Bir halkın bedeni, ait olduğu hukuk, öğrendiği gelenek ve yaşadığı sınıfsal durum aynı şey değildir. Bu ayrım, dinî pratiklerin ve şehir hayatının neden halktan halka değil, yerden yere değiştiğini açıklar.</p><a href="./halklar-kulturleri">Halklar ve kültürler rehberini oku →</a></div>
+    <div class="crossroads-links"><a href="../irklar/insanlar"><span>Ⅰ</span><div><small>Yurt, sürgün ve hukuk</small><strong>İnsan ve Veyran kültürleri</strong></div></a><a href="../irklar/eladrin"><span>Ⅱ</span><div><small>Mevsim, ant ve geçit</small><strong>Fey halkları</strong></div></a><a href="../irklar/cuceler"><span>Ⅲ</span><div><small>Ocak, emek ve hafıza</small><strong>Taş ve derinlik halkları</strong></div></a></div>
+  </section>
 </main>

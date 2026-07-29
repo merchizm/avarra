@@ -36,7 +36,8 @@ const englishNames = {
   '/irklar/goliathlar': 'Goliaths', '/irklar/tuz-cuceleri': 'Salt Dwarves', '/irklar/choldrithler': 'Choldriths',
   '/irklar/grimlocklar': 'Grimlocks', '/irklar/derrolar': 'Derro', '/irklar/yuan-ti': 'Yuan-ti',
   '/irklar/nagalar': 'Nagas', '/irklar/psiyonik-kalintilar': 'Psionic Remnants', '/irklar/ejderhalar': 'Dragons',
-  '/irklar/devler-ve-fomorianlar': 'Giants & Fomorians', '/irklar/abolethler': 'Aboleths', '/irklar/ilk-fey': 'First Fey Legacy'
+  '/irklar/devler-ve-fomorianlar': 'Giants & Fomorians', '/irklar/abolethler': 'Aboleths', '/irklar/ilk-fey': 'First Fey Legacy',
+  '/irklar/gnomlar': 'Gnomes', '/irklar/yari-orclar': 'Half-Orcs'
 }
 
 const peoples = [
@@ -266,6 +267,11 @@ const peoples = [
     crest: '◇', className: 'dwarf', link: '/irklar/tuz-cuceleri'
   },
   {
+    name: 'Gnomlar', type: 'Ölümlü', status: 'Kayıt açık',
+    description: 'Gözlemevi, bahçe ve gezici tamir ocakları arasında bakım hakkını ve ortak kaydı önemseyen küçük halklar.',
+    crest: '⚙', className: 'svirfneblin', link: '/irklar/gnomlar'
+  },
+  {
     name: 'Choldrithler', type: 'Yeraltı', status: 'Kayıt açık',
     description: 'İpek, soy borcu ve kutsal hukuk çevresinde örgütlenen örümcek bağlantılı yeraltı toplulukları.',
     crest: '✣', className: 'drow', link: '/irklar/choldrithler'
@@ -284,6 +290,11 @@ const peoples = [
     name: 'Yuan-ti', type: 'Soy ve dönüşüm', status: 'Kayıt açık',
     description: 'Kadim yılan medeniyetinin beden, soy ve kutsal dönüşümü yazı gibi işleyen mirasçıları.',
     crest: '∿', className: 'changed', link: '/irklar/yuan-ti'
+  },
+  {
+    name: 'Yarı-Orclar', type: 'Soy ve dönüşüm', status: 'Kayıt açık',
+    description: 'Kızıl Toprak, sınır kentleri ve insan toplulukları arasındaki akrabalıklarda görülen; tek bir kültüre indirgenmeyen soy durumu.',
+    crest: '▲', className: 'orc', link: '/irklar/yari-orclar'
   },
   {
     name: 'Nagalar', type: 'Soy ve dönüşüm', status: 'Kayıt açık',
