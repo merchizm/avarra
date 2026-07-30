@@ -1,4 +1,42 @@
 import { defineConfig } from 'vitepress'
+import fs from 'node:fs'
+import path from 'node:path'
+
+const referenceModule = '\0avarra-reference-index'
+
+function collectReferenceRecords(directory, prefix = '') {
+  const records = []
+  for (const entry of fs.readdirSync(directory, { withFileTypes: true })) {
+    const relative = path.posix.join(prefix, entry.name)
+    const fullPath = path.join(directory, entry.name)
+    if (entry.isDirectory()) records.push(...collectReferenceRecords(fullPath, relative))
+    else if (entry.name.endsWith('.md') && entry.name !== 'index.md') {
+      const source = fs.readFileSync(fullPath, 'utf8')
+      const title = source.match(/^title:\s*(.+)$/m)?.[1]?.trim().replace(/^['"]|['"]$/g, '')
+      if (title) records.push({ title, path: `/${relative.replace(/\.md$/, '')}` })
+    }
+  }
+  return records
+}
+
+function wikiReferenceIndex() {
+  return {
+    name: 'avarra-wiki-reference-index',
+    resolveId(id) { return id === 'virtual:avarra-reference-index' ? referenceModule : null },
+    load(id) {
+      if (id !== referenceModule) return null
+      const docsRoot = path.resolve(process.cwd(), 'docs')
+      const englishTitles = new Map(
+        collectReferenceRecords(path.join(docsRoot, 'en'))
+          .map((record) => [record.path, record.title])
+      )
+      const records = collectReferenceRecords(docsRoot)
+        .filter((record) => !record.path.startsWith('/en/'))
+        .map((record) => ({ ...record, enTitle: englishTitles.get(record.path) || record.title }))
+      return `export default ${JSON.stringify(records)}`
+    }
+  }
+}
 
 export default defineConfig({
   lang: 'tr-TR',
@@ -7,7 +45,7 @@ export default defineConfig({
   appearance: true,
   base: '/avarra/',
   vite: {
-    plugins: [{
+    plugins: [wikiReferenceIndex(), {
       name: 'avarra-public-asset-base',
       enforce: 'pre',
       transform(code, id) {
