@@ -6,4 +6,27 @@ outline: false
 
 # Kar-Dur
  <p class="lore-lead"> A layered capital stretching from the mountain's exterior to the summit to the sealed Old Dur many kilometers below. Here, depth is a measure of both geography and nobility. </p>
- <div class="record-layout"> <div> <h2> City ID </h2> <p> <b> Function: </b> capital city, mountain pass, mine and ancient road inspection.  <b> Population: </b> 110,000–155,000.  <b> Peoples: </b> Mountain Gnomes, Earth Genasi, Rock Gnomes; Svirfneblin, Kobold and Warforged minorities.  <b> Faith: </b> First Echo. </p> <h2> Layers and institutions </h2> <p> Stone Crown is defense, Market Shoulder is trade, Furnace Rings is production, Name Depth is law and tomb, Old Stop is sealed past. Hammer Market, Crown Barracks, Name Vault, Oath Anvil, Bottomless Station, Short Gallery and Awake Iron are separate power areas within the city. </p> <h2> Crisis </h2> <p> Heir Doran, who disappeared seventeen years ago, has returned aged and missing his memories. The Openers want to open the Bottomless Station, while the Forsworn advocate sealing all roads; Fading Name Vault records and Warforged inheritance claims deepen the succession fight. </p> </div> <aside class="record-profile"> <div class="portrait-placeholder"> <span> KAR-DUR </span> <small> Image to be added </small> </div> </aside> </div>
+ <div class="record-layout"> <div> <h2> City ID </h2> <p> <b> Function: </b> capital city, mountain pass, mine and ancient road inspection.  <b> Population: </b> 110,000–155,000.  <b> Peoples: </b> Mountain Dwarves, Hill Dwarves, ancient dwarf lineages; Svirfneblin, Gnome, Warforged, Duergar, Human, and Firbolg minorities.  <b> Faith: </b> Living Whole, First Echo, and Threshold-Ancestors traditions. </p> <h2> Layers and institutions </h2> <p> The Stone Crown is defence, Uppergate trade, the Foundry Line production, Silent Galleries law and graves, and Blind Mines are sealed deep past. The hereditary Crown shares power with Hearth Councils and the technically sovereign Deep Council. </p> <h2> Crisis </h2> <p> Heir Doran, lost seventeen years ago, has returned without ageing. His old duties passed to another heir, and his seals may belong to the Sixth or Ninth Vault. </p> </div> <aside class="record-profile"> <div class="portrait-placeholder"> <span> KAR-DUR </span> <small> Image to be added </small> </div> </aside> </div>
+
+## The mountain as a city
+
+Kar-Dur is a linked body of galleries, domes, shafts, and carved valleys. Upper levels hold surface gates, defence, and trade; inner levels homes, workshops, courts, and squares; lower levels mines, water, graves, and ancient routes. Depth is status but not simple wealth: diplomats live high, old families by graves, smiths near heat veins, and the poor in newer unstable galleries. Stone cannot be owned: only a registered hollow may be used. New space requires stone-listeners, air/water calculations, Deep Council permission, Hearth Council allocation, and an oath on the first support stone.
+
+Uppergate filters strangers through three defensive gates. Stonechorus is the acoustic throne and council dome: laws are sung in exact tones, because a law not heard alike cannot bind alike. Nine separate Vaults protect treasury, lineages, treaties, mine maps, ancient-road keys, technical secrets, reserves, relics, and a sealed record. Foundry heat warms baths, mushroom gardens, homes, dryers, and water boilers; every product bears master, hearth, and year. The Water Spine is neither crown property nor war spoil, while Underfungus Gardens, Ash Vein, Silent Galleries, and Blind Mines sustain the city’s food, labour, memory, and danger.
+
+## Life, law, and the succession crisis
+
+Shift Hammers replace daylight. Homes are inherited or assigned use-rights, not bought; waste becomes fungi, recycled metal, fill, settled water, and mortar. Air officers test vents, and blocking one is war on the city. Children learn collapse sounds, bad air, water marks, and lost-gallery signs; apprenticeship is civic identity, and a masterpiece must be a durable public benefit rather than merely a beautiful object.
+
+Hearth Councils govern production, housing, safety, tax, and markets. The Deep Council can halt a decision that threatens the city physically. Oath Courts enforce contracts, inherited duties, and maker liability: a bridge failure decades later can still bind the master’s hearth. The Living Whole treats the mountain as a body of stone, water, heat, life, and memory. Crown Hearths back Doran, Deep Masters demand inquiry, Oathkeepers oppose reopening sealed routes, Openers seek ancient-road trade, Warforged demand citizenship, and the younger sibling’s circle claims the moral right earned by governing in Doran’s absence.
+
+| Settlement | Resource | Tendency |
+| --- | --- | --- |
+| Ironroot | Wood, resin, surface ore | Crown Hearths |
+| Seven Vents | Air system | Deep Masters |
+| Silver Cistern | Water | Neutral |
+| Hammerplain | Food | Reformist |
+| Foundry Station | Ore processing | Warforged movement |
+| Winter Rift | Pass defence | Neutral |
+| Copper Steps | Caravan transfer | Openers |
+| Broken Anvil | Ancient-road research | Divided |
