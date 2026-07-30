@@ -54,7 +54,7 @@ function decorate(root = document) {
   while (walker.nextNode()) {
     const node = walker.currentNode
     const parent = node.parentElement
-    if (!parent || parent.closest('a, script, style, code, pre, .state-flag-link')) continue
+    if (!parent || parent.closest('a, script, style, code, pre, h1, h2, h3, h4, .state-flag-link')) continue
     if (states.some((state) => node.nodeValue.includes(state[0]) || node.nodeValue.includes(state[1]))) nodes.push(node)
   }
   nodes.forEach((node) => {

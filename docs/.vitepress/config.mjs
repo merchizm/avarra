@@ -5,7 +5,6 @@ export default defineConfig({
   title: 'Avarra',
   description: 'Avarra dünya wiki’si',
   appearance: true,
-  // GitHub deposu adı değişirse bunu da güncelleyin. Özel alan adında '/' kullanın.
   base: '/avarra/',
   vite: {
     plugins: [{

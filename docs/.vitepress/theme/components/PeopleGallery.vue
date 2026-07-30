@@ -373,7 +373,7 @@ const visiblePeople = computed(() => {
       <component :is="person.link ? 'a' : 'article'" v-for="person in visiblePeople" :key="person.name"
         :href="person.link ? withBase(person.link) : undefined" class="people-card" :class="[person.className, { 'is-draft': !person.link }]">
         <div class="people-visual" :class="{ 'has-image': person.image }">
-          <img v-if="person.image" :src="person.image" :alt="person.name + ' portresi'" />
+          <img v-if="person.image" :src="withBase(person.image)" :alt="person.name + ' portresi'" />
           <span v-else class="people-crest">{{ person.crest }}</span>
           <span class="people-type">{{ person.typeLabel }}</span>
         </div>

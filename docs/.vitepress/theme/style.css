@@ -348,7 +348,7 @@ a.people-card:hover .people-visual img { transform: scale(1.06); }
 .state-flag-link:hover { color: var(--vp-c-brand-1); }
 .state-flag-link img, a .state-flag { width: 1.12em; height: .78em; object-fit: cover; border: 1px solid color-mix(in srgb, currentColor 35%, transparent); border-radius: 1px; vertical-align: -.08em; box-shadow: 0 1px 2px rgb(0 0 0 / .2); }
 a .state-flag { display: inline-block; margin-right: .35em; }
-.state-identity { display:flex; align-items:center; gap:1rem; margin:0 0 1.6rem; padding:1rem 1.15rem; border:1px solid var(--vp-c-divider); background:linear-gradient(100deg, color-mix(in srgb, var(--vp-c-bg-soft) 88%, #b99b57 12%), var(--vp-c-bg-soft)); box-shadow:inset 3px 0 #b99b57; }
-.state-identity img { width:4rem; height:2.7rem; object-fit:cover; border:1px solid color-mix(in srgb, #b99b57 65%, transparent); box-shadow:0 3px 10px rgb(0 0 0 / .22); }
-.state-identity strong { display:block; font-family:var(--vp-font-family-base); font-size:1.25rem; color:var(--vp-c-text-1); }
-.state-identity .lore-kicker { margin:0 0 .16rem; }
+.state-identity { float:right; width:min(38%, 17rem); margin:0 0 1.35rem 1.5rem; padding:.75rem; border:1px solid var(--vp-c-divider); background:var(--vp-c-bg-soft); box-shadow:inset 3px 0 #b99b57; }
+.state-identity img { display:block; width:100%; aspect-ratio:1.7; object-fit:cover; border:1px solid color-mix(in srgb, #b99b57 65%, transparent); box-shadow:0 5px 16px rgb(0 0 0 / .28); }
+.state-identity figcaption { margin:.45rem .1rem .05rem; font-size:.7rem; letter-spacing:.09em; text-transform:uppercase; color:var(--vp-c-text-3); }
+@media (max-width: 700px) { .state-identity { float:none; width:min(100%, 17rem); margin:0 0 1.35rem; } }

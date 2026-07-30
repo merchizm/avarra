@@ -24,8 +24,7 @@ const label = computed(() => state.value?.[lang.value.startsWith('en') ? 1 : 0])
 </script>
 
 <template>
-  <header v-if="state" class="state-identity">
-    <img :src="withBase('/assets/flags/' + state[2])" :alt="label + ' flag'" />
-    <div><p class="lore-kicker">{{ lang.startsWith('en') ? 'Sovereign record' : 'Egemenlik kaydı' }}</p><strong>{{ label }}</strong></div>
-  </header>
+  <figure v-if="state" class="state-identity">
+    <img :src="withBase('/assets/flags/' + state[2])" :alt="label + ' flag'" /><figcaption>{{ lang.startsWith('en') ? 'State flag' : 'Devlet bayrağı' }}</figcaption>
+  </figure>
 </template>
