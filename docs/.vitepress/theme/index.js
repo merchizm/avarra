@@ -12,6 +12,7 @@ import AssetPathFixer from './components/AssetPathFixer.vue'
 import StateFlagLinks from './components/StateFlagLinks.vue'
 import StateIdentity from './components/StateIdentity.vue'
 import WikiReferenceLinks from './components/WikiReferenceLinks.vue'
+import SettlementDirectory from './components/SettlementDirectory.vue'
 
 export default {
   extends: DefaultTheme,
@@ -19,7 +20,8 @@ export default {
       'doc-before': () => h(StateIdentity),
       'doc-after': () => [h(WikiReferenceLinks), h(AssetPathFixer), h(StateFlagLinks), h(PeopleHistoryReference), h(PeopleCultureReference), h(StateRelations), h(CapitalLife), h(EraFooter)]
   }),
-  enhanceApp({ app }) {
+    enhanceApp({ app }) {
+      app.component('SettlementDirectory', SettlementDirectory)
     app.component('PeopleGallery', PeopleGallery)
     app.component('FaithCatalogue', FaithCatalogue)
   }
