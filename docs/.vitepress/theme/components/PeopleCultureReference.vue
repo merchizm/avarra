@@ -64,13 +64,17 @@ const entries = {
   owlinler: ['Owlin kültürleri', 'Gece arşivleri, sessiz kurye ağları ve alacakaranlık gözetimi Owlin topluluklarında öne çıkar; bunlar soyun değil, yaşadıkları şehirlerin geliştirdiği geleneklerdir.']
 }
 const entry = computed(() => entries[slug.value])
+const englishEntries = {
+  eladrin: ['Eladrin seasonal cultures', 'Spring is associated with forgiveness, Summer with protection, Autumn with story, and Winter with mourning. A season is not a permanent caste, but an emotional and social state that can change throughout a life.']
+}
+const englishEntry = computed(() => englishEntries[slug.value])
 const isEnglish = computed(() => lang.value.startsWith('en'))
 </script>
 
 <template>
-  <section v-if="entry" class="people-culture-reference">
+  <section v-if="entry && (!isEnglish || englishEntry)" class="people-culture-reference">
     <p>{{ isEnglish ? 'Cultural canon' : 'Kültür kanonu' }}</p>
-    <h2>{{ entry[0] }}</h2>
-    <p>{{ entry[1] }}</p>
+    <h2>{{ isEnglish ? englishEntry[0] : entry[0] }}</h2>
+    <p>{{ isEnglish ? englishEntry[1] : entry[1] }}</p>
   </section>
 </template>
