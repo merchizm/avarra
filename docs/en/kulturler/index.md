@@ -1,5 +1,7 @@
 ---
 layout: page
-title: Dinler ve Kültürler
+title: Faiths & Cultures
 outline: false
 ---
+
+<FaithCatalogue />
