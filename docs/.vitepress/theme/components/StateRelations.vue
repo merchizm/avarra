@@ -2,8 +2,9 @@
 import { computed } from 'vue'
 import { useData } from 'vitepress'
 
-const { page } = useData()
+const { page, lang } = useData()
 const slug = computed(() => page.value.relativePath.replace(/^en\//, '').replace(/^devletler\//, '').replace(/\.md$/, ''))
+const isEnglish = computed(() => lang.value.startsWith('en'))
 const records = {
   'diken-taci': ['Diken Tacı · SS 83 siyasi ve ticari kayıt', 'Seçimli orman monarşisi; Elyra’nın Taht Ağacı’na dönüşmesi haleflik krizini büyütür. Kök Muhafızları, Açık Dal, Kızıl Av, Solgun Çember ve Boynuzsuz Ordu aynı geleceği istemez.', 'Lethar ile kültürel rekabet, Kar-Dur ile Demirkök ve maden gerilimi, Nehir Tahtı ile havza davası yaşar. Ordan kalıcı orman kalesi kurarsa savaş kaçınılmazdır; Yabanocak’ın izinsiz surlu devlet ilanı ikinci kırmızı çizgidir.', 'Metal, tuz ve büyük tahıl ithal eder; canlı kereste, lif, şifalı bitki ve nadir tohum ihraç eder. Diken–Meridyen Yolu Ordan kontrol noktaları ile Diken devriyeleri arasında bölünmüştür; Alt Dal ağı gizli kök postasını taşır.'],
   'ordan-imparatorlugu': ['Ordan İmparatorluğu · SS 83 siyasi ve ticari kayıt', 'Üçlü veraset savaşı başkenti bile bölmüştür: Varessa ordu ve Nareth işgalini, Odran bürokrasi-ticaret uzlaşmasını, Maelor ise dinî merkezîleşme ve Veyran üstünlüğünü savunur.', 'Diken Tacı ana askerî hedeftir; Lethar’la soğuk diplomasi, Kar-Dur’la temkinli teknik iş birliği, Nehir Tahtı’yla Namaris askerî limanı karşılığında baskılı pazarlık yürütür. Dokuz Fener’le antik yol haritaları için rekabet eder.', 'Kara ordusu Nareth tahılına ve Kırk Köprü kredisine bağımlıdır. Ordan Mührü ana kara ticaret parasıdır; Meridyen nehirleri, istasyon postası ve Seyvar–Nareth Boğaz Rotası imparatorluk denetimindedir.'],
@@ -24,7 +25,7 @@ const record = computed(() => records[slug.value])
 </script>
 
 <template>
-  <section v-if="record" class="state-relations">
+  <section v-if="record && !isEnglish" class="state-relations">
     <p class="lore-kicker">{{ record[0] }}</p>
     <div class="lore-grid"><div class="lore-card"><h3>İç siyaset</h3><p>{{ record[1] }}</p></div><div class="lore-card"><h3>Dış ilişkiler</h3><p>{{ record[2] }}</p></div><div class="lore-card"><h3>Ekonomi ve ulaşım</h3><p>{{ record[3] }}</p></div></div>
   </section>
