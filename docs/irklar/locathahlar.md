@@ -4,7 +4,9 @@ outline: false
 ---
 
 <div class="lore-kicker">Halklar · Deltalar</div>
+
 # Locathahlar
+
 <p class="lore-lead">Nehir Tahtı'nın delta tapınakları ve su mahallelerinde yaşayan balık-insan toplulukları.</p>
 
 ## Kanonik kayıt

@@ -4,7 +4,9 @@ outline: false
 ---
 
 <div class="lore-kicker">Halklar · Yol ve Ocak</div>
+
 # Halflingler
+
 <p class="lore-lead">Halflingler tek bir halk gibi görünse de Nehir, Yol ve Ada kollarına ayrılır. Tahıl, posta, kervan ve sigorta ağları büyük devletlerin bile güvenmek zorunda olduğu ortak altyapıdır.</p>
 
 ## Kanonik kayıt

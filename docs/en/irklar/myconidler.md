@@ -3,7 +3,8 @@ title: Myconidler
 outline: false
 ---
 <div class="lore-kicker"> People · Deep Memory </div>
-#Myconids
+
+# Myconids
 
 
 ## D&D reference

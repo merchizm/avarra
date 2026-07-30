@@ -4,7 +4,9 @@ outline: false
 ---
 
 <div class="lore-kicker">Halklar · Odraka Kıyıları</div>
+
 # Minotaurlar
+
 <p class="lore-lead">Minotaurlar labirenti hapishane değil, doğru kararın tek bir düz yoldan ibaret olmadığını anlatan kutsal simge sayar. Labirent Limanları'nın hukuku, denizciliği ve şehir planı bu anlayışla biçimlenir.</p>
 
 ## Kanonik kayıt

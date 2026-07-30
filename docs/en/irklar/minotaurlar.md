@@ -3,7 +3,9 @@ title: Minotaurlar
 outline: false
 ---
 <div class="lore-kicker"> Peoples · Coasts of Odraka </div>
+
 # Minotaurs
+
  <p class="lore-lead"> Minotaurs consider the labyrinth not a prison, but a sacred symbol that shows that the right decision is not just a single straight path. The law, maritime and city plan of the Labyrinth Ports are shaped by this understanding. </p>
 
 ## Canonical record

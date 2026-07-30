@@ -3,6 +3,7 @@ title: Locathahlar
 outline: false
 ---
 <div class="lore-kicker"> Peoples · Deltas </div>
+
 # Locathahs
  <p class="lore-lead"> Fish-human communities living in the delta temples and water districts of the River Throne. </p>
 

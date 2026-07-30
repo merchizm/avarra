@@ -3,7 +3,8 @@ title: Rebornlar
 outline: false
 ---
 <div class="lore-kicker"> Peoples · Second Breath </div>
-#Reborns
+
+# Reborns
  <p class="lore-lead"> People who have come back from the brink of death and establish an identity between broken memories and a new will. </p>
 
 ## Canonical record

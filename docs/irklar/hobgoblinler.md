@@ -4,7 +4,9 @@ outline: false
 ---
 
 <div class="lore-kicker">Halklar · Külordu</div>
+
 # Hobgoblinler
+
 <p class="lore-lead">Düzeni, eğitimli birlikleri ve kazanılan sorumluluğu kan bağından üstün gören askerî yurttaşlar.</p>
 
 ## Kanonik kayıt

@@ -4,7 +4,9 @@ outline: false
 ---
 
 <div class="lore-kicker">Halklar · Gece Soyu</div>
+
 # Dhampirler
+
 <p class="lore-lead">Kan, av ve açlıkla ilgili sıra dışı ihtiyaçlarını kendi yasalarıyla dengelemeye çalışan gece yolcuları.</p>
 
 ## Kanonik kayıt

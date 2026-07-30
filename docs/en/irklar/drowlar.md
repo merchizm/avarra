@@ -4,7 +4,7 @@ outline: false
 ---
 <div class="lore-kicker"> Peoples · Underground </div>
 
-#drow
+# drow
 
  <p class="lore-lead"> The Drow are not a single political or religious bloc. The lineage houses of the Silk Throne, the tax law of the Dark Harbor, and the surface politics of the Sublunary exiles are different worlds of the same people. </p>
 

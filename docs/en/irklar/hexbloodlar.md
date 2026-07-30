@@ -3,6 +3,7 @@ title: Hexbloodlar
 outline: false
 ---
 <div class="lore-kicker"> Peoples · Witches' Oaths </div>
+
 # Hexbloods
  <p class="lore-lead"> Fey, whose life has been changed by ancient magic or witch pacts; people defined as much by their choices as by their origins. </p>
 

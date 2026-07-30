@@ -4,6 +4,7 @@ outline: false
 ---
 
 <div class="lore-kicker">Halklar · Uzun Kabuk Yolları</div>
+
 # Tortlelar
 
 

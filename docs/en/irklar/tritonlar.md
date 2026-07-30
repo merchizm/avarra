@@ -3,6 +3,7 @@ title: Tritonlar
 outline: false
 ---
 <div class="lore-kicker"> Peoples · Deep Seizure </div>
+
 # Tritons
  <p class="lore-lead"> Guardian population of the military order around sea pits and monster migration routes. </p>
 

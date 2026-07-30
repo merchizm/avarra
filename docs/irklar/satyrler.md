@@ -4,7 +4,9 @@ outline: false
 ---
 
 <div class="lore-kicker">Halklar · Şarap ve Patika</div>
+
 # Satyrler
+
 <p class="lore-lead">Fey geçitlerinin çevresindeki bağları, müziği ve konukluk yasasını koruyan boynuzlu gezginler.</p>
 
 ## Kanonik kayıt

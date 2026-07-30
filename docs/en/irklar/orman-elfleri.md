@@ -3,6 +3,7 @@ title: Orman Elfleri
 outline: false
 ---
 <div class="lore-kicker"> Peoples · Crown of Thorns </div>
+
 # Wood Elves
  <p class="lore-lead"> Elven branch influential in the foreign policy, archives, and major settlements of the Crown of Thorns. </p>
 

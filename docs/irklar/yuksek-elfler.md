@@ -4,7 +4,9 @@ outline: false
 ---
 
 <div class="lore-kicker">Halklar · Lethar</div>
+
 # Yüksek Elfler
+
 <p class="lore-lead">Lethar Yıldız Krallığı'nın gözlemevleri, kanalları ve büyü okullarıyla ilişkilendirilen Elf kolu.</p>
 
 ## Kanonik kayıt

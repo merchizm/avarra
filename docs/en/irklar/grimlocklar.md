@@ -3,6 +3,7 @@ title: Grimlocklar
 outline: false
 ---
 <div class="lore-kicker"> Peoples · Vibration Readers </div>
+
 # Grimlocks
  <p class="lore-lead"> Depth communities that live by reading the vibration of stones, air and steps rather than sight. </p>
  <p> In Grimlock cultures, silence is not absence; It is a detailed language that the ground tells. Surface sources often falsely dehumanize them; whereas knowledge of passages, prey, and vibrations is essential to the survival of many underground cities. </p>

@@ -3,6 +3,7 @@ title: Kuo-Toalar
 outline: false
 ---
 <div class="lore-kicker"> Peoples · Underground Sea </div>
+
 # Kuo-Toa
  <p class="lore-lead"> Fish-people who live on the shores of the underground sea and in the temple cities of the Waveless Lake. </p>
 

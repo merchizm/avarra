@@ -3,7 +3,8 @@ title: Halflingler
 outline: false
 ---
 <div class="lore-kicker"> Peoples · Road and Hearth </div>
-#Halflings
+
+# Halflings
  <p class="lore-lead"> Although the Halflings appear to be a single people, they are divided into River, Road and Island branches. Grain, postal, caravan and insurance networks are the common infrastructure that even large states must rely on. </p>
 
 ## Canonical record

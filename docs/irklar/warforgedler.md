@@ -4,7 +4,9 @@ outline: false
 ---
 
 <div class="lore-kicker">Halklar · Yapay Halklar</div>
+
 # Warforgedler ve Autognomlar
+
 <p class="lore-lead">Warforgedler ve Autognomlar, antik cüce ve Gnom şehirlerinde uyanan yapay halklardır. Kar-Dur onları üreticilerinin mülkü saymaya eğilimliyken Kor-Dum tam yurttaşlık tanır.</p>
 
 ## Kanonik kayıt

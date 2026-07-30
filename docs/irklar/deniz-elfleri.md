@@ -4,7 +4,9 @@ outline: false
 ---
 
 <div class="lore-kicker">Halklar · Mercan Sarayları</div>
+
 # Deniz Elfleri
+
 <p class="lore-lead">Mercan Sarayları'nın kıyı ve sığ deniz şehirlerinde yaşayan, nehir ağızlarına kadar su hakkı savunan Elf kolu.</p>
 
 ## Kanonik kayıt

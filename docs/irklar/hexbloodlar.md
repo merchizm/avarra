@@ -4,7 +4,9 @@ outline: false
 ---
 
 <div class="lore-kicker">Halklar · Cadı Antları</div>
+
 # Hexbloodlar
+
 <p class="lore-lead">Fey, kadim büyü veya cadı anlaşmalarıyla hayatı değişmiş; kökenleri kadar seçimleriyle de tanımlanan kişiler.</p>
 
 ## Kanonik kayıt

@@ -4,7 +4,9 @@ outline: false
 ---
 
 <div class="lore-kicker">Halklar · Soy ve Dönüşüm</div>
+
 # Tieflingler
+
 <p class="lore-lead">Tieflingler tek bir cehennem soyundan gelmez. Kor, Ayaz, deniz uçurumu, fey-diken ve Durgunlukla değişmiş solgun soylar; farklı anlaşma ve dönüşüm kökenlerini taşır.</p>
 
 ## Kanonik kayıt

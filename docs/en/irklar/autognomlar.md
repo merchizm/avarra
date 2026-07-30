@@ -3,7 +3,8 @@ title: Autognomlar
 outline: false
 ---
 <div class="lore-kicker"> Peoples · Hearts of Brass </div>
-#Autognomes
+
+# Autognomes
  <p class="lore-lead"> Artificial little people left behind by the gnome workshops, seeking citizenship between repair and their own will. </p>
 
 ## Canonical record

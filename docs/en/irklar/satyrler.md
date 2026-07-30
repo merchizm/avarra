@@ -3,6 +3,7 @@ title: Satyrler
 outline: false
 ---
 <div class="lore-kicker"> Peoples · Wine and Trails </div>
+
 # Satyrs
  <p class="lore-lead"> Horned wanderers who guard the bonds, music, and law of hospitality around the Fey gateways. </p>
 

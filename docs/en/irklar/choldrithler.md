@@ -3,6 +3,7 @@ title: Choldrithler
 outline: false
 ---
 <div class="lore-kicker"> Peoples · Courts of Silk </div>
+
 # Choldriths
  <p class="lore-lead"> Spider-linked humanoid communities organized underground around silk, lineage debt, and sacred law. </p>
  <p> Silk judges read treaties from woven patterns. While they have both commercial and religious ties to the drow cities, Chholdrith communities do not boil down to a single Silk Throne identity. </p>

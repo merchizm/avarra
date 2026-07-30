@@ -4,7 +4,7 @@ outline: false
 ---
 <div class="lore-kicker"> Peoples · Homeless </div>
 
-#people
+# people
 
  <p class="lore-lead"> There are no internationally recognized human states left in Nareth. The legacy of the ancient five kingdoms lives on, with human communities divided between forest refuges and Ordan citizenship. </p>
 

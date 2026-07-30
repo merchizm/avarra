@@ -3,6 +3,7 @@ title: Tuz Cüceleri
 outline: false
 ---
 <div class="lore-kicker"> Peoples · Salt Cellars </div>
+
 # Salt Dwarfs
  <p class="lore-lead"> Dwarf communities in dry basins and salt domes who consider moisture, storage and cellar law as the basic knowledge of life. </p>
  <p> Cellar guards record not only the property but also who has the right to how much water and food in times of drought. For them, salt is a material of both trade and remembrance. </p>

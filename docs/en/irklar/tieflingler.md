@@ -3,6 +3,7 @@ title: Tieflingler
 outline: false
 ---
 <div class="lore-kicker"> Peoples · Lineage and Transformation </div>
+
 # tieflings
  <p class="lore-lead"> Tieflings are not descended from a single infernal race. Ember, Frost, sea cliff, fey-thorn and pale races changed by Stagnation; It carries different origins of agreement and transformation. </p>
 

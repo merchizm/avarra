@@ -4,7 +4,9 @@ outline: false
 ---
 
 <div class="lore-kicker">Halklar · Yankı Kervanları</div>
+
 # Kenkular
+
 <p class="lore-lead">Kendi şarkılarından çok, dünyadan topladıkları sesleri taşıyan göçebe haber ve zanaat halkı.</p>
 
 ## Kanonik kayıt

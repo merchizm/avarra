@@ -3,6 +3,7 @@ title: Goliathlar
 outline: false
 ---
 <div class="lore-kicker"> Peoples · Roads of Ice </div>
+
 # Goliaths
  <p class="lore-lead"> High mountain folk on the Ilyr-Khaz ice roads, who prioritize right of way and burden sharing over lineage. </p>
  <p> Goliath communities consider every journey a mutual responsibility; Even the strongest traveler suffers the same fate as the slowest person in a storm. The iceway guardians consider it both an economic and sacred duty to keep the northern passages open. </p>

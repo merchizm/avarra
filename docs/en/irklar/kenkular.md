@@ -3,7 +3,8 @@ title: Kenkular
 outline: false
 ---
 <div class="lore-kicker"> Peoples · Echo Caravans </div>
-#kenkular
+
+# kenkular
  <p class="lore-lead"> Nomadic news and craft people who carry the sounds they collect from the world rather than their own songs. </p>
 
 ## Canonical record

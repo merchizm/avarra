@@ -3,6 +3,7 @@ title: Deniz Elfleri
 outline: false
 ---
 <div class="lore-kicker"> Peoples · Coral Palaces </div>
+
 # Sea Elves
  <p class="lore-lead"> The Elven branch of the Coral Palaces, living in coastal and shallow sea cities, defending water rights up to the river mouths. </p>
 

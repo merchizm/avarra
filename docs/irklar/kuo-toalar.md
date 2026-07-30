@@ -4,7 +4,9 @@ outline: false
 ---
 
 <div class="lore-kicker">Halklar · Yeraltı Denizi</div>
+
 # Kuo-Toalar
+
 <p class="lore-lead">Yeraltı denizinin kıyıları ve Dalgasız Göl'ün tapınak şehirlerinde yaşayan balık-insan halkı.</p>
 
 ## Kanonik kayıt

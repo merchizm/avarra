@@ -4,7 +4,9 @@ outline: false
 ---
 
 <div class="lore-kicker">Halklar · Pirinç Kalpler</div>
+
 # Autognomlar
+
 <p class="lore-lead">Gnom atölyelerinin bıraktığı, onarım ve kendi iradesi arasında yurttaşlık arayan yapay küçük halk.</p>
 
 ## Kanonik kayıt

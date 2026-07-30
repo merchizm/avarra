@@ -3,6 +3,7 @@ title: Warforgedler
 outline: false
 ---
 <div class="lore-kicker"> Peoples · Artificial Peoples </div>
+
 # Warforged and Autognomes
  <p class="lore-lead"> Warforged and Autognomes are artificial peoples awakened in ancient Dwarven and Gnome cities. While Kar-Dur tends to consider them the property of their producers, Kor-Dum grants full citizenship. </p>
 

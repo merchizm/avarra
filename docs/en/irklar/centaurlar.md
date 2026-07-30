@@ -3,6 +3,7 @@ title: Centaurlar
 outline: false
 ---
 <div class="lore-kicker"> Peoples · Endless Road </div>
+
 # Centaurs
 
 

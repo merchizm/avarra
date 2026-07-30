@@ -3,6 +3,7 @@ title: Grunglar
 outline: false
 ---
 <div class="lore-kicker"> Peoples · Rain Steps </div>
+
 # Grungs
  <p class="lore-lead"> Small amphibian people organized by color and task order in the pond cities of the rainforest. </p>
 

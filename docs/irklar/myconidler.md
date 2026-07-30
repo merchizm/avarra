@@ -4,6 +4,7 @@ outline: false
 ---
 
 <div class="lore-kicker">Halklar · Derin Hafıza</div>
+
 # Myconidler
 
 

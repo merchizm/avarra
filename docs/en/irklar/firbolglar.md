@@ -3,6 +3,7 @@ title: Firbolglar
 outline: false
 ---
 <div class="lore-kicker"> Peoples · Crown of Thorns </div>
+
 # Firbolgs
 
 

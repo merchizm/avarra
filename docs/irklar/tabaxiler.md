@@ -4,7 +4,9 @@ outline: false
 ---
 
 <div class="lore-kicker">Halklar · Yağmur Pençesi</div>
+
 # Tabaxiler
+
 <p class="lore-lead">Yağmur ormanı şehirlerinde bilgi, hikâye ve nadir nesneleri servet kabul eden aileler.</p>
 
 ## Kanonik kayıt

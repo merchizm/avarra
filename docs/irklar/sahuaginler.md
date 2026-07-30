@@ -4,7 +4,9 @@ outline: false
 ---
 
 <div class="lore-kicker">Halklar · Kırmızı Akıntı</div>
+
 # Sahuaginler
+
 <p class="lore-lead">Derin deniz av sahalarını yöneten savaşçı konfederasyon halkı.</p>
 
 ## Kanonik kayıt

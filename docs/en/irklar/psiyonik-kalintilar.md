@@ -3,6 +3,7 @@ title: Psiyonik Kalıntılar
 outline: false
 ---
 <div class="lore-kicker"> Ancient Peoples · Unsealed </div>
+
 # Mind Eater Ruins
  <p class="lore-lead"> Communities and individuals left behind from old Mind Flayer constructs, seals, and fragmented psychic networks. </p>
  <p> This name is not a family name, but a social status. The psions that emerge from the seal are not by the forced judgment of their past; defined by memory, free will, and the response modern societies give to them. </p>

@@ -4,7 +4,7 @@ outline: false
 ---
 <div class="lore-kicker"> Peoples · Underground </div>
 
-#Kobolds
+# Kobolds
 
  <p class="lore-lead"> Kobold society is organized not by servitude to dragons, but by shared responsibility for tunnel security and maintenance. Sabotaging the air, water or waste system is the most serious crime. </p>
 

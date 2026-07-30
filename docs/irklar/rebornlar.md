@@ -4,7 +4,9 @@ outline: false
 ---
 
 <div class="lore-kicker">Halklar · İkinci Nefes</div>
+
 # Rebornlar
+
 <p class="lore-lead">Ölümün eşiğinden dönmüş, kopuk anılar ile yeni irade arasında kimlik kuran kişiler.</p>
 
 ## Kanonik kayıt

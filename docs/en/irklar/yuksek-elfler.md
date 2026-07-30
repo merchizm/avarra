@@ -3,6 +3,7 @@ title: Yüksek Elfler
 outline: false
 ---
 <div class="lore-kicker"> Peoples · Lethar </div>
+
 # High Elves
  <p class="lore-lead"> Lethar The Elven branch of the Star Kingdom associated with its observatories, conduits, and schools of magic. </p>
 

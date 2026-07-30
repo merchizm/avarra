@@ -4,7 +4,9 @@ outline: false
 ---
 
 <div class="lore-kicker">Halklar · Derin Nöbet</div>
+
 # Tritonlar
+
 <p class="lore-lead">Deniz çukurları ve canavar göç yolları çevresindeki askerî düzenin koruyucu halkı.</p>
 
 ## Kanonik kayıt

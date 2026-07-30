@@ -3,6 +3,7 @@ title: Derrolar
 outline: false
 ---
 <div class="lore-kicker"> Peoples · Seal Dreams </div>
+
 # Derro
  <p class="lore-lead"> Scattered underground peoples living around broken dreams, sealed memories, and strange crafts. </p>
  <p> Derro communities do not necessarily share the same history; Some consider lost memories as sacred relics, while others consider them as dangerous cargo. Seal dreamers try to interpret the signs on ancient structures in sleep. </p>

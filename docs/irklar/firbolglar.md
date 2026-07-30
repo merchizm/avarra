@@ -4,6 +4,7 @@ outline: false
 ---
 
 <div class="lore-kicker">Halklar · Diken Tacı</div>
+
 # Firbolglar
 
 

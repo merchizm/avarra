@@ -4,7 +4,9 @@ outline: false
 ---
 
 <div class="lore-kicker">Halklar · Soy ve Dönüşüm</div>
+
 # Aasimarlar
+
 <p class="lore-lead">Aasimar olmak ayrı bir milliyet değildir. Elf, cüce, insan veya Veyran bir Aasimar doğabilir; devletler onları peygamber, tehlike, miras aracı veya devlet malı olarak değerlendirebilir.</p>
 
 ## Kanonik kayıt

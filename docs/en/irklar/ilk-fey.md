@@ -3,6 +3,7 @@ title: İlk Fey Mirası
 outline: false
 ---
 <div class="lore-kicker"> Ancient Great Peoples · Concept Guardians </div>
+
 # First Fey Legacy
  <p class="lore-lead"> The legacy of the first fey beings, who were associated with concepts such as Hunger, Hunt, Mourning, Spring, Oblivion, Hospitality, Echo and Revenge rather than fixed bodies. </p>
  <p> Elven, Eladrin, Satyr, Firbolg, Goblin, and some Gnomish traditions bind themselves to this heritage; no people is its sole heir. </p>

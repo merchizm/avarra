@@ -4,7 +4,9 @@ outline: false
 ---
 
 <div class="lore-kicker">Halklar · Loncalar</div>
+
 # Goblinler
+
 <p class="lore-lead">Goblinler büyük bir imparatorluktan çok şehirlerin görünmeyen işlerinden güç alır: gece pazarları, mantar ilaçları, atık ayrıştırma, kanal bakımı ve cenaze hizmetleri onların lonca kültürlerinde birleşir.</p>
 
 ## Kanonik kayıt

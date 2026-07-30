@@ -3,7 +3,8 @@ title: Abolethler
 outline: false
 ---
 <div class="lore-kicker"> Ancient Great Peoples · Old Memory </div>
-#Aboleths
+
+# Aboleths
  <p class="lore-lead"> Ancient intelligent beings of the deep waters who claim that their memories are older than those of gods and humanoids. </p>
  <p> This claim is not proven; However, some Aboleths have been observed knowing lost coastlines and forgotten languages. The past they tell is as much bargaining and threat as it is knowledge. </p>
 

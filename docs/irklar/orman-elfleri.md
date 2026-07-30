@@ -4,7 +4,9 @@ outline: false
 ---
 
 <div class="lore-kicker">Halklar · Diken Tacı</div>
+
 # Orman Elfleri
+
 <p class="lore-lead">Diken Tacı'nın dış siyaseti, arşivleri ve büyük yerleşimlerinde etkili Elf kolu.</p>
 
 ## Kanonik kayıt

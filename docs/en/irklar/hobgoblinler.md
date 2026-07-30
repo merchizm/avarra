@@ -3,6 +3,7 @@ title: Hobgoblinler
 outline: false
 ---
 <div class="lore-kicker"> Peoples · Cities </div>
+
 # Hobgoblins
  <p class="lore-lead"> Military citizens who value order, trained troops, and earned responsibility over blood ties. </p>
 

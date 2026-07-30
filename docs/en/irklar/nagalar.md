@@ -3,7 +3,8 @@ title: Nagalar
 outline: false
 ---
 <div class="lore-kicker"> Ancient Peoples · Ruin Watch </div>
-#Nagas
+
+# Nagas
  <p class="lore-lead"> Long-lived ancient beings who stand guard around water, stone, and the ruins of ancient serpent civilizations. </p>
  <p> Naga guards are not always agents of a single state. Some protect ancient treaties, some hide ruins from marauders, and some choose to sell knowledge of the past to new political powers. </p>
 

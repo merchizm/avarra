@@ -3,6 +3,7 @@ title: Shifterlar
 outline: false
 ---
 <div class="lore-kicker"> Peoples · Lineage and Transformation </div>
+
 # Shifters
  <p class="lore-lead"> Shifters are not lycanthropes. In northern forests and mountain borders, they establish cultures associated with the seasonal behavior of game animals rather than the lunar cycle. </p>
 

@@ -4,7 +4,9 @@ outline: false
 ---
 
 <div class="lore-kicker">Halklar · Yağmur Basamakları</div>
+
 # Grunglar
+
 <p class="lore-lead">Yağmur ormanlarının gölet kentlerinde, renk ve görev düzeniyle örgütlenen küçük amfibi halk.</p>
 
 ## Kanonik kayıt

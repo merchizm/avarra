@@ -3,6 +3,7 @@ title: Goblinler
 outline: false
 ---
 <div class="lore-kicker"> Peoples · Guilds </div>
+
 # Goblins
  <p class="lore-lead"> Goblins draw strength from the unseen business of cities rather than a great empire: night markets, fungicides, waste sorting, canal maintenance, and funeral services are united in their guild culture. </p>
 

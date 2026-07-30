@@ -4,7 +4,9 @@ outline: false
 ---
 
 <div class="lore-kicker">Halklar · Soy ve Dönüşüm</div>
+
 # Shifterlar
+
 <p class="lore-lead">Shifterlar lycanthrope değildir. Kuzey ormanları ve dağ sınırlarında, ay döngüsünden çok av hayvanlarının mevsimsel davranışlarıyla ilişkili kültürler kurarlar.</p>
 
 ## Kanonik kayıt

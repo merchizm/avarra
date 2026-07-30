@@ -3,7 +3,8 @@ title: Yuan-ti
 outline: false
 ---
 <div class="lore-kicker"> Ancient Peoples · Body Writing </div>
-#yuan-ti
+
+# yuan-ti
  <p class="lore-lead"> Dispersed heirs of the ancient serpent civilization; Communities that read and process body, lineage and sacred transformation like writing. </p>
  <p> Ruin guardians and city-dwelling lineages do not share the same politics. A Yuan-ti's bodily markings do not determine his citizenship or morality; This legacy is often the object of fear and curiosity of external powers. </p>
 

@@ -3,6 +3,7 @@ title: Tabaxiler
 outline: false
 ---
 <div class="lore-kicker"> Peoples · Rainpaw </div>
+
 # Tabaxies
  <p class="lore-lead"> Families in rainforest cities who accept knowledge, stories, and rare objects as wealth. </p>
 
