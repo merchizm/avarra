@@ -3,7 +3,9 @@ title: Halklar ve Kültürler Rehberi
 outline: false
 ---
 <div class="lore-kicker">Kültür Kanonu · Kimliğin Dört Katmanı</div>
+
 # Halklar ve Kültürler Rehberi
+
 <p class="lore-lead">Avarra’da soy, kültür, yurttaşlık ve toplumsal durum aynı şey değildir. Bir halkın bedensel veya büyüsel mirası, onun hangi değerlerle yaşadığını ya da hangi hukuka bağlı olduğunu tek başına belirlemez.</p>
 <div class="lore-grid"><div class="lore-card"><h3>Soy</h3><p>İnsan, Elf, Cüce, Veyran veya dönüşüm işareti; beden ve doğaüstü yatkınlıkla ilgilidir.</p></div><div class="lore-card"><h3>Kültür</h3><p>Ormandoğan, Meridyen Veyranı veya Yol Ocağı gibi öğrenilmiş değerler ve gündelik hayat.</p></div><div class="lore-card"><h3>Yurttaşlık</h3><p>Diken Tacı, Ordan veya Nehir Tahtı gibi hukuki bağlılık.</p></div><div class="lore-card"><h3>Toplumsal durum</h3><p>Soylu, mülteci, kayıt dışı, ruhban veya işçi olarak dünyada nasıl görüldüğü.</p></div></div>
 ## Kültürel akımlar

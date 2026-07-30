@@ -3,6 +3,8 @@ title: Yabanocak
 outline: false
 ---
 <div class="lore-kicker">İlk Sekiz Şehir · Diken Tacı Sınırı</div>
+
 # Yabanocak
+
 <p class="lore-lead">Haritalarda görünmeyen insan mülteci şehri. Evleri sökülebilir, sokakları mevsimle değişir, dumanı mantar tünellerinden dışarı verilir; başkent olmaya yetecek kadar büyümüş ama görünür olmaya cesaret edememiştir.</p>
 <div class="record-layout"><div><h2>Şehir kimliği</h2><p><b>İşlev:</b> mülteci merkezi, hanedan buluşması ve kaçak ticaret düğümü. <b>Nüfus:</b> 22.000–35.000. <b>Halklar:</b> çoğunluk insan; Gnom, Svirfneblin, Drow ve Tiefling kaçakları azınlıktır. <b>İnanç:</b> Son Ocak.</p><h2>Yapı ve mahalleler</h2><p>Dağınık Çeper sahte kamplar ve avcı kulübeleridir; Ocak Halkası asıl nüfusu, Kök Sığınağı ise tahıl depolarını, hastaneleri ve kaçış tünellerini barındırır. Geyik Avluları, Kulegölgesi, Beyaz Koruluk, Kamış Yolları, Beşinci Kül ve Kayıp Çocuklar hanedan, kaçakçılık ve yeni insan kimliğinin ayrı odaklarıdır.</p><h2>Yönetim ve gündelik hayat</h2><p>Ocak Meclisleri mahalleleri, Beş Kor Divanı hanedan krizlerini, Yol Bekçileri güvenlik ve tahliyeyi yönetir. Ortak ocağın koru Beş Kor Gecesi’nden beri sönmemiştir. Şehir tahıl için Son Tarla’ya, ticaret için Salkımkent’e, tuz için Hal-Sur’a, demir için Kar-Dur’a bağımlıdır.</p><h2>Güncel kriz</h2><p>Nüfus saklanabilir sınırı aşar. Son Tarla büyümezse kıtlık başlayacak; Kızıl Geyik açık başkent, Beyaz Ocak Diken Tacı yurttaşlığı ister. Adsız Hanedan çocuklarının ortak rüyası Durgunluk korkusunu canlandırır.</p></div><aside class="record-profile"><div class="portrait-placeholder"><span>YABANOCAK</span><small>Görsel eklenecek</small></div></aside></div>

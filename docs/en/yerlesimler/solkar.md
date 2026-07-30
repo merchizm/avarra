@@ -4,7 +4,7 @@ outline: false
 ---
 <div class="lore-kicker">Settlements · Government Center</div>
 
-#Solkar
+# Solkar
 
 <p class="lore-lead">It is the capital of Altıngüneş, consisting of open-air palaces and golden stone terraces. One of the twin rulers must carry the crown of war, the other the crown of harvest.</p>
 

@@ -4,7 +4,7 @@ outline: false
 ---
 <div class="lore-kicker">Settlements · Government Center</div>
 
-#Cor-Dum
+# Cor-Dum
 
 <p class="lore-lead">The Duergar council capital around Magma and the foundry. Worker shifts are a unit of political representation.</p>
 

@@ -4,7 +4,7 @@ outline: false
 ---
 <div class="lore-kicker">Settlements · Government Center</div>
 
-#Velis
+# Velis
 
 <p class="lore-lead">It is the masked capital of the Mist Islands. A citizen can have more than one legal face. Senate members conceal their personal identities during session.</p>
 

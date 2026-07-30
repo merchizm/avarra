@@ -1,4 +1,4 @@
-#continents
+# continents
 
 Use this page as a starting index for continents, seas, and major geographic areas.
 

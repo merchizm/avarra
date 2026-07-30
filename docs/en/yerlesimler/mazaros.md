@@ -4,7 +4,7 @@ outline: false
 ---
 <div class="lore-kicker">Settlements · Government Center</div>
 
-#Mazaros
+# Mazaros
 
 <p class="lore-lead">It is the largest navy and shipyard city of the Labyrinth Ports. The streets are curved for defense, and the harbor pools are connected to each other by secret channels.</p>
 

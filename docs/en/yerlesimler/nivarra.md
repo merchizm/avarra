@@ -4,7 +4,7 @@ outline: false
 ---
 <div class="lore-kicker">Settlements · Government Center</div>
 
-#Nivarra
+# Nivarra
 
 <p class="lore-lead">Frost Palace, built in a glacier crevice, is its capital. Treaties, corpses and evidence of crimes are preserved in ice for centuries.</p>
 

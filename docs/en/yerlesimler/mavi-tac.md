@@ -4,7 +4,7 @@ outline: false
 ---
 <div class="lore-kicker">Settlements · Government Center</div>
 
-#BlueCrown
+# BlueCrown
 
 <p class="lore-lead">It is the common center of the Coral Palaces. Living coral halls grow only underwater; surface embassies are kept in the Tidal Mirror.</p>
 
