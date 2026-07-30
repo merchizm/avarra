@@ -7,6 +7,16 @@ export default defineConfig({
   appearance: true,
   // GitHub deposu adı değişirse bunu da güncelleyin. Özel alan adında '/' kullanın.
   base: '/avarra/',
+  vite: {
+    plugins: [{
+      name: 'avarra-public-asset-base',
+      enforce: 'pre',
+      transform(code, id) {
+        if (!/\.md(?:\?|$)/.test(id) || !code.includes('src="/assets/')) return null
+        return code.replace(/src="\/assets\/([^"]+)"/g, ':src="\'/avarra/assets/$1\'"')
+      }
+    }]
+  },
   locales: {
     root: { label: 'Türkçe', lang: 'tr-TR' },
     en: {

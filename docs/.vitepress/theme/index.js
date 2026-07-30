@@ -10,10 +10,12 @@ import CapitalLife from './components/CapitalLife.vue'
 import EraFooter from './components/EraFooter.vue'
 import AssetPathFixer from './components/AssetPathFixer.vue'
 import StateFlagLinks from './components/StateFlagLinks.vue'
+import StateIdentity from './components/StateIdentity.vue'
 
 export default {
   extends: DefaultTheme,
   Layout: () => h(DefaultTheme.Layout, null, {
+      'doc-before': () => h(StateIdentity),
       'doc-after': () => [h(AssetPathFixer), h(StateFlagLinks), h(PeopleHistoryReference), h(PeopleCultureReference), h(StateRelations), h(CapitalLife), h(EraFooter)]
   }),
   enhanceApp({ app }) {
