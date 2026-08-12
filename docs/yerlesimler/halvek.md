@@ -6,8 +6,12 @@ outline: false
 
 # Halvek
 
+## Açık mahalleler
+
+Verdan bahçeleri, Harengon haber ağları ve Khoravar çıraklık haneleri şehrin ticaretini canlı tutar; bkz. [Şehir Diasporaları](../kulturler/sehir-diasporalari).
+
 <p class="lore-lead">Eski insan kraliyet merkezinin eğri sokaklarıyla Ordan’ın düz Meridyen Planı’nın üst üste bindiği şehir. Bir ailenin mutfağı ile yatak odası farklı idari bölgelerde kalabilir.</p>
-<div class="record-layout"><div><h2>Şehir kimliği</h2><p><b>İşlev:</b> fethedilmiş eyalet başkenti, tahıl ve nehir taşımacılığı merkezi. <b>Nüfus:</b> 95.000–130.000. <b>Halklar:</b> insanlar ve Veyranlar; Gnom, Hobgoblin, Halfling, Tiefling ve Yarı Elf azınlıkları. <b>İnanç:</b> Son Ocak, Göksel Taç ve kayıtlı kültler.</p><h2>Mahalleler ve güç</h2><p>Yönetim Terasları valiliğin, Eski Taşlar insan loncalarının, Kırık Meydan isimsiz mezarların, Sayım Kapısı kaçak kimlik ticaretinin, İki İris karma ailelerin, Külaltı direnişin, Çan Pazarı ortak ticaretin alanıdır. Valilik, Loncalar, Ocak Meclisleri, Garnizon, Kırık Kule Ağı ve Külaltı Hücreleri şehrin birbirine zıt iktidarlarıdır.</p><h2>Ekonomi ve kriz</h2><p>Tahıl depoları, dokuma, silah parçası, kâğıt ve Ordan erzağı şehri zenginleştirir ama refah Meridyen Planı üzerinde yoğunlaşır. Veraset savaşı garnizonu bölerken Kırık Kule özerk eyalet, Kızıl Geyik ayaklanma, loncalar ise soyluların dönüşüne karşı direniş ister.</p></div><aside class="record-profile"><div class="portrait-placeholder"><span>HALVEK</span><small>Görsel eklenecek</small></div></aside></div>
+<div class="record-layout"><div><h2>Şehir kimliği</h2><p><b>İşlev:</b> fethedilmiş eyalet başkenti, tahıl ve nehir taşımacılığı merkezi. <b>Nüfus:</b> 95.000–130.000. <b>Halklar:</b> insanlar ve Veyranlar; Gnom, Hobgoblin, Halfling, Tiefling ve Yarı Elf azınlıkları. <b>İnanç:</b> Son Ocak, Göksel Taç ve kayıtlı kültler.</p><h2>Mahalleler ve güç</h2><p>Yönetim Terasları valiliğin, Eski Taşlar insan loncalarının, Kırık Meydan isimsiz mezarların, Sayım Kapısı kaçak kimlik ticaretinin, İki İris karma ailelerin, Külaltı direnişin, Çan Pazarı ortak ticaretin alanıdır. Valilik, Loncalar, Ocak Meclisleri, Garnizon, Kırık Kule Ağı ve Külaltı Hücreleri şehrin birbirine zıt iktidarlarıdır.</p><h2>Ekonomi ve kriz</h2><p>Tahıl depoları, dokuma, silah parçası, kâğıt ve Ordan erzağı şehri zenginleştirir ama refah Meridyen Planı üzerinde yoğunlaşır. Veraset savaşı garnizonu bölerken Kırık Kule özerk eyalet, Kızıl Geyik ayaklanma, loncalar ise soyluların dönüşüne karşı direniş ister.</p></div><aside class="record-profile"><figure class="city-concept-art"><img src="/assets/illustrations/cities/halvek-concept.png" alt="" /></figure></aside></div>
 
 > “Halvek’te yolunu kaybetmezsin. Sana ayrılmış yoldan çıktığın için durdurulursun.”
 
@@ -59,7 +63,7 @@ Tabletsiz kişi doğrudan suçlu değildir; fakat iş bulamaz, handa kalamaz, re
 
 **Külaltı** eski su kanalları, mahzenler ve kapatılmış insan mezarlıkları üzerinde büyür. Yoksul işçiler, kayıtsız göçmenler ve saklanan aileler; kaçak su, izinsiz tapınak, hastane, çocuk barınağı ve sendika ağlarıyla yaşar. Hücreleri tek örgüt değildir: bağımsızlıkçılar, Kırık Kule özerklikçileri, işçi birlikleri, savaş karşıtı Veyranlar, Kızıl Geyik militanları ve kaçakçılar birlikte bulunur.
 
-**Çan Pazarı** ortak ticaret merkezidir; açılış, ölçü denetimi, yangın ve askerî kapanma farklı çanlarla duyurulur. Teraziler haftalık denetlenir; aykırı tartı meydanda kırılır. Nareth tohumu, Hal-Sur tuzu, Kar-Dur demiri, Odraka baharatı, Seyvar şarabı ve tahıl aynı ölçü birimleriyle satılır.
+**Çan Pazarı** ortak ticaret merkezidir; açılış, ölçü denetimi, yangın ve askerî kapanma farklı çanlarla duyurulur. Teraziler haftalık denetlenir; aykırı tartı meydanda kırılır. Nareth tohumu, Hal-Sur tuzu, Kar-Dur demiri, Odraka baharatı, Asteron şarabı ve tahıl aynı ölçü birimleriyle satılır.
 
 **Dokuz Ambar** surlu bir depo bölgesidir. Her ambarın anahtarı ve dairesi ayrıdır, tek memur hepsine erişemez. Tahıl yalnız yiyecek değil; ordunun yürüyüş mesafesini, ekmek fiyatını ve hangi eyaletin isyan edebileceğini belirleyen güçtür. Üç adayın gerçek hedefi valilikten çok burasıdır. **Nehir Kışlaları** ise liman, tersane, askerî depo ve kışlanın birleşimidir; asker, kürekçi, hamal, gemi ustası, Hobgoblin yardımcılar ve Halfling mavnacı aileleriyle şehir içinde ikinci bir askerî şehir gibidir.
 

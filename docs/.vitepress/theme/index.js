@@ -13,6 +13,7 @@ import StateFlagLinks from './components/StateFlagLinks.vue'
 import StateIdentity from './components/StateIdentity.vue'
 import WikiReferenceLinks from './components/WikiReferenceLinks.vue'
 import SettlementDirectory from './components/SettlementDirectory.vue'
+import AvarraAtlas from './components/AvarraAtlas.vue'
 
 export default {
   extends: DefaultTheme,
@@ -24,5 +25,6 @@ export default {
       app.component('SettlementDirectory', SettlementDirectory)
     app.component('PeopleGallery', PeopleGallery)
     app.component('FaithCatalogue', FaithCatalogue)
+    app.component('AvarraAtlas', AvarraAtlas)
   }
 }

@@ -42,7 +42,7 @@ Yarı-Elf ve Yarı-Orc gibi adlar bazı bölgelerde bedensel tanım, bazı bölg
 Başlıca dil aileleri:
 
 - İnsan Taç dilleri,
-- Veyranca ve Seyvar dilleri,
+- Veyranca ve Asteron dilleri,
 - Elfçe lehçeler ve Sylvan,
 - Cücece ve antik ocak yazıları,
 - Nimrûnca,

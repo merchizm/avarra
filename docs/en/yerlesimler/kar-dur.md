@@ -5,8 +5,12 @@ outline: false
 <div class="lore-kicker"> Top Eight Cities · Kar-Dur Stone Crown </div>
 
 # Kar-Dur
+
+## Open neighbourhoods
+
+Rimekin, Shadar-kai, Goliath, and deep-craft peoples carry winter stores and passage watches together; see [City Diasporas](../kulturler/city-diasporas).
  <p class="lore-lead"> A layered capital stretching from the mountain's exterior to the summit to the sealed Old Dur many kilometers below. Here, depth is a measure of both geography and nobility. </p>
- <div class="record-layout"> <div> <h2> City ID </h2> <p> <b> Function: </b> capital city, mountain pass, mine and ancient road inspection.  <b> Population: </b> 110,000–155,000.  <b> Peoples: </b> Mountain Dwarves, Hill Dwarves, ancient dwarf lineages; Svirfneblin, Gnome, Warforged, Duergar, Human, and Firbolg minorities.  <b> Faith: </b> Living Whole, First Echo, and Threshold-Ancestors traditions. </p> <h2> Layers and institutions </h2> <p> The Stone Crown is defence, Uppergate trade, the Foundry Line production, Silent Galleries law and graves, and Blind Mines are sealed deep past. The hereditary Crown shares power with Hearth Councils and the technically sovereign Deep Council. </p> <h2> Crisis </h2> <p> Heir Doran, lost seventeen years ago, has returned without ageing. His old duties passed to another heir, and his seals may belong to the Sixth or Ninth Vault. </p> </div> <aside class="record-profile"> <div class="portrait-placeholder"> <span> KAR-DUR </span> <small> Image to be added </small> </div> </aside> </div>
+ <div class="record-layout"> <div> <h2> City ID </h2> <p> <b> Function: </b> capital city, mountain pass, mine and ancient road inspection.  <b> Population: </b> 110,000–155,000.  <b> Peoples: </b> Mountain Dwarves, Hill Dwarves, ancient dwarf lineages; Svirfneblin, Gnome, Warforged, Duergar, Human, and Firbolg minorities.  <b> Faith: </b> Living Whole, First Echo, and Threshold-Ancestors traditions. </p> <h2> Layers and institutions </h2> <p> The Stone Crown is defence, Uppergate trade, the Foundry Line production, Silent Galleries law and graves, and Blind Mines are sealed deep past. The hereditary Crown shares power with Hearth Councils and the technically sovereign Deep Council. </p> <h2> Crisis </h2> <p> Heir Doran, lost seventeen years ago, has returned without ageing. His old duties passed to another heir, and his seals may belong to the Sixth or Ninth Vault. </p> </div> <aside class="record-profile"> <figure class="city-concept-art"><img src="/assets/illustrations/cities/kar-dur-concept.png" alt="" /></figure> </aside> </div>
 
 ## The mountain as a city
 

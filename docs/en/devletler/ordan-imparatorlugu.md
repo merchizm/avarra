@@ -2,7 +2,7 @@
 title: Ordan İmparatorluğu
 outline: false
 ---
-<div class="lore-kicker"> Seyvar · State Registration </div>
+<div class="lore-kicker"> Asteron · State Registration </div>
 
 # Ordan Empire
 
@@ -14,6 +14,8 @@ outline: false
  </div>
 
 Ordan ideology argues that unmanaged nature produces famine and monsters. Rivers, forests and peoples must be measured, recorded and linked to the state order. The empire brings roads, warehouses and courts to the places it conquers; In return, he demands taxes, soldiers and cultural harmony.
+
+This ideology is a selective reading of the [Seven Lines Refuge](../tarih/seven-lines-refuge): measure and record, born to make aid visible during disaster, became the language of conquest and control in the empire.
 
 ## Succession candidates
 

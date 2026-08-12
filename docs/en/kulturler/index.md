@@ -37,7 +37,7 @@ outline: false
   </section>
 
   <section class="culture-crossroads">
-    <div class="crossroads-copy"><p class="lore-kicker">Living Records of the Peoples</p><h2>Lineage, culture, and citizenship</h2><p>A people’s body, the law they belong to, the tradition they learn, and their class position are not the same thing. This distinction explains why faith and city life change from place to place rather than from people to people.</p><a href="./halklar-kulturleri">Read the peoples and cultures guide →</a></div>
+    <div class="crossroads-copy"><p class="lore-kicker">Living Records of the Peoples</p><h2>Lineage, culture, and citizenship</h2><p>A people’s body, the law they belong to, the tradition they learn, and their class position are not the same thing. This distinction explains why faith and city life change from place to place rather than from people to people.</p><a href="./halklar-kulturleri">Read the peoples and cultures guide →</a><br><a href="./city-diasporas">Open the city-diaspora record →</a><br><a href="./fey-roads">Open the Rootbeyond and Fey Roads record →</a></div>
     <div class="crossroads-links"><a href="../irklar/insanlar"><span>Ⅰ</span><div><small>Homeland, exile, and law</small><strong>Human and Veyran cultures</strong></div></a><a href="../irklar/eladrin"><span>Ⅱ</span><div><small>Season, oath, and passage</small><strong>Fey peoples</strong></div></a><a href="../irklar/cuceler"><span>Ⅲ</span><div><small>Hearth, labour, and memory</small><strong>Peoples of stone and depth</strong></div></a></div>
   </section>
 </main>

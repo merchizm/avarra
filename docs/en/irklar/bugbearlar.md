@@ -1,0 +1,28 @@
+---
+title: Bugbears
+outline: false
+---
+
+<div class="lore-kicker">Peoples of Avarra · Local Record</div>
+
+# Bugbears
+
+<p class="lore-lead">A strong woodland people who treat quiet not as weakness but as a custom that protects common work.</p>
+
+## Place in Avarra
+
+**Shell Sound** is a small but open settlement in [Thorn–Meridian Belt](../cografya/bolgeler/nareth-diken-meridyen), established around Nareth forest border. It is not a separate kingdom viewed from outside; it is a village or quarter node tied to neighbouring roads, markets, and common law.
+
+## City life and diaspora
+
+In [Elyrakök](../yerlesimler/elyrakok), Bugbears households participate in night safety and heavy woodland work without being confined to a single “foreign quarter.” Someone arriving from the village can find kin, an apprenticeship, a guest bed, or a partner; city-born people maintain regular ties to Shell Sound.
+
+## Living together
+
+Bugbears are not reduced to one temperament, profession, or politics. Local agreements, access needs, and safety practices are made explicit so difference remains part of ordinary life. Their visible expertise is **night safety and heavy woodland work**, but it is never anyone’s compulsory destiny.
+
+## Adventure ties
+
+- The partnership between Shell Sound and Elyrakök can be tested by a cut road or a lost record.
+- A family may need mediation between local custom and city law.
+- A character may belong to this record through a guild, neighbourhood, or road oath as well as ancestry.

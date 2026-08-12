@@ -11,14 +11,25 @@ outline: false
 ## Continents and borders
 
  <div class="lore-grid">
-   <div class="lore-card"> <h3> Nareth </h3> <p> The largest continent in the northwest. Young volcanoes in the west, dried inland sea and salt basin in the center, river plains in the east; Tropical forests and deltas lie in the south. </p> </div>
-   <div class="lore-card"> <h3> Seyvar </h3> <p> Eastern continent with eroded interior mountains, long rivers, and northern plateaus. The Ordan Empire was born here; The regular army and the central bureaucracy determined the politics of the continent. </p> </div>
-   <div class="lore-card"> <h3> Odraka </h3> <p> Southern continent: arid west, savannah and steppe center, monsoon forested east. Rifted gulfs, young volcanoes, and long lakes are home to dragon heritage states. </p> </div>
-   <div class="lore-card"> <h3> Ilyr-Khaz </h3> <p> Fragmented polar land shelf in the north. Glaciers, fjords and tundra valleys; It is the home of the Winter Eladrins, Goliaths, and ice Genasi. </p> </div>
+   <a class="lore-card" href="./nareth"> <h3> Nareth </h3> <p> Forest, salt basin, river plains and the passage law joining them. </p> </a>
+   <a class="lore-card" href="./asteron"> <h3> Asteron </h3> <p> Long rivers, northern plateaus, imperial records and local wharves. </p> </a>
+   <a class="lore-card" href="./odraka"> <h3> Odraka </h3> <p> Dry west, savanna, monsoon forests, rift lakes and dragon heritage. </p> </a>
+   <a class="lore-card" href="./ilyr-khaz"> <h3> Ilyr-Khaz </h3> <p> A broken polar shelf, glaciers, fjords and brief-summer mobilisation. </p> </a>
  </div>
 
 ## World Veins
 
 Ancient underground roads are not just passages. Kar-Dur, Tuz Ocakları, Ordan and Dokuz Fener control different parts of this network. Opening the network accelerates trade; but there is a risk of carrying the Recession deeper into the continent.
 
-When you place the map, this page will be connected to the continent, border, and World Core layers. For now, [map editor](../haritalar/dunya) is available as a placeholder.
+When the illustrated map is added, this page will connect to continent, border, and World Vein layers. For now, the [World Atlas](../atlas) is the entry point for regional records.
+
+## Regional guides
+
+<div class="lore-grid">
+  <a class="lore-card" href="./odraka"><h3>Odraka</h3><p>Dragon heritage, migration law, delta states, and port republics.</p></a>
+  <a class="lore-card" href="./nareth"><h3>Nareth</h3><p>Forest borders, salt basin, water rights and caravan roads.</p></a>
+  <a class="lore-card" href="./asteron"><h3>Asteron</h3><p>River manifests, road permits and the limits of central record.</p></a>
+  <a class="lore-card" href="./ilyr-khaz"><h3>Ilyr-Khaz</h3><p>Fjord councils, ice passages and brief-summer logistics.</p></a>
+  <a class="lore-card" href="./seas"><h3>The seas</h3><p>Surface routes, deep states, spawning coves, and maritime law.</p></a>
+  <a class="lore-card" href="./underground"><h3>The underground</h3><p>The Hollow Countries, ancient roads, air law, and deep cities.</p></a>
+</div>

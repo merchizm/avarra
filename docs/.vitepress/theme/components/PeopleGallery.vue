@@ -1,13 +1,14 @@
 <script setup>
 import { computed, ref } from 'vue'
 import { useData, withBase } from 'vitepress'
+import { additionalPeople } from '../data/additionalPeople.js'
 
 const { lang } = useData()
 const isEnglish = computed(() => lang.value.startsWith('en'))
 const query = ref('')
 const filter = ref('all')
 const categories = {
-  'Fey kökenli': { tr: 'Fey kökenli', en: 'Fey-touched' },
+  'Fey kökenli': { tr: 'Fey bağlantılı', en: 'Fey-linked' },
   'Ölümlü': { tr: 'Ölümlü', en: 'Mortal' },
   'Yeraltı': { tr: 'Yeraltı', en: 'Underdark' },
   'Deniz': { tr: 'Deniz', en: 'Sea' },
@@ -39,8 +40,59 @@ const englishNames = {
   '/irklar/devler-ve-fomorianlar': 'Giants & Fomorians', '/irklar/abolethler': 'Aboleths', '/irklar/ilk-fey': 'First Fey Legacy',
   '/irklar/gnomlar': 'Gnomes', '/irklar/yari-orclar': 'Half-Orcs'
 }
+const sourceLabels = {
+  phb: { tr: 'Oyuncu El Kitabı', en: "Player's Handbook" },
+  motm: { tr: 'Çoklu Evren Canavarları', en: 'Monsters of the Multiverse' },
+  eberron: { tr: 'Eberron: Rising from the Last War', en: 'Eberron: Rising from the Last War' },
+  vrgr: { tr: 'Van Richten’ın Ravenloft Rehberi', en: "Van Richten's Guide to Ravenloft" },
+  spelljammer: { tr: 'Spelljammer: Astral Maceracı Rehberi', en: "Spelljammer: Astral Adventurer's Guide" },
+  strixhaven: { tr: 'Strixhaven: Kaos Müfredatı', en: 'Strixhaven: A Curriculum of Chaos' },
+  theros: { tr: 'Theros’un Mitik Maceraları', en: 'Mythic Odysseys of Theros' },
+  ravnica: { tr: 'Ravnica’ya Lonca Ustası Rehberi', en: "Guildmasters' Guide to Ravnica" },
+  dragonlance: { tr: 'Dragonlance: Gölge Kraliçesi', en: 'Dragonlance: Shadow of the Dragon Queen' },
+  acqinc: { tr: 'Acquisitions Incorporated', en: 'Acquisitions Incorporated' },
+  locathah: { tr: 'Locathah Rising', en: 'Locathah Rising' },
+  grung: { tr: 'One Grung Above', en: 'One Grung Above' },
+  kaladesh: { tr: 'Plane Shift: Kaladesh', en: 'Plane Shift: Kaladesh' },
+  lorwyn: { tr: 'Lorwyn: First Light', en: 'Lorwyn: First Light' },
+  exploringEberron: { tr: 'Exploring Eberron', en: 'Exploring Eberron' },
+  forgottenRealms: { tr: 'Forgotten Realms', en: 'Forgotten Realms' },
+  unverified: { tr: 'Kaynak doğrulanıyor', en: 'Source under review' },
+  avarra: { tr: 'Avarra', en: 'Avarra' }
+}
+const sourceByLink = {
+  '/irklar/eladrin': 'motm', '/irklar/insanlar': 'phb', '/irklar/cuceler': 'phb',
+  '/irklar/koboldlar': 'motm', '/irklar/veyranlar': 'avarra', '/irklar/svirfneblinler': 'motm',
+  '/irklar/drowlar': 'phb', '/irklar/dragonbornlar': 'phb', '/irklar/lizardfolklar': 'motm',
+  '/irklar/genasiler': 'motm', '/irklar/minotaurlar': 'motm', '/irklar/halflingler': 'phb',
+  '/irklar/goblinler': 'motm', '/irklar/tieflingler': 'phb', '/irklar/aasimarlar': 'phb',
+  '/irklar/shifterlar': 'motm', '/irklar/warforgedler': 'eberron', '/irklar/orman-elfleri': 'phb',
+  '/irklar/yuksek-elfler': 'phb', '/irklar/deniz-elfleri': 'motm', '/irklar/firbolglar': 'motm',
+  '/irklar/dikenkanlilar': 'avarra', '/irklar/changelingler': 'eberron', '/irklar/duergarlar': 'motm',
+  '/irklar/myconidler': 'forgottenRealms', '/irklar/locathahlar': 'locathah', '/irklar/kuo-toalar': 'forgottenRealms',
+  '/irklar/tritonlar': 'motm', '/irklar/sahuaginler': 'forgottenRealms', '/irklar/tortlelar': 'motm',
+  '/irklar/centaurlar': 'motm', '/irklar/tabaxiler': 'motm', '/irklar/kenkular': 'motm',
+  '/irklar/aarakocralar': 'motm', '/irklar/owlinler': 'strixhaven', '/irklar/grunglar': 'grung',
+  '/irklar/satyrler': 'motm', '/irklar/orclar': 'phb', '/irklar/hobgoblinler': 'motm',
+  '/irklar/rebornlar': 'vrgr', '/irklar/hexbloodlar': 'vrgr', '/irklar/dhampirler': 'vrgr',
+  '/irklar/autognomlar': 'spelljammer', '/irklar/goliathlar': 'phb', '/irklar/tuz-cuceleri': 'avarra',
+  '/irklar/gnomlar': 'phb', '/irklar/choldrithler': 'forgottenRealms', '/irklar/grimlocklar': 'forgottenRealms',
+  '/irklar/derrolar': 'forgottenRealms', '/irklar/yuan-ti': 'motm', '/irklar/yari-orclar': 'phb',
+  '/irklar/nagalar': 'forgottenRealms', '/irklar/psiyonik-kalintilar': 'avarra', '/irklar/ejderhalar': 'forgottenRealms',
+  '/irklar/devler-ve-fomorianlar': 'forgottenRealms', '/irklar/abolethler': 'forgottenRealms', '/irklar/ilk-fey': 'avarra',
+  '/irklar/bugbearlar': 'motm', '/irklar/harengonlar': 'motm', '/irklar/periler': 'motm',
+  '/irklar/boggartlar': 'lorwyn', '/irklar/plasmoidler': 'spelljammer', '/irklar/verdanlar': 'acqinc',
+  '/irklar/aetherbornlar': 'kaladesh', '/irklar/kalashtarlar': 'eberron', '/irklar/vedalkenler': 'ravnica',
+  '/irklar/khoravarlar': 'eberron', '/irklar/simic-melezleri': 'ravnica', '/irklar/giffler': 'spelljammer',
+  '/irklar/githler': 'motm', '/irklar/gargoyleler': 'forgottenRealms', '/irklar/leoninler': 'theros',
+  '/irklar/loxodonlar': 'ravnica', '/irklar/thri-kreenler': 'spelljammer', '/irklar/kenderler': 'dragonlance',
+  '/irklar/hadozeeler': 'spelljammer', '/irklar/astral-elfler': 'spelljammer', '/irklar/flamekinler': 'lorwyn',
+  '/irklar/rimekinler': 'avarra', '/irklar/shadar-kailer': 'motm', '/irklar/kalamerler': 'exploringEberron',
+  '/irklar/ruinboundlar': 'avarra', '/irklar/gnollar': 'forgottenRealms', '/irklar/worglar': 'forgottenRealms',
+  '/irklar/medusalar': 'forgottenRealms', '/irklar/harpyler': 'forgottenRealms', '/irklar/kithkinler': 'lorwyn'
+}
 
-const peoples = [
+const corePeople = [
   {
     name: 'Eladrin', type: 'Fey kökenli', status: 'Kayıt açık',
     description: 'Duygularını mevsimler gibi taşıyan, geçitler ve eski antlarla yaşayan uzun ömürlü halk.',
@@ -149,7 +201,7 @@ const peoples = [
   {
     name: 'Dikenkanlılar', type: 'Fey kökenli', status: 'Kayıt açık',
     description: 'Tenlerinde kabuk, yaprak veya boynuz taşıyan; eşit yurttaşlık isteyen kadim humanoidler.',
-    crest: '✤', className: 'thornblood', link: '/irklar/dikenkanlilar'
+    crest: '✤', className: 'thornblood', image: '/assets/illustrations/dikenkanli.png', link: '/irklar/dikenkanlilar'
   },
   {
     name: 'Changelingler', type: 'Soy ve dönüşüm', status: 'Kayıt açık',
@@ -264,7 +316,7 @@ const peoples = [
   {
     name: 'Tuz Cüceleri', type: 'Yeraltı', status: 'Kayıt açık',
     description: 'Kuru havzalarda tuz, su payı ve mahzen hukukunu yaşamın temel bilgisi sayan cüce toplulukları.',
-    crest: '◇', className: 'dwarf', link: '/irklar/tuz-cuceleri'
+    crest: '◇', className: 'dwarf', image: '/assets/illustrations/tuz-cucesi.png', link: '/irklar/tuz-cuceleri'
   },
   {
     name: 'Gnomlar', type: 'Ölümlü', status: 'Kayıt açık',
@@ -304,7 +356,7 @@ const peoples = [
   {
     name: 'Psiyonik Kalıntılar', type: 'Soy ve dönüşüm', status: 'Kayıt açık',
     description: 'Mühürlerden ve parçalanmış psişik ağlardan gelen; soy değil toplumsal durum olarak tanınanlar.',
-    crest: '◈', className: 'changed', link: '/irklar/psiyonik-kalintilar'
+    crest: '◈', className: 'changed', image: '/assets/illustrations/psiyonik-kalinti.png', link: '/irklar/psiyonik-kalintilar'
   },
   {
     name: 'Ejderhalar', type: 'Drakonik', status: 'Kayıt açık',
@@ -324,15 +376,18 @@ const peoples = [
   {
     name: 'İlk Fey Mirası', type: 'Fey kökenli', status: 'Kayıt açık',
     description: 'Açlık, Bahar, Yas ve Unutuluş gibi kavramlara bağlanan ilk fey varlıklarının yaşayan mirası.',
-    crest: '✦', className: 'eladrin', link: '/irklar/ilk-fey'
+    crest: '✦', className: 'eladrin', image: '/assets/illustrations/ilk-fey.png', link: '/irklar/ilk-fey'
   }
 ]
 
+const peoples = [...corePeople, ...additionalPeople]
+
 const localizedPeople = computed(() => peoples.map((person) => ({
   ...person,
-  name: isEnglish.value ? (englishNames[person.link] || person.name) : person.name,
+  name: isEnglish.value ? (person.enName || englishNames[person.link] || person.name) : person.name,
   typeLabel: isEnglish.value ? categories[person.type].en : categories[person.type].tr,
-  description: isEnglish.value ? `A recorded ${categories[person.type].en.toLocaleLowerCase('en-US')} people of Avarra.` : person.description,
+  sourceLabel: sourceLabels[sourceByLink[person.link] || 'unverified'][isEnglish.value ? 'en' : 'tr'],
+  description: isEnglish.value ? (person.enDescription || `A recorded ${categories[person.type].en.toLocaleLowerCase('en-US')} people of Avarra.`) : person.description,
   link: isEnglish.value ? `/en${person.link}` : person.link
 })))
 
@@ -369,6 +424,10 @@ const visiblePeople = computed(() => {
       </div>
     </div>
 
+    <p v-if="filter === 'Fey kökenli'" class="people-fey-note">
+      <a :href="withBase(isEnglish ? '/en/kulturler/fey-roads' : '/kulturler/fey-yollari')">{{ isEnglish ? 'What does Fey-linked mean in Avarra?' : 'Avarra’da Fey bağlantılı ne demek?' }}</a>
+    </p>
+
     <div class="people-grid">
       <component :is="person.link ? 'a' : 'article'" v-for="person in visiblePeople" :key="person.name"
         :href="person.link ? withBase(person.link) : undefined" class="people-card" :class="[person.className, { 'is-draft': !person.link }]">
@@ -378,7 +437,7 @@ const visiblePeople = computed(() => {
           <span class="people-type">{{ person.typeLabel }}</span>
         </div>
         <div class="people-card-content">
-          <span class="people-status">{{ isEnglish ? 'Record open' : person.status }}</span>
+          <span class="people-status">{{ person.sourceLabel }}</span>
           <h2>{{ person.name }}</h2>
           <p>{{ person.description }}</p>
           <span v-if="person.link" class="people-link">{{ isEnglish ? 'Open record' : 'Kaydı aç' }} <b>→</b></span>

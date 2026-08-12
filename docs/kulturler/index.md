@@ -37,7 +37,7 @@ outline: false
   </section>
 
   <section class="culture-crossroads">
-    <div class="crossroads-copy"><p class="lore-kicker">Halkların Yaşayan Kayıtları</p><h2>Soy, kültür ve yurttaşlık</h2><p>Bir halkın bedeni, ait olduğu hukuk, öğrendiği gelenek ve yaşadığı sınıfsal durum aynı şey değildir. Bu ayrım, dinî pratiklerin ve şehir hayatının neden halktan halka değil, yerden yere değiştiğini açıklar.</p><a href="./halklar-kulturleri">Halklar ve kültürler rehberini oku →</a></div>
+    <div class="crossroads-copy"><p class="lore-kicker">Halkların Yaşayan Kayıtları</p><h2>Soy, kültür ve yurttaşlık</h2><p>Bir halkın bedeni, ait olduğu hukuk, öğrendiği gelenek ve yaşadığı sınıfsal durum aynı şey değildir. Bu ayrım, dinî pratiklerin ve şehir hayatının neden halktan halka değil, yerden yere değiştiğini açıklar.</p><a href="./halklar-kulturleri">Halklar ve kültürler rehberini oku →</a><br><a href="./sehir-diasporalari">Şehir diasporaları kaydını aç →</a><br><a href="./fey-yollari">Kököte ve Fey Yolları kaydını aç →</a></div>
     <div class="crossroads-links"><a href="../irklar/insanlar"><span>Ⅰ</span><div><small>Yurt, sürgün ve hukuk</small><strong>İnsan ve Veyran kültürleri</strong></div></a><a href="../irklar/eladrin"><span>Ⅱ</span><div><small>Mevsim, ant ve geçit</small><strong>Fey halkları</strong></div></a><a href="../irklar/cuceler"><span>Ⅲ</span><div><small>Ocak, emek ve hafıza</small><strong>Taş ve derinlik halkları</strong></div></a></div>
   </section>
 </main>

@@ -7,3 +7,7 @@ outline: false
 # Kingdom of Goldensun
  <p class="lore-lead"> Warrior monarchy of the Eladrins of Summer, Satyrs, and Genasi of Fire, with a tradition of twin crowns. One of the two brothers rules war, the other the harvest and domestic law. </p>
  <div class="lore-grid"> <div class="lore-card"> <h3> Capital </h3> <p> Solkar </p> </div> <div class="lore-card"> <h3> Tension </h3> <p> Both of the existing twins He wants the war crown. </p> </div> <div class="lore-card"> <h3> Locations </h3> <p> Twin Throne, Korhasat, Satyr Slopes </p> </div> </div>
+
+## Root-gate policy
+
+The threshold at Korhasat Vineyard is not spoils for the war crown but a hospitality duty of the harvest crown. Satyr vineyard speakers know that it responds only to an old three-part word sung at festival. The twins’ contest for the war crown has revived the idea of using the threshold for military supply.

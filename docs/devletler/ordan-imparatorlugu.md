@@ -3,7 +3,7 @@ title: Ordan İmparatorluğu
 outline: false
 ---
 
-<div class="lore-kicker">Seyvar · Devlet Kaydı</div>
+<div class="lore-kicker">Asteron · Devlet Kaydı</div>
 
 # Ordan İmparatorluğu
 
@@ -15,6 +15,8 @@ outline: false
 </div>
 
 Ordan ideolojisi, yönetilmeyen doğanın kıtlık ve canavar ürettiğini savunur. Nehirler, ormanlar ve halklar ölçülmeli, kaydedilmeli ve devlet düzenine bağlanmalıdır. İmparatorluk fethettiği yerlere yol, ambar ve mahkeme getirir; karşılığında vergi, asker ve kültürel uyum ister.
+
+Bu ideoloji, [Yedi Hat Sığınağı](../tarih/yedi-hat-siginagi) mirasının seçilmiş bir yorumudur: felakette yardımı görünür kılmak için doğan ölçü ve kayıt, imparatorlukta fetih ve denetim diline dönüşmüştür.
 
 ## Veraset adayları
 

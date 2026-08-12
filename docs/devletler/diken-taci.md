@@ -18,6 +18,10 @@ Diken Tacı bir orman içinde kurulmuş devlet değil, ormanın kendisini egemen
 
 Kraliçe Elyra Dikenruh, kırk yıl önceki bir antlaşma yüzünden yavaşça canlı bir ağaca dönüşmektedir. Daha az konuşabilmekte, fakat hâlâ halefini açıklamamaktadır.
 
+## Kök kapısı politikası
+
+Taht Ağacı çevresindeki Yankıkök bağı, Diken Tacı için mülk değil egemen bir tanıktır. Kök Muhafızları, kapının ancak koruluğun rızası, canlı eşik ve tanınmış antla açılabileceğini savunur; Açık Dal Meclisi ise mülteci ve ticaret ihtiyaçları için sınırlı geçiş ister. Elyra’nın dönüşümü, hangi sözün hâlâ geçerli olduğu tartışmasını bir veraset krizine çevirmiştir.
+
 ## Topluluklar ve gruplar
 
 - **Taç Elfleri:** Dış siyaset, arşivler ve büyük yerleşimler üzerinde etkilidir.

@@ -17,6 +17,10 @@ The Crown of Thorns is not a state established in a forest, but a legal order th
 
 Queen Elyra Thornsoul is slowly turning into a living tree because of a treaty made forty years ago. He can talk less, but still has not announced his successor.
 
+## Root-gate policy
+
+The Echo-Root bond around the Throne Tree is not property to the Crown of Thorns, but a sovereign witness. Root Guardians hold that the gate can open only with the grove’s assent, a living threshold, and a recognised oath; the Open Branch Council seeks limited passage for refugees and trade. Elyra’s transformation has turned the question of which word still binds into a succession crisis.
+
 ## Communities and groups
 
 - **Crown Elves:** Influences foreign policy, archives, and major settlements.
