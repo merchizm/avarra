@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Avarra Kronikleri
+title: Avarra Chronicles
 outline: false
 ---
 <section class="chronicle-cover">

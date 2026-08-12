@@ -62,7 +62,7 @@ export default defineConfig({
       link: '/en/',
       themeConfig: {
         nav: [
-          { text: 'Atlas', link: '/en/atlas' },
+          { text: 'Atlas', link: '/en/haritalar/dunya' },
           { text: 'Peoples', link: '/en/irklar/' },
           { text: 'States', link: '/en/devletler/' },
           { text: 'Faiths & Cultures', link: '/en/kulturler/' },

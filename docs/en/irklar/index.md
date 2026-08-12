@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Irklar ve Halklar
+title: Peoples of Avarra
 outline: false
 ---
 <PeopleGallery />

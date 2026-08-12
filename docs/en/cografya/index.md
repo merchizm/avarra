@@ -1,5 +1,5 @@
 ---
-title: Avarra Coğrafyası
+title: Geography of Avarra
 outline: false
 ---
 <div class="lore-kicker"> World Atlas · Overview </div>
@@ -21,7 +21,7 @@ outline: false
 
 Ancient underground roads are not just passages. Kar-Dur, Tuz Ocakları, Ordan and Dokuz Fener control different parts of this network. Opening the network accelerates trade; but there is a risk of carrying the Recession deeper into the continent.
 
-When the illustrated map is added, this page will connect to continent, border, and World Vein layers. For now, the [World Atlas](../atlas) is the entry point for regional records.
+The [interactive World Atlas](../haritalar/dunya) is the visual entry point for continent, border, and World Vein layers. Use the regional records below for the political, ecological, and historical detail behind the map.
 
 ## Regional guides
 
