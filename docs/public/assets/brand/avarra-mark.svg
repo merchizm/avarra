@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="none">
+  <title>Avarra — Echo Seal</title>
+  <desc>An eight-pointed world seal with a root, a horizon, and a central World Vein.</desc>
+  <defs>
+    <linearGradient id="gold" x1="43" y1="34" x2="210" y2="219" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF1C7"/>
+      <stop offset=".42" stop-color="#D6A751"/>
+      <stop offset="1" stop-color="#9B6131"/>
+    </linearGradient>
+    <linearGradient id="vein" x1="128" y1="58" x2="128" y2="199" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E8C46F"/>
+      <stop offset="1" stop-color="#B6533F"/>
+    </linearGradient>
+    <filter id="glow" x="60" y="52" width="136" height="154" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <circle cx="128" cy="128" r="108" fill="#1D2C35"/>
+  <circle cx="128" cy="128" r="105" stroke="url(#gold)" stroke-width="6"/>
+  <circle cx="128" cy="128" r="88" stroke="#E9CA80" stroke-opacity=".42" stroke-width="1.5"/>
+  <path d="M128 31 139 58 166 46 163 75 192 77 176 101 202 115 177 130 193 155 164 158 166 187 139 176 128 205 117 176 90 187 92 158 63 155 79 130 54 115 80 101 64 77 93 75 90 46 117 58 128 31Z" stroke="url(#gold)" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M76 129c17-13 34-19 52-19 18 0 35 6 52 19" stroke="#F5D88E" stroke-opacity=".78" stroke-width="2" stroke-linecap="round"/>
+  <path d="M128 61v59m0 0c-12 9-18 19-18 31 0 15 8 27 18 42m0-73c12 9 18 19 18 31 0 15-8 27-18 42m0-73v73" stroke="url(#vein)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+  <path d="M128 193c-7-11-16-16-26-19m26 19c7-11 16-16 26-19M128 166c-5 6-12 10-21 12m21-12c5 6 12 10 21 12" stroke="#E9C56C" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="128" cy="119" r="8" fill="#F9DEA0"/>
+  <circle cx="128" cy="119" r="3.5" fill="#603B3E"/>
+  <g fill="#F4D990">
+    <circle cx="128" cy="43" r="2"/><circle cx="185" cy="88" r="2"/><circle cx="202" cy="145" r="2"/><circle cx="167" cy="195" r="2"/>
+    <circle cx="89" cy="195" r="2"/><circle cx="54" cy="145" r="2"/><circle cx="71" cy="88" r="2"/>
+  </g>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Avarra</title>
+  <defs><linearGradient id="g" x1="9" y1="7" x2="55" y2="56" gradientUnits="userSpaceOnUse"><stop stop-color="#FFF1C7"/><stop offset=".45" stop-color="#D6A751"/><stop offset="1" stop-color="#9B6131"/></linearGradient></defs>
+  <circle cx="32" cy="32" r="31" fill="#1D2C35"/><circle cx="32" cy="32" r="29" stroke="url(#g)" stroke-width="2"/>
+  <path d="M32 7 35 15l8-4-1 9 9 2-7 5 7 5-9 2 1 9-8-4-3 8-3-8-8 4 1-9-9-2 7-5-7-5 9-2-1-9 8 4 3-8Z" fill="none" stroke="url(#g)" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M32 17v17m0 0c-5 5-6 10-3 17m3-17c5 5 6 10 3 17M19 34c8-6 18-6 26 0" stroke="#F4D990" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="32" cy="34" r="3.5" fill="#F9DEA0"/><circle cx="32" cy="34" r="1.5" fill="#603B3E"/>
+</svg>

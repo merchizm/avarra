@@ -69,6 +69,13 @@ body {
   text-transform: uppercase;
 }
 
+.VPNavBarTitle .VPImage {
+  width: 30px;
+  height: 30px;
+  margin-right: 9px;
+  filter: drop-shadow(0 2px 5px rgba(100, 60, 34, .26));
+}
+
 .VPNavBarMenuLink {
   font-family: Cinzel, Georgia, serif;
   font-size: 0.77rem;

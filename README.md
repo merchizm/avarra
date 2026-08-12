@@ -1,40 +1,84 @@
 # Avarra
 
-Kendi yarattığım Dungeons & Dragons evreni **Avarra** ve bu evren için hazırlanmış yaşayan dünya wiki’si.
+**Avarra** is a bilingual, file-based Dungeons & Dragons world wiki. It is built to be useful at the table: an evolving atlas of peoples, states, settlements, faiths, history, and adventure-facing world records.
 
-Wiki; halkları, devletleri, inançları, şehirleri, tarihçeyi, ticaret yollarını ve macera için kullanılabilecek dünya kayıtlarını bir araya getirir. Avarra’yı oyun masasında geliştirdikçe kayıtlar da büyür; bu yüzden içerik dosya-temelli, görsel ve harita eklemeye açık biçimde tutulur.
+The Turkish site is the canonical content source. English records mirror it for readers and players who use the English interface.
 
-## Evren rehberi
+<p align="center">
+  <img src="docs/public/assets/brand/avarra-mark.svg" width="128" alt="Avarra Echo Seal" />
+</p>
 
-- **Halklar:** Soy, kültür, yurttaşlık ve toplumsal durumun birbirinden ayrıldığı Avarra toplulukları.
-- **Devletler:** Veraset savaşları, ittifaklar, kaynak çatışmaları ve diplomatik gerilimler.
-- **Yerleşimler:** Başkentler, limanlar, yeraltı şehirleri ve gündelik hayat kayıtları.
-- **Dinler ve kültürler:** İnanç aileleri, ritüeller, ölüm ve dönüş gelenekleri.
-- **Atlas ve varlıklar:** Haritalar, çizimler, PDF’ler ve oyun sırasında kullanılacak diğer dünya varlıkları.
+## The Echo Seal
 
-## Yerelde çalıştırma
+The Avarra mark is an eight-pointed **Echo Seal**. Its outer compass represents the world’s dispersed regions and records; the central line is a World Vein, while the branching base recalls Rootbeyond and the roots that touch Avarra. The same mark is used in the site navigation and as the favicon.
+
+## What is in the wiki?
+
+- **Atlas:** Interactive world map, continental records, regional maps, seas, and the underground.
+- **Peoples:** D&D-derived peoples, Avarra-original peoples, cultural links, and source/adaptation notes.
+- **States:** Governments, borders, claims, succession disputes, and political relationships.
+- **Settlements:** Capitals, towns, ports, deep cities, and daily-life dossiers.
+- **Faiths & cultures:** Faith families, rituals, death and return traditions, diasporas, and Fey Roads.
+- **History & Stagnation:** Ages, the Veil Wars, ancient infrastructure, and player-facing Stagnation records.
+
+## Local development
+
+Requirements: Node.js 22+ and npm.
 
 ```bash
 npm install
 npm run docs:dev
 ```
 
-Üretim derlemesini kontrol etmek için:
+VitePress prints the local URL, normally `http://localhost:5173/avarra/`.
+
+### Verify a production build
 
 ```bash
 npm run docs:build
+npm run docs:preview
 ```
 
-## İçerik ve varlıklar
+There is no separate lint or test script. A successful `npm run docs:build` is the required project check.
 
-- Sayfalar `docs/` altında Markdown olarak bulunur.
-- Görseller, haritalar, PDF'ler ve diğer dosyalar `docs/public/assets/` altında tutulur.
-- Bir varlığa içerikten kök-relative yolla bağlanın: `![Harita](/assets/maps/kita-haritasi.svg)`.
-- Büyük ikili dosyalar için Git LFS kullanılması önerilir; ayrıntılar `docs/varliklar.md` sayfasındadır.
+## Repository map
 
-## GitHub Pages
+| Path | Purpose |
+| --- | --- |
+| `docs/` | Canonical Turkish Markdown records. |
+| `docs/en/` | English counterparts. Keep parity when a change is reader-facing. |
+| `docs/.vitepress/config.mjs` | VitePress configuration, locales, navigation, base path, and reference index. |
+| `docs/.vitepress/theme/` | Vue components, atlas behavior, shared UI, and global styles. |
+| `docs/public/assets/` | Static maps, illustrations, brand assets, and other public files. |
+| `.github/workflows/deploy-pages.yml` | GitHub Pages deployment from `main`. |
+| `kanon/` | Private working canon. It is intentionally ignored by Git. |
 
-`.github/workflows/deploy-pages.yml`, `main` dalına yapılan her push'ta siteyi GitHub Pages'e dağıtır.
-Depo ayarlarında **Settings → Pages → Build and deployment → GitHub Actions** seçeneğini etkinleştirin.
+## Writing records
 
-Proje bir depo alt yolunda yayınlanacağı için `docs/.vitepress/config.mjs` içindeki `base` değeri `/<depo-adi>/` olmalıdır. Özel alan adı kullanacaksanız `base: '/'` yapın.
+- Use lowercase, hyphenated Turkish filenames in `docs/`.
+- Begin normal pages with YAML front matter and a unique `title`.
+- Use relative links for wiki pages and `/assets/...` paths for static files.
+- Follow nearby semantic HTML and classes such as `lore-lead`, `lore-grid`, and `lore-card` where they are already used.
+- Keep player-facing records distinct from private GM material.
+- When adding a public Turkish record, add or update its English counterpart and link it from the relevant index page.
+
+## Assets and branding
+
+Static assets live under `docs/public/assets/` and are referenced from content using `/assets/...` paths. The VitePress configuration handles the `/avarra/` GitHub Pages base path.
+
+- Logo: `docs/public/assets/brand/avarra-mark.svg`
+- Favicon: `docs/public/favicon.svg`
+- Maps: `docs/public/assets/maps/`
+- Illustrations: `docs/public/assets/illustrations/`
+
+Do not edit `docs/.vitepress/cache/` or `docs/.vitepress/dist/`; both are generated.
+
+## Deployment
+
+Every push to `main` triggers the GitHub Pages workflow. In the repository settings, set **Settings → Pages → Build and deployment** to **GitHub Actions**.
+
+The configured deployment base is `/avarra/`. If deploying the site to a custom domain or repository root, update `base` in `docs/.vitepress/config.mjs` and the favicon path in the same file together.
+
+## Attribution
+
+Avarra is an independent fan-made setting and is not affiliated with or endorsed by Wizards of the Coast. Dungeons & Dragons names and source references are used to identify compatible game material; Avarra’s world writing, adaptation, and original peoples remain its own setting work.

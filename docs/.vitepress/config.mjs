@@ -42,6 +42,9 @@ export default defineConfig({
   lang: 'tr-TR',
   title: 'Avarra',
   description: 'Avarra dünya wiki’si',
+  head: [
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/avarra/favicon.svg' }]
+  ],
   appearance: true,
   base: '/avarra/',
   vite: {
@@ -61,6 +64,7 @@ export default defineConfig({
       lang: 'en-US',
       link: '/en/',
       themeConfig: {
+        logo: '/assets/brand/avarra-mark.svg',
         nav: [
           { text: 'Atlas', link: '/en/haritalar/dunya' },
           { text: 'Peoples', link: '/en/irklar/' },
@@ -76,6 +80,7 @@ export default defineConfig({
     }
   },
   themeConfig: {
+    logo: '/assets/brand/avarra-mark.svg',
     search: {
       provider: 'local'
     },
