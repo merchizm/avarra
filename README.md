@@ -10,7 +10,7 @@ The Turkish site is the canonical content source. English records mirror it for 
 
 ## The Echo Seal
 
-The Avarra mark is an eight-pointed **Echo Seal**. Its outer compass represents the world’s dispersed regions and records; the central line is a World Vein, while the branching base recalls Rootbeyond and the roots that touch Avarra. The same mark is used in the site navigation and as the favicon.
+The Avarra mark is the **Root and Stars Seal**. Its tree recalls Yankıkök and the living paths between worlds; its roots evoke the World Veins, while the surrounding stars represent the atlas’s connected regions and histories. The mark is rendered as a transparent PNG in the site navigation and favicon.
 
 ## What is in the wiki?
 
@@ -66,8 +66,8 @@ There is no separate lint or test script. A successful `npm run docs:build` is t
 
 Static assets live under `docs/public/assets/` and are referenced from content using `/assets/...` paths. The VitePress configuration handles the `/avarra/` GitHub Pages base path.
 
-- Logo: `docs/public/assets/brand/avarra-mark.svg`
-- Favicon: `docs/public/favicon.svg`
+- Logo: `docs/public/assets/brand/avarra-root-and-stars.png`
+- Favicon: `docs/public/favicon.png`
 - Maps: `docs/public/assets/maps/`
 - Illustrations: `docs/public/assets/illustrations/`
 
