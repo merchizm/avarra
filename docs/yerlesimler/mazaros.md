@@ -15,6 +15,18 @@ Hadozee, Thri-kreen, Harpy ve Kalamer haneleri liman ortaklığını ve kurtarma
 
 <div class="record-layout"><div><h2>Şehir kimliği</h2><p>Labirent Limanlarının en büyük donanma ve tersane kentidir. Sokaklar savunma için kıvrımlı, liman havuzları birbirine gizli kanallarla bağlıdır.</p><h2>Şehir bilgisi</h2><p>Minotaur kaptanlar, insan gemiciler ve Tiefling Tuz Boynuzu mahallesi yaşar. Mazaros diğer liman cumhuriyetlerini tek donanma altında toplamaya çalışır.</p></div><aside class="record-profile"><div class="portrait-placeholder"><span>MAZAROS</span><small>Görsel eklenecek</small></div></aside></div>
 
+## Atlas konumu
+
+| Alan | Kayıt |
+| --- | --- |
+| Kıta | [Odraka](../cografya/odraka) |
+| Bölge | [Yarık Göller ve Limanlar](../cografya/bolgeler/odraka-yarik-limanlari) kıyı kuşağı |
+| Fiziksel yer | Denize gömülmüş kireçtaşı mağaralarının oluşturduğu yedi iç havza ve uçurum terasları |
+| Başlıca yaklaşım | Açık deniz boğazları, mağara kanalları ve yüksek kıyıdaki halat yolları |
+| En yakın bağlar | Yarık Rıhtımı, [Saar-Kor](./saar-kor), diğer Labirent Limanları ve Derin Ağız deniz toplulukları |
+
+Mazaros’un limanı bir koy değil, birbirini saklayan yedi ayrı denizdir. Bu yüzden şehir hem büyük filoları koruyabilir hem de onları kaybedebilir: yanlış kılavuz, bir savaş gemisini tersaneye değil kapalı mağaraya veya sığlığa götürür. Ortak donanma talebi, bu labirentin bütün anahtarlarını tek mecliste toplama teklifidir.
+
 ## Dört Labirent Limanından biri
 
 Mazaros başkent değildir: dört Labirent Limanı tek devlet olmadığı için egemen dört cumhuriyetten biridir. Nüfusu, tersaneleri ve savaş filosu nedeniyle dışarıdan fiilî merkez sanılır; bu diğer üç cumhuriyeti rahatsız eder.

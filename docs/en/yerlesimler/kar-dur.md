@@ -10,7 +10,19 @@ outline: false
 
 Rimekin, Shadar-kai, Goliath, and deep-craft peoples carry winter stores and passage watches together; see [City Diasporas](../kulturler/city-diasporas).
  <p class="lore-lead"> A layered capital stretching from the mountain's exterior to the summit to the sealed Old Dur many kilometers below. Here, depth is a measure of both geography and nobility. </p>
- <div class="record-layout"> <div> <h2> City ID </h2> <p> <b> Function: </b> capital city, mountain pass, mine and ancient road inspection.  <b> Population: </b> 110,000–155,000.  <b> Peoples: </b> Mountain Dwarves, Hill Dwarves, ancient dwarf lineages; Svirfneblin, Gnome, Warforged, Duergar, Human, and Firbolg minorities.  <b> Faith: </b> Living Whole, First Echo, and Threshold-Ancestors traditions. </p> <h2> Layers and institutions </h2> <p> The Stone Crown is defence, Uppergate trade, the Foundry Line production, Silent Galleries law and graves, and Blind Mines are sealed deep past. The hereditary Crown shares power with Hearth Councils and the technically sovereign Deep Council. </p> <h2> Crisis </h2> <p> Heir Doran, lost seventeen years ago, has returned without ageing. His old duties passed to another heir, and his seals may belong to the Sixth or Ninth Vault. </p> </div> <aside class="record-profile"> <figure class="city-concept-art"><img src="/assets/illustrations/cities/kar-dur-concept.png" alt="" /></figure> </aside> </div>
+ <div class="record-layout"> <div> <h2> City ID </h2> <p> <b> Function: </b> capital city, mountain pass, mine and ancient road inspection.  <b> Population: </b> 2.5–3.4 million; roughly a third live in lower layers not visible at the same time.  <b> Peoples: </b> Mountain Dwarves, Hill Dwarves, ancient dwarf lineages; Svirfneblin, Gnome, Warforged, Duergar, Human, and Firbolg minorities.  <b> Faith: </b> Living Whole, First Echo, and Threshold-Ancestors traditions. </p> <h2> Layers and institutions </h2> <p> The Stone Crown is defence, Uppergate trade, the Foundry Line production, Silent Galleries law and graves, and Blind Mines are sealed deep past. The hereditary Crown shares power with Hearth Councils and the technically sovereign Deep Council. </p> <h2> Crisis </h2> <p> Heir Doran, lost seventeen years ago, has returned without ageing. His old duties passed to another heir, and his seals may belong to the Sixth or Ninth Vault. </p> </div> <aside class="record-profile"> <figure class="city-concept-art"><img src="/assets/illustrations/cities/kar-dur-concept.png" alt="" /></figure> </aside> </div>
+
+## Location in Avarra
+
+| Field | Record |
+| --- | --- |
+| Continent | [Ilyr-Khaz](../cografya/ilyr-khaz) |
+| Region | The inner mountain wall of [Ice Rifts and Short Summer](../cografya/bolgeler/ilyr-buz-yariklari) |
+| Physical site | A multi-level hollow descending from the mountain face above the fjords into Old Dur |
+| Main approaches | Surface caravan ramps; freight lifts, heat galleries, and sealed ancient ways within |
+| Nearby ties | Nivarra’s coastal line, mountain-pass villages, and ancient routes descending to the Hollow Countries |
+
+Kar-Dur’s gates open to Ilyr-Khaz’s short summer, but most of the city belongs to the memory of stone rather than climate. Supplies from fjord ports remain in the upper levels; farther down, the city loses contact with foreign trade and approaches the older geography of Old Dur’s sealed ways.
 
 ## The mountain as a city
 

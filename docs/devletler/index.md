@@ -9,6 +9,8 @@ outline: false
 
 <p class="lore-lead">Avarra'da devletler soyla değil; hukuk, dil, ekonomi, hafıza ve yönetim biçimiyle tanımlanır. Aynı halkın üyeleri birbirine rakip devletlerin yurttaşı olabilir.</p>
 
+<div class="lore-callout">Devlet nüfusu, bir tacın “sahip olduğu” insan sayısı değildir. Çağ kayıtları yerleşik nüfusu, mevsimlik bağlıları ve yönetimin gerçekten erişebildiği kapasiteyi ayrı okur.</div>
+
 ## Öne çıkan güçler
 
 <div class="lore-grid">
@@ -58,9 +60,9 @@ Namaris’te akışın yavaşlaması tahıl sevkiyatını geciktirir; Halvek ve 
 
 | Bölge | Devletler ve egemenlikler |
 | --- | --- |
-| Nareth | Diken Tacı, İnsan Yurtsuzları ve Beş Sürgün Hanedanı, Lethar Yıldız Krallığı, Kar-Dur Taş Tacı, Tuz Ocakları Cumhuriyeti, Nehir Tahtı, Camova Konfederasyonu, Sis Adaları Cumhuriyeti |
+| Nareth | Diken Tacı, İnsan Yurtsuzları ve Beş Sürgün Hanedanı, Kar-Dur Taş Tacı, Tuz Ocakları Cumhuriyeti, Nehir Tahtı, Camova Konfederasyonu, Sis Adaları Cumhuriyeti |
 | Mevsim devletleri | Ayaz Sarayı, Altıngüneş Krallığı, Bakır Prenslikler, Yeşil Su Birliği |
-| Asteron | Ordan İmparatorluğu, Vardessa Serbest Krallığı, Kırk Köprü Cumhuriyeti, Gök Eşiği Konkordatosu, Külordu Marklığı |
+| Asteron | Ordan İmparatorluğu, Lethar Yıldız Krallığı, Vardessa Serbest Krallığı, Kırk Köprü Cumhuriyeti, Gök Eşiği Konkordatosu, Külordu Marklığı |
 | Odraka | Kızıl Saar, Mücevher Yemini, Labirent Limanları, Uçsuz Yol Konfederasyonu, Saz Ejderi Krallıkları, Yağmur Pençesi Birliği, Kızıl Toprak Orc Krallığı |
 | Yeraltı | Dokuz Fener Birliği, Sessiz Oyuk, Çan Kuyusu, İpek Tahtı, Karanlık Liman, Ayaltı Sürgünleri, Kül Örgüsü, Kor-Dum, Kara Örs, Yedi Baca Oyukları, Derin Hafıza Çemberleri, Dalgasız Göl Rahip Şehirleri, Sessiz Basamaklar |
 | Denizler | Mercan Sarayları, Triton Derin Nöbeti, Sahuagin Kırmızı Akıntı Konfederasyonu, Uzun Kabuk Yolları, Yüzen Pazarlar |

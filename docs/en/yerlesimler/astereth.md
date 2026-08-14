@@ -10,9 +10,21 @@ outline: false
 
 Vedalken, Simic Hybrid, and Astral Elf research households argue for open archives and accessible design; see [City Diasporas](../kulturler/city-diasporas).
  <p class="lore-lead"> Star capital of white stone terraces, artificial canals, observatories and calculated gardens. Its beauty is real; But the upper terraces, which receive water first, make the class order seem sacred. </p>
- <div class="record-layout"> <div> <h2> City identity </h2> <p> <b> Function: </b> celestial observation, magical training, high diplomacy and art.  <b> Population: </b> 85,000–115,000.  <b> Peoples: </b> High Elf, city Gnome, Aasimar lineages; foreign students and immigrants.  <b> Faith: </b> Star Order. </p> <h2> Districts and power </h2> <p> Crown Star, Meridian, Silver Gardens, Nine Channels, Overshadowed, False Star and Silent Children; It separates the palace, calendar court, engineering, lower class, and supervised Aasimar children. Houses Aelor, Miravel, and Selent compete for the regency for the child king Serel. </p> <h2> Crisis </h2> <p> A new star that is not in Serel's birth chart has appeared; False Star children say they've seen him for years. The water protest on the lower terraces, the Frost Palace marriage, and the allegations regarding the Silent Children institution ignite the regency war. </p> </div> <aside class="record-profile"> <figure class="city-concept-art"><img src="/assets/illustrations/cities/astereth-concept.png" alt="" /></figure> </aside> </div>
+ <div class="record-layout"> <div> <h2> City identity </h2> <p> <b> Function: </b> celestial observation, magical training, high diplomacy, and command of star defence.  <b> Population: </b> 1.6–2.2 million.  <b> Peoples: </b> High Elf majority; about 170–240k City Gnomes; Aasimars cluster around Silent Children and the Star Watch yet remain a small minority.  <b> Faith: </b> Star Order. </p> <h2> Districts and power </h2> <p> Crown Star, Meridian, Silver Gardens, Nine Channels, Overshadowed, False Star and Silent Children; It separates the palace, calendar court, engineering, lower class, and supervised Aasimar children. Houses Aelor, Miravel, and Selent compete for the regency for the child king Serel. </p> <h2> Crisis </h2> <p> A new star that is not in Serel's birth chart has appeared; False Star children say they've seen him for years. The water protest on the lower terraces, the Frost Palace marriage, and the allegations regarding the Silent Children institution ignite the regency war. </p> </div> <aside class="record-profile"> <figure class="city-concept-art"><img src="/assets/illustrations/cities/astereth-concept.png" alt="" /></figure> </aside> </div>
 
 > “If something in Astereth looks disordered, either you are not educated enough to understand it, or someone has made a very great mistake.”
+
+## Location in Avarra
+
+| Field | Record |
+| --- | --- |
+| Continent | [Asteron](../cografya/asteron) |
+| Regional threshold | The water-holding steps of the Star Plateau, south of the northern passes |
+| Physical site | A natural rocky terrace enclosed by nine spring branches descending from the mountains |
+| Main approaches | The Pass Road from the north; the Academy Road following the canals from the south |
+| Nearby ties | [Sky Threshold](./gok-esigi), [Ordanor](./ordanor), and Lethar’s northern border settlements |
+
+Astereth’s elevation is not decoration but political infrastructure. Its nine terraces control both spring water and a visitor’s view from below; from above, the plateau, passes, and canals appear as a single calculated drawing. The capital is therefore the first secure great stop for envoys arriving from the north, and the final choke point for grain and metal convoys coming from the south.
 
 ## The planned city
 
@@ -32,7 +44,7 @@ The city’s spotless appearance also rests on thousands of night-shift workers.
 
 **Meridian** joins star priests, observatories, calendar courts, and celestial archives. The Great Observatory calculates seasons, tides, Fey passages, world-vein movements, magical storms, planting, sailing, rites, and royal birth charts. Calendar Courts decide whether weddings, treaties, coronations, oaths, expeditions, or Fey pacts occurred at an appropriate celestial hour—an expensive privilege for lower classes to wait for.
 
-**Silver Gardens** are planned emotions as much as planned plants, and house elite art, philosophy, magic, and craft. The academies of Celestial Magic, Form and Proportion, Elegant Defences, Living Light, Diplomatic Languages, Memory and Dream, Gnome Mechanics, and Healing Geometry require talent but also patronage, money, recommendations, and evaluated behaviour. **Nine Channels** is the Gnome engineering district: drinking, garden, bath, craft, fire, cooling, waste, observatory, and emergency water each have distinct routes. Gnomes built the city’s hidden motor but are still often treated as valuable specialists rather than equal founders.
+**Silver Gardens** are planned emotions as much as planned plants, and house elite art, philosophy, magic, and craft. The academies of Celestial Magic, Form and Proportion, Elegant Defences, Living Light, Diplomatic Languages, Memory and Dream, Gnome Mechanics, and Healing Geometry require talent but also patronage, money, recommendations, and evaluated behaviour. **Nine Channels** is the Gnome engineering district: drinking, garden, bath, craft, fire, cooling, waste, observatory, and emergency water each have distinct routes. Lethar treats Gnomes as priceless masters, pays them well, and grants academy chairs; Gnome guilds insist that this become real partnership through technical-council seats and emergency-shutoff authority.
 
 **Overshadowed** is the lower-terrace world of servants, gardeners, cleaners, carriers, junior clerks, and migrants: crowded housing, damp service routes, weak light, and worse water. **False Star** is the irregular permanent district of foreign students, workers, Eladrin, Tieflings, half-elves, exiles, and expelled scholars. **Silent Children** is the closed institution where Aasimar children with uncontrolled light, prophetic dreams, spiritual calls, or involuntary healing are trained and watched; its protection is real, but family authority and abuse allegations remain uncertain.
 

@@ -14,9 +14,10 @@ outline: false
   <a class="chronicle-button" href="./haritalar/dunya">Atlası Aç</a>
 </section>
 
-<section class="chronicle-index chronicle-index--four">
+<section class="chronicle-index chronicle-index--five">
   <a class="chronicle-entry" href="./haritalar/dunya"><span>Ⅰ</span><div><small>Coğrafya</small><strong>Dünya Atlası</strong><p>Kıtalar, geçitler, eski yollar ve sınırlar.</p></div></a>
   <a class="chronicle-entry" href="./irklar/"><span>Ⅱ</span><div><small>Halklar</small><strong>Irklar ve Soylar</strong><p>Ant taşıyan hanedanlar ve fey kökenli halklar.</p></div></a>
   <a class="chronicle-entry" href="./kulturler/"><span>Ⅲ</span><div><small>Gelenekler</small><strong>Dinler ve Kültürler</strong><p>İnançlar, törenler, diller ve yaşamlar.</p></div></a>
   <a class="chronicle-entry" href="./yerlesimler/"><span>Ⅳ</span><div><small>Mekânlar</small><strong>Yerleşimler</strong><p>Şehirler, köyler, kaleler ve limanlar.</p></div></a>
+  <a class="chronicle-entry" href="./tarih/"><span>Ⅴ</span><div><small>Vekayiname</small><strong>Çağlar</strong><p>Kırılmalar, hanedanlar ve dünyanın uzun hafızası.</p></div></a>
 </section>

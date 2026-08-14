@@ -8,6 +8,7 @@ const frame = ref(null)
 const canvas = ref(null)
 const loading = ref(true)
 const progress = ref(8)
+const noticeOpen = ref(true)
 const selectedId = ref('nareth')
 const panelOpen = ref(null)
 const iconModalOpen = ref(false)
@@ -293,6 +294,10 @@ function moveDrag(event) {
 }
 
 function endDrag() { drag.active = false }
+function closeNotice() {
+  drag.active = false
+  noticeOpen.value = false
+}
 function selectLandmark(id) { selectedId.value = id }
 function openDetails(id) {
   if (!continentDetails[id]) return
@@ -357,6 +362,17 @@ onBeforeUnmount(() => {
       </div>
       <div class="avarra-atlas-controls" :aria-label="isEnglish ? 'Map controls' : 'Harita denetimleri'"><button type="button" @pointerdown.stop @click="changeZoom(.2)" :aria-label="isEnglish ? 'Zoom in' : 'Yakınlaş'">+</button><button type="button" @pointerdown.stop @click="changeZoom(-.2)" :aria-label="isEnglish ? 'Zoom out' : 'Uzaklaş'">−</button><button type="button" class="atlas-globe-control" :aria-pressed="isGlobe" @pointerdown.stop @click="toggleGlobe">{{ isEnglish ? 'Globe' : 'Küre' }}</button><button type="button" class="atlas-reset" @pointerdown.stop @click="resetView">{{ isEnglish ? 'Reset' : 'Sıfırla' }}</button></div>
       <div v-if="loading" class="atlas-loader" role="status" aria-live="polite"><p class="atlas-loader-kicker">{{ isEnglish ? 'World Atlas' : 'Dünya Atlası' }}</p><strong>Avarra</strong><span>{{ loadingCopy }}</span><div class="atlas-loader-track"><i :style="{ width: `${progress}%` }"></i></div><small>{{ progress }}%</small></div>
+      <div v-if="!loading && noticeOpen" class="atlas-notice" role="dialog" aria-modal="true" :aria-label="isEnglish ? 'Atlas reference notice' : 'Atlas referans uyarısı'" @keydown.esc="closeNotice">
+        <button type="button" class="atlas-notice-backdrop" :aria-label="isEnglish ? 'Close atlas notice' : 'Atlas uyarısını kapat'" @pointerdown.stop @pointerup.stop @click.stop="closeNotice"></button>
+        <section class="atlas-notice-card">
+          <span aria-hidden="true">◈</span>
+          <p class="lore-kicker">{{ isEnglish ? 'Working reference' : 'Çalışma referansı' }}</p>
+          <h2>{{ isEnglish ? 'The atlas is still being drawn.' : 'Atlas hâlâ çiziliyor.' }}</h2>
+          <p>{{ isEnglish ? 'Coastlines, relative scale, settlement positions, borders, routes, and labels are unfinished working material. They may change as Avarra’s written record develops.' : 'Kıyı çizgileri, göreli ölçek, yerleşim konumları, sınırlar, rotalar ve etiketler tamamlanmış değildir. Avarra’nın yazılı kaydı geliştikçe değişebilir.' }}</p>
+          <p>{{ isEnglish ? 'Use this view for visual orientation only; it is not a final canon map or a precise geographic source.' : 'Bu görünümü yalnızca görsel yön bulma için kullanın; nihai kanon haritası ya da kesin coğrafi kaynak değildir.' }}</p>
+          <button type="button" class="chronicle-button" @pointerdown.stop @pointerup.stop @click.stop="closeNotice">{{ isEnglish ? 'Continue to the atlas' : 'Atlasa devam et' }} <b>→</b></button>
+        </section>
+      </div>
     </div>
     <footer class="avarra-atlas-footer"><div class="atlas-reading"><span>{{ selectedCopy.type }}</span><h2>{{ selectedCopy.name }}</h2><p>{{ selectedCopy.description }}</p></div><a :href="withBase(selectedPath)" class="chronicle-button">{{ isEnglish ? 'Open record' : 'Kaydı aç' }} <b>→</b></a></footer>
     <div v-if="panelDetail && panelCopy" class="atlas-drawer" role="dialog" aria-modal="true" :aria-label="panelCopy.name">

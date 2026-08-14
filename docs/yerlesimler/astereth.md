@@ -11,9 +11,21 @@ outline: false
 Vedalken, Simic melezleri ve Astral elf araştırma haneleri açık arşiv ve erişilebilir tasarım için şehir meclislerinde söz ister; bkz. [Şehir Diasporaları](../kulturler/sehir-diasporalari).
 
 <p class="lore-lead">Beyaz taş teraslar, yapay kanallar, gözlemevleri ve hesaplanmış bahçelerden oluşan yıldız başkenti. Güzelliği gerçektir; ama suyu önce alan üst teraslar sınıf düzenini kutsal gösterir.</p>
-<div class="record-layout"><div><h2>Şehir kimliği</h2><p><b>İşlev:</b> göksel gözlem, büyü eğitimi, yüksek diplomasi ve sanat. <b>Nüfus:</b> 85.000–115.000. <b>Halklar:</b> Yüksek Elf, şehir Gnomu, Aasimar soyları; yabancı öğrenci ve göçmenler. <b>İnanç:</b> Yıldız Düzeni.</p><h2>Mahalleler ve güç</h2><p>Taç Yıldızı, Meridyen, Gümüş Bahçeler, Dokuz Kanal, Gölgede Kalan, Yanlış Yıldız ve Sessiz Çocuklar; saray, takvim mahkemesi, mühendislik, alt sınıf ve denetlenen Aasimar çocuklarını ayırır. Aelor, Miravel ve Selent haneleri çocuk kral Serel adına naiplik için yarışır.</p><h2>Kriz</h2><p>Serel’in doğum haritasında olmayan yeni yıldız belirmiştir; Yanlış Yıldız çocukları onu yıllardır gördüğünü söyler. Alt teraslardaki su protestosu, Ayaz Sarayı evliliği ve Sessiz Çocuklar kurumuna dair iddialar naiplik savaşını ateşler.</p></div><aside class="record-profile"><figure class="city-concept-art"><img src="/assets/illustrations/cities/astereth-concept.png" alt="" /></figure></aside></div>
+<div class="record-layout"><div><h2>Şehir kimliği</h2><p><b>İşlev:</b> göksel gözlem, büyü eğitimi, yüksek diplomasi ve yıldız savunmasının komuta merkezi. <b>Nüfus:</b> 1,6–2,2 milyon. <b>Halklar:</b> Yüksek Elf çoğunluğu; yaklaşık 170–240 bin şehir Gnomu; Aasimarlar çoğunlukla Sessiz Çocuklar ve Yıldız Nöbeti çevresinde toplanmış, yine de küçük bir azınlıktır. <b>İnanç:</b> Yıldız Düzeni.</p><h2>Mahalleler ve güç</h2><p>Taç Yıldızı, Meridyen, Gümüş Bahçeler, Dokuz Kanal, Gölgede Kalan, Yanlış Yıldız ve Sessiz Çocuklar; saray, takvim mahkemesi, mühendislik, alt sınıf ve denetlenen Aasimar çocuklarını ayırır. Aelor, Miravel ve Selent haneleri çocuk kral Serel adına naiplik için yarışır.</p><h2>Kriz</h2><p>Serel’in doğum haritasında olmayan yeni yıldız belirmiştir; Yanlış Yıldız çocukları onu yıllardır gördüğünü söyler. Alt teraslardaki su protestosu, Ayaz Sarayı evliliği ve Sessiz Çocuklar kurumuna dair iddialar naiplik savaşını ateşler.</p></div><aside class="record-profile"><figure class="city-concept-art"><img src="/assets/illustrations/cities/astereth-concept.png" alt="" /></figure></aside></div>
 
 > “Astereth’te bir şey düzensiz görünüyorsa ya onu anlayacak kadar eğitimli değilsindir ya da biri çok büyük bir hata yapmıştır.”
+
+## Atlas konumu
+
+| Alan | Kayıt |
+| --- | --- |
+| Kıta | [Asteron](../cografya/asteron) |
+| Bölgesel eşik | Kuzey geçitlerinin güneyinde, Yıldız Yaylası’nın su tutan basamakları |
+| Fiziksel yer | Dağdan inen dokuz kaynak kolunun çevrelediği doğal kayalık teras |
+| Başlıca yaklaşım | Kuzeyden Geçit Yolu; güneyden kanalları izleyen Akademi Yolu |
+| En yakın bağlar | [Gök Eşiği](./gok-esigi), [Ordanor](./ordanor) ve Lethar’ın kuzey sınır yerleşimleri |
+
+Astereth’in yüksekliği bir süs değil, siyasî bir araçtır. Şehrin dokuz terası hem kaynak sularını hem de yolcunun görüşünü aşağıdan yukarıya denetler; yukarıdan bakıldığında ise yayla, geçit ve kanal ağı tek bir hesap çizimi gibi görünür. Bu nedenle başkent kuzeyden gelen elçiler için ilk büyük, güvenli durak; güneyden gelen tahıl ve metal konvoyları için ise denetlenmesi gereken son dar boğazdır.
 
 | Kayıt | Bilgi |
 | --- | --- |
@@ -39,7 +51,7 @@ Temizlik büyü kadar gece vardiyalarındaki görünmez emeğe dayanır: organik
 
 **Taç Yıldızı** Serel’in küçük yetişkin kıyafetleriyle programlandığı saray, taht, naiplik, gözlemevi, harita mahzeni ve hanedan mezarlarıdır. Gece saydamlaşan Taht Salonu, elçinin devleti ve görüşmenin konusuna göre dönen tahtı; Aynalı Kabul Salonu ise toz, yanlış renk, eğri nişan ve diplomatik hakareti gösterir. **Meridyen** yıldız rahipleri, takvim mahkemeleri ve Büyük Gözlemevinin kutsal/bilimsel merkezidir; mevsim, gelgit, Fey geçişi, dünya damarı, büyü fırtınası, hasat, deniz tarihi ve kraliyet doğum haritasını hesaplar.
 
-**Gümüş Bahçeler** bahçe yoluyla duygu tasarlayan sanat, akademi ve seçkin zanaat merkezidir. Göksel Büyüler, Şekil-Oran, Zarif Savunmalar, Canlı Işık, Diplomatik Diller, Hafıza-Rüya, Gnom Mekanikleri ve Şifa Geometrisi kurumları yetenek kadar soy, tavsiye, mali güvence ve davranış arar. **Dokuz Kanal** şehir Gnomları ve mühendislerin görünmez motorudur: içme, sulama, hamam, zanaat, yangın, soğutma, atık, gözlemevi ve acil suyu ayırır. Saatlerde birkaç nefes fark kusurdur; Gnomlar kurucu değil “değerli uzman” sayılmaktan rahatsızdır.
+**Gümüş Bahçeler** bahçe yoluyla duygu tasarlayan sanat, akademi ve seçkin zanaat merkezidir. Göksel Büyüler, Şekil-Oran, Zarif Savunmalar, Canlı Işık, Diplomatik Diller, Hafıza-Rüya, Gnom Mekanikleri ve Şifa Geometrisi kurumları yetenek kadar soy, tavsiye, mali güvence ve davranış arar. **Dokuz Kanal** şehir Gnomları ve mühendislerin görünmez motorudur: içme, sulama, hamam, zanaat, yangın, soğutma, atık, gözlemevi ve acil suyu ayırır. Saatlerde birkaç nefes fark kusurdur. Lethar Gnomlarını paha biçilmez usta sayar, yüksek maaş ve akademi kürsüsü verir; Gnomlar ise bunun yalnız “değerli uzman”lık değil, teknik meclis ve acil kapatma yetkisiyle gerçek ortaklık olmasını ister.
 
 **Gölgede Kalan** hizmetçi, bahçıvan, temizlikçi, taşıyıcı, düşük memur ve göçmen teraslarıdır: dar ev, ortak konut, nemli servis geçidi, zayıf ışık ve kirli suyla şehir kusurunu görünmez kılar. **Yanlış Yıldız** yabancı öğrenci, işçi, Eladrin, Tiefling, yarı elf, sürgün ve atılmış öğrencilerin, yıldız çizgisine uymayan renkli/kendiliğinden büyümüş mahallesidir. **Sessiz Çocuklar** Aasimar çocuklarının kontrolsüz ışık, kehanet, çağrı ve şifası için koruma/eğitim iddiasıyla kapalı tutulduğu; aile söz hakkı ve kötü muamele şüpheleri taşıyan kurum bölgesidir.
 

@@ -2,6 +2,7 @@
 import { computed, ref } from 'vue'
 import { useData, withBase } from 'vitepress'
 import { additionalPeople } from '../data/additionalPeople.js'
+import { peopleImages } from '../data/peopleImages.js'
 
 const { lang } = useData()
 const isEnglish = computed(() => lang.value.startsWith('en'))
@@ -221,12 +222,12 @@ const corePeople = [
   {
     name: 'Locathahlar', type: 'Deniz', status: 'Kayıt açık',
     description: 'Sığlık, resif ve nehir ağzı topluluklarında balıkçılık hukukunu koruyan amfibi halk.',
-    crest: '≋', className: 'sea', link: '/irklar/locathahlar'
+    crest: '≋', className: 'sea', image: '/assets/illustrations/locathah-v1.png', link: '/irklar/locathahlar'
   },
   {
     name: 'Kuo-Toalar', type: 'Deniz', status: 'Kayıt açık',
     description: 'Derin sularda inanç, hafıza ve yön bulma ritüelleri çevresinde örgütlenen halk.',
-    crest: '◉', className: 'sea', link: '/irklar/kuo-toalar'
+    crest: '◉', className: 'sea', image: '/assets/illustrations/kuo-toa-v1.png', link: '/irklar/kuo-toalar'
   },
   {
     name: 'Tritonlar', type: 'Deniz', status: 'Kayıt açık',
@@ -326,17 +327,17 @@ const corePeople = [
   {
     name: 'Choldrithler', type: 'Yeraltı', status: 'Kayıt açık',
     description: 'İpek, soy borcu ve kutsal hukuk çevresinde örgütlenen örümcek bağlantılı yeraltı toplulukları.',
-    crest: '✣', className: 'drow', link: '/irklar/choldrithler'
+    crest: '✣', className: 'drow', image: '/assets/illustrations/choldrith-v1.png', link: '/irklar/choldrithler'
   },
   {
     name: 'Grimlocklar', type: 'Yeraltı', status: 'Kayıt açık',
     description: 'Taşın, havanın ve adımların titreşimini ayrıntılı bir dil gibi okuyan derinlik halkları.',
-    crest: '◌', className: 'svirfneblin', link: '/irklar/grimlocklar'
+    crest: '◌', className: 'svirfneblin', image: '/assets/illustrations/grimlock-v2.png', link: '/irklar/grimlocklar'
   },
   {
     name: 'Derrolar', type: 'Yeraltı', status: 'Kayıt açık',
     description: 'Mühürlü hafıza, kırık rüya ve tuhaf zanaat çevresinde yaşayan dağınık yeraltı halkları.',
-    crest: '⌁', className: 'svirfneblin', link: '/irklar/derrolar'
+    crest: '⌁', className: 'svirfneblin', image: '/assets/illustrations/derro-v1.png', link: '/irklar/derrolar'
   },
   {
     name: 'Yuan-ti', type: 'Soy ve dönüşüm', status: 'Kayıt açık',
@@ -371,7 +372,7 @@ const corePeople = [
   {
     name: 'Abolethler', type: 'Deniz', status: 'Kayıt açık',
     description: 'Derin sularda kendi hafızalarının dünyadan eski olduğunu ileri süren kadim zeki varlıklar.',
-    crest: '◉', className: 'sea', link: '/irklar/abolethler'
+    crest: '◉', className: 'sea', image: '/assets/illustrations/aboleth-v1.jpg', link: '/irklar/abolethler'
   },
   {
     name: 'İlk Fey Mirası', type: 'Fey kökenli', status: 'Kayıt açık',
@@ -384,6 +385,7 @@ const peoples = [...corePeople, ...additionalPeople]
 
 const localizedPeople = computed(() => peoples.map((person) => ({
   ...person,
+  image: peopleImages[person.link] || person.image,
   name: isEnglish.value ? (person.enName || englishNames[person.link] || person.name) : person.name,
   typeLabel: isEnglish.value ? categories[person.type].en : categories[person.type].tr,
   sourceLabel: sourceLabels[sourceByLink[person.link] || 'unverified'][isEnglish.value ? 'en' : 'tr'],

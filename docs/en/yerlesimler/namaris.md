@@ -10,7 +10,19 @@ outline: false
 
 Plasmoid care pools, Boggart gardens, and sea-people wharf networks are part of the city fabric; see [City Diasporas](../kulturler/city-diasporas).
  <p class="lore-lead"> A vibrant capital city formed by a combination of stone islands, stilt quarters, floating platforms and underwater settlements. The map cannot be used without the seasonal date. </p>
- <div class="record-layout"> <div> <h2> City ID </h2> <p> <b> Function: </b> river law, inland transport, fishing, diplomacy, and water magic.  <b> Population: </b> 105,000–165,000.  <b> Peoples: </b> Water Genasi, Sea Elves, Locathahs; Halfling, Human, Triton, Grung, and coastal peoples.  <b> Belief: </b> Path of Flow. </p> <h2> Government and districts </h2> <p> Queen Samara rules as a temporary carrier of the basin alongside the Reed Council and basin delegates. Crown Current, Three Mouth Market, Sunken Steps, Dry Dock, Silent Branch, Pearl Gate, and the Shallow Gardens are as important as any street. </p> <h2> Crisis </h2> <p> Samara and the rivers slow together; Silent Branch shows signs of Stagnation, while the throne factions disagree over healing, succession, and an Ordan military-port offer. </p> </div> <aside class="record-profile"> <figure class="city-concept-art"><img src="/assets/illustrations/cities/namaris-concept.png" alt="" /></figure> </aside> </div>
+<div class="record-layout"> <div> <h2> City ID </h2> <p> <b> Function: </b> river law, inland transport, fishing, diplomacy, and water magic.  <b> Population: </b> 2.3–3.8 million; in flood season the quay districts briefly rise above that band.  <b> Peoples: </b> Water Genasi, Sea Elves, Locathahs; Halfling, Human, Triton, Grung, and coastal peoples.  <b> Belief: </b> Path of Flow. </p> <h2> Government and districts </h2> <p> Queen Samara rules as a temporary carrier of the basin alongside the Reed Council and basin delegates. Crown Current, Three Mouth Market, Sunken Steps, Dry Dock, Silent Branch, Pearl Gate, and the Shallow Gardens are as important as any street. </p> <h2> Crisis </h2> <p> Samara and the rivers slow together; Silent Branch shows signs of Stagnation, while the throne factions disagree over healing, succession, and an Ordan military-port offer. </p> </div> <aside class="record-profile"> <figure class="city-concept-art"><img src="/assets/illustrations/cities/namaris-concept.png" alt="" /></figure> </aside> </div>
+
+## Location in Avarra
+
+| Field | Record |
+| --- | --- |
+| Continent | [Nareth](../cografya/nareth) |
+| Regional threshold | Reed basin where brackish flow from the Pale Basin meets the mouth of fresh water |
+| Physical site | A seasonal floating delta at the convergence of three main river branches |
+| Main approaches | Shallow-draft barges, reed canals, or underwater steps exposed at low tide |
+| Nearby ties | [Hal-Sur](./hal-sur), Nareth’s inland waterways, and the sea peoples’ coastal quays |
+
+Namaris is located by water level rather than a shore line. In the dry season the palace island looks like a solid core; in flood its surrounding districts unfasten and scatter into different branches. To besiege the city, holding its bridges is not enough—one must know which current supports each house, market, and even court.
 
 ## A capital that moves with the water
 

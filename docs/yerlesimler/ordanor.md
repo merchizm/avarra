@@ -9,7 +9,19 @@ outline: false
 
 <p class="lore-lead">Ordanor, imparatorluğun kendini en ikna edici biçimde anlattığı şehirdir: temiz su kemerleri, açık okullar, düzenli ekmek, işleyen posta ve herkes için okunabilir bir adres dili. Aynı düzen, bir evin, inancın, işin ve hareketin kime ait olduğunu sürekli sorar. Başkent bu çelişkiyle yaşar; yalnız saray değil, yüzlerce mahalle, köy ve kule bunu her gün yeniden kurar.</p>
 
-<div class="record-layout"><div><h2>Şehir kimliği</h2><p><b>İşlev:</b> imparatorluk başkenti, bürokrasi, yüksek eğitim, dinî kayıt, para ve kıtalararası yönetim. <b>Nüfus:</b> 380.000–520.000 kentli; başkent havzasında mevsime göre 110.000–170.000 ek nüfus. <b>Halklar:</b> Veyran, insan, Gnom ve Hobgoblin çoğunluğu; imparatorluğun neredeyse her halkı mahalle, lonca, elçilik veya geçici iş ağıyla bulunur. <b>İnanç:</b> Mühür Nizamı denetimindeki çoğul sistem.</p><h2>Şehrin mantığı</h2><p>Ordanor, iki ana meridyen ve onları kesen yedi halkadan oluşan bir ova şehridir. Meridyenler devletin hızlı hareketini; halkalar mahalle, pazar ve su dağıtımını sağlar. Bu planın altında daha eski kanallar, mahzenler ve ismi unutulmuş sokaklar uzanır. Plan her şeyi kontrol etmez; fakat kimin görünür, kimin geçici ve kimin “kayıtsız” sayıldığını güçlü biçimde etkiler.</p><h2>Bugünkü kırılma</h2><p>Üç taht adayının temsilcileri aynı sarayın ayrı kanatlarını tutar. Tahıl, kule vardiyası ve posta hattı görünüşte tarafsız kamu hizmetidir; pratikte her atama sadakat tartışması yaratır. General Varessa’nın Talim Şehri desteği, Beşinci Eyalet’in yurttaşlık talebi ve resmî kayda sığmayan Kayıtsızlar, başkentin düzenini içeriden aşındırır.</p></div><aside class="record-profile"><figure class="city-concept-art"><img src="/assets/illustrations/cities/ordanor-concept.png" alt="" /></figure></aside></div>
+<div class="record-layout"><div><h2>Şehir kimliği</h2><p><b>İşlev:</b> imparatorluk başkenti, bürokrasi, yüksek eğitim, dinî kayıt, para ve kıtalararası yönetim. <b>Nüfus:</b> 10,8–13,6 milyon kayıtlı kentli; başkent havzasında mevsime göre 3,8–5,4 milyon ek nüfus. <b>Halklar:</b> Veyran, insan, Gnom ve Hobgoblin çoğunluğu; imparatorluğun neredeyse her halkı mahalle, lonca, elçilik veya geçici iş ağıyla bulunur. <b>İnanç:</b> Mühür Nizamı denetimindeki çoğul sistem.</p><h2>Şehrin mantığı</h2><p>Ordanor, iki ana meridyen ve onları kesen yedi halkadan oluşan bir ova şehridir. Meridyenler devletin hızlı hareketini; halkalar mahalle, pazar ve su dağıtımını sağlar. Bu planın altında daha eski kanallar, mahzenler ve ismi unutulmuş sokaklar uzanır. Plan her şeyi kontrol etmez; fakat kimin görünür, kimin geçici ve kimin “kayıtsız” sayıldığını güçlü biçimde etkiler.</p><h2>Bugünkü kırılma</h2><p>Üç taht adayının temsilcileri aynı sarayın ayrı kanatlarını tutar. Tahıl, kule vardiyası ve posta hattı görünüşte tarafsız kamu hizmetidir; pratikte her atama sadakat tartışması yaratır. General Varessa’nın Talim Şehri desteği, Beşinci Eyalet’in yurttaşlık talebi ve resmî kayda sığmayan Kayıtsızlar, başkentin düzenini içeriden aşındırır.</p></div><aside class="record-profile"><figure class="city-concept-art"><img src="/assets/illustrations/cities/ordanor-concept.png" alt="" /></figure></aside></div>
+
+## Atlas konumu
+
+| Alan | Kayıt |
+| --- | --- |
+| Kıta | [Asteron](../cografya/asteron) |
+| Bölge | [Meridyen Nehirleri](../cografya/bolgeler/asteron-meridyen-nehirleri) orta ovası |
+| Fiziksel yer | İki ana meridyen ile doğu nehir kolunun kesiştiği, yükseltilmiş alüvyon eşiği |
+| Başlıca yaklaşım | Halvek’ten Tahıl Meridyeni, Serath’tan Talim Yolu, Kızıl Meridyen’den hac yolu ve doğu mavna hattı |
+| En yakın bağlar | [Halvek](./halvek), [Serath](./serath), [Kızıl Meridyen](./kizil-meridyen) ve başkent havzası köyleri |
+
+Ordanor’un yeri, imparatorluk kurulduğu için seçilmedi; imparatorluk bu kavşağı tuttuğu için büyüdü. Suların kontrollü dağıtıldığı düz ova, tahıl konvoylarını, eğitim birliklerini ve kıtalararası haberi aynı halkalara bağlar. Başkent ancak bu dört yaklaşım yolu açık kaldığında “merkez”dir; birinin kapanması, bütün düzenin neden bu kadar çok kuleye ve kayda ihtiyaç duyduğunu gösterir.
 
 ## Şehre girmek
 

@@ -5,12 +5,12 @@
 The Turkish site is the canonical content source. English records mirror it for readers and players who use the English interface.
 
 <p align="center">
-  <img src="docs/public/assets/brand/avarra-mark.svg" width="128" alt="Avarra Echo Seal" />
+  <img src="docs/public/assets/brand/avarra-root-and-stars.png" width="128" alt="Avarra Echo Seal" />
 </p>
 
 ## The Echo Seal
 
-The Avarra mark is the **Root and Stars Seal**. Its tree recalls Yankıkök and the living paths between worlds; its roots evoke the World Veins, while the surrounding stars represent the atlas’s connected regions and histories. The mark is rendered as a transparent PNG in the site navigation and favicon.
+The Avarra mark is the **Root and Stars Seal**. Its tree recalls Yankıkök and the living paths between worlds; its roots evoke the World Veins, while the surrounding stars represent the atlas’s connected regions and histories. It is retained here as repository documentation; the public wiki does not use it as a site or browser icon.
 
 ## What is in the wiki?
 
@@ -67,7 +67,6 @@ There is no separate lint or test script. A successful `npm run docs:build` is t
 Static assets live under `docs/public/assets/` and are referenced from content using `/assets/...` paths. The VitePress configuration handles the `/avarra/` GitHub Pages base path.
 
 - Logo: `docs/public/assets/brand/avarra-root-and-stars.png`
-- Favicon: `docs/public/favicon.png`
 - Maps: `docs/public/assets/maps/`
 - Illustrations: `docs/public/assets/illustrations/`
 
@@ -77,7 +76,7 @@ Do not edit `docs/.vitepress/cache/` or `docs/.vitepress/dist/`; both are genera
 
 Every push to `main` triggers the GitHub Pages workflow. In the repository settings, set **Settings → Pages → Build and deployment** to **GitHub Actions**.
 
-The configured deployment base is `/avarra/`. If deploying the site to a custom domain or repository root, update `base` in `docs/.vitepress/config.mjs` and the favicon path in the same file together.
+The configured deployment base is `/avarra/`. If deploying the site to a custom domain or repository root, update `base` in `docs/.vitepress/config.mjs`.
 
 ## Attribution
 

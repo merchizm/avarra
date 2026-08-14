@@ -6,14 +6,26 @@ outline: false
 
 # Yabanocak
  <p class="lore-lead"> A human refugee city unseen on maps. Its houses can be dismantled, its streets change with the seasons, its smoke is vented through mushroom tunnels; it grew large enough to become the capital, but it did not dare to become visible. </p>
- <div class="record-layout"> <div> <h2> City ID </h2> <p> <b> Function: </b> refugee center, dynastic meeting, and illicit trade node.  <b> Population: </b> 22,000–35,000.  <b> Peoples: </b> humans in the majority; Gnome, Svirfneblin, Drow and Tiefling fugitives in the minority.  <b> Faith: </b> The Last Hearth. </p> <h2> Buildings and neighborhoods </h2> <p> The Scattered Edge are mock camps and hunting lodges; The Hearth Ring houses the main population, while the Root Sanctuary houses the grain stores, hospitals, and escape tunnels. The Stag Courts, Towershadow, White Grove, Reed Paths, Fifth Ash, and the Lost Children are separate foci of dynasty, smuggling, and new human identity. </p> <h2> Administration and daily life </h2> <p> Hearth Assemblies govern neighbourhoods, the Council of Five Kors governs dynastic crises, and the Guardians of the Road govern security and evacuation. The ember of the common hearth has not been extinguished since the Night of the Five Embers. The city depends on Son Tarla for grain, Salkımkent for trade, Hal-Sur for salt, and Kar-Dur for iron. </p> <h2> Current crisis </h2> <p> Population exceeds the storable limit. If the Last Field does not grow, famine will begin; Red Stag demands open capital, White Hearth demands citizenship of Crown of Thorns. A common dream of the children of the Nameless Dynasty revives the fear of Stagnation. </p> </div> <aside class="record-profile"> <figure class="city-concept-art"><img src="/assets/illustrations/cities/yabanocak-concept.png" alt="" /></figure> </aside> </div>
+ <div class="record-layout"> <div> <h2> City ID </h2> <p> <b> Function: </b> refugee center, dynastic meeting, and illicit trade node.  <b> Population: </b> 410,000–620,000 in the central hearth; 2.1–3.4 million with the dispersed refuge and tunnel network.  <b> Peoples: </b> humans in the majority; Gnome, Svirfneblin, Drow and Tiefling fugitives in the minority.  <b> Faith: </b> The Last Hearth. </p> <h2> Buildings and neighborhoods </h2> <p> The Scattered Edge are mock camps and hunting lodges; The Hearth Ring houses the main population, while the Root Sanctuary houses the grain stores, hospitals, and escape tunnels. The Stag Courts, Towershadow, White Grove, Reed Paths, Fifth Ash, and the Lost Children are separate foci of dynasty, smuggling, and new human identity. </p> <h2> Administration and daily life </h2> <p> Hearth Assemblies govern neighbourhoods, the Council of Five Kors governs dynastic crises, and the Guardians of the Road govern security and evacuation. The ember of the common hearth has not been extinguished since the Night of the Five Embers. The city depends on Son Tarla for grain, Salkımkent for trade, Hal-Sur for salt, and Kar-Dur for iron. </p> <h2> Current crisis </h2> <p> Population exceeds the storable limit. If the Last Field does not grow, famine will begin; Red Stag demands open capital, White Hearth demands citizenship of Crown of Thorns. A common dream of the children of the Nameless Dynasty revives the fear of Stagnation. </p> </div> <aside class="record-profile"> <figure class="city-concept-art"><img src="/assets/illustrations/cities/yabanocak-concept.png" alt="" /></figure> </aside> </div>
 
 > “Yabanocak has no walls. If an enemy knows where the city begins, the wall has already been crossed.”
+
+## Location in Avarra
+
+| Field | Record |
+| --- | --- |
+| Continent | [Nareth](../cografya/nareth) |
+| Regional threshold | Dense western groves of the Thorn Meridian and abandoned woodcutters’ roads |
+| Physical site | A shallow valley concealed by mist bowls, fungus tunnels, and dismantlable walkways |
+| Main approaches | Unmarked grove paths; the safe route changes each season |
+| Nearby ties | [Elyrakroot](./elyrakok), Staggate, and Nareth’s unregistered border villages |
+
+Yabanocak is not a fixed point but a settlement network that moves within one valley. Its market sits in a dry streambed in summer and around the fungus vents in winter; an outsider may find the city on a map yet fail to find the same gate a month later. That mobility protects it, while making wells, care for the ill, and grain storage persistently fragile.
 
 | Record | Detail |
 | --- | --- |
 | Status | Human settlement not formally recognised by the Crown of Thorns |
-| Population | 22,000–35,000; around 9,000–12,000 in the central population |
+| Population | 410,000–620,000 in the central hearth; 2.1–3.4 million with the dispersed refuge and tunnel network |
 | Dependent settlements | About 14 permanent villages and more than 30 seasonal camps |
 | Peoples | Humans; gnome, svirfneblin, tiefling, drow, and changeling minorities |
 | Government | Hearth Assemblies, Council of Five Embers, and Road Wardens |

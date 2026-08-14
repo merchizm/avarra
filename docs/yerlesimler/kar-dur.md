@@ -11,14 +11,26 @@ outline: false
 Rimekin, Shadar-kai, Goliath ve derin zanaat halkları kış stoğu ile geçit nöbetini birlikte taşır; bkz. [Şehir Diasporaları](../kulturler/sehir-diasporalari).
 
 <p class="lore-lead">Dağın dış cephesinden zirveye, oradan kilometrelerce aşağıdaki mühürlü Eski Dur’a uzanan katmanlı başkent. Derinlik burada hem coğrafya hem soyluluk ölçüsüdür.</p>
-<div class="record-layout"><div><h2>Şehir kimliği</h2><p><b>İşlev:</b> başkent, dağ geçidi, maden ve antik yol denetimi. <b>Nüfus:</b> 110.000–155.000. <b>Halklar:</b> Dağ Cüceleri, Toprak Genasileri, Kaya Gnomları; Svirfneblin, Kobold ve Warforged azınlıklar. <b>İnanç:</b> İlk Yankı.</p><h2>Katmanlar ve kurumlar</h2><p>Taş Tacı savunma, Pazar Omzu ticaret, Ocak Halkaları üretim, İsim Derinliği hukuk ve mezar, Eski Dur ise mühürlü geçmiştir. Çekiç Pazarı, Taç Kışlası, İsim Mahzeni, Yemin Örsü, Dipsiz İstasyon, Kısa Galeri ve Uyanık Demir şehir içindeki ayrı güç alanlarıdır.</p><h2>Kriz</h2><p>On yedi yıl önce kaybolan Veliaht Doran yaşlanmadan ve anıları eksik dönmüştür. Açıcılar Dipsiz İstasyon’u açmak isterken Yeminliler bütün yolların mühürlenmesini savunur; solan İsim Mahzeni kayıtları ve Warforged miras talebi veraset kavgasını derinleştirir.</p></div><aside class="record-profile"><figure class="city-concept-art"><img src="/assets/illustrations/cities/kar-dur-concept.png" alt="" /></figure></aside></div>
+<div class="record-layout"><div><h2>Şehir kimliği</h2><p><b>İşlev:</b> başkent, dağ geçidi, maden ve antik yol denetimi. <b>Nüfus:</b> 2,5–3,4 milyon; bunun yaklaşık üçte biri aynı anda görünmeyen alt katmanlarda yaşar. <b>Halklar:</b> Dağ Cüceleri, Toprak Genasileri, Kaya Gnomları; Svirfneblin, Kobold ve Warforged azınlıklar. <b>İnanç:</b> İlk Yankı.</p><h2>Katmanlar ve kurumlar</h2><p>Taş Tacı savunma, Pazar Omzu ticaret, Ocak Halkaları üretim, İsim Derinliği hukuk ve mezar, Eski Dur ise mühürlü geçmiştir. Çekiç Pazarı, Taç Kışlası, İsim Mahzeni, Yemin Örsü, Dipsiz İstasyon, Kısa Galeri ve Uyanık Demir şehir içindeki ayrı güç alanlarıdır.</p><h2>Kriz</h2><p>On yedi yıl önce kaybolan Veliaht Doran yaşlanmadan ve anıları eksik dönmüştür. Açıcılar Dipsiz İstasyon’u açmak isterken Yeminliler bütün yolların mühürlenmesini savunur; solan İsim Mahzeni kayıtları ve Warforged miras talebi veraset kavgasını derinleştirir.</p></div><aside class="record-profile"><figure class="city-concept-art"><img src="/assets/illustrations/cities/kar-dur-concept.png" alt="" /></figure></aside></div>
 
 > “Kar-Dur’a girdiğinde dağın altında değilsindir. Dağın kabul ettiği bir boşluğun içindesindir.”
+
+## Atlas konumu
+
+| Alan | Kayıt |
+| --- | --- |
+| Kıta | [Ilyr-Khaz](../cografya/ilyr-khaz) |
+| Bölge | [Buz Yarıkları ve Kısa Yaz](../cografya/bolgeler/ilyr-buz-yariklari) iç dağ duvarı |
+| Fiziksel yer | Fiyortlardan yükselen dağın dış cephesinden Eski Dur’a inen çok katlı taş boşluk |
+| Başlıca yaklaşım | Yüzeyde kervan rampaları; içeride yük asansörleri, ısı galerileri ve mühürlü eski yollar |
+| En yakın bağlar | Nivarra kıyı hattı, dağ geçit köyleri ve Oyuk Ülkeler’e inen antik rotalar |
+
+Kar-Dur’un kapıları Ilyr-Khaz’ın kısa yazına açılır, fakat şehrin büyük kısmı iklimden çok taşın hafızasına bağlıdır. Fiyort limanlarından gelen erzak yukarı katlarda tutulur; daha derine indikçe şehir dış ticaretten kopar ve Eski Dur’un kapalı yollarıyla yaşayan daha eski bir coğrafyaya yaklaşır.
 
 | Kayıt | Bilgi |
 | --- | --- |
 | Statü | Taş Tacı’nın başkenti |
-| Nüfus | 110.000–155.000; ocaklar idari birim sayıldığı için kesin değildir |
+| Nüfus | 2,5–3,4 milyon; ocaklar idari birim sayıldığı için kesin değildir |
 | Halklar | Dağ/Tepe Cüceleri, kadim soylar; Svirfneblin, Gnom, Warforged, Duergar, İnsan, Firbolg azınlıklar |
 | Yönetim | Kalıtsal Taş Tacı, Ocak Meclisleri, teknik yetkili Derin Divan |
 | Üretim | Demir, çelik, alaşım, taş işçiliği, silah, tünel ve su mühendisliği |

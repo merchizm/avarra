@@ -11,15 +11,27 @@ outline: false
 Plasmoid bakım havuzları, Boggart mahalle bahçeleri ve deniz halklarının iskele ağları şehir dokusunun parçasıdır; bkz. [Şehir Diasporaları](../kulturler/sehir-diasporalari).
 
 <p class="lore-lead">Taş adalar, kazık mahalleleri, yüzen platformlar ve sualtı yerleşimlerinin birlikte oluşturduğu hareketli başkent. Haritası mevsim tarihi olmadan kullanılamaz.</p>
-<div class="record-layout"><div><h2>Şehir kimliği</h2><p><b>İşlev:</b> nehir hukuku, su ticareti ve diplomasi. <b>Nüfus:</b> 105.000–165.000. <b>Halklar:</b> Su Genasileri, Deniz Elfleri, Locathahlar; Halfling, insan, Triton ve Grung azınlıklar. <b>İnanç:</b> Akış Yolu.</p><h2>Mahalleler ve hukuk</h2><p>Taç Akıntısı, Üç Ağız Pazarı, Batık Basamaklar, Kuru İskele, Sessiz Kol, Saz Meclisi ve İnci Kapısı; suyun hangi koldan aktığı kadar önemlidir. Suyu zehirlemek vatana ihanet, akıntıyı büyüyle değiştirmek devlet yetkisine saldırıdır.</p><h2>Kriz</h2><p>Kraliçe Samara nehirlerle birlikte yavaşlar. Sessiz Kol’daki Durgunluk, Kuru İskele’nin öfkesi, taht adayları ve Ordan’ın askerî liman karşılığı yardımı şehrin akışını kesme tehlikesi taşır.</p></div><aside class="record-profile"><figure class="city-concept-art"><img src="/assets/illustrations/cities/namaris-concept.png" alt="" /></figure></aside></div>
+<div class="record-layout"><div><h2>Şehir kimliği</h2><p><b>İşlev:</b> nehir hukuku, su ticareti ve diplomasi. <b>Nüfus:</b> 2,3–3,8 milyon; taşkın takviminde iskele mahalleleri kısa süreliğine bu bandın üstüne çıkar. <b>Halklar:</b> Su Genasileri, Deniz Elfleri, Locathahlar; Halfling, insan, Triton ve Grung azınlıklar. <b>İnanç:</b> Akış Yolu.</p><h2>Mahalleler ve hukuk</h2><p>Taç Akıntısı, Üç Ağız Pazarı, Batık Basamaklar, Kuru İskele, Sessiz Kol, Saz Meclisi ve İnci Kapısı; suyun hangi koldan aktığı kadar önemlidir. Suyu zehirlemek vatana ihanet, akıntıyı büyüyle değiştirmek devlet yetkisine saldırıdır.</p><h2>Kriz</h2><p>Kraliçe Samara nehirlerle birlikte yavaşlar. Sessiz Kol’daki Durgunluk, Kuru İskele’nin öfkesi, taht adayları ve Ordan’ın askerî liman karşılığı yardımı şehrin akışını kesme tehlikesi taşır.</p></div><aside class="record-profile"><figure class="city-concept-art"><img src="/assets/illustrations/cities/namaris-concept.png" alt="" /></figure></aside></div>
 
 > “Namaris’te bir evin adresini sorarsan sana yer değil, akıntı söylerler.”
+
+## Atlas konumu
+
+| Alan | Kayıt |
+| --- | --- |
+| Kıta | [Nareth](../cografya/nareth) |
+| Bölgesel eşik | Soluk Çanak’tan gelen tuzlu akıntı ile tatlı su ağzının buluştuğu sazlık havza |
+| Fiziksel yer | Üç ana nehir kolunun birleştiği, mevsimle genişleyen yüzer delta |
+| Başlıca yaklaşım | Sığ draftlı mavna, saz kanalı veya gelgitte açılan su altı basamakları |
+| En yakın bağlar | [Hal-Sur](./hal-sur), Nareth’in iç su yolları ve deniz halklarının kıyı iskeleleri |
+
+Namaris’in konumu, kıyı çizgisiyle değil su seviyesiyle tarif edilir. Kuru mevsimde saray adası gövde gibi görünür; taşkında çevresindeki mahalleler çözülüp nehrin farklı kollarına dağılır. Bu yüzden şehri kuşatmak için yalnız köprüleri tutmak yetmez: hangi evin, pazarın ve hatta mahkemenin hangi akıntıya bağlı olduğunu bilmek gerekir.
 
 | Kayıt | Bilgi |
 | --- | --- |
 | Statü | Nehir Tahtı’nın hareketli başkenti |
 | Hükümdar | Kraliçe Samara |
-| Nüfus | Mevsime göre 105.000–165.000; şehir insanları değil, hukukuna bağlı tekne, ev ve mahalleleri sayar |
+| Nüfus | Mevsime göre 2,3–3,8 milyon; şehir insanları değil, hukukuna bağlı tekne, ev ve mahalleleri sayar |
 | Yönetim | Anaerkil seçimli monarşi, Saz Meclisi ve havza temsilcileri |
 | İşlev | Nehir hukuku, kıta içi taşımacılık, balıkçılık, diplomasi, su büyüsü |
 

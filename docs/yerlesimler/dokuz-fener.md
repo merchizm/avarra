@@ -11,7 +11,19 @@ outline: false
 Gith, Ruinbound, Gnoll, Worg, Medusa ve Gargoyle haneleri hava, ışık ve geçidi ortak varlık sayan mahalle düzenine dahildir; bkz. [Şehir Diasporaları](../kulturler/sehir-diasporalari).
 
 <p class="lore-lead">Tek bir şehir değil; tüneller, yeraltı nehirleri ve ses haberleşme hatlarıyla bağlı dokuz Nimrûn kentinin konfederasyonu. Dokuzuncu kent kayıp olsa da boş koltuğu hâlâ meclistedir.</p>
-<div class="record-layout"><div><h2>Şehir kimliği</h2><p><b>İşlev:</b> kristal optik, haritacılık, su mühendisliği ve tünel rehberliği. <b>Nüfus:</b> 140.000–190.000. <b>Halklar:</b> Nimrûn Svirfneblinleri; Kaya Gnomu, Kobold, Warforged ve yüzey tüccarı azınlıklar. <b>İnanç:</b> İlk Yankı ve Sessiz Cevher.</p><h2>Dokuz kent</h2><p>Birinci Işık meclis, Derin Mercek optik, Yankı Kuyusu hukuk, Mavi Taş su, Kırık Fener ordu, İnce Çan ticaret, Uyuyan Cevher maden, Gölge Ölçer harita, Son Parıltı ise Durgunluk sınırındaki kayıp kenttir.</p><h2>Kriz</h2><p>Son Parıltı adına mühürlü yeni oy pusulası ortaya çıkmıştır. Kırık Fener olağanüstü askerî yetki ister; Mavi Taş rezervleri yavaşlar, Kar-Dur yol hakkı ister ve Warforgedler eski kentlerin mirası üzerinde hak iddia eder.</p></div><aside class="record-profile"><figure class="city-concept-art"><img src="/assets/illustrations/cities/dokuz-fener-concept.png" alt="" /></figure></aside></div>
+<div class="record-layout"><div><h2>Şehir kimliği</h2><p><b>İşlev:</b> kristal optik, haritacılık, su mühendisliği ve tünel rehberliği. <b>Nüfus:</b> dokuz kent boyunca 3,4–4,6 milyon; bu toplamın içinde kapalı vardiyalar ve yolcu galerileri vardır. <b>Halklar:</b> Nimrûn Svirfneblinleri; Kaya Gnomu, Kobold, Warforged ve yüzey tüccarı azınlıklar. <b>İnanç:</b> İlk Yankı ve Sessiz Cevher.</p><h2>Dokuz kent</h2><p>Birinci Işık meclis, Derin Mercek optik, Yankı Kuyusu hukuk, Mavi Taş su, Kırık Fener ordu, İnce Çan ticaret, Uyuyan Cevher maden, Gölge Ölçer harita, Son Parıltı ise Durgunluk sınırındaki kayıp kenttir.</p><h2>Kriz</h2><p>Son Parıltı adına mühürlü yeni oy pusulası ortaya çıkmıştır. Kırık Fener olağanüstü askerî yetki ister; Mavi Taş rezervleri yavaşlar, Kar-Dur yol hakkı ister ve Warforgedler eski kentlerin mirası üzerinde hak iddia eder.</p></div><aside class="record-profile"><figure class="city-concept-art"><img src="/assets/illustrations/cities/dokuz-fener-concept.png" alt="" /></figure></aside></div>
+
+## Atlas konumu
+
+| Alan | Kayıt |
+| --- | --- |
+| Katman | [Oyuk Ülkeler](../cografya/yeraltı) |
+| Bölgesel eşik | Kar-Dur’un eski yolları ile Durgunluk sınırının arasındaki su ve kristal ağı |
+| Fiziksel yer | Dokuz ayrı mağara kentini bağlayan tüneller, yeraltı nehirleri ve ses şaftları |
+| Başlıca yaklaşım | Kar-Dur’dan mühürlü iniş rotaları; yalnız Birlik rehberiyle güvenli olan yankı yolları |
+| En yakın bağlar | [Kar-Dur](./kar-dur), Bakır Baca ve Son Parıltı yönündeki kapalı tüneller |
+
+Dokuz Fener’in haritası yüzeydeki şehirler gibi alan göstermez; ışık, su, hava ve çökme süresini gösterir. Birinci Işık’a ulaşmak için en kısa tüneli bilmek yetmez: hangi fenerin hangi vardiyada hangi sesi verdiğini bilmeyen yolcu, aynı yolu saatlerce dönebilir.
 
 ## Dokuz kentli konfederasyon
 

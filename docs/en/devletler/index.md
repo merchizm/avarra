@@ -9,6 +9,8 @@ outline: false
 
 <p class="lore-lead">In Avarra, states are defined not by ancestry, but by law, language, economy, memory, and forms of rule. Members of the same people can be citizens of rival states.</p>
 
+<div class="lore-callout">A state’s population is not the number of people a crown “owns”. Age records distinguish settled people, seasonal dependents, and the capacity a government can actually reach.</div>
+
 ## Major powers
 
 <div class="lore-grid">

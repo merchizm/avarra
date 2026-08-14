@@ -10,14 +10,26 @@ outline: false
 
 Verdan gardens, Harengon news networks, and Khoravar apprenticeship households keep the city’s trade alive; see [City Diasporas](../kulturler/city-diasporas).
  <p class="lore-lead"> The city where the crooked streets of the ancient human royal center overlap with the straight Meridian Plane of Ordan. A family's kitchen and bedroom may reside in different administrative regions. </p>
- <div class="record-layout"> <div> <h2> City ID </h2> <p> <b> Function: </b> conquered province capital, grain and river transport hub.  <b> Population: </b> 95,000–130,000.  <b> Peoples: </b> humans and Veyrans; Gnome, Hobgoblin, Halfling, Tiefling and Half-Elf minorities.  <b> Faith: </b> Last Hearth, Celestial Crown, and registered cults. </p> <h2> Neighborhoods and power </h2> <p> The Administration Terraces are the domain of prefecture, the Old Stones are the domain of human guilds, the Broken Square is the domain of unmarked tombs, the Counting Gate is the domain of illicit identity trade, the Two Iris is the domain of blended families, the Subcult is the domain of resistance, the Bell Market is the domain of communal commerce. The Prefecture, Guilds, Hearth Assemblies, Garrison, Broken Tower Network and Cult Cells are the opposing powers of the city. </p> <h2> Economy and crisis </h2> <p> Grain stores, textiles, weapon parts, paper and Hordan supplies enrich the city, but prosperity is concentrated on the Meridian Plane. While the war of succession divides the garrison, the Broken Tower demands an autonomous province, the Red Stag seeks rebellion, and the guilds seek resistance against the return of the nobles. </p> </div> <aside class="record-profile"> <figure class="city-concept-art"><img src="/assets/illustrations/cities/halvek-concept.png" alt="" /></figure> </aside> </div>
+ <div class="record-layout"> <div> <h2> City ID </h2> <p> <b> Function: </b> conquered province capital, grain and river transport hub.  <b> Population: </b> 3.1–4.2 million; it approaches 4.9 million in harvest, garrison, and river season.  <b> Peoples: </b> humans and Veyrans; Gnome, Hobgoblin, Halfling, Tiefling and Half-Elf minorities.  <b> Faith: </b> Last Hearth, Celestial Crown, and registered cults. </p> <h2> Neighborhoods and power </h2> <p> The Administration Terraces are the domain of prefecture, the Old Stones are the domain of human guilds, the Broken Square is the domain of unmarked tombs, the Counting Gate is the domain of illicit identity trade, the Two Iris is the domain of blended families, the Subcult is the domain of resistance, the Bell Market is the domain of communal commerce. The Prefecture, Guilds, Hearth Assemblies, Garrison, Broken Tower Network and Cult Cells are the opposing powers of the city. </p> <h2> Economy and crisis </h2> <p> Grain stores, textiles, weapon parts, paper and Hordan supplies enrich the city, but prosperity is concentrated on the Meridian Plane. While the war of succession divides the garrison, the Broken Tower demands an autonomous province, the Red Stag seeks rebellion, and the guilds seek resistance against the return of the nobles. </p> </div> <aside class="record-profile"> <figure class="city-concept-art"><img src="/assets/illustrations/cities/halvek-concept.png" alt="" /></figure> </aside> </div>
 
 > “You do not get lost in Halvek. You are stopped for leaving the road assigned to you.”
+
+## Location in Avarra
+
+| Field | Record |
+| --- | --- |
+| Continent | [Asteron](../cografya/asteron) |
+| Region | The western bend of the [Meridian Rivers](../cografya/bolgeler/asteron-meridyen-nehirleri) |
+| Physical site | A stone threshold opening onto the grain plain, between river bends and old human hills |
+| Main approaches | Grain Meridian southeast to [Ordanor](./ordanor), the river barge line, and seven city gates |
+| Nearby ties | Ordanor, [Forty Bridges](./kirk-kopru), Spike Fortress, and the provincial granary villages |
+
+Halvek binds Asteron’s western grain to Ordanor’s record and supply system. That is why the old city’s river-bend lanes and the empire’s straight freight lines collide in the same place: one is geography’s map, the other the administrative will of conquest.
 
 | Record | Detail |
 | --- | --- |
 | Status | Provincial capital of the Ordan Empire |
-| Population | 95,000–130,000; nearly 150,000 during harvest and troop movements |
+| Population | 3.1–4.2 million; it approaches 4.9 million in harvest, garrison, and river season |
 | Government | Imperial prefecture, examination bureaucracy, restricted city guilds |
 | Military | 6,000–9,000 regulars, far more in wartime |
 | Role | Provincial government, grain collection, river transport, supply, paper production |

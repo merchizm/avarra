@@ -7,14 +7,26 @@ outline: false
 # Yabanocak
 
 <p class="lore-lead">Haritalarda görünmeyen insan mülteci şehri. Evleri sökülebilir, sokakları mevsimle değişir, dumanı mantar tünellerinden dışarı verilir; başkent olmaya yetecek kadar büyümüş ama görünür olmaya cesaret edememiştir.</p>
-<div class="record-layout"><div><h2>Şehir kimliği</h2><p><b>İşlev:</b> mülteci merkezi, hanedan buluşması ve kaçak ticaret düğümü. <b>Nüfus:</b> 22.000–35.000. <b>Halklar:</b> çoğunluk insan; Gnom, Svirfneblin, Drow ve Tiefling kaçakları azınlıktır. <b>İnanç:</b> Son Ocak.</p><h2>Yapı ve mahalleler</h2><p>Dağınık Çeper sahte kamplar ve avcı kulübeleridir; Ocak Halkası asıl nüfusu, Kök Sığınağı ise tahıl depolarını, hastaneleri ve kaçış tünellerini barındırır. Geyik Avluları, Kulegölgesi, Beyaz Koruluk, Kamış Yolları, Beşinci Kül ve Kayıp Çocuklar hanedan, kaçakçılık ve yeni insan kimliğinin ayrı odaklarıdır.</p><h2>Yönetim ve gündelik hayat</h2><p>Ocak Meclisleri mahalleleri, Beş Kor Divanı hanedan krizlerini, Yol Bekçileri güvenlik ve tahliyeyi yönetir. Ortak ocağın koru Beş Kor Gecesi’nden beri sönmemiştir. Şehir tahıl için Son Tarla’ya, ticaret için Salkımkent’e, tuz için Hal-Sur’a, demir için Kar-Dur’a bağımlıdır.</p><h2>Güncel kriz</h2><p>Nüfus saklanabilir sınırı aşar. Son Tarla büyümezse kıtlık başlayacak; Kızıl Geyik açık başkent, Beyaz Ocak Diken Tacı yurttaşlığı ister. Adsız Hanedan çocuklarının ortak rüyası Durgunluk korkusunu canlandırır.</p></div><aside class="record-profile"><figure class="city-concept-art"><img src="/assets/illustrations/cities/yabanocak-concept.png" alt="" /></figure></aside></div>
+<div class="record-layout"><div><h2>Şehir kimliği</h2><p><b>İşlev:</b> mülteci merkezi, hanedan buluşması ve kaçak ticaret düğümü. <b>Nüfus:</b> merkez ocakta 410.000–620.000; dağınık sığınak ve tünel ağıyla birlikte 2,1–3,4 milyon. <b>Halklar:</b> çoğunluk insan; Gnom, Svirfneblin, Drow ve Tiefling kaçakları azınlıktır. <b>İnanç:</b> Son Ocak.</p><h2>Yapı ve mahalleler</h2><p>Dağınık Çeper sahte kamplar ve avcı kulübeleridir; Ocak Halkası asıl nüfusu, Kök Sığınağı ise tahıl depolarını, hastaneleri ve kaçış tünellerini barındırır. Geyik Avluları, Kulegölgesi, Beyaz Koruluk, Kamış Yolları, Beşinci Kül ve Kayıp Çocuklar hanedan, kaçakçılık ve yeni insan kimliğinin ayrı odaklarıdır.</p><h2>Yönetim ve gündelik hayat</h2><p>Ocak Meclisleri mahalleleri, Beş Kor Divanı hanedan krizlerini, Yol Bekçileri güvenlik ve tahliyeyi yönetir. Ortak ocağın koru Beş Kor Gecesi’nden beri sönmemiştir. Şehir tahıl için Son Tarla’ya, ticaret için Salkımkent’e, tuz için Hal-Sur’a, demir için Kar-Dur’a bağımlıdır.</p><h2>Güncel kriz</h2><p>Nüfus saklanabilir sınırı aşar. Son Tarla büyümezse kıtlık başlayacak; Kızıl Geyik açık başkent, Beyaz Ocak Diken Tacı yurttaşlığı ister. Adsız Hanedan çocuklarının ortak rüyası Durgunluk korkusunu canlandırır.</p></div><aside class="record-profile"><figure class="city-concept-art"><img src="/assets/illustrations/cities/yabanocak-concept.png" alt="" /></figure></aside></div>
+
+## Atlas konumu
+
+| Alan | Kayıt |
+| --- | --- |
+| Kıta | [Nareth](../cografya/nareth) |
+| Bölgesel eşik | Diken Meridyeni’nin batıdaki sık korulukları ve eski oduncu yolları |
+| Fiziksel yer | Sis çanakları, mantar tünelleri ve sökülebilir iskelelerin örttüğü sığ bir vadi |
+| Başlıca yaklaşım | İşaretsiz koru patikaları; güvenli rota her mevsimde değişir |
+| En yakın bağlar | [Elyrakök](./elyrakok), Geyikgeçidi ve Nareth’in kayıtsız sınır köyleri |
+
+Yabanocak sabit bir nokta değil, aynı vadide dolaşan bir yerleşim ağıdır. Pazar meydanı yazın kuru dere yatağında, kışın ise mantar bacalarının çevresinde kurulur; bu yüzden yabancı bir harita şehri bulsa bile ertesi ay aynı kapıyı bulamaz. Bu hareketlilik onu saklar, fakat su kuyusu, hasta bakımı ve tahıl deposu gibi altyapıyı sürekli kırılgan tutar.
 
 > “Yabanocak’ın surları yoktur. Çünkü düşman şehrin nerede başladığını bilirse sur çoktan aşılmış demektir.”
 
 | Kayıt | Bilgi |
 | --- | --- |
 | Statü | Diken Tacı tarafından resmen tanınmayan insan yerleşimi |
-| Nüfus | 22.000–35.000; merkezde yaklaşık 9.000–12.000 |
+| Nüfus | merkez ocakta 410.000–620.000; dağınık sığınak ve tünel ağıyla birlikte 2,1–3,4 milyon |
 | Bağlı yerleşimler | Yaklaşık 14 kalıcı köy ve 30’dan fazla mevsimlik kamp |
 | Başlıca halklar | İnsanlar; gnom, svirfneblin, tiefling, drow ve changeling azınlıklar |
 | Yönetim | Ocak Meclisleri, Beş Kor Divanı ve Yol Bekçileri |
