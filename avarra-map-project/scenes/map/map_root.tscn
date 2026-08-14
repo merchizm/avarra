@@ -1,0 +1,60 @@
+[gd_scene load_steps=9 format=3]
+
+[ext_resource type="Script" path="res://scripts/map_controller.gd" id="1_controller"]
+[ext_resource type="Script" path="res://scripts/camera_controller.gd" id="2_camera"]
+[ext_resource type="Script" path="res://scripts/pin_manager.gd" id="3_pins"]
+[ext_resource type="Script" path="res://scripts/web_bridge.gd" id="4_bridge"]
+[ext_resource type="PackedScene" path="res://scenes/map/terrain.tscn" id="5_terrain"]
+[ext_resource type="PackedScene" path="res://scenes/map/ocean.tscn" id="6_ocean"]
+[ext_resource type="PackedScene" path="res://scenes/ui/map_intro.tscn" id="7_intro"]
+[ext_resource type="PackedScene" path="res://scenes/map/world_fog.tscn" id="8_fog"]
+
+[sub_resource type="Environment" id="Environment_map"]
+background_mode = 1
+background_color = Color(0.008, 0.035, 0.09, 1)
+ambient_light_source = 3
+ambient_light_color = Color(0.46, 0.57, 0.67, 1)
+ambient_light_energy = 0.75
+tonemap_mode = 2
+tonemap_exposure = 1.05
+glow_enabled = true
+glow_intensity = 0.55
+
+[node name="MapRoot" type="Node3D"]
+script = ExtResource("1_controller")
+
+[node name="Ocean" parent="." instance=ExtResource("6_ocean")]
+
+[node name="Terrain" parent="." instance=ExtResource("5_terrain")]
+
+[node name="WorldFog" parent="." instance=ExtResource("8_fog")]
+
+[node name="Pins" type="Node3D" parent="."]
+
+[node name="CameraRig" type="Node3D" parent="."]
+script = ExtResource("2_camera")
+
+[node name="Camera3D" type="Camera3D" parent="CameraRig"]
+current = true
+projection = 0
+fov = 34.0
+near = 0.05
+far = 200.0
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+rotation_degrees = Vector3(-58, -28, 0)
+light_color = Color(1, 0.92, 0.79, 1)
+light_energy = 1.45
+shadow_enabled = true
+directional_shadow_max_distance = 80.0
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_map")
+
+[node name="PinManager" type="Node" parent="."]
+script = ExtResource("3_pins")
+
+[node name="WebBridge" type="Node" parent="."]
+script = ExtResource("4_bridge")
+
+[node name="MapIntro" parent="." instance=ExtResource("7_intro")]

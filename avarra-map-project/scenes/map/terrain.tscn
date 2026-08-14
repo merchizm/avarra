@@ -1,0 +1,52 @@
+[gd_scene load_steps=19 format=3]
+
+[ext_resource type="Shader" path="res://shaders/terrain.gdshader" id="1_shader"]
+[ext_resource type="Texture2D" path="res://assets/map/source/land_mask.png" id="2_land"]
+[ext_resource type="Texture2D" path="res://assets/map/generated/terrain_height_clean.png" id="3_height"]
+[ext_resource type="Texture2D" path="res://assets/map/generated/splat_a.png" id="4_splat_a"]
+[ext_resource type="Texture2D" path="res://assets/map/generated/splat_b.png" id="5_splat_b"]
+[ext_resource type="Texture2D" path="res://assets/terrain/grass/grass_painterly.png" id="6_grass"]
+[ext_resource type="Texture2D" path="res://assets/terrain/forest/forest_painterly.png" id="7_forest"]
+[ext_resource type="Texture2D" path="res://assets/terrain/arid/arid_painterly.png" id="8_arid"]
+[ext_resource type="Texture2D" path="res://assets/terrain/rock/rock_painterly.png" id="9_rock"]
+[ext_resource type="Texture2D" path="res://assets/terrain/snow/snow_painterly.png" id="10_snow"]
+[ext_resource type="Texture2D" path="res://assets/terrain/volcanic/volcanic_painterly.png" id="11_volcanic"]
+[ext_resource type="Texture2D" path="res://assets/terrain/wetland/wetland_painterly.png" id="12_wetland"]
+[ext_resource type="Texture2D" path="res://assets/map/generated/river_mask.png" id="13_river"]
+[ext_resource type="Texture2D" path="res://assets/map/generated/slope.png" id="14_slope"]
+[ext_resource type="Texture2D" path="res://assets/map/generated/lake_mask.png" id="15_lake"]
+[ext_resource type="Texture2D" path="res://assets/map/generated/river_distance.png" id="16_river_distance"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_terrain"]
+size = Vector2(30, 20)
+subdivide_width = 384
+subdivide_depth = 256
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_terrain"]
+shader = ExtResource("1_shader")
+shader_parameter/height_map = ExtResource("3_height")
+shader_parameter/land_mask = ExtResource("2_land")
+shader_parameter/splat_a = ExtResource("4_splat_a")
+shader_parameter/splat_b = ExtResource("5_splat_b")
+shader_parameter/river_mask = ExtResource("13_river")
+shader_parameter/river_distance = ExtResource("16_river_distance")
+shader_parameter/lake_mask = ExtResource("15_lake")
+shader_parameter/grass_albedo = ExtResource("6_grass")
+shader_parameter/forest_albedo = ExtResource("7_forest")
+shader_parameter/arid_albedo = ExtResource("8_arid")
+shader_parameter/rock_albedo = ExtResource("9_rock")
+shader_parameter/snow_albedo = ExtResource("10_snow")
+shader_parameter/volcanic_albedo = ExtResource("11_volcanic")
+shader_parameter/wetland_albedo = ExtResource("12_wetland")
+shader_parameter/slope_map = ExtResource("14_slope")
+shader_parameter/height_strength = 0.65
+shader_parameter/sea_level = 0.08
+shader_parameter/river_carve_depth = 0.075
+shader_parameter/river_carve_width = 0.30
+shader_parameter/texture_tiling = 2.35
+shader_parameter/ridge_ink_strength = 0.24
+
+[node name="Terrain" type="MeshInstance3D"]
+mesh = SubResource("PlaneMesh_terrain")
+material_override = SubResource("ShaderMaterial_terrain")
+cast_shadow = 1

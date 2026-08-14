@@ -1,0 +1,224 @@
+[gd_scene format=3 uid="uid://bgyluhet73f5w"]
+
+[ext_resource type="Script" uid="uid://d2tskx1q8ubuj" path="res://scripts/map_intro.gd" id="1_script"]
+[ext_resource type="FontFile" path="res://assets/ui/fonts/Cinzel-Variable.ttf" id="4_cinzel"]
+[ext_resource type="FontFile" path="res://assets/ui/fonts/SourceSerif4-Variable.ttf" id="5_source_serif"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBox_ring"]
+bg_color = Color(0.015, 0.06, 0.08, 0.18)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.78, 0.68, 0.42, 0.35)
+corner_radius_top_left = 999
+corner_radius_top_right = 999
+corner_radius_bottom_right = 999
+corner_radius_bottom_left = 999
+
+[sub_resource type="StyleBoxFlat" id="StyleBox_button"]
+content_margin_left = 28.0
+content_margin_top = 14.0
+content_margin_right = 28.0
+content_margin_bottom = 14.0
+bg_color = Color(0.035, 0.075, 0.09, 0.94)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.78, 0.67, 0.4, 0.68)
+
+[sub_resource type="StyleBoxFlat" id="StyleBox_button_hover"]
+content_margin_left = 28.0
+content_margin_top = 14.0
+content_margin_right = 28.0
+content_margin_bottom = 14.0
+bg_color = Color(0.08, 0.16, 0.18, 0.97)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.96, 0.8, 0.48, 0.95)
+
+[node name="MapIntro" type="CanvasLayer" unique_id=1598271925]
+layer = 10
+script = ExtResource("1_script")
+
+[node name="Screen" type="Control" parent="." unique_id=1925652322]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="Loading" type="Control" parent="Screen" unique_id=1592428699]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Backdrop" type="ColorRect" parent="Screen/Loading" unique_id=1813301911]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.008, 0.027, 0.04, 0.93)
+
+[node name="OuterRing" type="Panel" parent="Screen/Loading" unique_id=1573170161]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -220.0
+offset_top = -220.0
+offset_right = 220.0
+offset_bottom = 220.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBox_ring")
+
+[node name="Content" type="VBoxContainer" parent="Screen/Loading" unique_id=1317365377]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -205.0
+offset_top = -110.0
+offset_right = 205.0
+offset_bottom = 110.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 10
+alignment = 1
+
+[node name="Kicker" type="Label" parent="Screen/Loading/Content" unique_id=1252985584]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.54, 0.78, 0.79, 1)
+theme_override_colors/font_outline_color = Color(0.01, 0.03, 0.04, 1)
+theme_override_constants/outline_size = 2
+theme_override_fonts/font = ExtResource("4_cinzel")
+theme_override_font_sizes/font_size = 16
+text = "DÜNYA ATLASI"
+horizontal_alignment = 1
+
+[node name="Name" type="Label" parent="Screen/Loading/Content" unique_id=207716657]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.95, 0.81, 0.48, 1)
+theme_override_colors/font_outline_color = Color(0.02, 0.05, 0.06, 1)
+theme_override_constants/outline_size = 4
+theme_override_fonts/font = ExtResource("4_cinzel")
+theme_override_font_sizes/font_size = 56
+text = "AVARRA"
+horizontal_alignment = 1
+
+[node name="Status" type="Label" parent="Screen/Loading/Content" unique_id=678845818]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.78, 0.84, 0.8, 1)
+theme_override_fonts/font = ExtResource("5_source_serif")
+theme_override_font_sizes/font_size = 15
+text = "Dünya damarları okunuyor"
+horizontal_alignment = 1
+
+[node name="Progress" type="ProgressBar" parent="Screen/Loading/Content" unique_id=1970172448]
+custom_minimum_size = Vector2(0, 5)
+layout_mode = 2
+value = 6.0
+show_percentage = false
+
+[node name="ProgressLabel" type="Label" parent="Screen/Loading/Content" unique_id=310098320]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.85, 0.7, 0.4, 1)
+theme_override_fonts/font = ExtResource("4_cinzel")
+theme_override_font_sizes/font_size = 14
+text = "6%"
+horizontal_alignment = 1
+
+[node name="TitleCard" type="Control" parent="Screen" unique_id=897862013]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="Shade" type="ColorRect" parent="Screen/TitleCard" unique_id=139758802]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0.008, 0.02, 0.03, 0.22)
+
+[node name="Content" type="VBoxContainer" parent="Screen/TitleCard" unique_id=565280486]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -330.0
+offset_top = -150.0
+offset_right = 330.0
+offset_bottom = 170.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 13
+alignment = 1
+
+[node name="Kicker" type="Label" parent="Screen/TitleCard/Content" unique_id=1898515297]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.83, 0.69, 0.4, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.035, 0.045, 1)
+theme_override_constants/outline_size = 3
+theme_override_fonts/font = ExtResource("4_cinzel")
+theme_override_font_sizes/font_size = 18
+text = "KEŞFET VE HATIRLA"
+horizontal_alignment = 1
+
+[node name="Name" type="Label" parent="Screen/TitleCard/Content" unique_id=2080619560]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.95, 0.87, 0.67, 1)
+theme_override_colors/font_outline_color = Color(0.01, 0.025, 0.03, 1)
+theme_override_constants/outline_size = 6
+theme_override_fonts/font = ExtResource("4_cinzel")
+theme_override_font_sizes/font_size = 96
+text = "AVARRA"
+horizontal_alignment = 1
+
+[node name="Rule" type="HSeparator" parent="Screen/TitleCard/Content" unique_id=630728440]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="Copy" type="Label" parent="Screen/TitleCard/Content" unique_id=1115957106]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.78, 0.86, 0.83, 1)
+theme_override_fonts/font = ExtResource("5_source_serif")
+theme_override_font_sizes/font_size = 16
+text = "Kıtalar, yollar ve saklı yerleşimler seni bekliyor."
+horizontal_alignment = 1
+
+[node name="ExploreButton" type="Button" parent="Screen/TitleCard/Content" unique_id=1467221623]
+custom_minimum_size = Vector2(0, 54)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.96, 0.84, 0.58, 1)
+theme_override_colors/font_hover_color = Color(1, 0.92, 0.7, 1)
+theme_override_fonts/font = ExtResource("4_cinzel")
+theme_override_font_sizes/font_size = 16
+theme_override_styles/normal = SubResource("StyleBox_button")
+theme_override_styles/hover = SubResource("StyleBox_button_hover")
+text = "KEŞFE BAŞLA"
+
+[connection signal="pressed" from="Screen/TitleCard/Content/ExploreButton" to="." method="_on_explore_button_pressed"]

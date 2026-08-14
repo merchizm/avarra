@@ -1,0 +1,26 @@
+[gd_scene load_steps=7 format=3]
+
+[ext_resource type="Shader" path="res://shaders/ocean.gdshader" id="1_shader"]
+[ext_resource type="Texture2D" path="res://assets/map/generated/coast_distance.png" id="2_coast"]
+[ext_resource type="Texture2D" path="res://assets/water/ocean_painterly.png" id="3_ocean"]
+[ext_resource type="Texture2D" path="res://assets/map/source/land_mask.png" id="4_land"]
+[ext_resource type="Texture2D" path="res://assets/map/generated/lake_mask.png" id="5_lake"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_ocean"]
+size = Vector2(42, 28)
+subdivide_width = 16
+subdivide_depth = 12
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ocean"]
+shader = ExtResource("1_shader")
+shader_parameter/coast_distance = ExtResource("2_coast")
+shader_parameter/ocean_albedo = ExtResource("3_ocean")
+shader_parameter/land_mask = ExtResource("4_land")
+shader_parameter/lake_mask = ExtResource("5_lake")
+shader_parameter/pattern_tiling = 1.35
+shader_parameter/map_uv_scale = Vector2(1.4, 1.4)
+
+[node name="Ocean" type="MeshInstance3D"]
+position = Vector3(0, 0, 0)
+mesh = SubResource("PlaneMesh_ocean")
+material_override = SubResource("ShaderMaterial_ocean")
