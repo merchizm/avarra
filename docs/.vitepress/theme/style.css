@@ -54,8 +54,28 @@ body {
 
 .VPNav {
   border-bottom: 1px solid color-mix(in srgb, var(--vp-c-divider) 80%, transparent);
-  background: color-mix(in srgb, var(--vp-c-bg) 88%, transparent);
+  background: transparent;
+  /* VPNavScreen is a fixed descendant. A backdrop-filter here makes it a
+     containing block in mobile Safari/Chromium, so the screen can collapse
+     under the bar instead of filling the viewport. */
+  backdrop-filter: none;
+}
+
+.VPNavBar {
+  background: color-mix(in srgb, var(--vp-c-bg) 88%, transparent) !important;
   backdrop-filter: blur(14px);
+}
+
+@media (max-width: 767px) {
+  .VPNavBarHamburger {
+    min-width: 48px;
+    min-height: 48px;
+    touch-action: manipulation;
+  }
+
+  .VPNavScreen {
+    z-index: calc(var(--vp-z-index-nav) + 1);
+  }
 }
 
 .VPNavBarTitle .title,
