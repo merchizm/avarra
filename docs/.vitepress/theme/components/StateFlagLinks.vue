@@ -19,7 +19,8 @@ const states = [
   ['Sis Adaları Cumhuriyeti', 'Mist Isles Republic', 'sis-adalari-cumhuriyeti', 'mist-isles-republic.png'],
   ['Altıngüneş Krallığı', 'Goldensun Kingdom', 'altin-gunes-kralligi', 'goldensun-kingdom.png'],
   ['Bakır Prenslikler', 'Copper Principalities', 'bakir-prenslikler', 'copper-principalites.png'],
-  ['Yeşil Su Birliği', 'Greenwater League', 'yesil-su-birligi', 'greenwater-league.png']
+  ['Yeşil Su Birliği', 'Greenwater League', 'yesil-su-birligi', 'greenwater-league.png'],
+  ['Qasyrra İmparatorluğu', 'Qasyrra Empire', 'qasyrra-imparatorlugu', 'qasyrra.png']
 ]
 
 const base = () => site.value.base || '/'

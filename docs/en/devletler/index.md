@@ -20,6 +20,7 @@ outline: false
   <div class="lore-card"><h3><a href="./ayaz-sarayi">Frost Court</a></h3><p>The Winter Eladrin court of Ilyr-Khaz; an absolute monarchy that equates protection with preventing change.</p></div>
   <div class="lore-card"><h3><a href="./saarin-iki-ejderha-taci">Two Dragon Crowns</a></h3><p>Red Saar and the Jewel Oath compete in Odraka over the meaning of dragon heritage.</p></div>
   <div class="lore-card"><h3><a href="./dokuz-fener-birligi">Nine Lantern Union</a></h3><p>A nine-city underground confederation of Nimrûn Svirfneblin, defended by sound magic and misleading tunnels.</p></div>
+  <div class="lore-card"><h3><a href="./qasyrra-imparatorlugu">Qasyrra Empire</a></h3><p>An ancient multi-people empire in deep Kharizha, built around water right, caste, and fear of the Sun.</p></div>
 </div>
 
 ## State records

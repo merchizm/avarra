@@ -15,7 +15,7 @@ outline: false
     <div class="culture-orb" aria-hidden="true"><span>✦</span><small>ÜÇ BÜYÜK GELENEK</small></div>
   </header>
 
-  <section class="culture-ledger" aria-label="Kültür envanteri"><div><b>3</b><span>inanç ailesi</span></div><div><b>10</b><span>mezhep kaydı</span></div><div><b>4</b><span>ölüm ve dönüş ayini</span></div><div><b>∞</b><span>yerel ruh ve gelenek</span></div></section>
+  <section class="culture-ledger" aria-label="Kültür envanteri"><div><b>4</b><span>inanç ailesi</span></div><div><b>14</b><span>inanç kaydı</span></div><div><b>4</b><span>ölüm ve dönüş ayini</span></div><div><b>∞</b><span>yerel ruh ve gelenek</span></div></section>
 
   <section class="culture-section">
     <div class="culture-section-heading"><p class="lore-kicker">İnanç Salonları</p><h2>Üç büyük yol</h2><p>Her biri başka bir kutsallık dili konuşur. Birini seçin; içindeki mezhepler, ihtilaflar ve ayinler için arşive ilerleyin.</p></div>

@@ -17,7 +17,8 @@ const records = {
   'sis-adalari-cumhuriyeti': ['Sis Adaları Cumhuriyeti', 'Mist Isles Republic', 'mist-isles-republic.png'],
   'altin-gunes-kralligi': ['Altıngüneş Krallığı', 'Goldensun Kingdom', 'goldensun-kingdom.png'],
   'bakir-prenslikler': ['Bakır Prenslikler', 'Copper Principalities', 'copper-principalites.png'],
-  'yesil-su-birligi': ['Yeşil Su Birliği', 'Greenwater League', 'greenwater-league.png']
+  'yesil-su-birligi': ['Yeşil Su Birliği', 'Greenwater League', 'greenwater-league.png'],
+  'qasyrra-imparatorlugu': ['Qasyrra İmparatorluğu', 'Qasyrra Empire', 'qasyrra.png']
 }
 const state = computed(() => records[page.value.relativePath.split('/').pop()?.replace('.md', '')])
 const label = computed(() => state.value?.[lang.value.startsWith('en') ? 1 : 0])

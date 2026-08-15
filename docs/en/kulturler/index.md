@@ -15,7 +15,7 @@ outline: false
     <div class="culture-orb" aria-hidden="true"><span>✦</span><small>THREE GREAT TRADITIONS</small></div>
   </header>
 
-  <section class="culture-ledger" aria-label="Culture inventory"><div><b>3</b><span>faith families</span></div><div><b>10</b><span>sect records</span></div><div><b>4</b><span>death and return rites</span></div><div><b>∞</b><span>local spirits and customs</span></div></section>
+  <section class="culture-ledger" aria-label="Culture inventory"><div><b>4</b><span>faith families</span></div><div><b>14</b><span>faith records</span></div><div><b>4</b><span>death and return rites</span></div><div><b>∞</b><span>local spirits and customs</span></div></section>
 
   <section class="culture-section">
     <div class="culture-section-heading"><p class="lore-kicker">Halls of Faith</p><h2>Three great ways</h2><p>Each speaks a different language of the sacred. Choose one, then enter its archive for sects, disputes, and rites.</p></div>

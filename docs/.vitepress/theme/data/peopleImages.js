@@ -1,5 +1,8 @@
 // Curated portrait registry. Versioned assets intentionally point at the newest revision.
 export const peopleImages = {
+  '/irklar/qezhler': '/assets/illustrations/qezh.png',
+  '/irklar/szairler': '/assets/illustrations/szaïr.png',
+  '/irklar/ossailer': '/assets/illustrations/ossai.png',
   '/irklar/eladrin': '/assets/illustrations/eladrin-v2.jpg',
   '/irklar/insanlar': '/assets/illustrations/human.png',
   '/irklar/cuceler': '/assets/illustrations/dwarf.jpg',
@@ -68,7 +71,7 @@ export const peopleImages = {
   '/irklar/simic-melezleri': '/assets/illustrations/simic-hybrid.jpg',
   '/irklar/giffler': '/assets/illustrations/giff.jpg',
   '/irklar/githler': '/assets/illustrations/gith.jpg',
-  '/irklar/gargoyleler': '/assets/illustrations/gargoyle-v1.png',
+  '/irklar/gargoyleler': '/assets/illustrations/gargoyle-v2.jpg',
   '/irklar/leoninler': '/assets/illustrations/leonin.jpg',
   '/irklar/loxodonlar': '/assets/illustrations/loxodon.jpg',
   '/irklar/thri-kreenler': '/assets/illustrations/thri-kreen-v1.png',

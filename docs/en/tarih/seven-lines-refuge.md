@@ -7,11 +7,11 @@ outline: false
 
 # The Seven Lines Refuge
 
-<p class="lore-lead">The Seven Lines Refuge was not a laboratory that “created” the Veyrans, nor a military order. It was a chain of refuges built by many generations of human communities who shared water, grain, roads, and responsibility after the Vein network collapsed.</p>
+<p class="lore-lead">The Seven Lines Refuge was not a laboratory that “created” the Veyrans, nor a military order. It was a chain of refuges built by many generations of human communities who shared water, grain, roads, and responsibility after a great earthquake.</p>
 
 ## After the Breakage
 
-Around 2640 BC, World Vein passages in Asteron’s inner basins became unstable. Old canals sometimes flowed backward, road markers shifted, and harvest calendars stopped agreeing. Seven settlements made a common protection system along high stone ridges, two river branches, and a surviving aqueduct. It was later called the **Seven Lines**.
+Around 2640 BC, a great earthquake struck Asteron’s inner basins and drove communities into seven deep ravines and the safe ridges around them. The ravines later filled with water; old canals sometimes flowed backward, road markers shifted, and harvest calendars stopped agreeing. Seven settlements made a common protection system along high stone ridges, two river branches, and a surviving aqueduct. It was later called the **Seven Lines**.
 
 The Lines were not a wall. Each was an open route joining water gates, grain stores, road stones, refuge courts, and watch houses. Every adult could be responsible not to a household but to water, bread, care, road, children, record, or watch. The first records were not perfect bureaucracy; they were an effort not to forget who was missing or in need.
 
@@ -47,7 +47,7 @@ None of these accounts conceals a secret “true origin”; each reads the same 
 
 | Date | Event |
 | --- | --- |
-| Around 2640 BC | Vein collapse and first displacement in Asteron’s inner basins |
+| Around 2640 BC | Great earthquake and first displacement into Asteron’s seven ravines |
 | 2620–2570 BC | Seven Lines routes, common granaries, and watch system established |
 | 2550–2470 BC | Veyran signs become persistent in many families |
 | 2400–2350 BC | Refuge network disperses; Veyran villages and water councils spread |
@@ -60,4 +60,4 @@ None of these accounts conceals a secret “true origin”; each reads the same 
 - A family learns its ancestors were written as “guests” in the refuge ledger; that can change who owns what today.
 - A Meridian school’s Seven Lines celebration falls on the same date as Border Veyrans’ day of mourning.
 
-**Links:** [Veyrans](../irklar/veyranlar), [Age of Breakage and Refugees](./kirilma-ve-siginaklar), [Meridian Age](./meridyen-cagi), [Ordan Empire](../devletler/ordan-imparatorlugu).
+**Links:** [Veyrans](../irklar/veyranlar), [Age of Breakage and Refuges](./kirilma-ve-siginaklar), [Meridian Age](./meridyen-cagi), [Ordan Empire](../devletler/ordan-imparatorlugu).

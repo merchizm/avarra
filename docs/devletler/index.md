@@ -20,6 +20,7 @@ outline: false
   <div class="lore-card"><h3><a href="./ayaz-sarayi">Ayaz Sarayı</a></h3><p>Ilyr-Khaz'ın Kış Eladrinleri; korumayı değişimi durdurmak olarak gören mutlak monarşi.</p></div>
   <div class="lore-card"><h3><a href="./saarin-iki-ejderha-taci">Saar'ın İki Ejderha Tacı</a></h3><p>Odraka'da Kızıl Saar ile Mücevher Yemini, ejderha mirasının anlamı üzerine rekabet eder.</p></div>
   <div class="lore-card"><h3><a href="./dokuz-fener-birligi">Dokuz Fener Birliği</a></h3><p>Nimrûn Svirfneblinlerinin dokuz kentli yeraltı konfederasyonu; ses büyüsü ve yanıltıcı tünellerle savunulur.</p></div>
+  <div class="lore-card"><h3><a href="./qasyrra-imparatorlugu">Qasyrra İmparatorluğu</a></h3><p>Kharizha’nın derinlerinde, su hakkı, kast ve Güneş korkusu çevresinde kurulan kadim çok-halklı imparatorluk.</p></div>
 </div>
 
 ## Kayıtlar
@@ -64,6 +65,7 @@ Namaris’te akışın yavaşlaması tahıl sevkiyatını geciktirir; Halvek ve 
 | Mevsim devletleri | Ayaz Sarayı, Altıngüneş Krallığı, Bakır Prenslikler, Yeşil Su Birliği |
 | Asteron | Ordan İmparatorluğu, Lethar Yıldız Krallığı, Vardessa Serbest Krallığı, Kırk Köprü Cumhuriyeti, Gök Eşiği Konkordatosu, Külordu Marklığı |
 | Odraka | Kızıl Saar, Mücevher Yemini, Labirent Limanları, Uçsuz Yol Konfederasyonu, Saz Ejderi Krallıkları, Yağmur Pençesi Birliği, Kızıl Toprak Orc Krallığı |
+| Kharizha Çölü | Qasyrra İmparatorluğu, Minotaur kuyu haneleri ve imparatorluğa farklı hukuklarla bağlı çöl toplulukları |
 | Yeraltı | Dokuz Fener Birliği, Sessiz Oyuk, Çan Kuyusu, İpek Tahtı, Karanlık Liman, Ayaltı Sürgünleri, Kül Örgüsü, Kor-Dum, Kara Örs, Yedi Baca Oyukları, Derin Hafıza Çemberleri, Dalgasız Göl Rahip Şehirleri, Sessiz Basamaklar |
 | Denizler | Mercan Sarayları, Triton Derin Nöbeti, Sahuagin Kırmızı Akıntı Konfederasyonu, Uzun Kabuk Yolları, Yüzen Pazarlar |
 

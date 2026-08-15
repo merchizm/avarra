@@ -1,8 +1,15 @@
 import { defineConfig } from 'vitepress'
 import fs from 'node:fs'
 import path from 'node:path'
+import { peopleImages } from './theme/data/peopleImages.js'
+import { additionalPeople } from './theme/data/additionalPeople.js'
 
 const referenceModule = '\0avarra-reference-index'
+const plainText = (value = '') => value.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim()
+const peopleReferenceImages = new Map([
+  ...additionalPeople.filter((person) => person.image).map((person) => [person.link, person.image]),
+  ...Object.entries(peopleImages)
+])
 
 function collectReferenceRecords(directory, prefix = '') {
   const records = []
@@ -13,7 +20,9 @@ function collectReferenceRecords(directory, prefix = '') {
     else if (entry.name.endsWith('.md') && entry.name !== 'index.md') {
       const source = fs.readFileSync(fullPath, 'utf8')
       const title = source.match(/^title:\s*(.+)$/m)?.[1]?.trim().replace(/^['"]|['"]$/g, '')
-      if (title) records.push({ title, path: `/${relative.replace(/\.md$/, '')}` })
+      const lead = plainText(source.match(/<p class="lore-lead">([\s\S]*?)<\/p>/)?.[1])
+      const image = source.match(/<img\s+[^>]*src="\/assets\/([^"?#]+)"/)?.[1]
+      if (title) records.push({ title, lead, image: image ? `/assets/${image}` : undefined, path: `/${relative.replace(/\.md$/, '')}` })
     }
   }
   return records
@@ -26,13 +35,18 @@ function wikiReferenceIndex() {
     load(id) {
       if (id !== referenceModule) return null
       const docsRoot = path.resolve(process.cwd(), 'docs')
-      const englishTitles = new Map(
+      const englishRecords = new Map(
         collectReferenceRecords(path.join(docsRoot, 'en'))
-          .map((record) => [record.path, record.title])
+          .map((record) => [record.path, record])
       )
       const records = collectReferenceRecords(docsRoot)
         .filter((record) => !record.path.startsWith('/en/'))
-        .map((record) => ({ ...record, enTitle: englishTitles.get(record.path) || record.title }))
+        .map((record) => {
+          const english = englishRecords.get(record.path)
+          const image = peopleReferenceImages.get(record.path) || record.image
+          const enImage = peopleReferenceImages.get(record.path) || english?.image || image
+          return { ...record, image, enTitle: english?.title || record.title, enLead: english?.lead || record.lead, enImage }
+        })
       return `export default ${JSON.stringify(records)}`
     }
   }

@@ -17,6 +17,7 @@ const records = [
   { slug: 'yildiz-duzeni', group: 'celestial', sigil: '✧', tr: 'Yıldız Düzeni', en: 'Star Order', trText: 'Yıldız haritaları, kader ve hukuk.', enText: 'Star charts, destiny, and law.' },
   { slug: 'mevsim-taclari', group: 'celestial', sigil: '❋', tr: 'Mevsim Taçları', en: 'Seasonal Crowns', trText: 'Değişimi kutsal sayan Eladrin geleneği.', enText: 'An Eladrin tradition that treats change as sacred.' },
   { slug: 'ilk-alev', group: 'celestial', sigil: '♨', tr: 'İlk Alev', en: 'First Flame', trText: 'Yaratım, ejderha mirası ve eylem ateşi.', enText: 'Creation, dragon heritage, and the fire of action.' },
+  { slug: 'azh-khar', group: 'desert', sigil: '☉', tr: 'Azh-Khar ve Kör Yüz', en: 'Azh-Khar and the Blind Face', trText: 'Qasyrra’da Güneş’in korkusu, gece nefesi, adak ve su hukuku.', enText: 'Qasyrra’s fear of the Sun, night-breath, offerings, and water law.' },
   { slug: 'esik-ve-atalar', group: 'threshold', sigil: '◐', tr: 'Eşik ve Atalar', en: 'Threshold & Ancestors', trText: 'Yaşayanlar ve ölüler arasındaki korunmuş sınır.', enText: 'The guarded boundary between living and dead.' },
   { slug: 'maskeli-atalar', group: 'threshold', sigil: '◌', tr: 'Maskeli Atalar', en: 'Masked Ancestors', trText: 'Ataların hatırasını ayin maskesine davet eden gelenek.', enText: 'A tradition that invites ancestral memory into ritual masks.' },
   { slug: 'perde-bekcileri', group: 'threshold', sigil: '☾', tr: 'Perde Bekçileri', en: 'Veil Keepers', trText: 'Rüya ve gölgede Eşik’i gözleyenler.', enText: 'Watchers of the Threshold through dream and shadow.' },
@@ -24,9 +25,10 @@ const records = [
 ]
 const groups = computed(() => [
   { key: 'all', label: isEnglish.value ? 'All records' : 'Tüm kayıtlar', count: records.length },
-  { key: 'living', label: isEnglish.value ? 'Living Whole' : 'Canlı Bütün', count: 5 },
-  { key: 'celestial', label: isEnglish.value ? 'Celestial Crown' : 'Göksel Taç', count: 4 },
-  { key: 'threshold', label: isEnglish.value ? 'Threshold & Ancestors' : 'Eşik & Atalar', count: 4 }
+  { key: 'living', label: isEnglish.value ? 'Living Whole' : 'Canlı Bütün', count: records.filter((record) => record.group === 'living').length },
+  { key: 'celestial', label: isEnglish.value ? 'Celestial Crown' : 'Göksel Taç', count: records.filter((record) => record.group === 'celestial').length },
+  { key: 'desert', label: isEnglish.value ? 'Desert rites' : 'Çöl ritüelleri', count: records.filter((record) => record.group === 'desert').length },
+  { key: 'threshold', label: isEnglish.value ? 'Threshold & Ancestors' : 'Eşik & Atalar', count: records.filter((record) => record.group === 'threshold').length }
 ])
 const familyBriefs = computed(() => [
   {
@@ -46,6 +48,12 @@ const familyBriefs = computed(() => [
     trTitle: 'Eşik ve Atalar', enTitle: 'Threshold & Ancestors',
     trQuestion: 'Ölüyle aramızdaki sınır nedir?', enQuestion: 'What boundary stands between living and dead?',
     trText: 'Hatıra, yas, rüya ve geri dönüşün rıza ile sınırını korur.', enText: 'Guards the consent-bound limits of memory, grief, dreams, and return.'
+  },
+  {
+    key: 'desert', sigil: '☉', count: 1,
+    trTitle: 'Çöl Ritüelleri', enTitle: 'Desert Rites',
+    trQuestion: 'Güneşten kaçamadığında ne borçlusun?', enQuestion: 'What do you owe when you cannot escape the Sun?',
+    trText: 'Güneş, gölge, su ve gece üzerinden hayatta kalma borcunu okur.', enText: 'Reads survival debt through Sun, shade, water, and night.'
   }
 ])
 const visible = computed(() => {
@@ -70,7 +78,7 @@ const linkFor = (slug) => withBase(`${isEnglish.value ? '/en' : ''}/kulturler/di
       <header class="faith-heading">
         <p class="lore-kicker">{{ isEnglish ? 'Avarra Encyclopaedia · Living Traditions' : 'Avarra Ansiklopedisi · Yaşayan Gelenekler' }}</p>
         <h1>{{ isEnglish ? 'Faith Archive' : 'İnanç Arşivi' }}</h1>
-        <p>{{ isEnglish ? 'Thirteen records, three families, and no single answer to where sacred power begins. Start with the question a tradition asks, then follow it into its rites, laws, and arguments.' : 'On üç kayıt, üç inanç ailesi ve kutsal kudretin nerede başladığına dair tek bir yanıt yok. Önce geleneğin sorduğu soruyu seçin; sonra ayinlerine, hukukuna ve tartışmalarına ilerleyin.' }}</p>
+        <p>{{ isEnglish ? 'Fourteen records, four families, and no single answer to where sacred power begins. Start with the question a tradition asks, then follow it into its rites, laws, and arguments.' : 'On dört kayıt, dört inanç ailesi ve kutsal kudretin nerede başladığına dair tek bir yanıt yok. Önce geleneğin sorduğu soruyu seçin; sonra ayinlerine, hukukuna ve tartışmalarına ilerleyin.' }}</p>
       </header>
       <section class="faith-archive-guide" :aria-label="isEnglish ? 'How to read the archive' : 'Arşivi nasıl okumalı'">
         <div><span>Ⅰ</span><p><b>{{ isEnglish ? 'A family is not a church.' : 'Aile, kilise değildir.' }}</b>{{ isEnglish ? 'A household may keep more than one way, or none.' : 'Bir hane birden fazla yolu birlikte tutabilir; hiçbirini tutmayabilir de.' }}</p></div>

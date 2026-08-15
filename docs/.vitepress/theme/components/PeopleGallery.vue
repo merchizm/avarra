@@ -21,6 +21,7 @@ const filters = computed(() => [
   ...Object.entries(categories).map(([key, value]) => ({ key, label: isEnglish.value ? value.en : value.tr }))
 ])
 const englishNames = {
+  '/irklar/qezhler': 'Qezh', '/irklar/szairler': 'Szaïr', '/irklar/ossailer': 'Ossai',
   '/irklar/insanlar': 'Humans', '/irklar/cuceler': 'Dwarves', '/irklar/koboldlar': 'Kobolds',
   '/irklar/veyranlar': 'Veyrans', '/irklar/svirfneblinler': 'Svirfneblins', '/irklar/drowlar': 'Drow',
   '/irklar/dragonbornlar': 'Dragonborn', '/irklar/lizardfolklar': 'Lizardfolk', '/irklar/genasiler': 'Genasi',
@@ -62,6 +63,7 @@ const sourceLabels = {
   avarra: { tr: 'Avarra', en: 'Avarra' }
 }
 const sourceByLink = {
+  '/irklar/qezhler': 'avarra', '/irklar/szairler': 'avarra', '/irklar/ossailer': 'avarra',
   '/irklar/eladrin': 'motm', '/irklar/insanlar': 'phb', '/irklar/cuceler': 'phb',
   '/irklar/koboldlar': 'motm', '/irklar/veyranlar': 'avarra', '/irklar/svirfneblinler': 'motm',
   '/irklar/drowlar': 'phb', '/irklar/dragonbornlar': 'phb', '/irklar/lizardfolklar': 'motm',

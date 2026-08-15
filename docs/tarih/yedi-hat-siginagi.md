@@ -7,11 +7,11 @@ outline: false
 
 # Yedi Hat Sığınağı
 
-<p class="lore-lead">Yedi Hat Sığınağı, Veyranların “yaratıldığı” bir laboratuvar ya da bir askerî tarikat değildir. Damar ağının çöküşünden sonra hayatta kalmak için suyu, tahılı, yolu ve sorumluluğu paylaşan çok kuşaklı insan topluluklarının kurduğu sığınaklar dizisidir.</p>
+<p class="lore-lead">Yedi Hat Sığınağı, Veyranların “yaratıldığı” bir laboratuvar ya da bir askerî tarikat değildir. Büyük depremden sonra hayatta kalmak için suyu, tahılı, yolu ve sorumluluğu paylaşan çok kuşaklı insan topluluklarının kurduğu sığınaklar dizisidir.</p>
 
 ## Kırılmadan sonra
 
-SÖ 2640 dolaylarında Asteron'un iç havzalarında Dünya Damarı geçitleri kararsızlaştı. Eski kanallar kimi günler ters aktı, yol işaretleri yer değiştirdi, mahsul takvimi birbirini tutmadı. Yedi yerleşim; yüksek taş sırtları, iki nehir kolu ve ayakta kalmış bir su kemeri boyunca ortak bir koruma düzeni kurdu. Bu düzene sonradan **Yedi Hat** adı verildi.
+SÖ 2640 dolaylarında Asteron’un iç havzalarını sarsan büyük deprem, toplulukları yedi derin yarığa ve çevresindeki güvenli sırtlara itti. Yarıklar zamanla suyla doldu; eski kanallar kimi günler ters aktı, yol işaretleri yer değiştirdi, mahsul takvimi birbirini tutmadı. Yedi yerleşim; yüksek taş sırtları, iki nehir kolu ve ayakta kalmış bir su kemeri boyunca ortak bir koruma düzeni kurdu. Bu düzene sonradan **Yedi Hat** adı verildi.
 
 Hatlar bir duvar değildi. Her biri su kapakları, tahıl ambarı, yol taşları, sığınma avluları ve nöbet evlerini birbirine bağlayan açık güzergâhlardı. Her yetişkin, bir haneye değil belirli bir göreve—su, ekmek, bakım, yol, çocuk, kayıt veya nöbet—karşı sorumluluk taşıyabiliyordu. İlk kayıtlar mükemmel bir bürokrasi değil, kimin kaybolduğunu ve kimin yardıma ihtiyacı olduğunu unutmama çabasıydı.
 
@@ -47,7 +47,7 @@ Bu anlatıların hiçbiri gizli bir “gerçek köken” saklamaz; hepsi aynı a
 
 | Tarih | Olay |
 | --- | --- |
-| SÖ 2640 dolayları | Asteron iç havzalarında Damar çöküşü ve ilk yer değiştirmeler |
+| SÖ 2640 dolayları | Asteron iç havzalarında büyük deprem, yedi yarığa ilk yer değiştirmeler |
 | SÖ 2620–2570 | Yedi Hat güzergâhları, ortak ambar ve nöbet düzeni kuruluyor |
 | SÖ 2550–2470 | Veyran işaretleri birden çok ailede kalıcılaşıyor |
 | SÖ 2400–2350 | Sığınak ağı çözülüyor; Veyran köyleri ve su meclisleri bölgeye yayılıyor |

@@ -3,30 +3,27 @@ title: Perde Savaşları ve Kök Kapanışı
 outline: false
 ---
 
-<div class="lore-kicker">Çağ IV · SÖ 2700–2580 · İnsan Kapı İşgali ve Özgür Mahkemeler</div>
+<div class="lore-kicker">Çağ IV · SÖ 2700–2580 · Kök Kapıları ve Özgür Mahkemeler</div>
 
 # Perde Savaşları ve Kök Kapanışı
 
-<p class="lore-lead">Perde Savaşları, Fey’in Avarra’ya saldırısı değildi. Damar Birliği’nin son yönetimleri Kök Kapılarını yol, vergi noktası ve askerî ikmal istasyonu saymaya başladığında; insan köyleri, Fey haneleri ve kapı bekçileri aynı geçitlerin kimin malı olduğu konusunda savaşa sürüklendi.</p>
+<p class="lore-lead">Perde Savaşları, Fey’in Avarra’ya saldırısı değildi. Damar düzeninin son yöneticileri Kök Kapılarını yol, vergi noktası ve askerî ikmal istasyonu saymaya başladığında; insan köyleri, Fey haneleri ve kapı bekçileri aynı geçitlerin kimin malı olduğu konusunda savaşa sürüklendi.</p>
 
 ## Savaşın nedeni
 
-Damar haritacıları bir kapının ne zaman açıldığını ölçebiliyor, fakat neden açıldığını tam olarak anlayamıyordu. Birlik, bu eksik bilgiyi “kamu güvenliği” ile kapatmaya çalıştı: kök-çapaların çevresine karakol kuruldu, geçişe pul ve yük listesi getirildi, kimi koruluklar istasyon yapımı için kesildi. İnsan yolcuların güvenliği bazı yerlerde gerçekten arttı; bunun karşılığında yerel bakıcılar ve mahkemeler kapı üzerindeki söz haklarını kaybetti.
+Damar haritacıları bir kapının ne zaman açıldığını ölçebiliyor, fakat neden açıldığını tam olarak anlayamıyordu. Yönetimler bu eksik bilgiyi “kamu güvenliği” ile kapatmaya çalıştı: kök-çapaların çevresine karakol kuruldu, geçişe pul ve yük listesi getirildi, kimi koruluklar istasyon yapımı için kesildi. İnsan yolcuların güvenliği bazı yerlerde gerçekten arttı; bunun karşılığında yerel bakıcılar ve mahkemeler kapı üzerindeki söz haklarını kaybetti.
 
 Özgür mahkemeler yekpare davranmadı. Bazıları ticaret, hastane ve mülteci geçişi için Birlik’le ant yaptı. Bazıları kapıların vergiye bağlanmasını İlk Fey taleplerine ihanet saydı. İnsan köyleri de ikiye bölündü: kapı istasyonları iş ve koruma getirirken, savaşın ilk bedelini kök çevresindeki çiftçiler ve konuk haneleri ödedi.
 
-## Dört evre
+## Koalisyon ve kayıp ordu
 
-| Dönem | Olay | Kalıcı sonuç |
-| --- | --- | --- |
-| **SÖ 2700–2670 · Kök Yazmanlığı** | Birlik kapıları haritalar, nöbet ve geçiş vergisi koyar | Kapı hukuku ilk kez merkezî kayda bağlanır |
-| **SÖ 2670–2630 · Açık Perde** | Çapalar, karakollar ve koruluklar için çatışmalar yayılır | Birçok mahkeme Avarra’daki hanelerini kaybeder |
-| **SÖ 2630–2600 · Köklerin Çekilişi** | Fey haneleri kapıları kapatır; bazı Damar komutanları zorla açmaya çalışır | Yol ağları bozulur, mülteci ve kıtlık artar |
-| **SÖ 2600–2580 · Kök Kapanışı** | Yerel meclisler, bakıcılar ve mahkeme elçileri yeni antı kabul eder | Kapılar nadir, yerel ve karşılıklı sorumluluğa bağlı kalır |
+Kapanışa giden görüşmeler Astereth’te toplandı. Diken Tacı, Don Mahkemesi, Lethar, Bakır Prenslikler ve onlarla hareket eden insan kuvvetleri kapı düzeninin neye dönüşeceğini tartıştı. Nimrûn ile Kara Örs resmî olarak tarafsız kaldı. Bu tarafsızlık, savaşın dışındalık değil; derin toplulukların kapılar üzerindeki eski sömürünün yeniden kurulmasına izin vermeme biçimiydi.
+
+Kharizha çölünün girişinde bir Hun ordusunun kaybolması, hiçbir tarafın kolayca açıklayamadığı kırılma anıdır. Bazı kayıtlar ordunun yanlış zamanda açılan bir geçide girdiğini, bazıları ise kapının hiç açılmadığını söyler. Kesin olan, ardından hiçbir yönetimin bir Kök Kapısını sıradan askerî yol gibi görmeyi güvenle savunamadığıdır.
 
 ## Kök Kapanışı
 
-Kök Kapanışı kapıları yok etmedi. Her yaşayan çapa için bir bakıcı, her geçiş için bir neden ve her borç için geri dönüş yolu gerektiren ortak hukuk doğurdu. Bir devlet, tek başına kapı açamayacak; bir mahkeme de Avarra’daki çapanın bakımını yok sayamayacaktı. Bu düzen zamanla unutuldu, yeniden yorumlandı ve kötüye kullanıldı; yine de bugünkü nadir geçitlerin nedeni budur.
+Kök Kapanışı kapıları yok etmedi. Her yaşayan çapa için bir bakıcı, her geçiş için doğru zaman ve tanınmış bir ant gerektiren ortak hukuk doğurdu. Bir devlet tek başına kapı açamayacak; bir mahkeme de Avarra’daki çapanın bakımını yok sayamayacaktı. Bu düzen zamanla unutuldu, yeniden yorumlandı ve kötüye kullanıldı; yine de bugünkü nadir geçitlerin nedeni budur.
 
 ## Bugüne kalan anlatılar
 
