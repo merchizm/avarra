@@ -18,6 +18,10 @@ const records = {
   'altin-gunes-kralligi': ['Altıngüneş Krallığı', 'Goldensun Kingdom', 'goldensun-kingdom.png'],
   'bakir-prenslikler': ['Bakır Prenslikler', 'Copper Principalities', 'copper-principalites.png'],
   'yesil-su-birligi': ['Yeşil Su Birliği', 'Greenwater League', 'greenwater-league.png'],
+  varkesh: ['Varkesh', 'Varkesh', 'varkesh.png'],
+  'kis-ambarlari-serbest-sehri': ['Kış Ambarları Serbest Şehri', 'Free City of Winter Granaries', 'kis-ambarlari.png'],
+  'kara-muhur-adalari': ['Kara Mühür Adaları', 'Black Seal Isles', 'kara-muhur.png'],
+  'kul-esigi': ['Kül Eşiği Şövalye Düzeni', 'Ash Threshold Knightly Order', 'ash-threshold.png'],
   'qasyrra-imparatorlugu': ['Qasyrra İmparatorluğu', 'Qasyrra Empire', 'qasyrra.png']
 }
 const state = computed(() => records[page.value.relativePath.split('/').pop()?.replace('.md', '')])

@@ -3,7 +3,7 @@ title: Root Compact
 outline: false
 ---
 
-<div class="lore-kicker">Living Whole · Forest Law</div>
+<div class="lore-kicker">Ancient Faith · Living Whole · Forest Law</div>
 
 # Root Compact
 

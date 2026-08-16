@@ -3,7 +3,7 @@ title: Son Ocak
 outline: false
 ---
 
-<div class="lore-kicker">Canlı Bütün · İnsan Sürgünleri</div>
+<div class="lore-kicker">Antik Din · Canlı Bütün · İnsan Sürgünleri</div>
 
 # Son Ocak
 

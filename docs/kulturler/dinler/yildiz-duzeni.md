@@ -3,7 +3,7 @@ title: Yıldız Düzeni
 outline: false
 ---
 
-<div class="lore-kicker">Göksel Taç · Yıldız Haritaları</div>
+<div class="lore-kicker">Antik Din · Göksel Taç · Yıldız Haritaları</div>
 
 # Yıldız Düzeni
 

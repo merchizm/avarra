@@ -3,7 +3,7 @@ title: Mevsim Taçları
 outline: false
 ---
 
-<div class="lore-kicker">Göksel Taç · Dönüş</div>
+<div class="lore-kicker">Antik Din · Göksel Taç · Dönüş</div>
 
 # Mevsim Taçları
 

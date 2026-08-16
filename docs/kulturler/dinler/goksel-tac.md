@@ -3,7 +3,7 @@ title: Göksel Taç İnancı
 outline: false
 ---
 
-<div class="lore-kicker">Din Ailesi · Dokuz Makam</div>
+<div class="lore-kicker">Antik Din · Dokuz Makam</div>
 
 # Göksel Taç İnancı
 

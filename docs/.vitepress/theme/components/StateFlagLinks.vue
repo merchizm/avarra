@@ -20,6 +20,10 @@ const states = [
   ['Altıngüneş Krallığı', 'Goldensun Kingdom', 'altin-gunes-kralligi', 'goldensun-kingdom.png'],
   ['Bakır Prenslikler', 'Copper Principalities', 'bakir-prenslikler', 'copper-principalites.png'],
   ['Yeşil Su Birliği', 'Greenwater League', 'yesil-su-birligi', 'greenwater-league.png'],
+  ['Varkesh', 'Varkesh', 'varkesh', 'varkesh.png'],
+  ['Kış Ambarları Serbest Şehri', 'Free City of Winter Granaries', 'kis-ambarlari-serbest-sehri', 'kis-ambarlari.png'],
+  ['Kara Mühür Adaları', 'Black Seal Isles', 'kara-muhur-adalari', 'kara-muhur.png'],
+  ['Kül Eşiği Şövalye Düzeni', 'Ash Threshold Knightly Order', 'kul-esigi', 'ash-threshold.png'],
   ['Qasyrra İmparatorluğu', 'Qasyrra Empire', 'qasyrra-imparatorlugu', 'qasyrra.png']
 ]
 

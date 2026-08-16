@@ -3,7 +3,7 @@ title: Last Hearth
 outline: false
 ---
 
-<div class="lore-kicker">Living Whole · Human Exiles</div>
+<div class="lore-kicker">Ancient Faith · Living Whole · Human Exiles</div>
 
 # Last Hearth
 

@@ -25,6 +25,8 @@ Veyranlar farklı bir yol izledi. Yedi Hat’tan dağılan aileler tek devlet ku
 
 Eski Damar atölyelerinden kalan Warforgedlar ve Autognomlar için ilk ciddi yurttaşlık tartışmaları da bu dönemde görüldü. Bazı şehirler onları mülk sayıyor, bazıları çalışan bir varlığın emeğine sahip olması gerektiğini savunuyordu. Aynı Warforged bir şehirde yurttaş, birkaç yüz kilometre ötede sahibinden kaçmış eşya sayılabiliyordu.
 
+SÖ 1300’lerde savaş ve kıtlığın yıprattığı doğu yol kentlerinde Kezran’ın geri dönen hüküm vaazları yayıldı. Bazı Vardûnî topluluklar bu vaazları sürgün adaletinin son sözü saydı; bazıları ise kıyamet diliyle borç, dul hakkı ve yerel hükmü ezdiği gerekçesiyle reddetti. Böylece Kezranî yol, yalnız yeni bir ibadet değil, şehirlerin kıtlık altında kimin buyruğunu tanıyacağına dair sert bir soru hâline geldi.
+
 ## Kök, Taş ve Su · SÖ 1410–1180
 
 Nareth’in üç büyük coğrafi alanı birbirinden çok farklı devlet gelenekleri geliştirdi. Ormanlarda Diken Tacı’nın temelleri kalıcılaştı. Önceki çağların askerî üstünlüğü tek başına yetmiyordu: Orman Elfleri, Dikenkanlılar, Firbolglar ve Gnom yerleşimleri arazi kullanımının kime ait olduğu üzerine yüz yılı aşkın süre tartıştı. Sonunda ormanın hükümdarın mülkü olmadığı fikri kabul edildi.
@@ -42,6 +44,8 @@ Perde Savaşları sonrasında Fey halklarının tek koalisyon kurmasının nered
 Sonbahar Eladrinlerinin topraklarında birinin diğerlerinden üstünleşmesi sürekli tepkiyle karşılandı. Kızıl Yaprak, Solgun Bağ, Uzun Gölge, Son Hasat, Bakır Anahtar, Sessiz Meyve ve Düşen Taç adlı **Yedi Sonbahar Prensliği** böyle ortaya çıktı. İlkbahar halkları daha parçalıydı: Eladrin, Halfling, Gnom ve göçmen şehirleri; borç affı, sığınma ve yeniden başlama hakkı üzerinden Yeşil Su Birliği’ni kurdu.
 
 Bu ağların etkisi beklenmedikti. Bir kişinin nerede doğduğundan daha önemli olan şey, bazen **nerede gömülme hakkına sahip olduğu** hâline geldi. Bazı krallıklar yurttaşlık anlaşmazlıklarında mezar kayıtlarını kanıt kabul etmeye başladı.
+
+SÖ 900’e doğru bir imparator, Kezranî ayaklanmasını bastırırken Saelûnî manastırlarını da dağıttı. Resmî kayıtlarda ikisi aynı “yol bozuculuğu” başlığında anıldı; gerçekte biri açlık ve hüküm üzerine kurulu bir Vardûnî hareket, diğeri ise bambaşka bir inziva ağıydı. Bu yanlış eşleştirme, sonraki yönetimlerin Vardûnî aileyi tek bir tehdit gibi yazmasına örnek oldu.
 
 Lethar da bu dönemde bugünkü karakterine yaklaştı. Astereth çevresindeki Yüksek Elf haneleri şehir için tek savunma düzeni kurdu; Gnom mühendisler Dokuz Kanal’ın ilk büyük sistemlerini geliştirdi. Aasimar çocukların yıldız işaretleri üzerine çalışma, Sessiz Meridyen’in ilk kurumlarını doğurdu. Astereth’in büyü gücü o kadar yoğunlaşmıştı ki çevredeki insan devletlerinde karşıt hareketler belirdi. Bunlar dünya çapında bir büyü karşıtı örgüt değildi: bazı köylerde büyücüler kutsal sayılırken, birkaç günlük yol ötede “yıldız ateşinin ekinleri bozduğuna” inanılarak büyü yapanlar şehirden sürülüyordu.
 
@@ -79,6 +83,8 @@ Hadozeeler kitlesel kayıplardan sonra eski nüfuslarına ulaşamadı; yine de y
 
 İnsan krallıkları yeniden güçlenmişti, fakat hiçbiri diğerlerini bütünüyle yutabilecek durumda değildi. Halvek, Ardel, Seressa, Vaun ve Kastar daha sonra “Beş İnsan Tacı” diye anılacak büyük siyasî alanları oluşturdu. Yine de aralarında yüzlerce küçük düklük vardı: bazıları bir nehir kadar küçük, bazıları bir kale ve çevresindeki yirmi köy kadardı. Bazı dükler iki krala birden yemin ediyor; bazı kasabalar vergisini bir krala, askerini başka hana, cenaze vergisini ise bir din ailesine ödüyordu.
 
+Bu küçük kentlerde Aşkarî mabetler yeniden görünürleşti. Bir yüzün bayramı pazarın açıldığı, borçların ertelendiği, cenazelerin güvenle geçtiği ya da komşu kentlerle kısa ateşkes yapıldığı gün olabiliyordu. Krallar mabedi kendi memuruna bağlamak istediğinde, tartışma yalnız ibadet üzerine çıkmıyordu: yüzün hangi sokağa sığınma hakkı verdiği, hangi loncanın adak parası topladığı ve hangi mezarın yurttaş sayıldığı da yeniden belirleniyordu.
+
 Bu karışıklıkta Veyran şehirleri önem kazandı. Başlangıçta tarafsız kayıt ve su anlaşmaları sunan kentler, zamanla yolları ölçmeye, ticaret standartlarını eşitlemeye, ortak ağırlıklar kullanmaya ve sınır anlaşmazlıklarında hakemlik yapmaya başladı. Ordanor henüz imparatorluk başkenti değildi; birçok Veyran ölçü kentinden biriydi. Nehir yolları, tahıl bölgeleri ve iki büyük kara güzergâhının kesişimindeki konumu yüzünden kayıtları diğer kentlerden hızlı büyüdü.
 
 Veyran kentleri insan kralları arasındaki savaşlarda tarafsız görünmeye çalıştı. Gerçekte bazı meclisler, **hiçbir insan tacının diğer dördünü ele geçirmesine izin vermemeyi** savunuyordu. Tek büyük insan imparatorluğunun yolları, tahıl depolarını ve su anlaşmalarını yeniden tek iradeye bağlayıp Kırılma Çağı’nın hatalarını yineleyeceğine inanıyorlardı. Bu yüzden kimi zaman zayıf kralı finanse ettiler, kimi zaman savaşan tarafların tahıl kayıtlarını geciktirdiler, kimi zaman da bir düklüğün bağımsızlığını hukukî olarak tanıdılar. Yüzyıllar sonra Ordan tarihçileri bunlara “barışın korunması” dedi; insan tarihçileri ise başka bir sözcük kullandı: **parçalama.**
@@ -92,6 +98,8 @@ Mühürlü bölgelerde saray izni olmadan biçim değiştirme, zihin büyüsü, 
 ## Taçların Son Yüzyılları · SÖ 520–350
 
 Çağın sonunda dünyanın büyük bölümü Kırılma Çağı’na göre daha zengin ve kalabalıktı; ama daha sakin değildi. Devletler artık geçici değildi, bu yüzden savaşların sonuçları daha ağırdı. Diken Tacı orman egemenliğini kalıcı hukuk hâline getirmişti. Kar-Dur ocaklarını bir arada tutmayı öğrenmiş, ama eski Damar mirası iddiasından vazgeçmemişti. Nehir Tahtı kaynaklardan deltaya kadar bütün suyun tek siyasî beden olduğunu savunuyordu. Lethar’ın yıldız büyüsü onu küçük ama saldırılması korkutucu krallığa dönüştürmüştü. Mevsim devletleri farklı hukuklara sahipti; ortak Fey kimliği onları birleştirmeye yetmiyordu. Odraka’nın yolları krallıklardan daha uzun ömürlüydü. Qasyrra dış dünyanın müziğini, baharatını ve boyasını değiştirmiş, ama iç topraklarını büyük ölçüde kapalı tutmuştu. Yeraltında, yüzey tarihçilerinin yalnız adlarını bildiği onlarca şehir ve halk kendi savaşlarını sürdürüyordu.
+
+SÖ 500 dolaylarında bazı insan sarayları eski Aşkarî bereket kültlerini resmen yasakladı. Halk aynı kutsal ağaca adak bırakmayı sürdürdü; yalnızca ağacın başına, Vardûnî bir azizin adı yazıldı. Bu dönüşüm ne bütün Aşkarî geleneğin yenilgisi ne de Vardûnîlerin eksiksiz zaferiydi. Birçok mahallede iki hafıza aynı taşın, aynı kökün ve aynı bayram sofrasının içinde yaşamayı öğrendi.
 
 Beş İnsan Tacı görünüşte eski güçlerine dönmüştü. Kralların hazineleri ise Veyran kayıtlarına, Halfling kredilerine, deniz sigortalarına, Qasyrran mallarına ve yabancı yolların açık kalmasına bağımlıydı. Ordanor çevresindeki Veyran şehirlerinde yeni bir düşünce yayılmaya başladı.
 

@@ -3,7 +3,7 @@ title: Star Order
 outline: false
 ---
 
-<div class="lore-kicker">Celestial Crown · Star Charts</div>
+<div class="lore-kicker">Ancient Faith · Celestial Crown · Star Charts</div>
 
 # Star Order
 

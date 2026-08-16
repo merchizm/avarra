@@ -3,7 +3,7 @@ title: Sessiz Sofra
 outline: false
 ---
 
-<div class="lore-kicker">Eşik ve Atalar · Konukluk</div>
+<div class="lore-kicker">Antik Din · Eşik ve Atalar · Konukluk</div>
 
 # Sessiz Sofra
 

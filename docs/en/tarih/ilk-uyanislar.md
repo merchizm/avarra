@@ -25,6 +25,8 @@ Human records describe a population boom and nomadic plain alliances taking thei
 
 As piracy grew, bandit groups multiplied, vast thief networks appeared in imperial cities, and abduction increased. The abducted were enslaved, with exploitation often divided by gender. Human accounts say that admiration for humans among Orc groups treated as distant and exotic was abused through forced unions and violence; Half-Orcs emerged under these conditions. The continuity of enslaved labour also enabled sustained raids on human villages.
 
+The later name for these cities’ guardian faces is **Aškari**. Campaign records from the Eight Giants describe removing a city’s black stone, metal face, or shrine mask as the sign that it had been fully taken. A carried face was not simply plunder: it claimed to hold the city’s guardian hostage. As slave routes and plunder networks widened, such faces reached ports, colonies, and exile quarters. Defeated communities commonly answered that only the shell had been stolen, while the true aškar remained in a well bottom or in public memory.
+
 ## The Age of Trading Companies · 6500–6000 BC
 
 Human empires established colonies on other continents, opened trading companies within other states, and hunted Hadozee to preserve income and power. Hadozee populations, once said to approach half the human number, were driven close to extinction. Wood Elf protection prevented their erasure. Many Hadozee later worked with elven communities, and piracy ceased to define their people as strongly.

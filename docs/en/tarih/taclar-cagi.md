@@ -17,6 +17,8 @@ Hundreds of abandoned forts, fields, and towns were resettled. Old imperial cent
 
 Veyran families dispersed from the Seven Lines into mill towns, water councils, road stations, and school cities rather than one state. Their record methods resembled one another closely, and their success with population, grain, and water led some human kings to trust Veyran clerks more than their own people. The first serious citizenship disputes over Warforged and Autognomes appeared: one city treated a being as a citizen, another as escaped property.
 
+In the eastern road cities, worn down by war and famine, Kezran’s sermons of returning judgement spread in the 1300s BC. Some Vardûni communities received them as the final word of exilic justice; others rejected them for crushing debt, widows’ claims, and local judgement beneath an apocalyptic voice. The Kezrani path therefore became more than a new devotion: it was a sharp question of whose command a city recognised in famine.
+
 ## Root, Stone, and Water · 1410–1180 BC
 
 The Thorn Crown made lasting law through a century of argument among Wood Elves, Thornbloods, Firbolgs, and Gnome settlements over land use. The forest was finally held not to be the monarch’s property. Firbolg funeral groves, Gnome under-root roads, and Thornblood military zones won distinct rights, while full Thornblood citizenship remained a major internal dispute.
@@ -28,6 +30,8 @@ Kar-Dur arose from a compromise. Dwarven hearths would not permit any king to co
 The Veil Wars proved that even Eladrin were not one political people. Winter Eladrin gathered around the Frost Court and treated protection as preventing change and keeping old gates closed. Summer Eladrin, Satyrs, and Fire Genasi founded Goldensun near Solkar; the belief that war and harvest must not sit in one hand created the Twin Crown. Autumn resistance to any one power created the seven principalities of Red Leaf, Pale Vine, Long Shadow, Last Harvest, Copper Key, Silent Fruit, and Fallen Crown. More fragmented Spring cities of Eladrin, Halflings, Gnomes, and migrants formed the Greenwater League through debt forgiveness, refuge, and a right to begin again.
 
 Where a person had a right to be buried could become more important than birthplace; grave records entered citizenship disputes. Lethar took its modern shape as High Elf houses built common defence around Astereth, Gnome engineers developed the first great Nine Channels, and work on Aasimar star signs created the first Silent Meridian institutions. Nearby anti-magic reactions remained local: one village revered mages while another expelled them for “spoiling crops with star-fire.”
+
+Around 900 BC, an emperor broke a Kezrani uprising and dispersed Saelluni monasteries alongside it. Official registers placed both beneath one heading of “road-breaking”; in truth, one was a Vardûni movement of hunger and judgement, the other an entirely different ascetic network. The false pairing became a model for later rulers who recorded the Vardûni family as one single threat.
 
 ## Odraka Road Oaths · 1180–830 BC
 
@@ -51,6 +55,8 @@ At sea, Sea Elves guarded tidal bounds around the Coral Palaces, Tritons watched
 
 Halvek, Ardel, Seressa, Vaun, and Kastar became the Five Human Crowns, yet hundreds of tiny duchies lay between them. Some nobles swore to two kings; some towns paid tax to one king, soldiers to another house, and funeral dues to a faith family. Veyran cities began as neutral record and water-agreement centres, then measured roads, equalized trade standards, used common weights, and arbitrated borders. Ordanor was only one measure city, though its position at river routes, grain regions, and two great land roads let its records grow fastest.
 
+In these small cities, Aškari shrines became visible again. A face’s feast day might be when the market opened, debts were delayed, funerals passed safely, or a short truce with a neighbouring city held. When a ruler tried to bind a shrine to their own official, the dispute was never only about worship: it redefined which street the face granted sanctuary to, which guild collected offering money, and which grave counted as a citizen.
+
 Veyran councils publicly sought neutrality but some openly refused to allow any human crown to seize the other four. They feared a single empire would reunite roads, grain stores, and water agreements under one will. They funded weak kings, delayed grain records during wars, and legally recognized a duchy’s independence. Ordan historians later called this “preserving peace”; human historians used another word: **fragmentation.**
 
 ## Ash Seal and false heirs · 610–410 BC
@@ -60,6 +66,8 @@ This was not an Avarra-wide anti-magic movement, but organized hatred first beca
 ## The final centuries · 520–350 BC
 
 The world was richer and more populous than in the Breakage, but not quieter. The Thorn Crown made forest sovereignty permanent law; Kar-Dur held its hearths while retaining Damar claims; the River Throne argued that all water from source to delta was one political body; Lethar’s star magic made it small but dangerous to attack; seasonal states had irreconcilable laws; Odraka’s roads outlived kingdoms; Qasyrra changed foreign music, spice, and dye while keeping its interior closed; and underground cities fought wars surface historians barely knew by name. The Five Crowns depended on Veyran records, Halfling credit, sea insurance, Qasyrran goods, and open foreign roads.
+
+Around 500 BC, some human courts formally prohibited old Aškari fertility cults. People continued leaving offerings at the same sacred tree; only the name of a Vardûni saint was written above it. This was neither the defeat of all Aškari tradition nor the complete victory of the Vardûni. In many quarters, two memories learned to live in the same stone, root, and feast table.
 
 Around Ordanor a new Veyran thought spread. The old Seven Lines teaching said:
 

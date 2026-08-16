@@ -3,7 +3,7 @@ title: Living Whole Faith
 outline: false
 ---
 
-<div class="lore-kicker">Faith Family · A Living World</div>
+<div class="lore-kicker">Ancient Faith · A Living World</div>
 
 # Living Whole Faith
 

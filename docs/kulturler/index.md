@@ -7,22 +7,29 @@ outline: false
 <main class="culture-hall">
   <header class="culture-hero">
     <div class="culture-hero-copy">
-      <p class="lore-kicker">Avarra Ansiklopedisi · Yaşayan Gelenekler</p>
+      <p class="lore-kicker">Avarra Ansiklopedisi · Yaşayan İnanç ve Antik Kayıtlar</p>
       <h1>Dinler<br><em>ve Kültürler</em></h1>
       <p>Avarra’da mucize gerçektir; fakat onun tanrıdan mı, yaşayan dünyadan mı, atalardan mı yoksa inancın kendisinden mi doğduğu kesin değildir. Bu salon, o belirsizlikten doğan ritüellerin, yasaların ve gündelik hayatların giriş kapısıdır.</p>
       <a class="chronicle-button" href="./dinler/">İnanç Arşivine Gir</a>
     </div>
-    <div class="culture-orb" aria-hidden="true"><span>✦</span><small>ÜÇ BÜYÜK GELENEK</small></div>
+    <div class="culture-orb" aria-hidden="true"><span>☉</span><small>DOKUZ YAŞAYAN DİN · ANTİK ARŞİV</small></div>
   </header>
 
-  <section class="culture-ledger" aria-label="Kültür envanteri"><div><b>4</b><span>inanç ailesi</span></div><div><b>14</b><span>inanç kaydı</span></div><div><b>4</b><span>ölüm ve dönüş ayini</span></div><div><b>∞</b><span>yerel ruh ve gelenek</span></div></section>
+  <section class="culture-ledger" aria-label="Kültür envanteri"><div><b>9</b><span>yaşayan din ailesi</span></div><div><b>13</b><span>antik din kaydı</span></div><div><b>4</b><span>ölüm ve dönüş kaydı</span></div><div><b>∞</b><span>gelecek inançlar için açık arşiv</span></div></section>
 
   <section class="culture-section">
-    <div class="culture-section-heading"><p class="lore-kicker">İnanç Salonları</p><h2>Üç büyük yol</h2><p>Her biri başka bir kutsallık dili konuşur. Birini seçin; içindeki mezhepler, ihtilaflar ve ayinler için arşive ilerleyin.</p></div>
-    <div class="faith-gates">
-      <a href="./dinler/canli-butun" class="faith-gate living"><span>◉</span><small>Yaşayan dünya</small><h3>Canlı Bütün</h3><p>Dağın kemik, nehrin damar, ormanın hafıza olduğu inanç ailesi.</p><b>Kök, taş, akış, ocak →</b></a>
-      <a href="./dinler/goksel-tac" class="faith-gate celestial"><span>✧</span><small>Dokuz makam</small><h3>Göksel Taç</h3><p>Yıldızların, mevsimlerin ve ilk alevin ilahî düzeni.</p><b>Yıldız, taç, alev →</b></a>
-      <a href="./dinler/esik-ve-atalar" class="faith-gate threshold"><span>◐</span><small>Yaşayanlar ve ölüler</small><h3>Eşik ve Atalar</h3><p>Ölüyle konuşmanın değil, sınırı zorlamanın tehlikeli sayıldığı gelenekler.</p><b>Maske, perde, sofra →</b></a>
+    <div class="culture-section-heading"><p class="lore-kicker">İnanç Salonları</p><h2>Yaşayan dinler, antik hafıza</h2><p>Qasyrra’da Azh-Khar; insan dünyasında Aşkarî, Vardûnî, Sairava, Eşrenî, Theskarî, Kharûmî, Marevî ve gizli Saelûnî gelenekleri hâlâ ibadet, hukuk ve gündelik hayatın içindedir. Canlı Bütün, Göksel Taç ve Eşik-Atalar antik kayıtlardır; yeni yaşayan dinler kendi başlıklarıyla bu arşive eklenecektir.</p></div>
+    <div class="faith-gates faith-gates--ten">
+      <a href="./dinler/azh-khar" class="faith-gate desert"><span>☉</span><small>Qasyrra · yaşayan inanç</small><h3>Azh-Khar ve Kör Yüz</h3><p>Güneşin korkusu, gece nefesi, su hukuku ve adakla yaşayan çöl dini.</p><b>Güneş, gölge, su, gece →</b></a>
+      <a href="./dinler/askari-kultleri" class="faith-gate living"><span>◍</span><small>İnsan şehirleri · yaşayan dinler</small><h3>Aşkarî Kültleri</h3><p>Şehir yüzleri, mahalle bakımı, sığınma hakkı ve fetihle sınanan mabet ağları.</p><b>Yüz, eşik, pazar, yemin →</b></a>
+      <a href="./dinler/varduni-gelenekler" class="faith-gate celestial"><span>✶</span><small>İnsan dünyası · yaşayan dinler</small><h3>Vardûnî Gelenekler</h3><p>Vahiy, sürgün, Sekiz Şahit ve Beş Mühür ihtilafıyla büyüyen din ailesi.</p><b>Levha, mektup, mühür, hac →</b></a>
+      <a href="./dinler/sairava-dinleri" class="faith-gate living"><span>≋</span><small>Nehir havzası · yaşayan dinler</small><h3>Sairava Dinleri</h3><p>Yeniden doğuş, İz sorumluluğu, manastırlar ve döngüyü kırma tartışması.</p><b>Nefes, ad, iz, dönüş →</b></a>
+      <a href="./dinler/esreni-inanc" class="faith-gate celestial"><span>♨</span><small>İnsan dünyası · yaşayan dinler</small><h3>Eşrenî İnanç</h3><p>Yalan, zarar ve çürüme karşısında dünyayı onarmaya çağıran inanç ailesi.</p><b>Yara, söz, emek, onarım →</b></a>
+      <a href="./dinler/theskar-gizemleri" class="faith-gate threshold"><span>◈</span><small>İnsan dünyası · yaşayan gizem</small><h3>Theskar Gizemleri</h3><p>Ölüm Eşiği’ne yalnız gitmeme vaadi, Kara Kıyı ayini ve saklı tanıklık.</p><b>Ölüm, eşik, lamba, sır →</b></a>
+      <a href="./dinler/kharumi-ayinler" class="faith-gate desert"><span>◫</span><small>İnsan dünyası · yaşayan gizem</small><h3>Kharûmî Ayinler</h3><p>Zaman, bilgi ve insan ilişkilerinin düğümünü çözerek kendini kanıtlama inancı.</p><b>Ölçü, zaman, düğüm, sonuç →</b></a>
+      <a href="./dinler/marevi-baglar" class="faith-gate living"><span>☿</span><small>İnsan dünyası · yaşayan bağ</small><h3>Marevî Bağlar</h3><p>Cadı birlikleri, ruh aracılığı ve büyünün geride bıraktığı ilişki borcu.</p><b>Ruh, cadılık, rıza, bağ →</b></a>
+      <a href="./dinler/saelun-ogretileri" class="faith-gate threshold"><span>◒</span><small>İnsan dünyası · gizli yaşayan öğreti</small><h3>Saelûn Öğretileri</h3><p>İnsanı soy, borç ve iktidarın verdiği sahte adlardan özgürleştirmeyi arayan yol.</p><b>Perde, kıvılcım, ad, özgürleşme →</b></a>
+      <a href="./dinler/" class="faith-gate threshold"><span>⌛</span><small>On üç kayıt</small><h3>Antik dinler</h3><p>Canlı Bütün, Göksel Taç ve Eşik-Atalar; artık metin, harabe ve miras hukukunda kalan inançlar.</p><b>Arşivi incele →</b></a>
     </div>
   </section>
 

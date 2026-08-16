@@ -3,7 +3,7 @@ title: Silent Table
 outline: false
 ---
 
-<div class="lore-kicker">Threshold & Ancestors · Hospitality</div>
+<div class="lore-kicker">Ancient Faith · Threshold & Ancestors · Hospitality</div>
 
 # Silent Table
 

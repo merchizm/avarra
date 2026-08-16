@@ -3,7 +3,7 @@ title: Threshold & Ancestors
 outline: false
 ---
 
-<div class="lore-kicker">Faith Family · Living and Dead</div>
+<div class="lore-kicker">Ancient Faith · Living and Dead</div>
 
 # Threshold & Ancestors
 

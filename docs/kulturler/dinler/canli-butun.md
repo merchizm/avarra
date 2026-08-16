@@ -3,7 +3,7 @@ title: Canlı Bütün İnancı
 outline: false
 ---
 
-<div class="lore-kicker">Din Ailesi · Yaşayan Dünya</div>
+<div class="lore-kicker">Antik Din · Yaşayan Dünya</div>
 
 # Canlı Bütün İnancı
 

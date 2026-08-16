@@ -46,8 +46,16 @@ function wikiReferenceIndex() {
           const image = peopleReferenceImages.get(record.path) || record.image
           const enImage = peopleReferenceImages.get(record.path) || english?.image || image
           return { ...record, image, enTitle: english?.title || record.title, enLead: english?.lead || record.lead, enImage }
-        })
+      })
       return `export default ${JSON.stringify(records)}`
+    },
+    handleHotUpdate({ file, server }) {
+      const docsRoot = `${path.resolve(process.cwd(), 'docs')}${path.sep}`
+      if (!file.startsWith(docsRoot) || !file.endsWith('.md')) return
+      const module = server.moduleGraph.getModuleById(referenceModule)
+      if (!module) return
+      server.moduleGraph.invalidateModule(module)
+      return [module]
     }
   }
 }

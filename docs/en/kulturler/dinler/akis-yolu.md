@@ -3,7 +3,7 @@ title: Flowing Way
 outline: false
 ---
 
-<div class="lore-kicker">Living Whole · River and Sea</div>
+<div class="lore-kicker">Ancient Faith · Living Whole · River and Sea</div>
 
 # Flowing Way
 

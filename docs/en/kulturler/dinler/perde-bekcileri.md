@@ -3,7 +3,7 @@ title: Veil Keepers
 outline: false
 ---
 
-<div class="lore-kicker">Threshold & Ancestors · Dream and Shadow</div>
+<div class="lore-kicker">Ancient Faith · Threshold & Ancestors · Dream and Shadow</div>
 
 # Veil Keepers
 

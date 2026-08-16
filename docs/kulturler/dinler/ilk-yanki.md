@@ -3,7 +3,7 @@ title: İlk Yankı
 outline: false
 ---
 
-<div class="lore-kicker">Canlı Bütün · Taşın Hafızası</div>
+<div class="lore-kicker">Antik Din · Canlı Bütün · Taşın Hafızası</div>
 
 # İlk Yankı
 

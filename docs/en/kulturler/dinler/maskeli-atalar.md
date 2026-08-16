@@ -3,7 +3,7 @@ title: Masked Ancestors
 outline: false
 ---
 
-<div class="lore-kicker">Threshold & Ancestors · Odraka</div>
+<div class="lore-kicker">Ancient Faith · Threshold & Ancestors · Odraka</div>
 
 # Masked Ancestors
 

@@ -25,6 +25,8 @@ Bu yenilgiden sonra birçok cüce yüzey yerleşiminden büyük ölçüde vazge�
 
 Korsanlığın artmasıyla haydut çeteleri çoğaldı, imparatorluk kentlerinde büyük hırsız ağları kuruldu ve insan kaçırma yaygınlaştı. Kaçırılanlar köle olarak kullanılıyor, sömürü çoğu zaman cinsiyete göre farklılaştırılıyordu. Dönemin insan anlatıları, uzak ve “egzotik” görülen yerlerde yaşayan Orc topluluklarının insanlara duyduğu hayranlığın zorla birliktelikler ve şiddetle istismar edildiğini; Yarı-Orcların bu koşullarda ortaya çıktığını kaydeder. Köle emeğinin sürekliliği, insan köylerine karşı kesintisiz saldırıların sürdürülmesini mümkün kıldı.
 
+Bu kentlerin kendi koruyucu yüzleri için sonradan kullanılan ad **Aşkarî**dir. Sekiz Dev’in sefer kayıtları, bir şehri bütünüyle teslim almanın işareti olarak onun siyah taşını, metal yüzünü ya da mabet maskesini söküp götürmekten söz eder. Taşınan yüz, yalnız ganimet değildi: şehrin koruyucusunu esir alma iddiasıydı. Köle yolları ve yağma ağları genişledikçe bu yüzler de limanlara, kolonilere ve sürgün mahallelerine dağıldı. Mağlup halkların çoğu ise yalnız kabuğun çalındığını, asıl aškarın kuyu dibinde veya halkın hatırasında kaldığını savundu.
+
 ## Ticaret Şirketleri Dönemi · SÖ 6500–6000
 
 İnsan imparatorlukları gelirlerini korumak için başka kıtalarda koloniler kurmaya, yabancı devletlerin içinde ticaret şirketleri açmaya ve Hadozeeleri avlamaya başladı. Hadozee nüfusu bu döneme kadar insan nüfusunun neredeyse yarısına ulaşmış sayılıyordu; av ve köleleştirme onları yok oluşun eşiğine getirdi. Orman Elflerinin koruması, halkın tamamen silinmesini engelledi. Sonraki kuşaklarda birçok Hadozee elf topluluklarıyla çalışmaya başladı ve korsanlık onlar için belirleyici bir meslek olmaktan çıktı.

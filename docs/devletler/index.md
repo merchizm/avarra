@@ -30,10 +30,14 @@ outline: false
   <div class="lore-card"><h3><a href="./kar-dur-tas-taci">Kar-Dur Taş Tacı</a></h3><p>Ocak meclisleri ve tartışmalı veliaht.</p></div>
   <div class="lore-card"><h3><a href="./tuz-ocaklari-cumhuriyeti">Tuz Ocakları Cumhuriyeti</a></h3><p>Tuz domları üzerinde oligark meclisi.</p></div>
   <div class="lore-card"><h3><a href="./camova-konfederasyonu">Camova Konfederasyonu</a></h3><p>Element ocakları ve gezici meclis.</p></div>
-  <div class="lore-card"><h3><a href="./sis-adalari-cumhuriyeti">Sis Adaları Cumhuriyeti</a></h3><p>Kimlik, borç ve sigorta ticareti.</p></div>
+  <div class="lore-card"><h3><a href="./sis-adalari-cumhuriyeti">Sis Adaları Cumhuriyeti</a></h3><p>Yüzsüz ağları, devlet sırları ve sözleşmeli suikastçılarla yaşayan ada cumhuriyeti.</p></div>
   <div class="lore-card"><h3><a href="./altin-gunes-kralligi">Altıngüneş Krallığı</a></h3><p>Yaz Eladrinlerinin ikiz tacı.</p></div>
   <div class="lore-card"><h3><a href="./bakir-prenslikler">Bakır Prenslikler</a></h3><p>Yedi Sonbahar prensliği.</p></div>
   <div class="lore-card"><h3><a href="./yesil-su-birligi">Yeşil Su Birliği</a></h3><p>İlkbahar şehir devletleri.</p></div>
+  <div class="lore-card"><h3><a href="./varkesh">Varkesh</a></h3><p>Nareth–Odraka arasındaki ada-kent; savaş kredisi, liman tedariki ve iki anahtarlı devlet düzeni.</p></div>
+  <div class="lore-card"><h3><a href="./kis-ambarlari-serbest-sehri">Kış Ambarları Serbest Şehri</a></h3><p>Tahıl, kuşatma malı ve sefer tedarikini krediye çeviren serbest şehir.</p></div>
+  <div class="lore-card"><h3><a href="./kara-muhur-adalari">Kara Mühür Adaları</a></h3><p>Uluslararası ödeme zincirini ağırlık, ayar ve güvenilir mühür üzerinden tutan ada devleti.</p></div>
+  <div class="lore-card"><h3><a href="./kul-esigi">Kül Eşiği Şövalye Düzeni</a></h3><p>Eşrenî Kül Şövalyeleri’nin ada egemenliği; sığınma, eğitim, tanıklık ve onarımı birlikte korur.</p></div>
 </div>
 
 ## Siyasi düğümler
@@ -45,7 +49,7 @@ outline: false
 
 ## SS 83: yol, kredi ve savaş
 
-Devletlerin gücü, sahip oldukları topraktan çok tahılını, tuzunu, metalini ve haberini taşıyabilmesine bağlıdır. Ordan kara ordusu Nareth tahılı ile Kırk Köprü kredisine; Nehir Tahtı iç ticareti akıntılara; Kar-Dur ve yeraltı şehirleri Döküm Hattı’na; Sis Adaları ise sigorta ve kimlik kayıtlarına bağımlıdır.
+Devletlerin gücü, sahip oldukları topraktan çok tahılını, tuzunu, metalini ve haberini taşıyabilmesine bağlıdır. Ordan kara ordusu Nareth tahılı ile Kırk Köprü kredisine; Nehir Tahtı iç ticareti akıntılara; Kar-Dur ve yeraltı şehirleri Döküm Hattı’na; Sis Adaları gizli bilgi ve yüzsüz ağlara bağlıdır. Varkesh savaşın tahıl, maaş ve onarım kredisini aynı limanda açar; Kış Ambarları tahıl ve kuşatma malı zincirini, Kara Mühür Adaları ise kıtalar arası askerî ödeme standardını tutar.
 
 | Gerilim | Siyasi ve ekonomik bağ |
 | --- | --- |
@@ -61,12 +65,12 @@ Namaris’te akışın yavaşlaması tahıl sevkiyatını geciktirir; Halvek ve 
 
 | Bölge | Devletler ve egemenlikler |
 | --- | --- |
-| Nareth | Diken Tacı, İnsan Yurtsuzları ve Beş Sürgün Hanedanı, Kar-Dur Taş Tacı, Tuz Ocakları Cumhuriyeti, Nehir Tahtı, Camova Konfederasyonu, Sis Adaları Cumhuriyeti |
+| Nareth | Diken Tacı, İnsan Yurtsuzları ve Beş Sürgün Hanedanı, Kar-Dur Taş Tacı, Tuz Ocakları Cumhuriyeti, Nehir Tahtı, Camova Konfederasyonu, Sis Adaları Cumhuriyeti, Kış Ambarları Serbest Şehri |
 | Mevsim devletleri | Ayaz Sarayı, Altıngüneş Krallığı, Bakır Prenslikler, Yeşil Su Birliği |
 | Asteron | Ordan İmparatorluğu, Lethar Yıldız Krallığı, Vardessa Serbest Krallığı, Kırk Köprü Cumhuriyeti, Gök Eşiği Konkordatosu, Külordu Marklığı |
 | Odraka | Kızıl Saar, Mücevher Yemini, Labirent Limanları, Uçsuz Yol Konfederasyonu, Saz Ejderi Krallıkları, Yağmur Pençesi Birliği, Kızıl Toprak Orc Krallığı |
 | Kharizha Çölü | Qasyrra İmparatorluğu, Minotaur kuyu haneleri ve imparatorluğa farklı hukuklarla bağlı çöl toplulukları |
 | Yeraltı | Dokuz Fener Birliği, Sessiz Oyuk, Çan Kuyusu, İpek Tahtı, Karanlık Liman, Ayaltı Sürgünleri, Kül Örgüsü, Kor-Dum, Kara Örs, Yedi Baca Oyukları, Derin Hafıza Çemberleri, Dalgasız Göl Rahip Şehirleri, Sessiz Basamaklar |
-| Denizler | Mercan Sarayları, Triton Derin Nöbeti, Sahuagin Kırmızı Akıntı Konfederasyonu, Uzun Kabuk Yolları, Yüzen Pazarlar |
+| Denizler | Varkesh, Kara Mühür Adaları, Mercan Sarayları, Triton Derin Nöbeti, Sahuagin Kırmızı Akıntı Konfederasyonu, Uzun Kabuk Yolları, Yüzen Pazarlar |
 
 Bu envanter, harita editörüne siyasi katman eklendiğinde bölge filtresinin kaynak listesi olarak kullanılacaktır.

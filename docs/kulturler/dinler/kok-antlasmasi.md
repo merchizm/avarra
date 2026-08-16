@@ -3,7 +3,7 @@ title: Kök Antlaşması
 outline: false
 ---
 
-<div class="lore-kicker">Canlı Bütün · Orman Hukuku</div>
+<div class="lore-kicker">Antik Din · Canlı Bütün · Orman Hukuku</div>
 
 # Kök Antlaşması
 

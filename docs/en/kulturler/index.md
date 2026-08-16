@@ -7,22 +7,29 @@ outline: false
 <main class="culture-hall">
   <header class="culture-hero">
     <div class="culture-hero-copy">
-      <p class="lore-kicker">Avarra Encyclopaedia · Living Traditions</p>
+      <p class="lore-kicker">Avarra Encyclopaedia · Living Faith & Ancient Records</p>
       <h1>Faiths<br><em>and Cultures</em></h1>
       <p>In Avarra, miracles are real; whether they rise from gods, the living world, ancestors, or belief itself remains uncertain. This hall is the threshold to the rituals, laws, and daily lives born from that uncertainty.</p>
       <a class="chronicle-button" href="./dinler/">Enter the Faith Archive</a>
     </div>
-    <div class="culture-orb" aria-hidden="true"><span>✦</span><small>THREE GREAT TRADITIONS</small></div>
+    <div class="culture-orb" aria-hidden="true"><span>☉</span><small>NINE LIVING FAITH FAMILIES · ANCIENT ARCHIVE</small></div>
   </header>
 
-  <section class="culture-ledger" aria-label="Culture inventory"><div><b>4</b><span>faith families</span></div><div><b>14</b><span>faith records</span></div><div><b>4</b><span>death and return rites</span></div><div><b>∞</b><span>local spirits and customs</span></div></section>
+  <section class="culture-ledger" aria-label="Culture inventory"><div><b>9</b><span>living faith families</span></div><div><b>13</b><span>ancient faith records</span></div><div><b>4</b><span>death and return records</span></div><div><b>∞</b><span>archive open to future faiths</span></div></section>
 
   <section class="culture-section">
-    <div class="culture-section-heading"><p class="lore-kicker">Halls of Faith</p><h2>Three great ways</h2><p>Each speaks a different language of the sacred. Choose one, then enter its archive for sects, disputes, and rites.</p></div>
-    <div class="faith-gates">
-      <a href="./dinler/canli-butun" class="faith-gate living"><span>◉</span><small>Living world</small><h3>Living Whole</h3><p>A faith family in which mountain is bone, river is vein, and forest is memory.</p><b>Root, stone, flow, hearth →</b></a>
-      <a href="./dinler/goksel-tac" class="faith-gate celestial"><span>✧</span><small>Nine offices</small><h3>Celestial Crown</h3><p>The divine order of stars, seasons, and the first flame.</p><b>Star, crown, flame →</b></a>
-      <a href="./dinler/esik-ve-atalar" class="faith-gate threshold"><span>◐</span><small>Living and dead</small><h3>Threshold & Ancestors</h3><p>Traditions in which pressing the boundary, rather than speaking to the dead, is dangerous.</p><b>Mask, veil, table →</b></a>
+    <div class="culture-section-heading"><p class="lore-kicker">Halls of Faith</p><h2>Living faiths, ancient memory</h2><p>In Qasyrra, Azh-Khar; in the human world, Aškari, Vardûni, Sairava, Eshrenic, Theskarite, Kharûmi, Marevi, and hidden Saeluni traditions still shape worship, law, and daily life. Living Whole, Celestial Crown, and Threshold & Ancestors are ancient records; new living faiths will enter the archive under their own names.</p></div>
+    <div class="faith-gates faith-gates--ten">
+      <a href="./dinler/azh-khar" class="faith-gate desert"><span>☉</span><small>Qasyrra · living faith</small><h3>Azh-Khar and the Blind Face</h3><p>A living desert faith of fear of the Sun, night-breath, water law, and offering.</p><b>Sun, shade, water, night →</b></a>
+      <a href="./dinler/askari-kultleri" class="faith-gate living"><span>◍</span><small>Human cities · living faiths</small><h3>Aškari Cults</h3><p>Networks of city faces, quarter care, sanctuary, and shrines tested by conquest.</p><b>Face, threshold, market, oath →</b></a>
+      <a href="./dinler/varduni-gelenekler" class="faith-gate celestial"><span>✶</span><small>Human world · living faiths</small><h3>Vardûni Traditions</h3><p>A faith family grown through revelation, exile, and the Eight Witnesses–Five Seals dispute.</p><b>Tablet, letter, seal, pilgrimage →</b></a>
+      <a href="./dinler/sairava-dinleri" class="faith-gate living"><span>≋</span><small>River basin · living faiths</small><h3>Sairava Faiths</h3><p>Rebirth, responsibility of Trace, monasteries, and the argument over breaking the cycle.</p><b>Breath, name, trace, return →</b></a>
+      <a href="./dinler/esreni-inanc" class="faith-gate celestial"><span>♨</span><small>Human world · living faiths</small><h3>Eshrenic Faith</h3><p>A faith family calling people to repair the world against lie, harm, and corruption.</p><b>Wound, word, labour, repair →</b></a>
+      <a href="./dinler/theskar-gizemleri" class="faith-gate threshold"><span>◈</span><small>Human world · living mystery</small><h3>Theskar Mysteries</h3><p>The promise not to meet the Threshold alone, the Black Shore rite, and hidden witness.</p><b>Death, threshold, lamp, secret →</b></a>
+      <a href="./dinler/kharumi-ayinler" class="faith-gate desert"><span>◫</span><small>Human world · living mystery</small><h3>Kharûmi Rites</h3><p>A faith of proving oneself by resolving knots of time, information, and human relation.</p><b>Measure, time, knot, outcome →</b></a>
+      <a href="./dinler/marevi-baglar" class="faith-gate living"><span>☿</span><small>Human world · living bond</small><h3>Marevi Bonds</h3><p>Witch covens, spirit mediumship, and the debt of relation that magic leaves behind.</p><b>Spirit, witchcraft, consent, bond →</b></a>
+      <a href="./dinler/saelun-ogretileri" class="faith-gate threshold"><span>◒</span><small>Human world · hidden living teaching</small><h3>Saelûn Teachings</h3><p>A way seeking release from the false names assigned by lineage, debt, and power.</p><b>Veil, spark, name, release →</b></a>
+      <a href="./dinler/" class="faith-gate threshold"><span>⌛</span><small>Thirteen records</small><h3>Ancient faiths</h3><p>Living Whole, Celestial Crown, and Threshold & Ancestors, now surviving in text, ruins, and inherited law.</p><b>Explore the archive →</b></a>
     </div>
   </section>
 

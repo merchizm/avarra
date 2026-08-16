@@ -3,7 +3,7 @@ title: Seasonal Crowns
 outline: false
 ---
 
-<div class="lore-kicker">Celestial Crown · Turning</div>
+<div class="lore-kicker">Ancient Faith · Celestial Crown · Turning</div>
 
 # Seasonal Crowns
 

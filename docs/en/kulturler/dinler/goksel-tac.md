@@ -3,7 +3,7 @@ title: Celestial Crown Faith
 outline: false
 ---
 
-<div class="lore-kicker">Faith Family · The Nine Offices</div>
+<div class="lore-kicker">Ancient Faith · The Nine Offices</div>
 
 # Celestial Crown Faith
 

@@ -3,7 +3,7 @@ title: First Echo
 outline: false
 ---
 
-<div class="lore-kicker">Living Whole · Stone Memory</div>
+<div class="lore-kicker">Ancient Faith · Living Whole · Stone Memory</div>
 
 # First Echo
 

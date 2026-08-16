@@ -3,7 +3,7 @@ title: Perde Bekçileri
 outline: false
 ---
 
-<div class="lore-kicker">Eşik ve Atalar · Rüya ve Gölge</div>
+<div class="lore-kicker">Antik Din · Eşik ve Atalar · Rüya ve Gölge</div>
 
 # Perde Bekçileri
 

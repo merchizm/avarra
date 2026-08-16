@@ -3,7 +3,7 @@ title: Eşik ve Atalar Geleneği
 outline: false
 ---
 
-<div class="lore-kicker">Din Ailesi · Yaşayanlar ve Ölüler</div>
+<div class="lore-kicker">Antik Din · Yaşayanlar ve Ölüler</div>
 
 # Eşik ve Atalar Geleneği
 

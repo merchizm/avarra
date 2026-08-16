@@ -3,7 +3,7 @@ title: Akış Yolu
 outline: false
 ---
 
-<div class="lore-kicker">Canlı Bütün · Nehir ve Deniz</div>
+<div class="lore-kicker">Antik Din · Canlı Bütün · Nehir ve Deniz</div>
 
 # Akış Yolu
 

@@ -3,7 +3,7 @@ title: Maskeli Atalar
 outline: false
 ---
 
-<div class="lore-kicker">Eşik ve Atalar · Odraka</div>
+<div class="lore-kicker">Antik Din · Eşik ve Atalar · Odraka</div>
 
 # Maskeli Atalar
 

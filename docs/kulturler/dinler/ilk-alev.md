@@ -3,7 +3,7 @@ title: İlk Alev
 outline: false
 ---
 
-<div class="lore-kicker">Göksel Taç · Yaratım</div>
+<div class="lore-kicker">Antik Din · Göksel Taç · Yaratım</div>
 
 # İlk Alev
 
