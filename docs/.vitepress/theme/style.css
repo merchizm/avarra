@@ -997,3 +997,53 @@ body:has(.avarra-atlas) .VPDoc .content-container {
 }
 
 .faith-gate.desert { background: linear-gradient(150deg, #5d3d28, #2b2225); }
+
+.backlinks {
+  margin-top: 2.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--vp-c-divider);
+}
+
+.backlinks-kicker {
+  margin: 0 0 .25rem;
+  color: #5c9ca4;
+  font-family: Cinzel, Georgia, serif;
+  font-size: .62rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+.backlinks h2 {
+  margin: 0;
+  border: 0;
+  color: var(--vp-c-text-1);
+  font-family: Cinzel, Georgia, serif;
+  font-size: 1.15rem;
+}
+
+.backlinks ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  margin: .85rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.backlinks a {
+  display: block;
+  padding: .42rem .65rem;
+  border: 1px solid var(--vp-c-divider);
+  color: var(--vp-c-text-2);
+  background: var(--vp-c-bg-soft);
+  font-family: Cinzel, Georgia, serif;
+  font-size: .7rem;
+  text-decoration: none;
+}
+
+.backlinks a:hover,
+.backlinks a:focus-visible {
+  border-color: #6c9b9d;
+  color: var(--vp-c-text-1);
+  outline: 0;
+}

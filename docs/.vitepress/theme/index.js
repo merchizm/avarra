@@ -16,14 +16,16 @@ import SettlementDirectory from './components/SettlementDirectory.vue'
 import AvarraAtlas from './components/AvarraAtlas.vue'
 import EraPopulationDossier from './components/EraPopulationDossier.vue'
 import PeoplePortraits from './components/PeoplePortraits.vue'
+import Backlinks from './components/Backlinks.vue'
 
 export default {
   extends: DefaultTheme,
   Layout: () => h(DefaultTheme.Layout, null, {
       'doc-before': () => h(StateIdentity),
-      'doc-after': () => [h(PeoplePortraits), h(WikiReferenceLinks), h(AssetPathFixer), h(StateFlagLinks), h(PeopleHistoryReference), h(PeopleCultureReference), h(StateRelations), h(CapitalLife), h(EraPopulationDossier), h(EraFooter)]
+      'doc-after': () => [h(PeoplePortraits), h(WikiReferenceLinks), h(AssetPathFixer), h(StateFlagLinks), h(PeopleHistoryReference), h(PeopleCultureReference), h(StateRelations), h(CapitalLife), h(EraPopulationDossier), h(Backlinks), h(EraFooter)]
   }),
     enhanceApp({ app }) {
+      app.component('Backlinks', Backlinks)
       app.component('SettlementDirectory', SettlementDirectory)
     app.component('PeopleGallery', PeopleGallery)
     app.component('FaithCatalogue', FaithCatalogue)
