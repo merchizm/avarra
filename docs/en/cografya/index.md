@@ -21,7 +21,7 @@ outline: false
 
 Ancient underground roads are not just passages. Kar-Dur, Tuz Ocakları, Ordan and Dokuz Fener control different parts of this network. Opening the network accelerates trade; but there is a risk of carrying the Recession deeper into the continent.
 
-The [interactive World Atlas](../haritalar/dunya) is the visual entry point for continent, border, and World Vein layers. Use the regional records below for the political, ecological, and historical detail behind the map.
+The [World Atlas](../haritalar/dunya) is the visual entry point for continents, borders, island groups, and World Veins. Use the regional records below for the political, ecological, and historical detail behind the map.
 
 ## Regional guides
 

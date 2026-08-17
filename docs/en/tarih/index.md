@@ -11,6 +11,8 @@ outline: false
 
 An era does not begin and end on the same day everywhere. A sea route may open while a neighbouring basin closes; one state’s formal account may contradict another community’s oral memory. This index follows the large transformations that shaped Avarra rather than claiming one fixed, universal history.
 
+<Timeline />
+
 <div class="lore-grid">
   <a class="lore-card" href="./sessiz-baslangic"><h3>Silent Beginning</h3><p>Pre-written traces and the First Separation.</p></a>
   <a class="lore-card" href="./ilk-uyanislar"><h3>First Awakenings</h3><p>9000–5200 BC · First boundaries, extraction systems, and freedom networks.</p></a>

@@ -10,7 +10,7 @@ outline: false
 <p class="lore-lead">Avarra’s continents are connected by sea routes, Rootbeyond passages, ancient roads, and contested World Veins. This directory leads from the whole-world view to each regional record.</p>
 
 <div class="lore-grid">
-  <a class="lore-card" href="../haritalar/dunya"><h3>World Atlas</h3><p>Open the interactive map, continent icons, and regional detail views.</p></a>
+  <a class="lore-card" href="../haritalar/dunya"><h3>World Atlas</h3><p>Open the full world map, then continue to the continent, island-group, and shore records.</p></a>
   <a class="lore-card" href="./nareth"><h3>Nareth</h3><p>Forest borders, salt roads, the Pale Basin, and the Thorn–Meridian Belt.</p></a>
   <a class="lore-card" href="./asteron"><h3>Asteron</h3><p>River manifests, northern passes, Ordan’s record system, and local councils.</p></a>
   <a class="lore-card" href="./odraka"><h3>Odraka</h3><p>Savanna, monsoon forests, dragon heritage, migration law, and rift harbours.</p></a>

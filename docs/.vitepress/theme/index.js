@@ -17,6 +17,8 @@ import AvarraAtlas from './components/AvarraAtlas.vue'
 import EraPopulationDossier from './components/EraPopulationDossier.vue'
 import PeoplePortraits from './components/PeoplePortraits.vue'
 import Backlinks from './components/Backlinks.vue'
+import Timeline from './components/Timeline.vue'
+import HomeRandomRecord from './components/HomeRandomRecord.vue'
 
 export default {
   extends: DefaultTheme,
@@ -26,6 +28,8 @@ export default {
   }),
     enhanceApp({ app }) {
       app.component('Backlinks', Backlinks)
+      app.component('Timeline', Timeline)
+      app.component('HomeRandomRecord', HomeRandomRecord)
       app.component('SettlementDirectory', SettlementDirectory)
     app.component('PeopleGallery', PeopleGallery)
     app.component('FaithCatalogue', FaithCatalogue)

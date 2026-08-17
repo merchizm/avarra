@@ -22,7 +22,7 @@ outline: false
 
 Antik yeraltı yolları yalnızca geçit değildir. Kar-Dur, Tuz Ocakları, Ordan ve Dokuz Fener bu ağın farklı parçalarını kontrol eder. Ağın açılması ticareti hızlandırır; fakat Durgunluğu kıtanın derinlerine taşıma riski vardır.
 
-Çizimli harita eklendiğinde bu sayfa kıta, sınır ve Dünya Damarı katmanlarına bağlanacak. Şimdilik [Dünya Atlası](../haritalar/dunya) bölgesel kayıtların girişidir.
+[Dünya Atlası](../haritalar/dunya), kıtalar, sınırlar, ada grupları ve Dünya Damarları için görsel giriş noktasıdır. Haritadaki yerleri ayrıntısıyla okumak için bölgesel kayıtlara geçin.
 
 ## Bölgesel rehberler
 

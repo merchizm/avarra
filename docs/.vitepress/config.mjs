@@ -6,6 +6,7 @@ import { additionalPeople } from './theme/data/additionalPeople.js'
 
 const referenceModule = '\0avarra-reference-index'
 const backlinkModule = '\0avarra-backlink-index'
+const timelineModule = '\0avarra-timeline-index'
 const plainText = (value = '') => value.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim()
 const peopleReferenceImages = new Map([
   ...additionalPeople.filter((person) => person.image).map((person) => [person.link, person.image]),
@@ -110,6 +111,118 @@ function wikiBacklinkIndex() {
   }
 }
 
+function timelineMetadata(source) {
+  const frontmatter = source.match(/^---\s*\n([\s\S]*?)\n---/)
+  const block = frontmatter?.[1]?.match(/^timeline:\s*\n((?:^[ \t]+.*(?:\n|$))*)/m)?.[1]
+  if (!block) return null
+  const field = (name) => block.match(new RegExp(`^[\\t ]+${name}:\\s*(.+)$`, 'm'))?.[1]?.trim().replace(/^['"]|['"]$/g, '')
+  const start = field('start') || field('year')
+  if (!start || Number.isNaN(Number(start))) return null
+  return {
+    start: Number(start),
+    end: Number(field('end') || start),
+    type: field('type') || 'event',
+    summary: field('summary')
+  }
+}
+
+function parseTimelineDate(value) {
+  const date = value.trim()
+  const beforePresent = date.match(/SÖ\s*(\d+)(?:\s*[–-]\s*(\d+))?/i)
+  if (beforePresent) return { start: -Number(beforePresent[1]), end: -Number(beforePresent[2] || beforePresent[1]), label: beforePresent[0] }
+  const beforeCommon = date.match(/(\d+)(?:\s*[–-]\s*(\d+))?\s*BC/i)
+  if (beforeCommon) return { start: -Number(beforeCommon[1]), end: -Number(beforeCommon[2] || beforeCommon[1]), label: beforeCommon[0] }
+  const present = date.match(/S[SD]\s*(\d+)(?:\s*[–-]\s*(\d+))?/i)
+  if (present) return { start: Number(present[1]), end: Number(present[2] || present[1]), label: present[0] }
+  return null
+}
+
+function timelineSummary(value) {
+  return plainText(value
+    .replace(/^---[\s\S]*?---\s*/m, '')
+    .replace(/!?(\[[^\]]*\])\([^)]*\)/g, '$1')
+    .replace(/[*_`>#]/g, ''))
+}
+
+function timelineType(title, summary) {
+  const text = `${title} ${summary}`.toLocaleLowerCase('tr')
+  if (/savaş|war|sefer|kuşatma|çatışma/.test(text)) return 'war'
+  if (/kuruluş|kuruldu|foundation|founding|taç|crown/.test(text)) return 'founding'
+  if (/göç|sığınak|migration|refuge/.test(text)) return 'migration'
+  return 'event'
+}
+
+function collectTimelineEvents(directory, prefix = '') {
+  const events = []
+  for (const entry of fs.readdirSync(directory, { withFileTypes: true })) {
+    if (entry.name === '.vitepress') continue
+    const relative = path.posix.join(prefix, entry.name)
+    const fullPath = path.join(directory, entry.name)
+    if (entry.isDirectory()) {
+      events.push(...collectTimelineEvents(fullPath, relative))
+      continue
+    }
+    if (!entry.name.endsWith('.md') || entry.name === 'index.md') continue
+
+    const source = fs.readFileSync(fullPath, 'utf8')
+    const title = source.match(/^title:\s*(.+)$/m)?.[1]?.trim().replace(/^['"]|['"]$/g, '') || path.basename(entry.name, '.md')
+    const pagePath = pagePathFromRelative(relative)
+    const lead = timelineSummary(source.match(/<p class="lore-lead">([\s\S]*?)<\/p>/)?.[1] || '')
+    const metadata = timelineMetadata(source)
+    if (metadata) {
+      events.push({ ...metadata, title, summary: metadata.summary || lead, path: pagePath, label: String(metadata.start) })
+      continue
+    }
+
+    const datedHeadings = [...source.matchAll(/^##\s+(.+?)\s+·\s+(.+)$/gm)]
+      .map((match, index, all) => {
+        const date = parseTimelineDate(match[2])
+        if (!date) return null
+        const sectionEnd = all[index + 1]?.index ?? source.length
+        const section = source.slice(match.index + match[0].length, sectionEnd)
+        const summary = timelineSummary(section).slice(0, 220)
+        return {
+          ...date,
+          title: match[1].trim(),
+          summary: summary || lead,
+          type: timelineType(match[1], summary),
+          path: pagePath
+        }
+      })
+      .filter(Boolean)
+    if (datedHeadings.length) events.push(...datedHeadings)
+    else {
+      const kicker = source.match(/<div class="lore-kicker">([\s\S]*?)<\/div>/)?.[1]
+      const date = kicker && parseTimelineDate(kicker)
+      if (date) events.push({ ...date, title, summary: lead, type: timelineType(title, lead), path: pagePath })
+    }
+  }
+  return events
+}
+
+function wikiTimelineIndex() {
+  return {
+    name: 'avarra-wiki-timeline-index',
+    resolveId(id) { return id === 'virtual:avarra-timeline-index' ? timelineModule : null },
+    load(id) {
+      if (id !== timelineModule) return null
+      const docsRoot = path.resolve(process.cwd(), 'docs')
+      const events = collectTimelineEvents(path.join(docsRoot, 'tarih'), 'tarih')
+        .concat(collectTimelineEvents(path.join(docsRoot, 'en', 'tarih'), 'en/tarih'))
+        .sort((a, b) => a.start - b.start || a.end - b.end || a.title.localeCompare(b.title, 'tr'))
+      return `export default ${JSON.stringify(events)}`
+    },
+    handleHotUpdate({ file, server }) {
+      const docsRoot = `${path.resolve(process.cwd(), 'docs')}${path.sep}`
+      if (!file.startsWith(docsRoot) || !file.endsWith('.md')) return
+      const module = server.moduleGraph.getModuleById(timelineModule)
+      if (!module) return
+      server.moduleGraph.invalidateModule(module)
+      return [module]
+    }
+  }
+}
+
 function wikiReferenceIndex() {
   return {
     name: 'avarra-wiki-reference-index',
@@ -149,7 +262,7 @@ export default defineConfig({
   appearance: true,
   base: '/avarra/',
   vite: {
-    plugins: [wikiReferenceIndex(), wikiBacklinkIndex(), {
+    plugins: [wikiReferenceIndex(), wikiBacklinkIndex(), wikiTimelineIndex(), {
       name: 'avarra-public-asset-base',
       enforce: 'pre',
       transform(code, id) {
