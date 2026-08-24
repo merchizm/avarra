@@ -23,6 +23,7 @@ outline: false
 | [Endless Road](../yerlesimler/ruzgar-cemberi) | Wind Circle | Opposes mines, fences, and forts that close migration routes. |
 | Reed Dragon Kingdoms | Sazkalp, Green Tooth, Three Eggs | Divide over canals, border defence, and Serpent legacy. |
 | Rainclaw / Red Earth | Nine Lives Market / Ur-Marak | Information contracts, controlled fire, and border reeds create new conflicts. |
+| [Free City of Umbraval](../devletler/umbraval-serbest-sehri) | [Umbraval](../yerlesimler/umbraval) | A northern port facing Merria; shadow registry and prisoner contracts strain its neutrality. |
 
 ## Moving through the continent
 

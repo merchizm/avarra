@@ -36,6 +36,7 @@ outline: false
   <div class="lore-card"><h3><a href="./yesil-su-birligi">Greenwater League</a></h3><p>Spring city-states bound by debt and river trade.</p></div>
   <div class="lore-card"><h3><a href="./varkesh">Varkesh</a></h3><p>Island-city between Nareth and Odraka: war credit, harbour supply, and a two-key order.</p></div>
   <div class="lore-card"><h3><a href="./kis-ambarlari-serbest-sehri">Free City of Winter Granaries</a></h3><p>A free city that turns grain, siege goods, and campaign supply into credit.</p></div>
+  <div class="lore-card"><h3><a href="./umbraval-serbest-sehri">Free City of Umbraval</a></h3><p>An independent Odrakan port of shadow-labour registry, sea passage, and disputed war contracts.</p></div>
   <div class="lore-card"><h3><a href="./kara-muhur-adalari">Black Seal Isles</a></h3><p>An island state holding the international payment chain through weight, fineness, and a trusted seal.</p></div>
   <div class="lore-card"><h3><a href="./kul-esigi">Ash Threshold Knightly Order</a></h3><p>Island sovereignty of the Eshrenic Ash Knights, protecting refuge, education, witness, and repair together.</p></div>
 </div>
