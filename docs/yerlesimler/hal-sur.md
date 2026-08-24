@@ -7,21 +7,21 @@ outline: false
 
 # Hal-Sur
 
-<p class="lore-lead">Kurumuş iç denizin altındaki beyaz tuz galerilerine kurulmuştur. Maden hissesi sahibi aileler oy kullanır; Goblin ve Kobold çoğunluk yurttaş değildir.</p>
+<p class="lore-lead">Asteron’daki beyaz tuz domlarının altına kurulmuştur. Maden hissesi sahibi aileler oy kullanır; Goblin ve Kobold çoğunluk yurttaş değildir.</p>
 
-<div class="record-layout"><div><h2>Şehir kimliği</h2><p>Kurumuş iç denizin altındaki beyaz tuz galerilerine kurulmuştur. Maden hissesi sahibi aileler oy kullanır; Goblin ve Kobold çoğunluk yurttaş değildir.</p><h2>Şehir bilgisi</h2><p><b>Mahalleler:</b> Paylar Salonu, Beyaz Vardiya, Goblin Derinliği, Sessiz Mahzen, Ordan Hanı.   <b>Ekonomi:</b> Tuz, simya, fosil ve beden koruma.   <b>Güncel kriz:</b> En eski tuz mahzenindeki ölü bir hissedarın yeniden bilinç gösterdiği söylenir. Hukuken yaşıyorsa mevcut meclisin büyük kısmı koltuğunu kaybedebilir.</p></div><aside class="record-profile"><div class="portrait-placeholder"><span>HAL-SUR</span><small>Görsel eklenecek</small></div></aside></div>
+<div class="record-layout"><div><h2>Şehir kimliği</h2><p>Asteron’daki beyaz tuz domlarının altına kurulmuştur. Maden hissesi sahibi aileler oy kullanır; Goblin ve Kobold çoğunluk yurttaş değildir.</p><h2>Şehir bilgisi</h2><p><b>Mahalleler:</b> Paylar Salonu, Beyaz Vardiya, Goblin Derinliği, Sessiz Mahzen, Ordan Hanı.   <b>Ekonomi:</b> Tuz, simya, fosil ve beden koruma.   <b>Güncel kriz:</b> En eski tuz mahzenindeki ölü bir hissedarın yeniden bilinç gösterdiği söylenir. Hukuken yaşıyorsa mevcut meclisin büyük kısmı koltuğunu kaybedebilir.</p></div><aside class="record-profile"><div class="portrait-placeholder"><span>HAL-SUR</span><small>Görsel eklenecek</small></div></aside></div>
 
 ## Atlas konumu
 
 | Alan | Kayıt |
 | --- | --- |
-| Kıta | [Nareth](../cografya/nareth) |
-| Bölge | [Soluk Çanak](../cografya/bolgeler/nareth-soluk-canak) kurumuş iç deniz havzası |
-| Fiziksel yer | Beyaz tuz kabuğunun altına inen galeriler ve eski kıyı falezleri |
-| Ulaşım | Tuz kervan yolu, çökme riski taşıyan yük asansörleri ve mevsimlik tuz kızakları |
+| Kıta | [Asteron](../cografya/asteron) |
+| Bölge | Asteron tuz domları |
+| Fiziksel yer | Beyaz tuz kabuğunun altına inen galeriler ve kuru falezler |
+| Ulaşım | Tuz kervan yolu, çökme riski taşıyan yük asansörleri ve kuru mevsim kızakları |
 | Yakın bağlar | [Namaris](./namaris), Kuru Liman, Acı Kuyu ve Ordan Hanı |
 
-Hal-Sur uzaktan yalnız beyaz, kör edici bir düzlük görünür; gerçek şehir yüzeyin altındadır. Eski iç denizin kıyılarını izleyen yollar, artık tuz çatlakları ve çöken galeri ağıyla kesilir. Bu konum tuzu taşımayı pahalılaştırır, ama şehri kuşatan bir ordunun da önce susuzluk ve yansıma hastalığıyla mücadele etmesini sağlar.
+Hal-Sur uzaktan yalnız beyaz, kör edici bir düzlük görünür; gerçek şehir yüzeyin altındadır. Tuz domlarını izleyen yollar, çatlaklar ve çöken galeri ağıyla kesilir. Bu konum tuzu taşımayı pahalılaştırır, ama şehri kuşatan bir ordunun da önce susuzluk ve yansıma hastalığıyla mücadele etmesini sağlar.
 
 ## Pay sahiplerinin altındaki şehir
 

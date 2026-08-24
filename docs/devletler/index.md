@@ -36,6 +36,12 @@ outline: false
   <div class="lore-card"><h3><a href="./yesil-su-birligi">Yeşil Su Birliği</a></h3><p>İlkbahar şehir devletleri.</p></div>
   <div class="lore-card"><h3><a href="./varkesh">Varkesh</a></h3><p>Nareth–Odraka arasındaki ada-kent; savaş kredisi, liman tedariki ve iki anahtarlı devlet düzeni.</p></div>
   <div class="lore-card"><h3><a href="./kis-ambarlari-serbest-sehri">Kış Ambarları Serbest Şehri</a></h3><p>Tahıl, kuşatma malı ve sefer tedarikini krediye çeviren serbest şehir.</p></div>
+  <div class="lore-card"><h3><a href="./umbraval-serbest-sehri">Umbraval Serbest Şehri</a></h3><p>Odraka’nın kuzey kıyısında gölge-emek sicili, deniz geçişi ve tartışmalı savaş sözleşmeleriyle yaşayan bağımsız liman.</p></div>
+  <div class="lore-card"><h3><a href="./salvara">Sâlvara</a></h3><p>Köle Körfezi’nde ömür hasadı, yıl kasaları ve aktarım ticaretiyle zenginleşen köleci kıyı devleti.</p></div>
+  <div class="lore-card"><h3><a href="./nasima">Nasima Serbest Şehri</a></h3><p>Köle Körfezi’nin güney çıkışında, ortak demirleme hukuku ve kıyı emeğiyle yaşayan eski liman şehri.</p></div>
+  <div class="lore-card"><h3><a href="./tazir">Tazir Serbest Şehri</a></h3><p>Sarnıç payı ve geçiş hukukuyla ayakta duran yarı kurak iç yol şehri.</p></div>
+  <div class="lore-card"><h3><a href="./nisra">Nisra Serbest Şehri</a></h3><p>Vaha kuyularını ortak tutarak özgürlüğünü koruyan eski bahçe şehri.</p></div>
+  <div class="lore-card"><h3><a href="./kharad">Kharad Serbest Şehri</a></h3><p>Kuru kanyon geçidinde, nöbet ve sarnıç hizmetiyle yurttaşlık kuran taş şehir.</p></div>
   <div class="lore-card"><h3><a href="./kara-muhur-adalari">Kara Mühür Adaları</a></h3><p>Uluslararası ödeme zincirini ağırlık, ayar ve güvenilir mühür üzerinden tutan ada devleti.</p></div>
   <div class="lore-card"><h3><a href="./kul-esigi">Kül Eşiği Şövalye Düzeni</a></h3><p>Eşrenî Kül Şövalyeleri’nin ada egemenliği; sığınma, eğitim, tanıklık ve onarımı birlikte korur.</p></div>
 </div>
@@ -65,12 +71,13 @@ Namaris’te akışın yavaşlaması tahıl sevkiyatını geciktirir; Halvek ve 
 
 | Bölge | Devletler ve egemenlikler |
 | --- | --- |
-| Nareth | Diken Tacı, İnsan Yurtsuzları ve Beş Sürgün Hanedanı, Kar-Dur Taş Tacı, Tuz Ocakları Cumhuriyeti, Nehir Tahtı, Camova Konfederasyonu, Sis Adaları Cumhuriyeti, Kış Ambarları Serbest Şehri |
+| Nareth | Diken Tacı, İnsan Yurtsuzları ve Beş Sürgün Hanedanı, Kar-Dur Taş Tacı, Nehir Tahtı, Camova Konfederasyonu |
 | Mevsim devletleri | Ayaz Sarayı, Altıngüneş Krallığı, Bakır Prenslikler, Yeşil Su Birliği |
-| Asteron | Ordan İmparatorluğu, Lethar Yıldız Krallığı, Vardessa Serbest Krallığı, Kırk Köprü Cumhuriyeti, Gök Eşiği Konkordatosu, Külordu Marklığı |
-| Odraka | Kızıl Saar, Mücevher Yemini, Labirent Limanları, Uçsuz Yol Konfederasyonu, Saz Ejderi Krallıkları, Yağmur Pençesi Birliği, Kızıl Toprak Orc Krallığı |
+| Ilyr-Khaz | Ayaz Sarayı, Kış Ambarları Serbest Şehri |
+| Asteron | Ordan İmparatorluğu, Lethar Yıldız Krallığı, Vardessa Serbest Krallığı, Kırk Köprü Cumhuriyeti, Gök Eşiği Konkordatosu, Külordu Marklığı, Tuz Ocakları Cumhuriyeti |
+| Odraka | Kızıl Saar, Mücevher Yemini, Labirent Limanları, Uçsuz Yol Konfederasyonu, Saz Ejderi Krallıkları, Yağmur Pençesi Birliği, Kızıl Toprak Orc Krallığı, Umbraval Serbest Şehri, Sâlvara, Nasima, Tazir, Nisra, Kharad |
 | Kharizha Çölü | Qasyrra İmparatorluğu, Minotaur kuyu haneleri ve imparatorluğa farklı hukuklarla bağlı çöl toplulukları |
 | Yeraltı | Dokuz Fener Birliği, Sessiz Oyuk, Çan Kuyusu, İpek Tahtı, Karanlık Liman, Ayaltı Sürgünleri, Kül Örgüsü, Kor-Dum, Kara Örs, Yedi Baca Oyukları, Derin Hafıza Çemberleri, Dalgasız Göl Rahip Şehirleri, Sessiz Basamaklar |
-| Denizler | Varkesh, Kara Mühür Adaları, Mercan Sarayları, Triton Derin Nöbeti, Sahuagin Kırmızı Akıntı Konfederasyonu, Uzun Kabuk Yolları, Yüzen Pazarlar |
+| Denizler | Varkesh, Sis Adaları Cumhuriyeti, Kara Mühür Adaları, Mercan Sarayları, Triton Derin Nöbeti, Sahuagin Kırmızı Akıntı Konfederasyonu, Uzun Kabuk Yolları, Yüzen Pazarlar |
 
 Bu envanter, harita editörüne siyasi katman eklendiğinde bölge filtresinin kaynak listesi olarak kullanılacaktır.

@@ -23,6 +23,12 @@ outline: false
 | [Uçsuz Yol](../yerlesimler/ruzgar-cemberi) | Rüzgâr Çemberi | Göç yollarını kapatan maden, çit ve kalelere karşıdır. |
 | Saz Ejderi Krallıkları | Sazkalp, Yeşil Diş, Üç Yumurta | Kanal, sınır savunması ve Kadim Yılan mirası üzerinde ayrılaşırlar. |
 | Yağmur Pençesi / Kızıl Toprak | Dokuz Can Pazarı / Ur-Marak | Bilgi sözleşmeleri, kontrollü yangın ve sınır sazlıkları yeni çatışmalar yaratır. |
+| [Umbraval Serbest Şehri](../devletler/umbraval-serbest-sehri) | [Umbraval](../yerlesimler/umbraval) | Merria’ya dönük kuzey limanı; gölge sicili ve savaş esiri sözleşmeleri şehrin tarafsızlığını aşındırır. |
+| [Sâlvara](../devletler/salvara) | [Sâlvara](../yerlesimler/salvara) | Köle Körfezi’nin kuzeybatı kıyısında, yaşam yıllarını hasat edip ticaret malına çeviren köle devleti. |
+| [Nasima Serbest Şehri](../devletler/nasima) | [Nasima](../yerlesimler/nasima) | Köle Körfezi’nin güney çıkışında, ortak kıyı ve demirleme hukukuyla yaşayan eski liman şehri. |
+| [Tazir Serbest Şehri](../devletler/tazir) | [Tazir](../yerlesimler/tazir) | Kıyıdan içeri uzanan yarı kurak yolda sarnıç haklarını yöneten serbest şehir. |
+| [Nisra Serbest Şehri](../devletler/nisra) | [Nisra](../yerlesimler/nisra) | Çöl eşiğindeki vaha suyunu ortak tutan insan ağırlıklı eski şehir. |
+| [Kharad Serbest Şehri](../devletler/kharad) | [Kharad](../yerlesimler/kharad) | Kuru kanyon geçidinde, sarnıç ve nöbet hizmetiyle ayakta duran iç yol şehri. |
 
 ## Kıtada yol almak
 
@@ -41,3 +47,4 @@ Kıtanın ana gerilimi “merkezî devlet mi, hareketli hukuk mu?” sorusudur. 
 
 - [Rüzgâr–Saz Koridoru](./bolgeler/odraka-ruzgar-saz): göç, sazlık ve açık hava hukuku.
 - [Yarık Göller ve Limanlar](./bolgeler/odraka-yarik-limanlari): göl ticareti, halat hukuku ve çok halklı rıhtımlar.
+- [Köle Körfezi](./bolgeler/kole-korfezi): Umbraval ile Sâlvara arasındaki kıyı, ömür ve gölge ticaretinin çatışmalı düğümü.

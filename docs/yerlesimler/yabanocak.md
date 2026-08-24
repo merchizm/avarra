@@ -157,6 +157,10 @@ Farklı krallıklardan gelen insanların evlilikleri siyasî anlam taşıyabilir
 
 **Mevsimlik hareketli yerleşimler · Toplam 2.000–4.000 kişi · Avcılık, keşif, haber ve yeni mülteci kabulü.** Tek köy değil, ormanda dolaşan küçük insan topluluklarının ortak adıdır. Yeni mülteciler doğrudan Yabanocak’a götürülmez; önce burada birkaç ay yaşar, sorgulanır, hastalık ve takip riski açısından gözlenir. Bazı obaların yıllardır merkeze dönmemesi, bağımsız bir insan toplumu kurdukları söylentisini doğurmuştur.
 
+### Rillath
+
+**Yeni ve egemenliği belirsiz yerleşim · 900–1.500 kişi · Açık tarla, ortak fırın ve yeni gelen aileler.** [Rillath](./rillath), Yabanocak’ın yakınındaki seyrek orman açıklığında kurulmaktadır. Gizli şehrin nüfus baskısına bir cevap olabilir; fakat görünür evleri ve ilk pazar çağrısı, Yol Bekçilerinin bütün tahliye düzenini riske attığı gerekçesiyle sert itiraz doğurmuştur. Kızıl Geyik onu açık insan devleti fikrinin başlangıcı, Beyaz Ocak Diken Tacı içinde yurttaşlık için fırsat, Adsızlar ise eski taçlardan kopuş sayar.
+
 ### Hayati fakat bağlı olmayan ortaklar
 
 **Salkımkent** Yabanocak’a bağlı değildir; orman ürünlerini açık pazarlara çıkaran yarı yasal ticaret kentidir. Yabanocak malları burada başka kökenlere aitmiş gibi yeniden mühürlenir. Tüccarları sırdan para kazanır; bu yüzden güvenilir müttefik değil, karşılıklı bağımlı ortaktır.
@@ -175,6 +179,7 @@ Farklı krallıklardan gelen insanların evlilikleri siyasî anlam taşıyabilir
 | Karaçit | Savunma ve yanıltma | Kızıl Geyik |
 | Koraltı | Tahliye ve süreklilik | Beş Kor Divanı |
 | Yitik Obalar | Keşif ve mülteci kabulü | Bağımsızlıkçı |
+| Rillath | Yeni konut ve açık tarla | Tartışmalı |
 | Salkımkent | Malların aklanması | Kâr odaklı dış ortak |
 
 ## Güncel siyasi hareketler

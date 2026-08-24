@@ -3,7 +3,7 @@ title: Nareth
 outline: false
 ---
 
-<div class="lore-kicker">Kuzeybatı Kıtası · Orman, Tuz ve Nehir</div>
+<div class="lore-kicker">Kuzeybatı Kıtası · Orman, Havza ve Nehir</div>
 
 # Nareth
 

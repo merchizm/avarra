@@ -27,4 +27,4 @@ Liman yasası gemiyi değil, bağlandığı halatı kayda geçirir. Hadozee tır
 - Kor Çatısı’nın fırınları aynı gece sönüyor.
 - Uçan Halat’ın en yaşlı düğüm ustası, kayıp bir aile bağını bulmak için yardım istiyor.
 
-**Bağlantılar:** [Odraka](../odraka), [Hadozeeler](../../irklar/hadozeeler), [Astral Elfler](../../irklar/astral-elfler), [Giffler](../../irklar/giffler), [Saar-Kor](../../yerlesimler/saar-kor).
+**Bağlantılar:** [Odraka](../odraka), [Hadozeeler](../../irklar/hadozeeler), [Astral Elfler](../../irklar/astral-elfler), [Giffler](../../irklar/giffler), [Saar-Kor](../../yerlesimler/saar-kor), [Köle Körfezi](./kole-korfezi).
