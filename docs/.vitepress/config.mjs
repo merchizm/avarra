@@ -260,14 +260,14 @@ export default defineConfig({
   title: 'Avarra',
   description: 'Avarra dünya wiki’si',
   appearance: true,
-  base: '/avarra/',
+  base: '/',
   vite: {
     plugins: [wikiReferenceIndex(), wikiBacklinkIndex(), wikiTimelineIndex(), {
       name: 'avarra-public-asset-base',
       enforce: 'pre',
       transform(code, id) {
         if (!/\.md(?:\?|$)/.test(id) || !code.includes('src="/assets/')) return null
-        return code.replace(/src="\/assets\/([^"]+)"/g, ':src="\'/avarra/assets/$1\'"')
+        return code.replace(/src="\/assets\/([^"]+)"/g, ':src="\'/assets/$1\'"')
       }
     }]
   },
@@ -288,7 +288,7 @@ export default defineConfig({
         ],
         outline: false,
         docFooter: { prev: false, next: false },
-        footer: { message: 'The Chronicles of Avarra · <a href="/avarra/isim-motoru.html">Naming Engine</a>', copyright: 'World guide' }
+        footer: { message: 'The Chronicles of Avarra · <a href="/isim-motoru.html">Naming Engine</a>', copyright: 'World guide' }
       }
     }
   },
@@ -307,6 +307,6 @@ export default defineConfig({
     sidebar: false,
     outline: false,
     docFooter: { prev: false, next: false },
-    footer: { message: 'Avarra Kronikleri · <a href="/avarra/isim-motoru.html">İsim Motoru</a>', copyright: 'Dünya rehberi' }
+    footer: { message: 'Avarra Kronikleri · <a href="/isim-motoru.html">İsim Motoru</a>', copyright: 'Dünya rehberi' }
   }
 })

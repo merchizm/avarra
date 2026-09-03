@@ -30,7 +30,7 @@ npm install
 npm run docs:dev
 ```
 
-VitePress prints the local URL, normally `http://localhost:5173/avarra/`.
+VitePress prints the local URL, normally `http://localhost:5173/`.
 
 ### Verify a production build
 
@@ -64,7 +64,7 @@ There is no separate lint or test script. A successful `npm run docs:build` is t
 
 ## Assets and branding
 
-Static assets live under `docs/public/assets/` and are referenced from content using `/assets/...` paths. The VitePress configuration handles the `/avarra/` GitHub Pages base path.
+Static assets live under `docs/public/assets/` and are referenced from content using `/assets/...` paths. The VitePress configuration publishes them from the site root.
 
 - Logo: `docs/public/assets/brand/avarra-root-and-stars.png`
 - Maps: `docs/public/assets/maps/`
@@ -76,7 +76,7 @@ Do not edit `docs/.vitepress/cache/` or `docs/.vitepress/dist/`; both are genera
 
 Every push to `main` triggers the GitHub Pages workflow. In the repository settings, set **Settings → Pages → Build and deployment** to **GitHub Actions**.
 
-The configured deployment base is `/avarra/`. If deploying the site to a custom domain or repository root, update `base` in `docs/.vitepress/config.mjs`.
+The configured deployment base is `/`, matching the custom-domain deployment at `https://avarra.mekayalar.com/`.
 
 ## Attribution
 
