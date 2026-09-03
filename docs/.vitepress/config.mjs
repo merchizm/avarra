@@ -288,7 +288,7 @@ export default defineConfig({
         ],
         outline: false,
         docFooter: { prev: false, next: false },
-        footer: { message: 'The Chronicles of Avarra · <a href="/isim-motoru.html">Naming Engine</a>', copyright: 'World guide' }
+        footer: { message: 'The Chronicles of Avarra · <a class="vp-raw" href="/isim-motoru.html">Naming Engine</a>', copyright: 'World guide' }
       }
     }
   },
@@ -307,6 +307,6 @@ export default defineConfig({
     sidebar: false,
     outline: false,
     docFooter: { prev: false, next: false },
-    footer: { message: 'Avarra Kronikleri · <a href="/isim-motoru.html">İsim Motoru</a>', copyright: 'Dünya rehberi' }
+    footer: { message: 'Avarra Kronikleri · <a class="vp-raw" href="/isim-motoru.html">İsim Motoru</a>', copyright: 'Dünya rehberi' }
   }
 })
