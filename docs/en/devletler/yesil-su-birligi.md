@@ -6,7 +6,6 @@ outline: false
 
 # Sunmeadow Union
  <p class="lore-lead">A union of Halfling cities. Certain debts are discharged every seventh year.</p>
- <figure class="state-flag"><img src="/assets/flags/sunmeadow.jpg" alt="Sunmeadow Union flag" /></figure>
  <div class="lore-grid"> <div class="lore-card"> <h3> Cities </h3> <p> Filizliman, Yeni Kök, Yağmurkapı, Arıbahçe, Yeşil Köprü </p> </div> <div class="lore-card"> <h3> Tension </h3> <p> Merchant families and threshold keepers are in a power struggle. </p> </div> </div>
 
 ## Root-gate policy

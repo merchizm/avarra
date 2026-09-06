@@ -8,7 +8,6 @@ outline: false
 # Güneşçayır Birliği
 
 <p class="lore-lead">Halfling şehirlerinin oluşturduğu birlik. Her yedinci yılda belirli borçlar silinir.</p>
-<figure class="state-flag"><img src="/assets/flags/sunmeadow.jpg" alt="Güneşçayır Birliği bayrağı" /></figure>
 <div class="lore-grid"><div class="lore-card"><h3>Şehirler</h3><p>Filizliman, Yeni Kök, Yağmurkapı, Arıbahçe, Yeşil Köprü</p></div><div class="lore-card"><h3>Gerginlik</h3><p>Tüccar aileleri ile eşik koruyucuları güç mücadelesinde.</p></div></div>
 
 ## Kök kapısı politikası
