@@ -95,290 +95,349 @@ const sourceByLink = {
   '/irklar/medusalar': 'forgottenRealms', '/irklar/harpyler': 'forgottenRealms', '/irklar/kithkinler': 'lorwyn'
 }
 
+// Catalogue cards identify the people first. Place, profession, politics, and
+// historical detail belong in each record rather than in this one-line summary.
 const corePeople = [
   {
     name: 'Eladrin', type: 'Fey kökenli', status: 'Kayıt açık',
-    description: 'Duygularını mevsimler gibi taşıyan, geçitler ve eski antlarla yaşayan uzun ömürlü halk.',
+    description: "Duyguları ve görünümleri iç dünyalarındaki mevsimle değişebilen uzun ömürlü fey halkı.",
+    enDescription: "A long-lived Fey people whose emotions and appearance can change with the season within them.",
     crest: '✦', className: 'eladrin', image: '/assets/illustrations/eladrin.png', link: '/irklar/eladrin'
   },
   {
     name: 'İnsanlar', type: 'Ölümlü', status: 'Kayıt açık',
-    description: 'Kısa ömürlerini şehirler, hanedanlar ve yolculuklarla genişleten uyumlu halklar.',
+    description: "Kısa ömürlü, son derece çeşitli kültürler kuran uyumlu humanoid halk.",
+    enDescription: "An adaptable humanoid people of short lives and exceptionally diverse cultures.",
     crest: '⌂', className: 'human', image: '/assets/illustrations/human.png', link: '/irklar/insanlar'
   },
   {
     name: 'Cüceler', type: 'Ölümlü', status: 'Kayıt açık',
-    description: 'Taşın hafızasına, derin ocaklara ve kuşaklar boyu süren zanaat antlarına bağlı soylar.',
+    description: "Kısa ve sağlam yapılı, taş ve yeraltıyla güçlü bağları olan humanoid halk.",
+    enDescription: "A short, sturdy humanoid people with strong ties to stone and the deep earth.",
     crest: '⛰', className: 'dwarf', image: '/assets/illustrations/dwarf.png', link: '/irklar/cuceler'
   },
   {
     name: 'Koboldlar', type: 'Yeraltı', status: 'Kayıt açık',
-    description: 'Tünelleri, ortak emekleri ve ejderha çağından kalan söylenceleriyle tanınan küçük halk.',
+    description: "Küçük yapılı, sürüngen görünümlü ve ejderha soyuyla akraba humanoid halk.",
+    enDescription: "A small reptilian humanoid people related to dragonkind.",
     crest: '◈', className: 'kobold', image: '/assets/illustrations/kobold.png', link: '/irklar/koboldlar'
   },
   {
     name: 'Veyranlar', type: 'Ölümlü', status: 'Kayıt açık',
-    description: 'Ordan İmparatorluğu’nun kurucu halkı; ölçüm, kayıt ve yazılı hukukla şekillenmiş kültürler.',
+    description: "İnsansı görünümlü; çift halkalı irisleri ve ellerindeki ince doğal çizgilerle ayırt edilen halk.",
+    enDescription: "A humanoid people distinguished by double-ringed irises and fine natural lines on their hands.",
     crest: '═', className: 'veyran', image: '/assets/illustrations/veyran.png', link: '/irklar/veyranlar'
   },
   {
     name: 'Svirfneblinler', type: 'Yeraltı', status: 'Kayıt açık',
-    description: 'Kendilerine Nimrûn diyen, taşın içindeki yankılardan doğduğuna inanan derin Gnom halkı.',
+    description: "Yeraltına uyum sağlamış, küçük yapılı derin gnom halkı.",
+    enDescription: "A small deep-gnome people adapted to life underground.",
     crest: '◉', className: 'svirfneblin', image: '/assets/illustrations/nimrun.png', link: '/irklar/svirfneblinler'
   },
   {
     name: 'Drowlar', type: 'Yeraltı', status: 'Kayıt açık',
-    description: 'İpek Tahtı, Karanlık Liman ve Ayaltı sürgünleri arasında farklı hukuklar altında yaşayan halk.',
+    description: "Yeraltı ve yüzeyde yaşayan, koyu tenli elf halkı.",
+    enDescription: "A dark-skinned Elven people living both below ground and on the surface.",
     crest: '☾', className: 'drow', image: '/assets/illustrations/drow.png', link: '/irklar/drowlar'
   },
   {
     name: 'Dragonbornlar', type: 'Drakonik', status: 'Kayıt açık',
-    description: 'Odraka’da Kızıl Saar ve Mücevher Yemini arasında ejderha mirasını farklı yorumlayan soylar.',
+    description: "Ejderha soyundan gelen, pullu derileri ve nefes silahlarıyla tanınan humanoid halk.",
+    enDescription: "A draconic humanoid people known for scaled skin and breath weapons.",
     crest: '♢', className: 'dragonborn', image: '/assets/illustrations/dragonborn.png', link: '/irklar/dragonbornlar'
   },
   {
     name: 'Lizardfolklar', type: 'Ölümlü', status: 'Kayıt açık',
-    description: 'Delta krallıklarında sulak alan mühendisliği ve atalara dayalı su hukukuyla yaşayan halklar.',
+    description: "Sürüngen özellikleri taşıyan, sulak alanlara ve sıcak iklimlere uyumlu humanoid halk.",
+    enDescription: "A reptilian humanoid people adapted to wetlands and warm climates.",
     crest: '≋', className: 'lizardfolk', image: '/assets/illustrations/lizardfolk.png', link: '/irklar/lizardfolklar'
   },
   {
     name: 'Genasiler', type: 'Ölümlü', status: 'Kayıt açık',
-    description: 'Toprak, ateş, kristal, kül, su ve buz soyları; tek bir meslek veya ulusla tanımlanmaz.',
+    description: "Elemental kökeni bedeninde ve mizacında iz bırakan humanoid halk.",
+    enDescription: "A humanoid people whose elemental ancestry leaves marks on body and temperament.",
     crest: '◇', className: 'genasi', image: '/assets/illustrations/genasi.png', link: '/irklar/genasiler'
   },
   {
     name: 'Minotaurlar', type: 'Ölümlü', status: 'Kayıt açık',
-    description: 'Labirenti hapis değil, doğru kararın tek bir düz yoldan ibaret olmadığının kutsal simgesi sayarlar.',
+    description: "Boğa başlı, iri yapılı humanoid halk.",
+    enDescription: "A large humanoid people with bovine heads and features.",
     crest: '⌘', className: 'minotaur', image: '/assets/illustrations/minatour.png', link: '/irklar/minotaurlar'
   },
   {
     name: 'Halflingler', type: 'Ölümlü', status: 'Kayıt açık',
-    description: 'Nehir, yol ve ada kollarına ayrılan; tahıl, haber ve sigorta ağlarını koruyan topluluklar.',
+    description: "Küçük yapılı, çevik ve insanlarla akraba humanoid halk.",
+    enDescription: "A small, nimble humanoid people related to humans.",
     crest: '☘', className: 'halfling', image: '/assets/illustrations/halfling.png', link: '/irklar/halflingler'
   },
   {
     name: 'Goblinler', type: 'Ölümlü', status: 'Kayıt açık',
-    description: 'Büyük imparatorluklardan çok şehirlerin görünmeyen işlerini sürdüren lonca kültürleri.',
+    description: "Küçük yapılı, keskin duyulu ve uyumlu humanoid halk.",
+    enDescription: "A small, keen-sensed, adaptable humanoid people.",
     crest: '⚙', className: 'goblin', link: '/irklar/goblinler'
   },
   {
     name: 'Tieflingler', type: 'Soy ve dönüşüm', status: 'Kayıt açık',
-    description: 'Kor, ayaz, deniz uçurumu, fey-diken ve Durgunluk kaynaklı farklı soy evleri.',
+    description: "Cehennemî ya da başka dış-dünya etkilerini görünüşlerinde taşıyan humanoid halk.",
+    enDescription: "A humanoid people who bear infernal or other otherworldly influences in their appearance.",
     crest: '⌁', className: 'tiefling', link: '/irklar/tieflingler'
   },
   {
     name: 'Aasimarlar', type: 'Soy ve dönüşüm', status: 'Kayıt açık',
-    description: 'Ayrı bir millet değil, birçok halk içinde görülebilen kutsal veya kozmik işaretliler.',
+    description: "Gökî ya da kutsal güçlerle bağlantılı doğan humanoid kişiler.",
+    enDescription: "Humanoid people born with a connection to celestial or sacred power.",
     crest: '✧', className: 'aasimar', link: '/irklar/aasimarlar'
   },
   {
     name: 'Shifterlar', type: 'Soy ve dönüşüm', status: 'Kayıt açık',
-    description: 'Kuzey ormanları ve dağ sınırlarında, av hayvanlarının mevsimsel davranışlarıyla yaşayan topluluklar.',
+    description: "Hayvansı özellikler ve dönüşüm dürtüsü taşıyan humanoid halk.",
+    enDescription: "A humanoid people with bestial traits and an instinct for transformation.",
     crest: '◖', className: 'shifter', link: '/irklar/shifterlar'
   },
   {
     name: 'Warforgedler', type: 'Soy ve dönüşüm', status: 'Kayıt açık',
-    description: 'Antik cüce ve Gnom kentlerinde uyanan yapay halklar; yurttaşlıkları hâlâ tartışmalıdır.',
+    description: "Canlı irade kazanmış, metal ve ahşaptan yapılmış yapay halk.",
+    enDescription: "A constructed people of metal and wood who possess living will.",
     crest: '▣', className: 'warforged', link: '/irklar/warforgedler'
   },
   {
     name: 'Orman Elfleri', type: 'Fey kökenli', status: 'Kayıt açık',
-    description: 'Diken Tacı’nın yaşayan koruluklarında, eski antları ve sınır patikalarını koruyan elf halkı.',
+    description: "Orman yaşamına uyumlu, keskin duyulu elf halkı.",
+    enDescription: "A keen-sensed Elven people adapted to forest life.",
     crest: '☽', className: 'elf', link: '/irklar/orman-elfleri'
   },
   {
     name: 'Yüksek Elfler', type: 'Fey kökenli', status: 'Kayıt açık',
-    description: 'Lethar’ın yıldız kayıtları, diplomasi evleri ve uzun süreli bilgi gelenekleriyle yaşayan elfler.',
+    description: "Büyü ve uzun ömürle güçlü bağları olan zarif elf halkı.",
+    enDescription: "A graceful Elven people strongly connected to magic and long life.",
     crest: '✧', className: 'elf', link: '/irklar/yuksek-elfler'
   },
   {
     name: 'Deniz Elfleri', type: 'Deniz', status: 'Kayıt açık',
-    description: 'Mercan Sarayları ile gelgit sınırlarını paylaşan, sualtı yollarının eski bekçileri.',
+    description: "Sualtında nefes alabilen ve deniz yaşamına uyumlu elf halkı.",
+    enDescription: "An Elven people able to breathe underwater and adapted to sea life.",
     crest: '≋', className: 'sea', link: '/irklar/deniz-elfleri'
   },
   {
     name: 'Firbolglar', type: 'Fey kökenli', status: 'Kayıt açık',
-    description: 'Kutsal alanları, hayvan göçlerini ve cenaze koruluklarını koruyan Diken Tacı topluluğu.',
+    description: "İri yapılı, fey kökeni taşıyan ve doğayla yakın bağları olan humanoid halk.",
+    enDescription: "A large Fey-touched humanoid people with close ties to nature.",
     crest: '♣', className: 'firbolg', link: '/irklar/firbolglar'
   },
   {
     name: 'Dikenkanlılar', type: 'Fey kökenli', status: 'Kayıt açık',
-    description: 'Tenlerinde kabuk, yaprak veya boynuz taşıyan; eşit yurttaşlık isteyen kadim humanoidler.',
+    description: "Diken, kabuk, yaprak ya da boynuz gibi bitkisel özellikler taşıyan humanoid halk.",
+    enDescription: "A humanoid people with plantlike traits such as thorns, bark, leaves, or horns.",
     crest: '✤', className: 'thornblood', image: '/assets/illustrations/dikenkanli.png', link: '/irklar/dikenkanlilar'
   },
   {
     name: 'Changelingler', type: 'Soy ve dönüşüm', status: 'Kayıt açık',
-    description: `Sis Adaları'nda farklı aile sözleşmelerine bağlı yurttaşlar; birden fazla yasal kimlik taşıyabilirler.`,
+    description: "Yüzlerini, bedenlerini ve seslerini değiştirebilen şekil değiştirici humanoid halk.",
+    enDescription: "A shapeshifting humanoid people able to alter their faces, bodies, and voices.",
     crest: '◌', className: 'changeling', link: '/irklar/changelingler'
   },
   {
     name: 'Duergarlar', type: 'Yeraltı', status: 'Kayıt açık',
-    description: 'Kor-Dum meclisleri ile Kara Örs Krallığı arasında farklı emek, miras ve yurttaşlık anlayışları.',
+    description: "Yeraltına uyum sağlamış, gri tenli cüce halkı.",
+    enDescription: "A gray-skinned Dwarven people adapted to the Underdark.",
     crest: '▰', className: 'duergar', link: '/irklar/duergarlar'
   },
   {
     name: 'Myconidler', type: 'Yeraltı', status: 'Kayıt açık',
-    description: 'Şehri aynı hafızayı paylaşan canlı ağ olarak gören ortak bilinç çemberleri.',
+    description: "Mantar gövdeli, sporlar ve ortak bilinç yoluyla iletişim kuran halk.",
+    enDescription: "A fungal people who communicate through spores and shared consciousness.",
     crest: '❋', className: 'myconid', link: '/irklar/myconidler'
   },
   {
     name: 'Locathahlar', type: 'Deniz', status: 'Kayıt açık',
-    description: 'Sığlık, resif ve nehir ağzı topluluklarında balıkçılık hukukunu koruyan amfibi halk.',
+    description: "Solungaçlı, balık özellikleri taşıyan amfibi humanoid halk.",
+    enDescription: "An amphibious humanoid people with gills and fishlike traits.",
     crest: '≋', className: 'sea', image: '/assets/illustrations/locathah-v1.png', link: '/irklar/locathahlar'
   },
   {
     name: 'Kuo-Toalar', type: 'Deniz', status: 'Kayıt açık',
-    description: 'Derin sularda inanç, hafıza ve yön bulma ritüelleri çevresinde örgütlenen halk.',
+    description: "Yeraltı denizlerine uyum sağlamış, balık özellikleri taşıyan humanoid halk.",
+    enDescription: "A fishlike humanoid people adapted to subterranean seas.",
     crest: '◉', className: 'sea', image: '/assets/illustrations/kuo-toa-v1.png', link: '/irklar/kuo-toalar'
   },
   {
     name: 'Tritonlar', type: 'Deniz', status: 'Kayıt açık',
-    description: 'Fırtına kapılarını ve derinlik akıntılarını gözeten, deniz yeminleriyle bağlı topluluklar.',
+    description: "Derin denizlere uyumlu, su altında nefes alabilen humanoid halk.",
+    enDescription: "A humanoid people adapted to the deep sea and able to breathe underwater.",
     crest: '♆', className: 'sea', link: '/irklar/tritonlar'
   },
   {
     name: 'Sahuaginler', type: 'Deniz', status: 'Kayıt açık',
-    description: 'Av sahaları ve derin resif hakları için sert yasalarla yaşayan köpekbalığı benzeri halk.',
+    description: "Köpekbalığı özellikleri taşıyan, yırtıcı deniz humanoidleri.",
+    enDescription: "Predatory sea humanoids with sharklike features.",
     crest: '▲', className: 'sea', link: '/irklar/sahuaginler'
   },
   {
     name: 'Tortlelar', type: 'Ölümlü', status: 'Kayıt açık',
-    description: 'Ada, manastır ve göç rotalarından oluşan Uzun Kabuk Yolları kültürel birliği.',
+    description: "Kabuklu, uzun ömürlü ve sürüngen özellikleri taşıyan humanoid halk.",
+    enDescription: "A long-lived humanoid people with shells and reptilian traits.",
     crest: '◒', className: 'tortle', link: '/irklar/tortlelar'
   },
   {
     name: 'Centaurlar', type: 'Ölümlü', status: 'Kayıt açık',
-    description: `Uçsuz Yol Konfederasyonu'nda mülkiyetten çok geçiş hakkını önemseyen göç toplulukları.`,
+    description: "İnsan gövdeli üst bedeni at gövdesiyle birleşen hızlı humanoid halk.",
+    enDescription: "A swift people with humanoid upper bodies joined to equine lower bodies.",
     crest: '↠', className: 'centaur', link: '/irklar/centaurlar'
   },
   {
     name: 'Tabaxiler', type: 'Ölümlü', status: 'Kayıt açık',
-    description: 'Yağmur ormanı şehirlerinde bilgi, hikâye ve nadir nesneleri servet kabul eden aileler.',
+    description: "Kedi özellikleri, çeviklik ve güçlü merakla tanınan humanoid halk.",
+    enDescription: "A feline humanoid people known for agility and keen curiosity.",
     crest: '◖', className: 'skyfolk', link: '/irklar/tabaxiler'
   },
   {
     name: 'Kenkular', type: 'Ölümlü', status: 'Kayıt açık',
-    description: 'Dünyadan topladıkları sesleri taşıyan göçebe haber ve zanaat halkı.',
+    description: "Karga özellikleri taşıyan, uçamasalar da sesleri kusursuz taklit edebilen humanoid halk.",
+    enDescription: "A crowlike humanoid people who cannot fly but can mimic sounds perfectly.",
     crest: '⌁', className: 'skyfolk', link: '/irklar/kenkular'
   },
   {
     name: 'Aarakocralar', type: 'Ölümlü', status: 'Kayıt açık',
-    description: 'Dağlar arası hava yollarını ve fırtına mevsimlerini ezbere bilen kanatlı halk.',
+    description: "Kuş özellikleri taşıyan, kanatlarıyla uçabilen humanoid halk.",
+    enDescription: "An avian humanoid people able to fly on their wings.",
     crest: '↟', className: 'skyfolk', link: '/irklar/aarakocralar'
   },
   {
     name: 'Owlinler', type: 'Ölümlü', status: 'Kayıt açık',
-    description: 'Sessiz kurye ağları ve gece arşivleriyle tanınan alacakaranlık halkı.',
+    description: "Baykuş özellikleri taşıyan, sessiz uçuşa ve gece görüşüne yatkın humanoid halk.",
+    enDescription: "An owl-like humanoid people suited to silent flight and night vision.",
     crest: '◉', className: 'skyfolk', link: '/irklar/owlinler'
   },
   {
     name: 'Grunglar', type: 'Ölümlü', status: 'Kayıt açık',
-    description: 'Yağmur ormanlarının gölet kentlerinde renk ve görev düzeniyle yaşayan amfibiler.',
+    description: "Renkli derili, küçük yapılı ve zehirli salgılar taşıyabilen amfibi halk.",
+    enDescription: "A small, colourful amphibious people able to produce poisonous secretions.",
     crest: '◒', className: 'skyfolk', link: '/irklar/grunglar'
   },
   {
     name: 'Satyrler', type: 'Fey kökenli', status: 'Kayıt açık',
-    description: 'Fey geçitlerinin bağlarını, müziğini ve konukluk yasasını koruyan gezginler.',
+    description: "Boynuzlu, keçi bacaklı ve fey kökenli humanoid halk.",
+    enDescription: "A horned, goat-legged humanoid people of Fey origin.",
     crest: '♩', className: 'skyfolk', link: '/irklar/satyrler'
   },
   {
     name: 'Orclar', type: 'Ölümlü', status: 'Kayıt açık',
-    description: 'Kızıl Toprak’ta akrabalık ve kontrollü ateş bilgisiyle yaşayan sınır toplulukları.',
+    description: "İri, dayanıklı ve belirgin dişleri olan humanoid halk.",
+    enDescription: "A large, resilient humanoid people with prominent tusks.",
     crest: '▲', className: 'orc', link: '/irklar/orclar'
   },
   {
     name: 'Hobgoblinler', type: 'Ölümlü', status: 'Kayıt açık',
-    description: 'Külordu kentlerinde kamu hizmeti ve disiplinle yükselen askerî yurttaşlar.',
+    description: "Güçlü yapılı, uzun kulaklı goblinoid humanoid halk.",
+    enDescription: "A powerfully built goblinoid humanoid people with long ears.",
     crest: '▰', className: 'orc', link: '/irklar/hobgoblinler'
   },
   {
     name: 'Rebornlar', type: 'Soy ve dönüşüm', status: 'Kayıt açık',
-    description: 'Ölümün eşiğinden dönmüş, ikinci hayatlarını kendi adlarıyla kuran kişiler.',
+    description: "Ölümden dönmüş ya da yeniden yaratılmış, yaşamla ölüm arasında duran kişiler.",
+    enDescription: "People returned from death or remade, existing between life and death.",
     crest: '☿', className: 'changed', link: '/irklar/rebornlar'
   },
   {
     name: 'Hexbloodlar', type: 'Soy ve dönüşüm', status: 'Kayıt açık',
-    description: 'Cadı antları veya fey büyüsüyle değişmiş, kökenleri kadar seçimleriyle tanımlananlar.',
+    description: "Fey, cadılık ya da kadim büyü etkisiyle dönüşmüş humanoid kişiler.",
+    enDescription: "Humanoid people transformed by Fey influence, witchcraft, or ancient magic.",
     crest: '⌘', className: 'changed', link: '/irklar/hexbloodlar'
   },
   {
     name: 'Dhampirler', type: 'Soy ve dönüşüm', status: 'Kayıt açık',
-    description: 'Açlıklarını rıza, gözetim ve gece yasalarıyla dengelemeye çalışan gece soyu.',
+    description: "Vampirik köken ya da dönüşüm nedeniyle kana karşı sıra dışı ihtiyaçları olan kişiler.",
+    enDescription: "People with unusual needs for blood because of vampiric ancestry or transformation.",
     crest: '☾', className: 'changed', link: '/irklar/dhampirler'
   },
   {
     name: 'Autognomlar', type: 'Soy ve dönüşüm', status: 'Kayıt açık',
-    description: 'Eski atölyelerde uyanmış, ad ve bakım hakkı arayan pirinç kalpli halk.',
+    description: "Gnom biçiminde yapılmış, canlı irade taşıyan küçük yapay halk.",
+    enDescription: "A small constructed people made in gnomish form and possessed of living will.",
     crest: '⚙', className: 'changed', link: '/irklar/autognomlar'
   },
   {
     name: 'Goliathlar', type: 'Ölümlü', status: 'Kayıt açık',
-    description: 'Ilyr-Khaz’ın buz yollarında geçiş hakkını ve yük paylaşımını koruyan yüksek dağ halkı.',
+    description: "Çok iri, dayanıklı ve yüksek dağ yaşamına uyumlu humanoid halk.",
+    enDescription: "A very large, resilient humanoid people adapted to high mountain life.",
     crest: '△', className: 'dwarf', link: '/irklar/goliathlar'
   },
   {
     name: 'Tuz Cüceleri', type: 'Yeraltı', status: 'Kayıt açık',
-    description: 'Kuru havzalarda tuz, su payı ve mahzen hukukunu yaşamın temel bilgisi sayan cüce toplulukları.',
+    description: "Kuru yeraltı havzalarına uyum sağlamış cüce halkı.",
+    enDescription: "A Dwarven people adapted to dry underground basins.",
     crest: '◇', className: 'dwarf', image: '/assets/illustrations/tuz-cucesi.png', link: '/irklar/tuz-cuceleri'
   },
   {
     name: 'Gnomlar', type: 'Ölümlü', status: 'Kayıt açık',
-    description: 'Gözlemevi, bahçe ve gezici tamir ocakları arasında bakım hakkını ve ortak kaydı önemseyen küçük halklar.',
+    description: "Küçük yapılı, meraklı ve büyü ya da mekanik bilgiye yatkın humanoid halk.",
+    enDescription: "A small, curious humanoid people inclined toward magic or mechanical learning.",
     crest: '⚙', className: 'svirfneblin', link: '/irklar/gnomlar'
   },
   {
     name: 'Choldrithler', type: 'Yeraltı', status: 'Kayıt açık',
-    description: 'İpek, soy borcu ve kutsal hukuk çevresinde örgütlenen örümcek bağlantılı yeraltı toplulukları.',
+    description: "Örümcek özellikleri ve ipek üretimiyle tanınan yeraltı humanoidleri.",
+    enDescription: "Underground humanoids known for spiderlike traits and silk production.",
     crest: '✣', className: 'drow', image: '/assets/illustrations/choldrith-v1.png', link: '/irklar/choldrithler'
   },
   {
     name: 'Grimlocklar', type: 'Yeraltı', status: 'Kayıt açık',
-    description: 'Taşın, havanın ve adımların titreşimini ayrıntılı bir dil gibi okuyan derinlik halkları.',
+    description: "Görme yerine işitme, koku ve titreşim algısına dayanan yeraltı humanoidleri.",
+    enDescription: "Underground humanoids who rely on hearing, scent, and vibration rather than sight.",
     crest: '◌', className: 'svirfneblin', image: '/assets/illustrations/grimlock-v2.png', link: '/irklar/grimlocklar'
   },
   {
     name: 'Derrolar', type: 'Yeraltı', status: 'Kayıt açık',
-    description: 'Mühürlü hafıza, kırık rüya ve tuhaf zanaat çevresinde yaşayan dağınık yeraltı halkları.',
+    description: "Küçük yapılı, tuhaf görünüşlü ve psişik etkiler taşıyabilen yeraltı humanoidleri.",
+    enDescription: "Small, strange-looking underground humanoids capable of psychic influence.",
     crest: '⌁', className: 'svirfneblin', image: '/assets/illustrations/derro-v1.png', link: '/irklar/derrolar'
   },
   {
     name: 'Yuan-ti', type: 'Soy ve dönüşüm', status: 'Kayıt açık',
-    description: 'Kadim yılan medeniyetinin beden, soy ve kutsal dönüşümü yazı gibi işleyen mirasçıları.',
+    description: "Yılan özellikleri taşıyan, humanoid ve serpantin biçimler arasında değişebilen halk.",
+    enDescription: "A serpent-blooded people who may possess both humanoid and serpentine forms.",
     crest: '∿', className: 'changed', link: '/irklar/yuan-ti'
   },
   {
     name: 'Yarı-Orclar', type: 'Soy ve dönüşüm', status: 'Kayıt açık',
-    description: 'Kızıl Toprak, sınır kentleri ve insan toplulukları arasındaki akrabalıklarda görülen; tek bir kültüre indirgenmeyen soy durumu.',
+    description: "İnsan ve orc soylarının kesişiminden gelen humanoid kişiler.",
+    enDescription: "Humanoid people of combined human and Orc ancestry.",
     crest: '▲', className: 'orc', link: '/irklar/yari-orclar'
   },
   {
     name: 'Nagalar', type: 'Soy ve dönüşüm', status: 'Kayıt açık',
-    description: 'Eski yılan uygarlıklarının su, taş ve harabe nöbeti etrafında yaşayan uzun ömürlü muhafızları.',
+    description: "Yılan gövdeli, uzun ömürlü ve büyüye yatkın kadim varlıklar.",
+    enDescription: "Long-lived, magic-inclined ancient beings with serpentine bodies.",
     crest: '♒', className: 'sea', link: '/irklar/nagalar'
   },
   {
     name: 'Psiyonik Kalıntılar', type: 'Soy ve dönüşüm', status: 'Kayıt açık',
-    description: 'Mühürlerden ve parçalanmış psişik ağlardan gelen; soy değil toplumsal durum olarak tanınanlar.',
+    description: "Psişik ağların ya da zihin büyüsünün kalıcı etkisiyle değişmiş kişiler ve topluluklar.",
+    enDescription: "People and communities changed by the enduring effects of psychic networks or mind magic.",
     crest: '◈', className: 'changed', image: '/assets/illustrations/psiyonik-kalinti.png', link: '/irklar/psiyonik-kalintilar'
   },
   {
     name: 'Ejderhalar', type: 'Drakonik', status: 'Kayıt açık',
-    description: 'Volkan, nehir, buzul ve fırtına gibi dünya süreçleriyle antlaşmalar kuran kadim büyük varlıklar.',
+    description: "Büyük, pullu, büyüyle iç içe yaşayan ve çoğu zaman nefes silahı taşıyan kadim varlıklar.",
+    enDescription: "Ancient, large, scaled beings steeped in magic and often capable of a breath weapon.",
     crest: '♢', className: 'dragonborn', link: '/irklar/ejderhalar'
   },
   {
     name: 'Devler ve Fomorianlar', type: 'Fey kökenli', status: 'Kayıt açık',
-    description: 'Buz yolları ve batık sütunlarda iz bırakan, geçmişi hâlâ tartışmalı kadim büyük halklar.',
+    description: "İnsanötesi büyüklükte, güçlü ve kadim dev halkları.",
+    enDescription: "Ancient giant peoples of immense size and strength.",
     crest: '⛰', className: 'dwarf', link: '/irklar/devler-ve-fomorianlar'
   },
   {
     name: 'Abolethler', type: 'Deniz', status: 'Kayıt açık',
-    description: 'Derin sularda kendi hafızalarının dünyadan eski olduğunu ileri süren kadim zeki varlıklar.',
+    description: "Suda yaşayan, çok eski hafıza ve güçlü zihinsel yetenekler taşıyan kadim varlıklar.",
+    enDescription: "Ancient aquatic beings with vast memories and potent mental abilities.",
     crest: '◉', className: 'sea', image: '/assets/illustrations/aboleth-v1.jpg', link: '/irklar/abolethler'
   },
   {
     name: 'İlk Fey Mirası', type: 'Fey kökenli', status: 'Kayıt açık',
-    description: 'Açlık, Bahar, Yas ve Unutuluş gibi kavramlara bağlanan ilk fey varlıklarının yaşayan mirası.',
+    description: "Doğa, duygu ve kavramlarla iç içe geçmiş kadim fey varlıkları ve soyları.",
+    enDescription: "Ancient Fey beings and lineages bound closely to nature, emotion, and ideas.",
     crest: '✦', className: 'eladrin', image: '/assets/illustrations/ilk-fey.png', link: '/irklar/ilk-fey'
   }
 ]
