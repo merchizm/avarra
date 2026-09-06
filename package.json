@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
+    "images:thumbnails": "node scripts/generate-people-thumbnails.mjs",
+    "docs:build": "npm run images:thumbnails && vitepress build docs",
     "docs:preview": "vitepress preview docs"
   },
   "devDependencies": {

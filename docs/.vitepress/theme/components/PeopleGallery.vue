@@ -3,6 +3,7 @@ import { computed, ref } from 'vue'
 import { useData, withBase } from 'vitepress'
 import { additionalPeople } from '../data/additionalPeople.js'
 import { peopleImages } from '../data/peopleImages.js'
+import { peopleThumbnails } from '../data/peopleThumbnails.js'
 
 const { lang } = useData()
 const isEnglish = computed(() => lang.value.startsWith('en'))
@@ -447,6 +448,7 @@ const peoples = [...corePeople, ...additionalPeople]
 const localizedPeople = computed(() => peoples.map((person) => ({
   ...person,
   image: peopleImages[person.link] || person.image,
+  thumbnail: peopleThumbnails[peopleImages[person.link] || person.image],
   name: isEnglish.value ? (person.enName || englishNames[person.link] || person.name) : person.name,
   typeLabel: isEnglish.value ? categories[person.type].en : categories[person.type].tr,
   sourceLabel: sourceLabels[sourceByLink[person.link] || 'unverified'][isEnglish.value ? 'en' : 'tr'],
@@ -495,7 +497,10 @@ const visiblePeople = computed(() => {
       <component :is="person.link ? 'a' : 'article'" v-for="person in visiblePeople" :key="person.name"
         :href="person.link ? withBase(person.link) : undefined" class="people-card" :class="[person.className, { 'is-draft': !person.link }]">
         <div class="people-visual" :class="{ 'has-image': person.image }">
-          <img v-if="person.image" :src="withBase(person.image)" :alt="person.name + ' portresi'" />
+          <picture v-if="person.image">
+            <source v-if="person.thumbnail" :srcset="withBase(person.thumbnail)" type="image/webp" />
+            <img :src="withBase(person.image)" :alt="person.name + ' portresi'" loading="lazy" decoding="async" fetchpriority="low" />
+          </picture>
           <span v-else class="people-crest">{{ person.crest }}</span>
           <span class="people-type">{{ person.typeLabel }}</span>
         </div>
