@@ -63,7 +63,7 @@ Bu sürümde Avarra Dünya Atlası 0.1'de açıkça adı geçen bütün yaşayan
 
 - İnsanlar ve Veyranlar
 - Orman, Yüksek, Deniz ve Drow Elfleri
-- Dört mevsim Eladrinleri
+- Fey yollarıyla bağ kurmuş elf haneleri
 - Firbolglar, Dikenkanlılar ve Satyrler
 - Dağ ve Tuz Cüceleri, Duergarlar
 - Gnomlar, Nimrûnlar, Halflingler, Goblinler, Hobgoblinler ve Koboldlar

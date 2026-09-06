@@ -29,7 +29,7 @@ States’ hunger for information and their succession struggles created demand f
 
 High Elves established Astereth while Wood Elves split into three states and fought whenever they met in the forest. The division had become ungovernable. Other peoples exploited it, abducting Elves and selling them to the highest bidder. The Thorn Crown, White Leaves, and Birch Groves could not form a shared answer.
 
-The Thorn Crown had sheltered Eladrin and sought a means to strengthen its protective thorn trees and flowers. It contacted drow, other elves, and Derro through Harengon intermediaries. It prepared a new army for roughly a century and invited sympathetic peoples into its lands. Firbolgs, treated as property by other Wood Elves, found real value there. At the century’s end the **Thornbloods** were successfully made; within twenty years, the whole forest was in Thorn Crown hands.
+The Thorn Crown had sheltered Elven houses tied to Fey roads and sought a means to strengthen its protective thorn trees and flowers. Later sources call these houses Eladrin. It contacted drow, other elves, and Derro through Harengon intermediaries. It prepared a new army for roughly a century and invited sympathetic peoples into its lands. Firbolgs, treated as property by other Wood Elves, found real value there. At the century’s end the **Thornbloods** were successfully made; within twenty years, the whole forest was in Thorn Crown hands.
 
 ## The Age of Veins · 4000–3200 BC
 

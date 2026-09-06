@@ -13,7 +13,7 @@ outline: false
 
 The winter face may mourn, the spring face forgive, the summer face fight, and the autumn face judge. These may be read as distinct gods or as states of one power through time. Change is not hypocrisy to the Seasonal Crowns; the real question is how one answers for the promise made before changing.
 
-At each turn, small crowns are braided and then unmade. Spring crowns hold shoots and pale thread; summer crowns marks of labour; autumn crowns lists of debt; winter crowns names of loss. The rite does not choose a new identity. It lets the community witness what must be put down. It is strong among Eladrin communities without belonging to Elves alone.
+At each turn, small crowns are braided and then unmade. Spring crowns hold shoots and pale thread; summer crowns marks of labour; autumn crowns lists of debt; winter crowns names of loss. The rite does not choose a new identity. It lets the community witness what must be put down. It remains strong in some Elven communities without belonging to Elves alone.
 
 ## The right to change
 

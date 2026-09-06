@@ -11,7 +11,6 @@ const entries = {
   'yuksek-elfler': ['Yüksek Elfler', 'Lethar çevresinde yıldız kaydı, diplomasi evleri ve uzun vadeli bilgi mirası öne çıkar; soy, bu eğitimin zorunlu şartı değildir.'],
   'deniz-elfleri': ['Deniz Elfleri', 'Gelgit elçileri resif, kıyı ve Mercan Sarayları arasında geçiş hukukunu korur; deniz akrabalığı kara devletlerinin sınırından daha eski kabul edilir.'],
   drowlar: ['Drow kültürleri', 'İpek Tahtı, Karanlık Liman ve Ayaltı sürgünleri farklı hukuklar taşır. Drow kimliği tek bir hanedan ya da inanca indirgenmez.'],
-  eladrin: ['Eladrin mevsim kültürleri', 'İlkbahar bağışlama, Yaz koruma, Sonbahar anlatı ve Kış yas ile anılır. Mevsim, kalıcı kast değil, hayat boyunca değişebilen duygusal ve toplumsal bir hâlidir.'],
   firbolglar: ['Firbolg kültürleri', 'Koruluk bekçileri hayvan göçü, kutsal alan ve cenaze koruluğunu birlikte korur; sessizlik ve geri çekilme, dış dünyaya kayıtsızlık anlamına gelmez.'],
   dikenkanlilar: ['Dikenkanlı kültürleri', 'Kabuk, yaprak veya boynuz taşıyan topluluklar, Diken Tacı içinde eşit yurttaşlık ve sınır hizmeti için görünür mücadele verir.'],
   satyrler: ['Satyr kültürleri', 'Bağ, müzik, konukluk ve fey geçitleri satyr yaşamının merkezidir. Şenlik, siyasal haberleşme ve ant yenilemenin de yoludur.'],
@@ -64,9 +63,7 @@ const entries = {
   owlinler: ['Owlin kültürleri', 'Gece arşivleri, sessiz kurye ağları ve alacakaranlık gözetimi Owlin topluluklarında öne çıkar; bunlar soyun değil, yaşadıkları şehirlerin geliştirdiği geleneklerdir.']
 }
 const entry = computed(() => entries[slug.value])
-const englishEntries = {
-  eladrin: ['Eladrin seasonal cultures', 'Spring is associated with forgiveness, Summer with protection, Autumn with story, and Winter with mourning. A season is not a permanent caste, but an emotional and social state that can change throughout a life.']
-}
+const englishEntries = {}
 const englishEntry = computed(() => englishEntries[slug.value])
 const isEnglish = computed(() => lang.value.startsWith('en'))
 </script>

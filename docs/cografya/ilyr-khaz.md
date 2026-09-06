@@ -18,6 +18,6 @@ outline: false
 
 ## Kıtayı bağlayan ilke
 
-[Kar-Dur](../yerlesimler/kar-dur), [Kış Ambarları](../yerlesimler/kis-ambarlari-serbest-sehri) ve kıyı limanları yalnız Goliath ya da Eladrin şehri değildir: kış hazırlığı için deniz halkları, zanaatkârlar, göçmen haneler ve uzak şehirlerden tacirler birlikte yaşar. Rimekin ya da Shadar-kai bir karakter nadir olabilir; yine de konuk evi, lonca ortağı ve akrabalık bağları bulur.
+[Kar-Dur](../yerlesimler/kar-dur), [Kış Ambarları](../yerlesimler/kis-ambarlari-serbest-sehri) ve kıyı limanları yalnız Goliath ya da Elf şehri değildir: kış hazırlığı için deniz halkları, zanaatkârlar, göçmen haneler ve uzak şehirlerden tacirler birlikte yaşar. Rimekin ya da Shadar-kai bir karakter nadir olabilir; yine de konuk evi, lonca ortağı ve akrabalık bağları bulur.
 
 **İlgili kayıtlar:** [Halklar](../irklar/), [Yerleşimler](../yerlesimler/), [Atlas](../haritalar/dunya).

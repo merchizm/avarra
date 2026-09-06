@@ -420,6 +420,8 @@ html:not(.dark) .stagnation-nav{background:#f7f2ea;border-color:#d8cab9;box-shad
 .state-flag-link:hover { color: var(--vp-c-brand-1); }
 .state-flag-link img, a .state-flag { width: 1.12em; height: .78em; object-fit: cover; border: 1px solid color-mix(in srgb, currentColor 35%, transparent); border-radius: 1px; vertical-align: -.08em; box-shadow: 0 1px 2px rgb(0 0 0 / .2); }
 a .state-flag { display: inline-block; margin-right: .35em; }
+.state-flag:not(a) { width: min(100%, 28rem); margin: 1.25rem auto; }
+.state-flag:not(a) img { display: block; width: 100%; height: auto; border: 1px solid var(--vp-c-divider); }
 .state-identity { float:right; width:min(38%, 17rem); margin:0 0 1.35rem 1.5rem; padding:.75rem; border:1px solid var(--vp-c-divider); background:var(--vp-c-bg-soft); box-shadow:inset 3px 0 #b99b57; }
 .state-identity img { display:block; width:100%; aspect-ratio:1.7; object-fit:cover; border:1px solid color-mix(in srgb, #b99b57 65%, transparent); box-shadow:0 5px 16px rgb(0 0 0 / .28); }
 .state-identity figcaption { margin:.45rem .1rem .05rem; font-size:.7rem; letter-spacing:.09em; text-transform:uppercase; color:var(--vp-c-text-3); }

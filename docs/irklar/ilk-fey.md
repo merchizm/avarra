@@ -31,7 +31,7 @@ D&D’de feyler tek bir biyolojik sınıf değildir. Aynı geniş ailede küçü
 | Aile | D&D’deki yeri | Avarra’daki karşılığı |
 | --- | --- | --- |
 | [Periler](./periler) | Küçük, uçan fey halkı; büyü ve geçit öykülerinde görünür. | Ant tanıklığı ve geçit bahçeciliğiyle tanınan, Kököte’de veya Avarra’da yaşayabilen haneler. |
-| [Eladrin](./eladrin) | Mevsimlerle ilişkilendirilen fey halkı. | Özgür mahkemelerin en görünür ant taşıyıcılarından; mevsim, siyasi sadakat değil iç döngüdür. |
+| Eladrin | Fey yollarıyla sıkı bağ kurmuş elf haneleri için tarihsel ad. | Eski kayıtlarda özgür mahkemelerin ant taşıyıcıları olarak anılır; ayrı bir halk değildir. |
 | [Satyrler](./satyrler) | Müzik, şenlik ve vahşi özgürlükle anılan fey halkı. | Bağ hukuku, kamusal eleştiri ve konukluk geleneğinin gezgin koruyucuları. |
 | [Centaurlar](./centaurlar) | Kaynağa göre fey ya da fey bağını taşıyan halk olarak ele alınabilir. | Uçsuz Yol’un mevsimsel geçiş hakkını savunan göç toplulukları. |
 | [Harengonlar](./harengonlar) | Tavşan görünümlü, fey temalı yolcu halkı. | Haber koşuculuğu ve bahçe nöbeti yapan, kapı haberini antla taşıyan topluluklar. |
@@ -55,7 +55,7 @@ Bu başlıklar, Avarra’da karşılaşma, söylence veya yerel ruh olarak kulla
 
 ## Avarra’daki fey halkları ve fey miraslılar
 
-Kököte’ye en doğrudan bağ taşıyan halklar Periler, Eladrinler, Satyrler, Centaurlar ve Harengonlardır. Bunların hiçbiri tek bir devlet, mahkeme veya mizaca indirgenmez. Bir Avarra kentinde lonca üyesi, çiftçi, arabulucu ya da asker olabilirler; bir kapı görmüş olmaları gerekmez.
+Kököte’ye en doğrudan bağ taşıyan halklar Periler, Satyrler, Centaurlar ve Harengonlardır. Fey yollarıyla bağ kurmuş elf haneleri tarihsel kayıtlarda Eladrin diye de anılır. Bunların hiçbiri tek bir devlet, mahkeme veya mizaca indirgenmez. Bir Avarra kentinde lonca üyesi, çiftçi, arabulucu ya da asker olabilirler; bir kapı görmüş olmaları gerekmez.
 
 Fey mirası taşıyan ama doğrudan fey halkı sayılmayan topluluklar da vardır:
 

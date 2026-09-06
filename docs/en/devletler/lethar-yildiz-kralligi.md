@@ -30,7 +30,7 @@ The doctrine is not conquest but denial: invalidate every safe calculation an ar
 | Place | Function | Pressure |
 | --- | --- | --- |
 | Astereth | Throne, academy, star defence, Nine Canals | Serel’s regency and the unrecorded new star |
-| Miravel Gardens | Dynastic estates and long diplomacy | Frost Palace marriage and house alliances |
+| Miravel Gardens | Dynastic estates and long diplomacy | Frost Throne marriage and house alliances |
 | Telor Gate | Northern customs and military threshold | Ordan trade against Lethar inspection |
 | Silent Meridian | Aasimar education, star measurement, sealed archives | The line between protection and surveillance |
 | Low Star | Workers, foreign students, and service networks | Water share, representation, and “temporary” lives |

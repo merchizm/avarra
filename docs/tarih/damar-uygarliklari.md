@@ -29,7 +29,7 @@ Devletlerin bilgi açlığı ile veraset ve taht mücadeleleri, yeni tür casusl
 
 Elflerin tek bir siyasî düzlemde buluşamaması, elf onuru açısından aşağılayıcı görülüyordu. Yüksek Elfler Astereth’i kurup büyürken Orman Elfleri üç ayrı devlete bölünmüş, ormanda karşılaştıklarında birbirleriyle savaşır olmuştu. Bu bölünme yönetilebilir olmaktan çoktan çıkmıştı.
 
-Diğer halklar kargaşadan yararlandı; elfler kaçırılıp en yüksek fiyatı verene satılmaya çalışıldı. Diken Tacı, Beyaz Yapraklar ve Huşkozları bu tehdide ortak cevap veremedi. Diken Tacı bir süredir Eladrinleri ağırlıyor ve diğer Orman Elflerinden farklı olarak destekliyordu, fakat bu yük ağırlaşmıştı. Casuslar, Beyaz Yapraklar ile Huşkozlarının ittifak kurmayı düşündüğünü bildirdi.
+Diğer halklar kargaşadan yararlandı; elfler kaçırılıp en yüksek fiyatı verene satılmaya çalışıldı. Diken Tacı, Beyaz Yapraklar ve Huşkozları bu tehdide ortak cevap veremedi. Diken Tacı bir süredir Fey yollarıyla bağ kurmuş elf hanelerini ağırlıyor ve diğer Orman Elflerinden farklı olarak destekliyordu, fakat bu yük ağırlaşmıştı. Sonraki kaynaklar bu haneleri Eladrin diye anacaktır. Casuslar, Beyaz Yapraklar ile Huşkozlarının ittifak kurmayı düşündüğünü bildirdi.
 
 Diken Tacı kendisini başından beri koruyan dikenli ağaçları ve çiçekleri büyütmenin yolunu aradı. Drowlarla, başka elflerle ve Harengonlar aracılığıyla Derrolarla temas kurdu. Yeni ordu için yaklaşık yüz yıllık bir hazırlığa girişti; aynı zamanda sempati duyduğu halkları kendi topraklarına çağırdı. Diğer Orman Elfleri arasında mal muamelesi gören Firbolglar burada ilk kez gerçek değer bulabildi. Yüzyılın sonunda **Dikenkanlılar** başarıyla yaratıldı; yirmi yıl içinde ormanın tamamı Diken Tacı’nın eline geçti.
 

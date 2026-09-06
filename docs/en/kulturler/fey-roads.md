@@ -13,8 +13,8 @@ outline: false
 
 | Term | What it describes | Example |
 | --- | --- | --- |
-| **Fey being** | A person or entity whose nature belongs directly to Rootbeyond | Fairy, some Eladrin, First Fey guardians |
-| **Fey inheritance** | A people shaped by Fey roads long ago and rooted in Avarra | Elves, Firbolg, some Goblin traditions |
+| **Fey being** | A person or entity whose nature belongs directly to Rootbeyond | Fairy, First Fey guardians |
+| **Fey inheritance** | A people shaped by Fey roads long ago and rooted in Avarra | Elves, Firbolg, some Goblin traditions, and the Elven houses called Eladrin in old records |
 | **Fey-linked** | A person or group tied to a gate, oath, court, or transformation regardless of ancestry | Hexblood, gate keeper, oath family |
 
 These distinctions never decide citizenship, morality, or profession. A Rootbeyond-born person may grow up in Avarra, a Wood Elf may never cross a Fey gate, and a human may join a court through oath.
@@ -47,7 +47,7 @@ The **Root Closure** at the end of the [Veil Wars](../tarih/veil-wars) made gate
 | --- | --- | --- |
 | **Throne Tree** | Elyrakök and the Thorn Crown | Who renews its oaths as Elyra transforms? |
 | **Copper Key Grove** | Copper Council and Autumn principalities | Does a lost key open a gate or court membership? |
-| **Shadowless Glass** | Frost Palace shores | What happens to fjord paths if the ice-bound root withdraws? |
+| **Shadowless Glass** | Frost Throne shores | What happens to fjord paths if the ice-bound root withdraws? |
 | **Emberharvest Vine** | Golden Sun and Satyr slopes | Can the war crown void a harvest oath? |
 | **Moonseed** | Thorn–Meridian Belt | How do Fairy witnesses reconcile debts recorded differently in two worlds? |
 

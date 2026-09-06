@@ -13,7 +13,7 @@ outline: false
 
 Kışta yas tutan yüz, ilkbaharda bağışlayan, yazın savaşan ve sonbaharda yargılayan yüz olabilir. Bu yüzler ayrı tanrılar sayılabileceği gibi aynı kudretin zaman içindeki halleri olarak da okunur. Mevsim Taçları için kişinin değişmesi ikiyüzlülük değildir; değişirken eski sözüne nasıl hesap verdiği asıl meseledir.
 
-Her dönüşte küçük taçlar örülür, sonra çözülür. İlkbahar tacında filiz ve açık renk ipler, yaz tacında emek izleri, sonbahar tacında borç listeleri, kış tacında kayıp adları bulunur. Ayinlerin amacı yeni bir kimlik seçmek değil, bırakılması gereken şeyi topluluğun önünde bırakmaktır. Bu nedenle özellikle Eladrin toplulukları arasında güçlü olsa da yalnızca elflere ait değildir.
+Her dönüşte küçük taçlar örülür, sonra çözülür. İlkbahar tacında filiz ve açık renk ipler, yaz tacında emek izleri, sonbahar tacında borç listeleri, kış tacında kayıp adları bulunur. Ayinlerin amacı yeni bir kimlik seçmek değil, bırakılması gereken şeyi topluluğun önünde bırakmaktır. Bu nedenle özellikle bazı elf toplulukları arasında güçlü olsa da yalnızca elflere ait değildir.
 
 ## Değişim hakkı
 

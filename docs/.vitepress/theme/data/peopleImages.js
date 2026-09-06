@@ -3,7 +3,6 @@ export const peopleImages = {
   '/irklar/qezhler': '/assets/illustrations/qezh.png',
   '/irklar/szairler': '/assets/illustrations/szaïr.png',
   '/irklar/ossailer': '/assets/illustrations/ossai.png',
-  '/irklar/eladrin': '/assets/illustrations/eladrin-v2.jpg',
   '/irklar/insanlar': '/assets/illustrations/human.png',
   '/irklar/cuceler': '/assets/illustrations/dwarf.jpg',
   '/irklar/koboldlar': '/assets/illustrations/kobold-v2.jpg',

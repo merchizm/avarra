@@ -19,7 +19,6 @@ export const peopleThumbnails = {
   "/assets/illustrations/drow-v2.jpg": "/assets/illustrations/thumbs/drow-v2-468b3787fcdf.webp",
   "/assets/illustrations/duergar.jpg": "/assets/illustrations/thumbs/duergar-92fd61949269.webp",
   "/assets/illustrations/dwarf.jpg": "/assets/illustrations/thumbs/dwarf-ef9e2907d696.webp",
-  "/assets/illustrations/eladrin-v2.jpg": "/assets/illustrations/thumbs/eladrin-v2-a63403b62edf.webp",
   "/assets/illustrations/fairy.jpg": "/assets/illustrations/thumbs/fairy-1c53df201428.webp",
   "/assets/illustrations/firbolg.jpg": "/assets/illustrations/thumbs/firbolg-acc7cde291c5.webp",
   "/assets/illustrations/flamenkin.jpg": "/assets/illustrations/thumbs/flamenkin-5d06ef5fe7f0.webp",

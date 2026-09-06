@@ -17,7 +17,7 @@ outline: false
   <div class="lore-card"><h3><a href="./diken-taci">Diken Tacı</a></h3><p>Ormanı egemen varlık kabul eden seçimli monarşi. Kraliçenin dönüşümü iç savaşı yaklaştırıyor.</p></div>
   <div class="lore-card"><h3><a href="./ordan-imparatorlugu">Ordan İmparatorluğu</a></h3><p>Veyranların kurduğu, kayıt ve ölçüm düzenine dayalı imparatorluk; üçlü veraset savaşı içinde.</p></div>
   <div class="lore-card"><h3><a href="./nehir-tahti">Nehir Tahtı</a></h3><p>Su havzasını siyasi beden sayan anaerkil seçimli monarşi. Kraliçe Samara'nın hastalığı akıntıların yavaşlamasıyla bağlantılı.</p></div>
-  <div class="lore-card"><h3><a href="./ayaz-sarayi">Ayaz Sarayı</a></h3><p>Ilyr-Khaz'ın Kış Eladrinleri; korumayı değişimi durdurmak olarak gören mutlak monarşi.</p></div>
+  <div class="lore-card"><h3><a href="./ayaz-sarayi">Ayaz Tahtı</a></h3><p>Gölgesiz Cam eşiğini ve buzdan dönen geçmişi denetleyen, korumayı çözülmeyi ertelemek sayan mutlak monarşi.</p></div>
   <div class="lore-card"><h3><a href="./saarin-iki-ejderha-taci">Saar'ın İki Ejderha Tacı</a></h3><p>Odraka'da Kızıl Saar ile Mücevher Yemini, ejderha mirasının anlamı üzerine rekabet eder.</p></div>
   <div class="lore-card"><h3><a href="./dokuz-fener-birligi">Dokuz Fener Birliği</a></h3><p>Nimrûn Svirfneblinlerinin dokuz kentli yeraltı konfederasyonu; ses büyüsü ve yanıltıcı tünellerle savunulur.</p></div>
   <div class="lore-card"><h3><a href="./qasyrra-imparatorlugu">Qasyrra İmparatorluğu</a></h3><p>Kharizha’nın derinlerinde, su hakkı, kast ve Güneş korkusu çevresinde kurulan kadim çok-halklı imparatorluk.</p></div>
@@ -31,9 +31,9 @@ outline: false
   <div class="lore-card"><h3><a href="./tuz-ocaklari-cumhuriyeti">Tuz Ocakları Cumhuriyeti</a></h3><p>Tuz domları üzerinde oligark meclisi.</p></div>
   <div class="lore-card"><h3><a href="./camova-konfederasyonu">Camova Konfederasyonu</a></h3><p>Element ocakları ve gezici meclis.</p></div>
   <div class="lore-card"><h3><a href="./sis-adalari-cumhuriyeti">Sis Adaları Cumhuriyeti</a></h3><p>Yüzsüz ağları, devlet sırları ve sözleşmeli suikastçılarla yaşayan ada cumhuriyeti.</p></div>
-  <div class="lore-card"><h3><a href="./altin-gunes-kralligi">Altıngüneş Krallığı</a></h3><p>Yaz Eladrinlerinin ikiz tacı.</p></div>
-  <div class="lore-card"><h3><a href="./bakir-prenslikler">Bakır Prenslikler</a></h3><p>Yedi Sonbahar prensliği.</p></div>
-  <div class="lore-card"><h3><a href="./yesil-su-birligi">Yeşil Su Birliği</a></h3><p>İlkbahar şehir devletleri.</p></div>
+  <div class="lore-card"><h3><a href="./altin-gunes-kralligi">Altıngüneş Krallığı</a></h3><p>Elf, Satyr ve Ateş Genasi hanelerinin ikiz tacı.</p></div>
+  <div class="lore-card"><h3><a href="./bakir-prenslikler">Bakır Prenslikler</a></h3><p>Elf hanelerinin yönettiği yedi prenslik.</p></div>
+  <div class="lore-card"><h3><a href="./yesil-su-birligi">Güneşçayır Birliği</a></h3><p>Halfling özgür şehirlerinin birliği.</p></div>
   <div class="lore-card"><h3><a href="./varkesh">Varkesh</a></h3><p>Nareth–Odraka arasındaki ada-kent; savaş kredisi, liman tedariki ve iki anahtarlı devlet düzeni.</p></div>
   <div class="lore-card"><h3><a href="./kis-ambarlari-serbest-sehri">Kış Ambarları Serbest Şehri</a></h3><p>Tahıl, kuşatma malı ve sefer tedarikini krediye çeviren serbest şehir.</p></div>
   <div class="lore-card"><h3><a href="./umbraval-serbest-sehri">Umbraval Serbest Şehri</a></h3><p>Odraka’nın kuzey kıyısında gölge-emek sicili, deniz geçişi ve tartışmalı savaş sözleşmeleriyle yaşayan bağımsız liman.</p></div>
@@ -72,8 +72,7 @@ Namaris’te akışın yavaşlaması tahıl sevkiyatını geciktirir; Halvek ve 
 | Bölge | Devletler ve egemenlikler |
 | --- | --- |
 | Nareth | Diken Tacı, İnsan Yurtsuzları ve Beş Sürgün Hanedanı, Kar-Dur Taş Tacı, Nehir Tahtı, Camova Konfederasyonu |
-| Mevsim devletleri | Ayaz Sarayı, Altıngüneş Krallığı, Bakır Prenslikler, Yeşil Su Birliği |
-| Ilyr-Khaz | Ayaz Sarayı, Kış Ambarları Serbest Şehri |
+| Ilyr-Khaz | Ayaz Tahtı, Kış Ambarları Serbest Şehri |
 | Asteron | Ordan İmparatorluğu, Lethar Yıldız Krallığı, Vardessa Serbest Krallığı, Kırk Köprü Cumhuriyeti, Gök Eşiği Konkordatosu, Külordu Marklığı, Tuz Ocakları Cumhuriyeti |
 | Odraka | Kızıl Saar, Mücevher Yemini, Labirent Limanları, Uçsuz Yol Konfederasyonu, Saz Ejderi Krallıkları, Yağmur Pençesi Birliği, Kızıl Toprak Orc Krallığı, Umbraval Serbest Şehri, Sâlvara, Nasima, Tazir, Nisra, Kharad |
 | Kharizha Çölü | Qasyrra İmparatorluğu, Minotaur kuyu haneleri ve imparatorluğa farklı hukuklarla bağlı çöl toplulukları |

@@ -15,6 +15,6 @@ outline: deep
 
 **Buzkıran Koy**, buzla kapanmayan derin liman; **Rüzgâr Sırtı**, ambarların ve işaret kulelerinin bulunduğu kuru yükseklik; **Tuzlu Çayırlar** ise küçük hayvan sürülerinin tutulduğu ince kıyı kuşağıdır. Skeldra’nın içi boş ve fırtınalıdır; kalıcı köyler çoğunlukla liman yolunun çevresinde toplanır.
 
-Ada Ayaz Sarayı’na ait değildir. Kış Ambarları’nın bağımsızlığı, Ilyr-Khaz fiyortlarının zorunlu kış hazırlığı ile yabancı devletlerin deniz tedarikine aynı mesafede durabilmesine bağlıdır.
+Ada Ayaz Tahtı’na ait değildir. Kış Ambarları’nın bağımsızlığı, Ilyr-Khaz fiyortlarının zorunlu kış hazırlığı ile yabancı devletlerin deniz tedarikine aynı mesafede durabilmesine bağlıdır.
 
 → [Ilyr-Khaz](../ilyr-khaz) · [Kış Ambarları Serbest Şehri](../../devletler/kis-ambarlari-serbest-sehri) · [Kar-Dur](../../yerlesimler/kar-dur)

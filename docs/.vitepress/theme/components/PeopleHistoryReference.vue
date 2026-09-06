@@ -8,7 +8,7 @@ const path = computed(() => page.value.relativePath.replace(/^en\//, ''))
 const era = computed(() => {
   const value = path.value
   if (/warforged|autognom|svirfneblin|duergar|myconid|kobold/.test(value)) return 'damar-uygarliklari'
-  if (/elf|eladrin|drow|firbolg|satyr|dikenkanli/.test(value)) return 'ilk-uyanislar'
+  if (/elf|drow|firbolg|satyr|dikenkanli/.test(value)) return 'ilk-uyanislar'
   if (/dragonborn|minotaur|centaur|lizardfolk|tortle|grung|tabaxi|kenku|orc/.test(value)) return 'ilk-uyanislar'
   if (/insan|veyran|halfling|goblin|hobgoblin|genasi/.test(value)) return 'taclar-cagi'
   return 'suruklenme-cagi'

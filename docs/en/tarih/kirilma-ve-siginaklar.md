@@ -11,9 +11,9 @@ outline: false
 
 ## The Veil Wars · 2700–2580 BC
 
-As the Damar unions broke apart, their administrations sought new arenas of competition and treated Root Gates as roads, tax points, and military supply stations. Fey peoples called this a blasphemy. Few states wanted Eladrin, Elves, Thornbloods, Giants, and Shadar-kai as enemies, yet none could avoid deciding who ruled the gates.
+As the Damar unions broke apart, their administrations sought new arenas of competition and treated Root Gates as roads, tax points, and military supply stations. Fey peoples called this a blasphemy. Few states wanted Elves, Thornbloods, Giants, and Shadar-kai as enemies, yet none could avoid deciding who ruled the gates. Period records use Eladrin for the Elven houses most closely tied to Fey roads.
 
-The coalition against the dwarven states first met at Astereth for roughly a week of continuous council. The Thorn Crown, Frost Court, Lethar Star Kingdom, and Copper Principalities declared cause for war; human empires pledged support for the Thorn Crown and announced Hun riders would move to Vein entrances. Nimrûn withdrew, saying they respected both peoples; the Black Anvil chose neutrality. Other kingdoms followed interest.
+The coalition against the dwarven states first met at Astereth for roughly a week of continuous council. The Thorn Crown, Frost Throne, Lethar Star Kingdom, and Copper Principalities declared cause for war; human empires pledged support for the Thorn Crown and announced Hun riders would move to Vein entrances. Nimrûn withdrew, saying they respected both peoples; the Black Anvil chose neutrality. Other kingdoms followed interest.
 
 Damar kingdoms still could not organize together and failed to take the threat seriously. They expanded watch posts, while new dwarven kingdoms born from Damar surrendered entirely to human attacks. Then a Hun army disappeared at the entrance to the Kharizha Desert. The Hun Empire declared forty days of mourning and ceased forging iron. Fey houses closed every gate. Damar commanders failed to force them open; Fey peoples secured them with magic and made their opening rare, dependent on codes and rare considerations.
 

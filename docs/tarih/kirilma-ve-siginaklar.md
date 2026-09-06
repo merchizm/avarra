@@ -11,9 +11,9 @@ outline: false
 
 ## Perde Savaşları · SÖ 2700–2580
 
-Damar birlikleri dağıldıkça yeni rekabet alanları arandı. Bazı Damar yönetimleri Kök Kapılarını yol, vergi noktası ve askerî ikmal noktası saymaya başladı. Bu, Fey halkları için küfürdü. Eladrinleri, Elfleri, Dikenkanlıları, Devleri ve Shadar-kaileri karşısına almak istemeyen devletler bile, kapıların kim tarafından yönetileceği sorusundan kaçamadı.
+Damar birlikleri dağıldıkça yeni rekabet alanları arandı. Bazı Damar yönetimleri Kök Kapılarını yol, vergi noktası ve askerî ikmal noktası saymaya başladı. Bu, Fey halkları için küfürdü. Elfleri, Dikenkanlıları, Devleri ve Shadar-kaileri karşısına almak istemeyen devletler bile, kapıların kim tarafından yönetileceği sorusundan kaçamadı. Dönem kayıtları, Fey yollarına en sıkı bağlı elf hanelerini Eladrin adıyla ayırır.
 
-Cüce devletlerine karşı kurulan koalisyon önce Yüksek Elf şehri Astereth’te buluştu. Yaklaşık bir hafta süren kesintisiz toplantıdan sonra Diken Tacı, Ayaz Sarayı, Lethar Yıldız Krallığı ve Bakır Prenslikler Damar uygarlıklarına savaş nedeni ilan etti. İnsan imparatorlukları da Diken Tacı’nı destekleyeceklerini açıkladı; Hun atlılarının damar girişlerine kaydırılacağı duyuruldu. Nimrûnlar, iki halka da saygı duyduklarını söyleyerek geri çekildi. Kara Örs Krallığı tarafsızlığı seçti. Başka krallıklar ve imparatorluklar ise çıkarlarına göre hareket etti.
+Cüce devletlerine karşı kurulan koalisyon önce Yüksek Elf şehri Astereth’te buluştu. Yaklaşık bir hafta süren kesintisiz toplantıdan sonra Diken Tacı, Ayaz Tahtı, Lethar Yıldız Krallığı ve Bakır Prenslikler Damar uygarlıklarına savaş nedeni ilan etti. İnsan imparatorlukları da Diken Tacı’nı destekleyeceklerini açıkladı; Hun atlılarının damar girişlerine kaydırılacağı duyuruldu. Nimrûnlar, iki halka da saygı duyduklarını söyleyerek geri çekildi. Kara Örs Krallığı tarafsızlığı seçti. Başka krallıklar ve imparatorluklar ise çıkarlarına göre hareket etti.
 
 Damar krallıkları bu tabloda bile ortak biçimde örgütlenemedi ve tehdidi yeterince ciddiye almadı. Karakollar çoğaltıldı. Damar düzeninin doğurduğu yeni cüce krallıkları, insan krallıklarından gelen saldırılar karşısında bütünüyle teslim oldu.
 

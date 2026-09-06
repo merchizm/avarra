@@ -30,7 +30,7 @@ Bu güç saldırı için de yeterlidir ama Lethar’ın doktrini fetih değildir
 | Yer | İşlev | Gerilim |
 | --- | --- | --- |
 | Astereth | Taht, akademi, yıldız savunması ve Dokuz Kanal | Serel’in vesayeti; yeni yıldızın kayıtsız görünmesi |
-| Miravel Bahçeleri | Hanedan malikâneleri ve uzun vadeli diplomasi | Ayaz Sarayı evliliği ve hane ittifakları |
+| Miravel Bahçeleri | Hanedan malikâneleri ve uzun vadeli diplomasi | Ayaz Tahtı evliliği ve hane ittifakları |
 | Telor Kapısı | Kuzey geçidinin gümrüğü ve askerî eşiği | Ordan tüccarları ile Lethar denetimi |
 | Sessiz Meridyen | Aasimar eğitimi, yıldız ölçümü ve yasak arşivler | Koruma ile gözetim arasındaki sınır |
 | Alçak Yıldız | İşçi, yabancı öğrenci ve hizmet ağlarının terası | Su payı, temsil ve “geçici” sayılan hayatlar |

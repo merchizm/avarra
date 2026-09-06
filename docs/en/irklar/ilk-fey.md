@@ -31,7 +31,7 @@ Fey are not a single biological class in D&D. The wider family includes tiny win
 | Family | Place in D&D | Avarra counterpart |
 | --- | --- | --- |
 | [Fairies](./periler) | Small flying fey people, often found in magic and gate stories. | Households of oath witnesses and gate gardeners, living in Rootbeyond or Avarra. |
-| [Eladrin](./eladrin) | Fey people associated with seasons. | The most visible oath-bearers of free courts; season is an inner cycle, not political loyalty. |
+| Eladrin | A historical name for Elven houses closely tied to Fey roads. | Old records name them as oath-bearers of free courts; they are not a separate people. |
 | [Satyrs](./satyrler) | Fey people associated with music, revel, and wild freedom. | Travelling keepers of vine-law, public critique, and hospitality. |
 | [Centaurs](./centaurlar) | Treated as fey or as a fey-linked people depending on source. | Migratory communities defending Uçsuz Yol’s seasonal right of passage. |
 | [Harengons](./harengonlar) | Rabbit-like travellers with fey themes. | Couriers and garden wardens who carry gate news by oath. |
@@ -55,7 +55,7 @@ These are major D&D fey strands that can appear in Avarra as encounters, legends
 
 ## Fey peoples and fey heritage in Avarra
 
-Fairies, Eladrin, Satyrs, Centaurs, and Harengons hold the most direct ties to Rootbeyond. None is reducible to a single state, court, or temperament. They can be guild members, farmers, mediators, or soldiers in an Avarran city without ever seeing a gate.
+Fairies, Satyrs, Centaurs, and Harengons hold the most direct ties to Rootbeyond. Elven houses tied to Fey roads are also called Eladrin in historical records. None is reducible to a single state, court, or temperament. They can be guild members, farmers, mediators, or soldiers in an Avarran city without ever seeing a gate.
 
 Other peoples can carry fey heritage without being direct fey peoples:
 

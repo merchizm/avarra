@@ -65,7 +65,7 @@ const sourceLabels = {
 }
 const sourceByLink = {
   '/irklar/qezhler': 'avarra', '/irklar/szairler': 'avarra', '/irklar/ossailer': 'avarra',
-  '/irklar/eladrin': 'motm', '/irklar/insanlar': 'phb', '/irklar/cuceler': 'phb',
+  '/irklar/insanlar': 'phb', '/irklar/cuceler': 'phb',
   '/irklar/koboldlar': 'motm', '/irklar/veyranlar': 'avarra', '/irklar/svirfneblinler': 'motm',
   '/irklar/drowlar': 'phb', '/irklar/dragonbornlar': 'phb', '/irklar/lizardfolklar': 'motm',
   '/irklar/genasiler': 'motm', '/irklar/minotaurlar': 'motm', '/irklar/halflingler': 'phb',
@@ -99,12 +99,6 @@ const sourceByLink = {
 // Catalogue cards identify the people first. Place, profession, politics, and
 // historical detail belong in each record rather than in this one-line summary.
 const corePeople = [
-  {
-    name: 'Eladrin', type: 'Fey kökenli', status: 'Kayıt açık',
-    description: "Duyguları ve görünümleri iç dünyalarındaki mevsimle değişebilen uzun ömürlü fey halkı.",
-    enDescription: "A long-lived Fey people whose emotions and appearance can change with the season within them.",
-    crest: '✦', className: 'eladrin', image: '/assets/illustrations/eladrin.png', link: '/irklar/eladrin'
-  },
   {
     name: 'İnsanlar', type: 'Ölümlü', status: 'Kayıt açık',
     description: "Kısa ömürlü, son derece çeşitli kültürler kuran uyumlu humanoid halk.",

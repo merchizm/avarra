@@ -19,7 +19,7 @@ const groups = [
   { key: 'human', tr: 'İnsan ağları', en: 'Human networks', color: '#c7925b', values: [30,63,32,80,120,102] },
   // Veyranlar Yedi Hat Sığınağı'nın Kırılma içindeki oluşumundan önce bir halk olarak yoktur.
   { key: 'vey', tr: 'Veyran ağları · IV’te başlar', en: 'Veyran networks · begins in IV', color: '#63a9b5', values: [null, null, 3, 25, 69, 61] },
-  { key: 'elf', tr: 'Elf / Eladrin', en: 'Elf / Eladrin', color: '#a87db0', values: [12,29,17,35,42,37] },
+  { key: 'elf', tr: 'Elf ağları', en: 'Elven networks', color: '#a87db0', values: [12,29,17,35,42,37] },
   { key: 'deep', tr: 'Derin halk ağları', en: 'Deep-people networks', color: '#8b9c78', values: [14,41,17,27,32,36] },
   { key: 'works', tr: 'Goblin–Kobold–Gnom', en: 'Goblin–Kobold–Gnome', color: '#d1b464', values: [10,29,14,22,28,28] },
   { key: 'odraka', tr: 'Odraka halk ağları', en: 'Odrakan people networks', color: '#bc705a', values: [4,16,9,37,44,43] },
@@ -29,7 +29,7 @@ const groups = [
 const peopleLedger = [
   { family: 'human', people: [['İnsanlar', 'Humans', 72], ['Halflingler', 'Halflings', 8], ['Tieflingler', 'Tieflings', 5], ['Yarı Elfler / Khoravarlar', 'Half-Elves / Khoravar', 5], ['Changelingler / Verdanlar', 'Changelings / Verdan', 2], ['Aasimarlar', 'Aasimar', 1], ['Kalashtarlar, Vedalkenler ve Githler', 'Kalashtar, Vedalken, and Gith', 3], ['Diğer insan kökenli ağlar', 'Other human-rooted networks', 6]] },
   { family: 'vey', people: [['Veyranlar', 'Veyrans', 61]] },
-  { family: 'elf', people: [['Orman Elfleri', 'Wood Elves', 14], ['Yüksek Elfler', 'High Elves', 7], ['Eladrinler', 'Eladrin', 5], ['Drowlar', 'Drow', 5], ['Shadar-kailer', 'Shadar-kai', 2], ['Astral Elfler', 'Astral Elves', 1], ['Diğer elf soyları', 'Other elf lineages', 3]] },
+  { family: 'elf', people: [['Orman Elfleri', 'Wood Elves', 14], ['Yüksek Elfler', 'High Elves', 7], ['Elfler', 'Elves', 5], ['Drowlar', 'Drow', 5], ['Shadar-kailer', 'Shadar-kai', 2], ['Astral Elfler', 'Astral Elves', 1], ['Diğer elf soyları', 'Other elf lineages', 3]] },
   { family: 'deep', people: [['Cüceler', 'Dwarves', 11], ['Duergarlar', 'Duergar', 7], ['Svirfneblinler', 'Svirfneblin', 5], ['Myconidler', 'Myconids', 4], ['Grimlocklar', 'Grimlocks', 3], ['Derrolar', 'Derro', 2], ['Diğer derin halklar', 'Other deep peoples', 4]] },
   { family: 'works', people: [['Goblinler', 'Goblins', 9], ['Koboldlar', 'Kobolds', 8], ['Gnomlar', 'Gnomes', 6], ['Warforgedler', 'Warforged', 3], ['Autognomlar / Ruinboundlar', 'Autognomes / Ruinbound', 2]] },
   { family: 'odraka', people: [['Lizardfolklar', 'Lizardfolk', 14], ['Dragonbornlar', 'Dragonborn', 8], ['Orclar', 'Orcs', 10], ['Grunglar', 'Grung', 2], ['Tortlelar', 'Tortles', 3], ['Yuan-ti', 'Yuan-ti', 3], ['Nagalar', 'Nagas', 1], ['Diğer Odraka halkları', 'Other Odrakan peoples', 2]] },

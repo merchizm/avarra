@@ -13,8 +13,8 @@ outline: false
 
 | Terim | Ne anlatır? | Örnek |
 | --- | --- | --- |
-| **Fey varlığı** | Doğası doğrudan Kököte’ye ait olan kişi veya varlık | Peri, bazı Eladrinler, İlk Fey muhafızları |
-| **Fey mirası** | Uzak geçmişte Fey yollarıyla biçimlenmiş, Avarra’da kök salmış halk | Elfler, Firbolglar, bazı Goblin gelenekleri |
+| **Fey varlığı** | Doğası doğrudan Kököte’ye ait olan kişi veya varlık | Peri, İlk Fey muhafızları |
+| **Fey mirası** | Uzak geçmişte Fey yollarıyla biçimlenmiş, Avarra’da kök salmış halk | Elfler, Firbolglar, bazı Goblin gelenekleri; eski kayıtlardaki Eladrin elf haneleri |
 | **Fey bağlantılı** | Soydan bağımsız olarak kapı, ant, mahkeme veya dönüşüm bağı taşıyan kişi/topluluk | Hexblood, geçit bekçisi, ant ailesi |
 
 Bu ayrımlar yurttaşlık, ahlak veya meslek hükmü değildir. Bir Kököte doğumlunun Avarra’da büyümesi, bir orman elfinin Fey’e hiç geçmemesi veya bir insanın ant yoluyla mahkeme üyesi olması olağandır.
@@ -47,7 +47,7 @@ Damar Birliği’nin son yüzyıllarında insan yazmanlar ve askerî idareciler 
 | --- | --- | --- |
 | **Taht Ağacı** | Elyrakök ve Diken Tacı | Elyra dönüşürken çapanın antlarını kim yenileyecek? |
 | **Bakır Anahtar Koruluğu** | Bakır Meclis ve Sonbahar prenslikleri | Kaybolan bir anahtar kapıyı mı, yoksa mahkeme üyeliğini mi açar? |
-| **Gölgesiz Cam** | Ayaz Sarayı kıyıları | Buz altındaki kök geri çekilirse fiyort yolları ne olur? |
+| **Gölgesiz Cam** | Ayaz Tahtı kıyıları | Buz altındaki kök geri çekilirse fiyort yolları ne olur? |
 | **Korhasat Bağı** | Altıngüneş ve Satyr yamaçları | Savaş tacı, hasat antını geçersiz kılabilir mi? |
 | **Ayçekirdek** | Diken–Meridyen Kuşağı | Peri tanıkları, iki dünyanın farklı borç kayıtlarını nasıl uzlaştırır? |
 
