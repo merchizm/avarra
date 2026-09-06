@@ -24,7 +24,7 @@ const states = [
   ['Kış Ambarları Serbest Şehri', 'Free City of Winter Granaries', 'kis-ambarlari-serbest-sehri', 'kis-ambarlari.jpg'],
   ['Kara Mühür Adaları', 'Black Seal Isles', 'kara-muhur-adalari', 'kara-muhur.png'],
   ['Kül Eşiği Şövalye Düzeni', 'Ash Threshold Knightly Order', 'kul-esigi', 'ash-threshold.png'],
-  ['Qasyrra İmparatorluğu', 'Qasyrra Empire', 'qasyrra-imparatorlugu', 'qasyrra.png']
+  ['Qasyrra İmparatorluğu', 'Qasyrra Empire', 'qasyrra-imparatorlugu', 'qasyrra.jpg']
 ]
 
 const base = () => site.value.base || '/'

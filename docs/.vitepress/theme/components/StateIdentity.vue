@@ -22,7 +22,7 @@ const records = {
   'kis-ambarlari-serbest-sehri': ['Kış Ambarları Serbest Şehri', 'Free City of Winter Granaries', 'kis-ambarlari.jpg'],
   'kara-muhur-adalari': ['Kara Mühür Adaları', 'Black Seal Isles', 'kara-muhur.png'],
   'kul-esigi': ['Kül Eşiği Şövalye Düzeni', 'Ash Threshold Knightly Order', 'ash-threshold.png'],
-  'qasyrra-imparatorlugu': ['Qasyrra İmparatorluğu', 'Qasyrra Empire', 'qasyrra.png']
+  'qasyrra-imparatorlugu': ['Qasyrra İmparatorluğu', 'Qasyrra Empire', 'qasyrra.jpg']
 }
 const state = computed(() => records[page.value.relativePath.split('/').pop()?.replace('.md', '')])
 const label = computed(() => state.value?.[lang.value.startsWith('en') ? 1 : 0])
