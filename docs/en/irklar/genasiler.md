@@ -39,3 +39,18 @@ The confederation, built around glassed plains, obsidian ridges, and mineral vei
 | Ash | Repair after disaster without repeating old hierarchies | Burned fields and refugee settlements |
 
 <div class="lore-callout">A Genasi’s element is lineage and relationship, not destiny. The same element can belong to a farmer, scholar, sailor, soldier, or dissident.</div>
+
+## Representative stat blocks
+
+The profiles below retain the rules-facing detail behind the cultural summaries. They are examples, not a claim that every member of an elemental lineage has the same role.
+
+| Profile | Defences and skills | Core traits | Signature action |
+| --- | --- | --- | --- |
+| Earth Genasi Vein Watcher | AC 16, 68 hp; Athletics +5, Nature +4, Survival +6; tremorsense 20 ft.; Common and Terran | Ignores stone and earth difficult terrain; once per day reduces damage by 10 (1d10 + 5) as a reaction | **Rising Ridge** (Recharge 5–6): a 20-foot stone ridge rises within 40 ft.; creatures on its line make a DC 13 Dex save or take 14 (4d6) bludgeoning damage and fall prone. |
+| Fire Genasi Ember Master | AC 15, 55 hp; Dex +5 and Cha +5 saves; Arcana +4, Persuasion +5; immune to fire; darkvision 60 ft.; Common and Ignan | A creature striking from within 5 ft. takes 3 (1d6) fire damage | Two ember-blade or cinder-bolt attacks; **Foundry Burst** (Recharge 5–6) deals 21 (6d6) fire damage in a 15-foot cone, DC 13 Dex save for half. |
+| Water Genasi Current Arbiter | AC 14, 52 hp; Wis +5 and Cha +4 saves; Insight +5, Persuasion +4, Nature +4; Common and Aquan | Amphibious; may Disengage as a bonus action | Two current-whip attacks; **Water Wall** (Recharge 5–6) creates a 20-foot wall that grants total cover from ranged attacks and slows enemies crossing it. |
+| Ice Genasi Frost Archivist | AC 16, 58 hp; History +5, Investigation +5, Perception +4; immune to cold; Common and Aquan | Can preserve a touched Small object in ice for one hour; squares crossed become difficult terrain for enemies until the turn ends | **Frozen Moment** (Recharge 5–6): a creature within 40 ft. makes a DC 13 Con save or is paralysed until the end of its next turn; on a success its speed is 0. |
+| Crystal Genasi Memory Bearer | AC 17, 60 hp; Int +5 and Con +5 saves; Arcana +5, History +7; resists psychic and radiant damage; darkvision 60 ft.; telepathy 30 ft. | Once daily, treats a failed Intelligence check as a 15; redirects 4 (1d8) radiant damage when missed by a radiant attack | **Memory Flare** (Recharge 5–6): enemies within 30 ft. make a DC 13 Int save or take 18 (4d8) psychic damage and lose reactions until their next turn ends. |
+| Ash Genasi Soil Healer | AC 14, 54 hp; Nature, Medicine, and Survival +6; resists fire and poison; Common, Ignan, Terran | Hit Dice spent by creatures within 10 ft. restore 2 extra hp; gains +3 AC against an opportunity attack as a reaction | **New Growth** (Recharge 5–6): up to three allies within 30 ft. regain 9 (2d8) hp and the ground beneath enemies becomes difficult terrain until the next turn ends. |
+
+Each profile is an adventuring-facing role. A table can use the same mechanics for a civic engineer, judge, archivist, gardener, or dissident without reducing a lineage to a profession.

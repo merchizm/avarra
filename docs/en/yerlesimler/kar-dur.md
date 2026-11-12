@@ -36,6 +36,8 @@ Shift Hammers replace daylight. Homes are inherited or assigned use-rights, not 
 
 Hearth Councils govern production, housing, safety, tax, and markets. The Deep Council can halt a decision that threatens the city physically. Oath Courts enforce contracts, inherited duties, and maker liability: a bridge failure decades later can still bind the master’s hearth. The Living Whole treats the mountain as a body of stone, water, heat, life, and memory. Crown Hearths back Doran, Deep Masters demand inquiry, Oathkeepers oppose reopening sealed routes, Openers seek ancient-road trade, Warforged demand citizenship, and the younger sibling’s circle claims the moral right earned by governing in Doran’s absence.
 
+## Kar-Dur’s linked settlements
+
 | Settlement | Resource | Tendency |
 | --- | --- | --- |
 | Ironroot | Wood, resin, surface ore | Crown Hearths |
@@ -46,3 +48,25 @@ Hearth Councils govern production, housing, safety, tax, and markets. The Deep C
 | Winter Rift | Pass defence | Neutral |
 | Copper Steps | Caravan transfer | Openers |
 | Broken Anvil | Ancient-road research | Divided |
+
+## The great layers
+
+**Uppergate** is the visible face of the city: a three-stage surface defence, foreign inns, caravan stores, customs scales, embassies, and garrison. Most outsiders trade there without going deeper. **Stonechorus** is the acoustic dome of the Stone Throne, Hearth Councils, and Deep Council. Laws are spoken in exact tones; if their echo distorts, the text is read again. The principle is simple: a law not heard in the same way by everyone cannot bind everyone. Doran’s claim will be decided there.
+
+**Nine Vaults** separately keep the treasury, lineage records, treaties, mine maps, ancient-road keys, technical secrets, war reserves, ancestral trusts, and a sealed record known only to the ruler and three wardens. Even the Stone Crown cannot open them without the required council and court representatives. One of Doran’s seals is rumoured to belong to the Sixth or Ninth Vault.
+
+The **Foundry Line** follows a fault with foundries, smithies, and assembly galleries. Furnace heat warms baths, fungus gardens, homes, drying rooms, and water boilers, though oxygen and rock temperature prevent every furnace burning at once. Every product bears a maker, hearth, and year mark. The **Water Spine** of springs, cisterns, and channels cannot belong to the Crown, be seized, or be fully cut in war. Its neutral engineers and the River Throne’s claim over source waters make it an international problem.
+
+**Underfungus Gardens** grow food, medicine spores, fibre mould, decomposer colonies, and light algae. **Ash Vein** is the district of heavy workers, migrants, Duergar, and Warforged, where air quality is low and citizenship politics strong. **Silent Galleries** hold graves, monuments, and family record; hammering, loud sound, and trade are forbidden. **Blind Mines** are sealed depths exhausted, collapsed, or linked to ancient roads. Many believe Doran disappeared there.
+
+## Daily life, law, and belief
+
+Shift Hammers replace day and night: production and gate opening, market and state, furnace change, rest strike, and silent hour. Homes are never bought; hollow-use rights are inherited, granted to apprentices or for service, and reclaimed when unused. Stone is not private property. Wealth is many safe rooms rather than one great hall, and doors open inward so a collapse does not block a corridor.
+
+Organic waste returns to Underfungus, metal filings to smelting, broken stone to fill, dirty water to settling, and ash to fertiliser and mortar. Air officers test vents with candle flame, small winged animals, and mineral strips. Blocking or poisoning a vent is an act of war against the city. Children learn collapse sound, fouled air, water marks, support points, and signs on a lost gallery wall. Apprenticeship is an economic, legal, and political identity; a masterpiece must be lasting public utility, such as a water lid, bridge support, chimney part, stair, or fungus-irrigation system.
+
+Hearth Councils govern production, apprenticeship, housing, safety, tax, and markets. The Deep Council of engineers, water masters, stone listeners, air officers, and fungus gardeners can halt a political decision by declaring a physical danger. Oath Courts hear contracts, mastery, inheritance, and ancestral obligations. Damage to air or water routes, a faulty support stone, false maker mark, concealed collapse danger, disturbed grave record, opening a sealed road, or shutting a door during evacuation are the gravest crimes. The Living Whole is not a mountain god but the great body of stone, water, heat, life, and memory: mining is not sin, taking more than the body can carry is injury.
+
+## Doran’s crisis and political groups
+
+**Crown Hearths** defend monarchy and Doran’s right. **Deep Masters** want technical examination of his ageless return. **The Sworn** insist sealed ways remain closed, even if Doran is genuine. **Openers** seek ancient-road trade and technical cooperation with Ordan and Nine Lanterns. The **Warforged movement** asks why a thinking being should belong to a maker and demands full citizenship. The **younger sibling’s circle** argues for the moral right of the heir who was trained and governed in Doran’s absence.

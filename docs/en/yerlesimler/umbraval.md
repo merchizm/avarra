@@ -11,6 +11,16 @@ outline: deep
 
 <div class="record-layout"><div><h2>City identity</h2><p><b>Function:</b> northern sea passage, deep-water pilotage, contract courts, and shadow-labour registry. <b>Population:</b> 380–560k permanent residents, approaching 700k in war, campaign, and court seasons. <b>Peoples:</b> a human plurality; Water Genasi, Sea Elves, and Tiefling families are prominent, alongside Tortle, Halfling, Dragonborn, and diaspora quarters. <b>Government:</b> the Quay Council; the Shadow Union holds separate registry and contract authority.</p><h2>City logic</h2><p>A narrow harbour mouth cuts the open sea’s force, while terraces climb from the safe water into the cliffs. Lighthouses, divers’ houses, tide markets, and contract courts share the same slope. The Union’s offices are visible; its body depots are not.</p><h2>Present fracture</h2><p>The shadow rights of prisoners from the Merria route have reached court. The city cannot defend its harbour neutrality while denying the Rotten Apple Depots.</p></div><aside class="record-profile"><div class="portrait-placeholder"><span>UMBRAVAL</span><small>Image pending</small></div></aside></div>
 
+## Atlas position
+
+| Field | Record |
+| --- | --- |
+| Continent | [Odraka](../cografya/odraka) |
+| Position | Northern coast; narrow, deep harbour mouth facing Merria. |
+| Physical setting | Black cliffs, stepped terraces, tidal caves, and wind-struck lighthouse ridges. |
+| Connections | Merria sea crossing, northern lake ports, [Velis](./velis) identity networks, and foreign war contracts. |
+| State record | [Free City of Umbraval](../devletler/umbraval-serbest-sehri) |
+
 ## The city’s quarters
 
 **Tide Steps** hold fish markets, pilot households, and everyday shore life. **Four Word Courts** hear debt, wreck, inheritance, and foreign-trade cases; their demand for written record and open witness is the city’s strongest legal challenge to the Union’s sealed registry. **Pale Lanterns** contain contract houses, translators, and embassy inns. **Shoreless Court** is the first refuge for people displaced by war, debt, and storm.
@@ -18,5 +28,13 @@ outline: deep
 ## The Rotten Apple Depots
 
 The body of a leased shadow must remain alive, so the Union uses closed offshore facilities called the **Rotten Apple Depots**. Their name is a bitter public euphemism. Gardeners provide enough food, medicine, and care to keep bodies alive; whether that makes them healers or jailers is a question the city refuses to settle.
+
+The depots being on islands does not make those islands a separate slave state. They are closed properties controlled by Umbraval and contracted partners. Gardeners care for bodies enough to keep them alive. Some see themselves as health workers preserving life, others as indispensable guards of the order; none can wholly escape the work’s moral weight.
+
+## Table-ready starts
+
+- A lighthouse apprentice spots a ship carrying shadows that should be visible at sea, while no crew can be seen.
+- In Four Word Courts, a noble’s term sentence ends. Their shadow returns, but three new debt records made in their name appear with it.
+- A Gardener says a body that escaped the Rotten Apple Depots cannot survive; the fugitive insists their shadow is still working.
 
 → [Free City of Umbraval](../devletler/umbraval-serbest-sehri) · [Shadow Union](../institutions/shadow-union) · [Odraka](../cografya/odraka)

@@ -47,4 +47,20 @@ The central law is: water may be used, directed, and shared, but never owned. Po
 | Saltturn | Sea connection | Shared sovereignty |
 | Floating Home | Labour and transport | More representation |
 
+## Basin network and Samara’s crisis
+
 Samara’s pulse, movement, and the palace current slow together. Bond-Cutters seek a new election, Flow-Restorers want the river healed first, and Deep Throne advocates want a queen from Sunken Steps. Ordan offers engineering, grain, and protection for a permanent military port near Pearl Gate—an offer that would militarily control Nareth’s inner-river trade.
+
+## Districts
+
+**Crown Current** is the palace fleet of throne ship, council hall, rite pool, archive, guard boats, guest palace, and healing gardens. It normally tours every branch. Its remaining still for weeks because of Samara’s illness creates the fear that a motionless Throne has stopped doing its work.
+
+**Three Mouth Market** is a shifting fleet of hundreds of trading boats, where Halfling barges, human grain, Kar-Dur metal, Thorn Crown plants, Triton envoys, pearl houses, and Odrakan spices meet. Officers inspect the load a platform places on water before inspecting its cargo. **Sunken Steps** continues old stone islands below water with temples, air domes, and coral gardens; residents say surface taxes do not reach them, underwater routes are unprotected, and their votes are undercounted. **Dry Dock** is the former harbour stranded when the riverbed changed, a political wound whose workers say the Throne turned the river away from them.
+
+**Silent Branch** is a quarantine zone that slows without explanation: ripples persist, fish swim without progressing, leaves remain in place, wounds neither bleed nor close, and sound travels too far underwater. No Stagnation connection is officially confirmed, but citizens believe it is being hidden. The **Reed Council** uses water samples, sediment, fish migration, and current readings as evidence alongside documents. **Pearl Gate** is the centre of freshwater and sea diplomacy, where River Throne sovereignty conflicts with Coral Palace sea law. **Shallow Gardens** grow portable rice, reed root, gourds, algae, and flowers; slowing water increases rot and disease.
+
+## Everyday life, society, and law
+
+Flow Bells serve as both clock and water report: three short rings mean normal current; long-short-short rising water; two heavy rings reinforce moorings; continuous light bells fog; one deep strike contamination or quarantine; silence means the warning network has failed. People travel by personal boat, rope ferry, passenger barge, underwater passage, seasonal bridge, and linked platforms. A person without a boat is called “left on shore,” which also means politically powerless.
+
+Every floating home keeps a release axe, spare moorings, water skin, flotation board, night lantern, child’s swim belt, and current ribbon. In a fire, ties are cut and the home drifts; if it cannot be saved, it may be sunk. Children learn three escapes: floating on their backs, undoing a blind knot one-handed, and identifying undrinkable water from smell, colour, and animal behaviour. The core law holds that water may be used, directed, and shared, but never owned. Poisoning it, unlicensed dam building, permanently changing flow by magic, blocking migration, moving quarantine water, concealing flood, abandoning a district, or sealing underwater passage are grave crimes.

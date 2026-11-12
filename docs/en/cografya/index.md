@@ -32,4 +32,6 @@ The [World Atlas](../haritalar/dunya) is the visual entry point for continents, 
   <a class="lore-card" href="./ilyr-khaz"><h3>Ilyr-Khaz</h3><p>Fjord councils, ice passages and brief-summer logistics.</p></a>
   <a class="lore-card" href="./seas"><h3>The seas</h3><p>Surface routes, deep states, spawning coves, and maritime law.</p></a>
   <a class="lore-card" href="./underground"><h3>The underground</h3><p>The Hollow Countries, ancient roads, air law, and deep cities.</p></a>
+  <a class="lore-card" href="./bolgeler/kole-korfezi"><h3>Slave Bay</h3><p>Lifespan trade, shadow contracts, coastal flight, and contested maps.</p></a>
+  <a class="lore-card" href="./bolgeler/skeldra-adasi"><h3>Skeldra Island</h3><p>Ice-free harbour, winter granaries, and supply law at the polar edge.</p></a>
 </div>
