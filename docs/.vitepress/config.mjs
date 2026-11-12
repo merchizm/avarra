@@ -3,6 +3,7 @@ import fs from 'node:fs'
 import path from 'node:path'
 import { peopleImages } from './theme/data/peopleImages.js'
 import { additionalPeople } from './theme/data/additionalPeople.js'
+import { englishNames } from './theme/data/peopleEnglishNames.js'
 
 const referenceModule = '\0avarra-reference-index'
 const backlinkModule = '\0avarra-backlink-index'
@@ -225,11 +226,35 @@ function wikiTimelineIndex() {
 
 // Metinde "Orc", "Giff", "Qasyrra" gibi kısa biçimler geçer; sayfa başlığı ise "Orclar", "Qasyrra İmparatorluğu".
 const aliasStoplist = new Set(['İnsan', 'Human', 'Elf', 'Elves'])
+// İngilizce sayfa başlığı hâlâ Türkçe olan devletler için İngilizce ad (metinde bu adlar geçer).
+const englishStateNames = {
+  '/devletler/altin-gunes-kralligi': 'Goldensun Kingdom', '/devletler/bakir-prenslikler': 'Copper Principalities',
+  '/devletler/camova-konfederasyonu': 'Glassplain Confederation', '/devletler/dokuz-fener-birligi': 'Nine Lantern Union',
+  '/devletler/kar-dur-tas-taci': 'Kar-Dur Stone Crown', '/devletler/saarin-iki-ejderha-taci': 'Two Dragon Crowns of Saar',
+  '/devletler/sis-adalari-cumhuriyeti': 'Mist Isles Republic', '/devletler/tuz-ocaklari-cumhuriyeti': 'Salt Hearth Republic'
+}
+// Halkın kendi adı veya sıfat biçimi (metinde sık geçer, sayfa başlığında yok).
+const extraAliases = { '/irklar/svirfneblinler': ['Nimrûn'] }
+const englishAdjectives = { Dwarf: ['Dwarven'], 'Salt Dwarf': ['Salt Dwarven'] }
+
+function englishSingular(name) {
+  if (name.includes('&')) return null
+  if (name.endsWith('ves')) return `${name.slice(0, -3)}f`
+  if (name.endsWith('ies')) return `${name.slice(0, -3)}y`
+  if (name.endsWith('s') && !name.endsWith('ss') && name.length > 4) return name.slice(0, -1)
+  return null
+}
+
 function referenceAliases(path, title, english) {
-  const out = []
-  if (path.startsWith('/irklar/') && !title.includes(' ')) {
-    const stem = english ? title.replace(/s$/, '') : title.replace(/(?:lar|ler)$/, '')
-    if (stem !== title && stem.length >= 3) out.push(stem)
+  const out = [...(extraAliases[path] || [])]
+  if (path.startsWith('/irklar/')) {
+    if (english) {
+      const singular = englishSingular(title)
+      if (singular && singular.length >= 3) out.push(singular, ...(englishAdjectives[singular] || []))
+    } else if (!title.includes(' ')) {
+      const stem = title.replace(/(?:lar|ler)$/, '')
+      if (stem !== title && stem.length >= 3) out.push(stem)
+    }
   }
   if (path.startsWith('/devletler/')) {
     const short = title.replace(/\s+(?:İmparatorluğu|Krallığı|Konfederasyonu|Cumhuriyeti|Serbest Şehri|Empire|Kingdom|Confederation|Republic|Free City)$/, '')
@@ -255,7 +280,9 @@ function wikiReferenceIndex() {
           const english = englishRecords.get(record.path)
           const image = peopleReferenceImages.get(record.path) || record.image
           const enImage = peopleReferenceImages.get(record.path) || english?.image || image
-          const enTitle = english?.title || record.title
+          const translated = english && english.title !== record.title
+          // Çevrilmemiş İngilizce başlıklarda İngilizce adı sabit tablolardan al.
+          const enTitle = translated ? english.title : (englishNames[record.path] || englishStateNames[record.path] || english?.title || record.title)
           return {
             ...record, image, enTitle, enLead: english?.lead || record.lead, enImage,
             aliases: referenceAliases(record.path, record.title, false),
