@@ -69,6 +69,8 @@ The world was richer and more populous than in the Breakage, but not quieter. Th
 
 Around 500 BC, some human courts formally prohibited old Aškari fertility cults. People continued leaving offerings at the same sacred tree; only the name of a Vardûni saint was written above it. This was neither the defeat of all Aškari tradition nor the complete victory of the Vardûni. In many quarters, two memories learned to live in the same stone, root, and feast table.
 
+In these centuries the Five Human Crowns also changed names: the same power was now known both by its seat or house and by the crown title it claimed. Halvek held the grain roads of the river plains and demanded the first oath from other houses, so it became the **High Crown**; the city of Halvek remained its capital. Seressa’s coastal cities chained the strait forts together, and after lightning split the main beacon tower the chain took the name **Broken Tower**. Vaun’s horse breeders settled in the winter hearths of the foothills and became known as the **White Hearth**. Ardel lost its western castles in civil wars and on the Thorn Crown frontier; its branches moved south to the flood plains and joined the delta duchies to found the **Kingdom of Qam**. The name Ardel survived only in old lineage records. Kastar centralized on the inland-sea shore after the Ash Seal and bound its records to magical oaths; this state is believed to have been called the **Fifth Kingdom** later. The name Kastar appears only in Age of Crowns records, and no source can prove it was the same state as the Fifth Kingdom.
+
 Around Ordanor a new Veyran thought spread. The old Seven Lines teaching said:
 
 > If something is to be shared, it must first be made visible.

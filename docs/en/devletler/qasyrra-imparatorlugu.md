@@ -45,7 +45,7 @@ Qasyrra is not only these three peoples. Minotaurs, Thri-kreen, and other desert
 
 ## Throne, council, and caste
 
-Dynastic legitimacy passes through the female line. The first foreign-contact records name **Zhaqara** as empress and the High Neshar Quemenar as a member of the council; these are the outside world’s first reliable witnesses, not certain records of the present throne. The Seven Shadowed Council balances great houses, priesthood, and historical power blocs. It is feared because its decisions do not arise from the palace alone.
+Dynastic legitimacy passes through the female line. The first foreign-contact records name **Zhaqara** as empress and the High Neshar Quemenar as a member of the council; these are the outside world’s first reliable witnesses, not certain records of the present throne. The same records also mention that the empress has a sister; her name, her office and where she stands are not recorded anywhere. The Seven Shadowed Council balances great houses, priesthood, and historical power blocs. It is feared because its decisions do not arise from the palace alone.
 
 Over millennia, women’s average resilience to prolonged heat and dehydration made state service female-dominated. This is not the simple hierarchy of “women above men.” Men can hold enormous power in trade, property, craft, medicine, education, music, and scholarship, but offices that rule in the name of the state are closed to them. Caste works independently of that divide: a man of a high house can be far more privileged than a woman of a low caste.
 

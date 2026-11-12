@@ -47,4 +47,6 @@ In the same human world, the small sacred basin of Vardûn was caught between fo
 
 The **Root Tablets**, compiled in 2900 BC, gathered the exiles’ common memory for the first time. They were not a declaration of unity: even then, people disputed which words were direct revelation and which were memories of the road. Still, the tablets became both sacred text and political language for the broad family now called Vardûni traditions.
 
+The Vein stations had a quiet side: to read water and stone safely, some stations in Asteron’s inner basins kept marked human households for centuries as registered labour. These households were transferred or rented with the station, and their descent was tracked like livestock. Like the shrine registers, these ledgers show that records could become instruments of power; surface historians rarely mention them. [The Seven Lines Refuge](./seven-lines-refuge) tells the story of these households after the earthquake.
+
 Jealousy created by trade and wealth among related houses broke the Damar Union apart. Competition rose, exploitation of serving peoples intensified, and new dwarven kingdoms appeared on other continents. The network remained, but the bonds that made it a common order had come undone. Treating Root Gates as roads, taxes, and military supply in the next age was its most dangerous legacy.

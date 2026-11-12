@@ -15,9 +15,9 @@ Veyrans are not equivalent to a published D&D player people. They are an origina
 
 ## Formation: the Seven Lines Refuge
 
-Veyrans are the many-generational inheritance of communities founded in Asteron’s [Seven Lines Refuge](../tarih/seven-lines-refuge) after the Vein collapse that began around 2640 BC. Long life amid the refuge’s water, stone, and unstable magical fields made inherited traits such as double-ringed irises and fine lines more apparent. This is not an experiment, curse, or chosenness; it is the natural, ongoing history of a people formed in disaster.
+Veyrans did not appear all at once. In the Vein age, marked human households were kept as registered labour in the stations of Asteron’s inner basins for centuries; double-ringed irises and fine lines were an old, rare trait concentrated in those households by closed marriage and Vein water. Around 2640 BC an earthquake broke the stations, leaving the households ownerless, and together with surrounding villagers they built the scattered refuges of the [Seven Lines Refuge](../tarih/seven-lines-refuge). The refuges did not create the signs; for the first time they made them possible to live with, without hiding or selling them. This is not an experiment, curse, or chosenness; it is the history of an oppressed lineage freeing itself and multiplying.
 
-The refuge culture first aimed not to confine people in records, but not to forget those who were missing or in need. Ordan later transformed the principles of measure and record into imperial ideology. Witness, rotation of duty, and correction of false records remain living principles in many Veyran communities.
+The refuge culture first aimed not to confine people in records, but not to forget those who were missing or in need: people whose names nobody had written learned to know each other’s names. Ordan later transformed the principles of measure and record into imperial ideology. Witness, rotation of duty, and correction of false records remain living principles in many Veyran communities.
 
 ## Bodily inheritance and kinship
 
@@ -34,7 +34,7 @@ Meridian Veyrans consider record and measure sacred. Border Veyrans are entwined
 
 ## Major cultures
 
-<div class="lore-grid"><div class="lore-card"><h3>Meridian Veyrans</h3><p>The capital culture that treats written law, examination, and measurement as the foundation of civilisation.</p></div><div class="lore-card"><h3>Border Veyrans</h3><p>Communities born in conquered regions and shaped by local languages and mixed families.</p></div><div class="lore-card"><h3>The Unlined</h3><p>Veyrans whose lineage is considered weak, excluded from old nobility but able to rise in the bureaucracy.</p></div><div class="lore-card"><h3>Anti-Order Movements</h3><p>Rural and religious movements that argue that binding the world into records is suffocating Avarra.</p></div></div>
+<div class="lore-grid"><div class="lore-card"><h3>Meridian Veyrans</h3><p>The capital culture that treats written law, examination, and measurement as the foundation of civilisation.</p></div><div class="lore-card"><h3>Border Veyrans</h3><p>Communities born in conquered regions and shaped by local languages and mixed families.</p></div><div class="lore-card"><h3>The Unlined</h3><p>Descendants of households written “unmarked” in station ledgers and thus held worthless; excluded from old nobility but able to rise in the examination bureaucracy.</p></div><div class="lore-card"><h3>Anti-Order Movements</h3><p>Rural and religious movements that argue that binding the world into records is suffocating Avarra; their roots lie in households that equated being recorded with being owned.</p></div></div>
 
 <p class="lore-callout">Families treat their children’s education and examination success as shared standing. Losing documents is not merely an administrative problem, but a loss of social identity.</p>
 

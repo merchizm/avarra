@@ -15,9 +15,9 @@ Veyranlar, D&D’nin yayımlanmış bir oyuncu halkının karşılığı değild
 
 ## Oluşum: Yedi Hat Sığınağı
 
-Veyranlar, SÖ 2640 dolaylarında başlayan Damar çöküşünden sonra Asteron’da kurulan [Yedi Hat Sığınağı](../tarih/yedi-hat-siginagi) topluluklarının çok kuşaklı mirasıdır. Sığınakların suyu, taşı ve kararsız büyü alanlarıyla uzun süreli yaşam, çift halkalı iris ve ince çizgiler gibi kalıtsal işaretleri belirginleştirdi. Bu bir deney, lanet veya seçilmişlik değildir; felaket içinde oluşmuş, doğal biçimde devam eden bir halk tarihidir.
+Veyranlar bir anda ortaya çıkmadı. Damar çağında Asteron’un iç havzalarındaki istasyonlarda, işaretli insan haneleri yüzyıllarca kayıtlı emek olarak tutuldu; çift halkalı iris ve ince çizgiler bu hanelerde kapalı evlilik ve Damar suyuyla yoğunlaşmış eski, nadir bir özellikti. SÖ 2640 dolaylarında deprem istasyonları kırınca bu haneler sahipsiz kaldı ve çevre köylülerle birlikte [Yedi Hat Sığınağı](../tarih/yedi-hat-siginagi) denen dağınık sığınakları kurdu. Sığınaklar işaretleri yaratmadı; ilk kez onları saklamak ya da satmak zorunda kalmadan yaşanır hâle getirdi. Bu bir deney, lanet veya seçilmişlik değildir; ezilmiş bir soyun özgürleşme ve çoğalma tarihidir.
 
-Sığınak kültürünün ilk amacı insanları kayda kapatmak değil, kaybolanları ve ihtiyacı olanları unutmamaktı. Ordan daha sonra ölçü ve kayıt ilkelerini imparatorluk ideolojisine dönüştürdü. Tanık, görev dönüşümü ve yanlış kaydı düzeltme ilkeleri ise pek çok Veyran topluluğunda yaşamaya devam eder.
+Sığınak kültürünün ilk amacı insanları kayda kapatmak değil, kaybolanları ve ihtiyacı olanları unutmamaktı: adı yazılmayan insanlar birbirlerinin adını bilmeyi öğrenmişti. Ordan daha sonra ölçü ve kayıt ilkelerini imparatorluk ideolojisine dönüştürdü. Tanık, görev dönüşümü ve yanlış kaydı düzeltme ilkeleri ise pek çok Veyran topluluğunda yaşamaya devam eder.
 
 ## Bedensel miras ve akrabalık
 
@@ -36,7 +36,7 @@ Meridyen Veyranları kayıt ve ölçümü kutsal görür. Sınır Veyranları ye
 
 ## Başlıca kültürler
 
-<div class="lore-grid"><div class="lore-card"><h3>Meridyen Veyranları</h3><p>Yazılı hukuk, sınav ve ölçümü uygarlığın temeli sayan başkent kültürü.</p></div><div class="lore-card"><h3>Sınır Veyranları</h3><p>Fethedilmiş bölgelerde doğmuş; yerel diller ve karma ailelerle şekillenmiş topluluklar.</p></div><div class="lore-card"><h3>Çizgisizler</h3><p>Soy çizgileri zayıf görülen, eski soylulukta dışlanan fakat bürokraside yükselebilen Veyranlar.</p></div><div class="lore-card"><h3>Düzen Karşıtları</h3><p>Dünyanın kayda bağlanmasının Avarra’yı boğduğunu savunan kırsal ve dinî hareketler.</p></div></div>
+<div class="lore-grid"><div class="lore-card"><h3>Meridyen Veyranları</h3><p>Yazılı hukuk, sınav ve ölçümü uygarlığın temeli sayan başkent kültürü.</p></div><div class="lore-card"><h3>Sınır Veyranları</h3><p>Fethedilmiş bölgelerde doğmuş; yerel diller ve karma ailelerle şekillenmiş topluluklar.</p></div><div class="lore-card"><h3>Çizgisizler</h3><p>İstasyon defterlerinde “işaretsiz” yazıldığı için değersiz sayılan hanelerin torunları; eski soylulukta dışlanır, ama sınav bürokrasisinde yükselebilir.</p></div><div class="lore-card"><h3>Düzen Karşıtları</h3><p>Dünyanın kayda bağlanmasının Avarra’yı boğduğunu savunan kırsal ve dinî hareketler; kökleri, kaydı sahiplikle bir sayan hanelere uzanır.</p></div></div>
 
 <p class="lore-callout">Aileler çocuklarının eğitim ve sınav başarısını ortak itibar sayar. Belge kaybetmek yalnız idari sorun değil, toplumsal kimlik kaybıdır.</p>
 

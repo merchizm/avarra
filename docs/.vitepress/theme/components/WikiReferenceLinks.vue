@@ -56,7 +56,8 @@ function bindPreview(link, entry) {
 
 function replaceText(node, entries) {
   if (!node.nodeValue?.trim()) return
-  const expression = new RegExp(`(${entries.map((entry) => esc(entry.label)).join('|')})`, 'g')
+  // Kısa takma adlar sözcük ortasında eşleşmesin ("Orc" ≠ "Orchestra"); tam başlıklar eskisi gibi.
+  const expression = new RegExp(`(${entries.map((entry) => entry.alias ? `(?<![\\p{L}])${esc(entry.label)}(?![\\p{L}])` : esc(entry.label)).join('|')})`, 'gu')
   const parts = node.nodeValue.split(expression)
   if (parts.length === 1) return
   const fragment = document.createDocumentFragment()
@@ -84,8 +85,9 @@ function linkReferences() {
   const local = [...root.querySelectorAll('h2[id], h3[id]')]
     .map((heading) => ({ label: heading.textContent.trim(), path: `#${heading.id}`, lead: '', enLead: '' }))
     .filter((entry) => entry.label.length > 2)
-  const entries = [...references.map((entry) => ({ ...entry, label: english ? entry.enTitle : entry.title })), ...local]
-    .filter((entry) => entry.label !== page.value.title)
+  const aliasEntries = references.flatMap((entry) => (english ? entry.enAliases : entry.aliases).map((label) => ({ ...entry, label, alias: true })))
+  const entries = [...references.map((entry) => ({ ...entry, label: english ? entry.enTitle : entry.title })), ...aliasEntries, ...local]
+    .filter((entry) => entry.label !== page.value.title && entry.path !== `/${page.value.relativePath.replace(/\.md$/, '')}`.replace(/^\/en\//, '/'))
     .sort((a, b) => b.label.length - a.label.length)
   const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT)
   const nodes = []

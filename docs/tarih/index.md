@@ -11,8 +11,6 @@ outline: false
 
 Dönem sınırları, her yerde aynı gün başlayıp biten kesin çizgiler değildir. Bir kıyının deniz yolu açılırken başka bir havza kapanabilir; bir devletin resmî kaydı, komşusunun sözlü hafızasıyla çelişebilir. Bu dizin, tek ve değişmez bir tarih yerine Avarra’yı biçimlendiren büyük dönüşümleri takip eder.
 
-<Timeline />
-
 <div class="lore-grid">
   <a class="lore-card" href="./sessiz-baslangic"><h3>Sessiz Başlangıç</h3><p>Yazı öncesi izler ve İlk Ayrılma.</p></a>
   <a class="lore-card" href="./ilk-uyanislar"><h3>İlk Uyanışlar</h3><p>SÖ 9000–5200 · İlk yerleşim sınırları, sömürü düzenleri ve özgürlük ağları.</p></a>
@@ -22,3 +20,5 @@ Dönem sınırları, her yerde aynı gün başlayıp biten kesin çizgiler deği
   <a class="lore-card" href="./meridyen-cagi"><h3>Meridyen Çağı</h3><p>Ordan’ın yükselişi ve yoğunlaşan Asteron.</p></a>
   <a class="lore-card" href="./suruklenme-cagi"><h3>Sürüklenme Çağı</h3><p>Güncel çağ: Durgunluk, mültecilik ve kırılgan ağlar.</p></a>
 </div>
+
+<Timeline />

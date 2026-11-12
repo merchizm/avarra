@@ -28,6 +28,8 @@ outline: false
   <a class="chronicle-entry" href="./tarih/"><span>Ⅵ</span><div><small>Vekayiname</small><strong>Çağlar</strong><p>Kırılmalar, hanedanlar ve dünyanın uzun hafızası.</p></div></a>
 </section>
 
+<HomeFigures />
+
 <section class="chronicle-pressures">
   <header><p class="lore-kicker">Şimdi, SS 83</p><h2>Dünyanın açık yarıkları</h2><p>Avarra’nın hikâyeleri tek bir büyük kader çizgisinden değil; aynı anda çalışan, birbirini besleyen yerel krizlerden doğar.</p></header>
   <div>

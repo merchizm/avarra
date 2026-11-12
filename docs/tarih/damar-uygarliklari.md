@@ -56,4 +56,6 @@ Aynı insan dünyasında Vardûn adlı küçük kutsal havza, SÖ 3300’lerde d
 
 SÖ 2900’de derlenen **Kök Levhalar**, sürgünlerin ortak hafızasını ilk kez bir araya getirdi. Bu bir birlik ilanı değildi: hangi sözün doğrudan vahiy, hangisinin yol hatırası olduğu daha o gün tartışılıyordu. Yine de levhalar, bugün Vardûnî gelenekler denilen geniş ailenin hem kutsal metin hem de siyasî itiraz dili hâline geldi.
 
+Damar istasyonlarının sessiz bir yanı vardı: Asteron’un iç havzalarındaki bazı istasyonlar, su ve taşı güvenle okuyabilmek için işaretli insan hanelerini yüzyıllarca kayıtlı emek olarak tuttu. Bu haneler istasyonla birlikte devredilir ya da kiralanır, soyları sürü kaydı gibi izlenirdi. Mabet sicilleri gibi bu defterler de kaydın iktidar aracı olabildiğini gösterir; yüzey tarihçileri onlardan nadiren söz eder. [Yedi Hat Sığınağı](./yedi-hat-siginagi), bu hanelerin deprem sonrası hikâyesini anlatır.
+
 Ticaretin ve zenginliğin akraba haneler arasında yarattığı kıskançlık Damar Birliği’ni parçaladı. Rekabet arttı, hizmet eden halklar üzerindeki sömürü yeniden yoğunlaştı ve başka kıtalarda yeni cüce krallıkları doğdu. Ağ hâlâ duruyordu; fakat onu ortak bir düzen yapan bağlar çözülmüştü. Sonraki çağda Kök Kapılarının yol, vergi noktası ve askerî ikmal alanı sayılması, bu dağılmış Damar mirasının en tehlikeli sonucu oldu.

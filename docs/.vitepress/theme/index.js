@@ -18,6 +18,9 @@ import EraPopulationDossier from './components/EraPopulationDossier.vue'
 import PeoplePortraits from './components/PeoplePortraits.vue'
 import Backlinks from './components/Backlinks.vue'
 import Timeline from './components/Timeline.vue'
+import Figures from './components/Figures.vue'
+import FigurePage from './components/FigurePage.vue'
+import HomeFigures from './components/HomeFigures.vue'
 import HomeRandomRecord from './components/HomeRandomRecord.vue'
 
 export default {
@@ -29,6 +32,9 @@ export default {
     enhanceApp({ app }) {
       app.component('Backlinks', Backlinks)
       app.component('Timeline', Timeline)
+      app.component('Figures', Figures)
+      app.component('FigurePage', FigurePage)
+      app.component('HomeFigures', HomeFigures)
       app.component('HomeRandomRecord', HomeRandomRecord)
       app.component('SettlementDirectory', SettlementDirectory)
     app.component('PeopleGallery', PeopleGallery)

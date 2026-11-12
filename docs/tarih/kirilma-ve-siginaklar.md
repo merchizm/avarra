@@ -35,7 +35,7 @@ Bu kayıtlar imparatorluğun temel amacının fetih değil hayatta kalmak olduğ
 
 ## Yedi Hat · SÖ 2640–2350
 
-Dünyanın başka yerlerinde bunlar yaşanırken Asteron’da büyük bir deprem oldu. Deprem bazı toplulukları yedi yarıkta yaşamaya itti. Yarıklar günümüzde suyla doludur; Veyranların doğduğu ve biçimlendiği yerler olarak kabul edilir. Depremden cüceler sorumlu tutuldu, kimi anlatılar bunun tanrıların cezası olduğunu ileri sürdü. [Yedi Hat Sığınağı](./yedi-hat-siginagi), bu olayın hayatta kalma, su paylaşımı ve kayıt düzeni üzerinden devam eden mirasını ayrıntılandırır.
+Dünyanın başka yerlerinde bunlar yaşanırken Asteron’da büyük bir deprem oldu. Deprem Damar istasyonlarını kırdı ve bazı toplulukları yedi yarıkta yaşamaya itti; bunların arasında istasyonlarda kayıtlı emek olarak çalıştırılmış işaretli haneler de vardı. Yarıklar günümüzde suyla doludur; Veyranların özgür bir halk olarak biçimlendiği yerler olarak kabul edilir. Depremden cüceler sorumlu tutuldu, kimi anlatılar bunun tanrıların cezası olduğunu ileri sürdü. [Yedi Hat Sığınağı](./yedi-hat-siginagi), bu olayın hayatta kalma, su paylaşımı ve kayıt düzeni üzerinden devam eden mirasını ayrıntılandırır.
 
 ## Nüfus Kıtlığı · SÖ 2000–1500
 

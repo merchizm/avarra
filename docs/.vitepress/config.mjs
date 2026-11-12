@@ -223,6 +223,21 @@ function wikiTimelineIndex() {
   }
 }
 
+// Metinde "Orc", "Giff", "Qasyrra" gibi kısa biçimler geçer; sayfa başlığı ise "Orclar", "Qasyrra İmparatorluğu".
+const aliasStoplist = new Set(['İnsan', 'Human', 'Elf', 'Elves'])
+function referenceAliases(path, title, english) {
+  const out = []
+  if (path.startsWith('/irklar/') && !title.includes(' ')) {
+    const stem = english ? title.replace(/s$/, '') : title.replace(/(?:lar|ler)$/, '')
+    if (stem !== title && stem.length >= 3) out.push(stem)
+  }
+  if (path.startsWith('/devletler/')) {
+    const short = title.replace(/\s+(?:İmparatorluğu|Krallığı|Konfederasyonu|Cumhuriyeti|Serbest Şehri|Empire|Kingdom|Confederation|Republic|Free City)$/, '')
+    if (short !== title && short.length >= 3) out.push(short)
+  }
+  return out.filter((alias) => !aliasStoplist.has(alias))
+}
+
 function wikiReferenceIndex() {
   return {
     name: 'avarra-wiki-reference-index',
@@ -240,7 +255,12 @@ function wikiReferenceIndex() {
           const english = englishRecords.get(record.path)
           const image = peopleReferenceImages.get(record.path) || record.image
           const enImage = peopleReferenceImages.get(record.path) || english?.image || image
-          return { ...record, image, enTitle: english?.title || record.title, enLead: english?.lead || record.lead, enImage }
+          const enTitle = english?.title || record.title
+          return {
+            ...record, image, enTitle, enLead: english?.lead || record.lead, enImage,
+            aliases: referenceAliases(record.path, record.title, false),
+            enAliases: referenceAliases(record.path, enTitle, true)
+          }
       })
       return `export default ${JSON.stringify(records)}`
     },
@@ -256,6 +276,10 @@ function wikiReferenceIndex() {
 }
 
 export default defineConfig({
+  // Dinamik kişi sayfalarında başlık paths dosyasındaki params.title'dan gelir.
+  transformPageData(pageData) {
+    if (pageData.params?.title) pageData.title = pageData.params.title
+  },
   lang: 'tr-TR',
   title: 'Avarra',
   description: 'Avarra dünya wiki’si',
@@ -281,6 +305,7 @@ export default defineConfig({
         nav: [
           { text: 'Atlas', link: '/en/haritalar/dunya' },
           { text: 'Peoples', link: '/en/irklar/' },
+          { text: 'Figures', link: '/en/kisiler/' },
           { text: 'States', link: '/en/devletler/' },
           { text: 'Faiths & Cultures', link: '/en/kulturler/' },
           { text: 'Stagnation', link: '/en/durgunluk/' },
@@ -299,6 +324,7 @@ export default defineConfig({
     nav: [
       { text: 'Atlas', link: '/haritalar/dunya' },
       { text: 'Halklar', link: '/irklar/' },
+      { text: 'Kişiler', link: '/kisiler/' },
       { text: 'Devletler', link: '/devletler/' },
       { text: 'Dinler ve Kültürler', link: '/kulturler/' },
       { text: 'Durgunluk', link: '/durgunluk/' },

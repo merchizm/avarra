@@ -29,7 +29,7 @@ The diary shows that survival, not conquest, was Qasyrra’s central aim. Spice 
 
 ## The Seven Lines · 2640–2350 BC
 
-While these events unfolded, a great earthquake struck Asteron. It drove communities into seven fissures, now filled with water, and later understood as the place where Veyrans emerged and formed. Dwarves were blamed; other accounts declared the disaster divine punishment. [The Seven Lines Refuge](./seven-lines-refuge) preserves the longer account of survival, water sharing, and record custom.
+While these events unfolded, a great earthquake struck Asteron. It broke the Vein stations and drove communities into seven fissures, among them marked households who had worked the stations as registered labour; the fissures are now filled with water, and are understood as the place where Veyrans formed as a free people. Dwarves were blamed; other accounts declared the disaster divine punishment. [The Seven Lines Refuge](./seven-lines-refuge) preserves the longer account of survival, water sharing, and record custom.
 
 ## Population Scarcity · 2000–1500 BC
 

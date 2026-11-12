@@ -45,6 +45,7 @@ function badge(state, label) {
 
 function decorate(root = document) {
   root.querySelectorAll?.('a:not(.state-flag-link)').forEach((link) => {
+    if (link.closest('.wiki-reference-preview')) return
     if (link.querySelector('img.state-flag')) return
     const state = states.find((item) => link.href.includes(`/devletler/${item[2]}`))
     if (!state) return
@@ -59,7 +60,7 @@ function decorate(root = document) {
   while (walker.nextNode()) {
     const node = walker.currentNode
     const parent = node.parentElement
-    if (!parent || parent.closest('a, script, style, code, pre, h1, h2, h3, h4, .state-flag-link')) continue
+    if (!parent || parent.closest('a, script, style, code, pre, h1, h2, h3, h4, .state-flag-link, .wiki-reference-preview')) continue
     if (states.some((state) => node.nodeValue.includes(state[0]) || node.nodeValue.includes(state[1]))) nodes.push(node)
   }
   nodes.forEach((node) => {
@@ -80,7 +81,7 @@ function decorate(root = document) {
 onMounted(() => {
   decorate()
   observer = new MutationObserver((records) => records.forEach((record) => record.addedNodes.forEach((node) => {
-    if (node.nodeType === Node.ELEMENT_NODE) decorate(node)
+    if (node.nodeType === Node.ELEMENT_NODE && !node.matches('.wiki-reference-preview')) decorate(node)
   })))
   observer.observe(document.body, { childList: true, subtree: true })
 })
