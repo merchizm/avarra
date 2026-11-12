@@ -211,11 +211,11 @@ const races = {
   valenor: ['Yüksek Elf', 'High Elf'], isavel: ['Yüksek Elf', 'High Elf'], dwennar: ['Şehir Gnomu', 'City Gnome', true],
   dagna: ['Dağ Cücesi', 'Mountain Dwarf'], thorgun: ['Dağ Cücesi', 'Mountain Dwarf'], ildra: ['Dağ Cücesi', 'Mountain Dwarf'], orrak: ['Dağ Cücesi', 'Mountain Dwarf'], bessa: ['Dağ Cücesi', 'Mountain Dwarf'],
   ilmara: ['Orman Elfi', 'Wood Elf', true], 'kizil-av': ['Bilinmiyor', 'Unknown'], perah: ['İnsan', 'Human', true],
-  'besinci-kral': ['İnsan', 'Human'], 'ilk-imparator': ['Veyran', 'Veyran'], 'zhaqaras-sister': ['Bilinmiyor', 'Unknown'], medrin: ['İnsan', 'Human'], teravin: ['İnsan', 'Human']
+  meril: ['Yüksek Elf', 'High Elf', true], 'besinci-kral': ['İnsan', 'Human'], 'ilk-imparator': ['Veyran', 'Veyran'], 'zhaqaras-sister': ['Bilinmiyor', 'Unknown'], medrin: ['İnsan', 'Human'], teravin: ['İnsan', 'Human']
 }
 
 // Portreler: public/assets/portraits/web (tam boy) ve thumbs (kart). İkinci portre varsa başlığıyla birlikte sayfada gösterilir.
-const portraitIds = ['elyra', 'samara', 'serel', 'doran', 'zhaqara', 'zhaqaras-sister', 'quemenar', 'varessa', 'odran', 'maelor', 'aurelis', 'taveth', 'ysgrim', 'nibbra']
+const portraitIds = ['elyra', 'samara', 'serel', 'doran', 'zhaqara', 'zhaqaras-sister', 'quemenar', 'varessa', 'odran', 'maelor', 'aurelis', 'taveth', 'ysgrim', 'nibbra', 'meril']
 const portraitCaptions = {
   samara: [{ tr: 'Şimdi: akıntılar yavaşlarken', en: 'Now: as the currents slow' }, { id: 'samara-2', tr: 'Suyun gücüyle gençliğini koruduğunda', en: 'When she sustains her youth through the water’s power' }]
 }

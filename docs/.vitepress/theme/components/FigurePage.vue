@@ -48,7 +48,7 @@ async function copy() {
     </div>
 
 
-    <section v-for="key in figureFields" :key="key" class="fp-section">
+    <section v-for="key in figureFields.filter((k) => f[l][k])" :key="key" class="fp-section">
       <h2>{{ t[key] }}</h2>
       <p>{{ f[l][key] }}</p>
     </section>

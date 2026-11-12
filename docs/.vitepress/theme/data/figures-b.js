@@ -312,5 +312,31 @@ export const figuresB = [
       gaps: 'Name and age are not stated; whether she works for the River Throne is not written.'
     },
     prompt: 'a middle-aged careful human woman field researcher with a worn notebook in hand, bird feathers and a water flask on her travel coat, a wristband with her name written on it, anxious but determined expression, standing at the edge of a dry sea basin, muted dusty light'
+  },
+  {
+    id: 'meril', kind: 'claimant', state: { tr: 'Nehir Tahtı', en: 'River Throne', link: '/devletler/nehir-tahti' }, place: 'Namaris', image: '',
+    tr: {
+      name: 'Meril', role: 'Havza temsilcisi · Nehir Tahtı adayı',
+      canon: 'Nehir Tahtı’nın adayı bir Nehir Annesi, havza temsilcisi ya da Akış Yolu görevlisi tarafından gösterilir; seçimi Anneler, Meclis, rahipler, sualtı mahalleleri, havza ve loncalar Yedi Su Geçişi sınamalarından sonra yapar. Samara zayıflarken Bağı Kesenler yeni seçim, Akışı Onaranlar önce nehrin iyileşmesini ister; Ordan İnci Kapısı yakınında kalıcı askerî liman teklif eder. Yüksek Elflerin kalıcı yurdu Lethar’dır; dışarıdaki Yüksek Elfler elçilik, görev ya da geçici sürgün sayılır.',
+      appearance: 'Siyah tenli bir Yüksek Elf. Mavi, kedi gibi çekik ve hırçın gözleri, dolgun dudakları var; saçı koyu ve gümüş şeritli. Saraylı kesimde deri ceket ve korse giyer.',
+      temperament: 'Tutkulu, çalışkan ve ilkeli; kararlarını felsefi gerekçelerle açıklar ve insanlar bu yüzden onu dinler. Zekidir, planı sabırla kurar. Duygusal tarafını kimseye göstermez; yalnız küçük işaretler bırakır: yakılması gereken bir mektubu saklar, tek bir kişinin davetini hiç geri çevirmez, mantıksız görünen bir kararı yumuşatır.',
+      wants: 'Ordan’ın İnci Kapısı liman teklifini reddettirmek; havza hukukunu hane ve loncaların ötesinde adil bir temsile açmak. Kendi inanışına göre bunlar yalnız Nehir Tahtı için yapılıyor.',
+      fears: 'Yaptığı işin yalnız kendisinin değil, başkalarının hesabını da gördüğünü; yakalandığında kimsenin onu tanımayacağını.',
+      voice: 'Ölçülü ve nazik; soruyu önce soruyla cevaplar, sonra ilkeyi söyler.',
+      ties: 'Selent Hanesi doğumlu: Gnom mühendisler, kanal loncaları ve temsil reformu onun ideolojisidir. Operasyonu Miravel Hanesi’nin elçileri yürütür (Ayaz Sarayı ittifakı); onu açığa çıkaracak olan Aelor Hanesi’dir. Aelor kendi casusunu yok etmeyi göze alamaz; ona yalnız zor görevler verir ve onu görevden çekmek için uğraşır, çünkü kendi hanedanından birini oraya koymak ister, ama artık geçtir ve kinlidir.',
+      hook: 'Meril yakalanırsa Lethar onu tanımaz: “geçici sürgün” etiketi bunun için vardır. Oyuncular onu kurtarmayı, ifşa etmeyi ya da sorgulamayı seçebilir. Bir Yüksek Elfin nehirle bağ kurup kuramayacağı da açık kalan sorudur.',
+    },
+    en: {
+      name: 'Meril', role: 'Basin representative · River Throne claimant',
+      canon: 'The River Throne’s candidate is put forward by a River Mother, a basin representative or a Flow Road officer; the Mothers, Council, priests, undersea quarters, basin and guilds choose after the Seven Water Crossings. As Samara weakens, the Bond-Cutters want a new election and the Flow-Menders want the river healed first; Ordan offers a permanent military port near Pearl Gate. The High Elves’ permanent home is Lethar; those seen abroad count as embassies, assignments or temporary exiles.',
+      appearance: 'A black-skinned High Elf with blue, feral cat-like eyes and full lips; her hair is dark with silver streaks. She dresses as court, in a leather coat and corset.',
+      temperament: 'Passionate, hardworking and principled; she explains her decisions with philosophical reasons, which is why people listen. Clever and patient in her planning. She shows no sentiment, only small signs: she keeps a letter she should have burned, never refuses one person’s invitation, softens a decision for no clear reason.',
+      wants: 'To have Ordan’s Pearl Gate port offer refused; to open basin law to fair representation beyond houses and guilds. By her own account she does this only for the River Throne.',
+      fears: 'That her work is paying others’ accounts as well as her own; that when she is caught nobody will acknowledge her.',
+      voice: 'Measured and gracious; answers a question with a question first, then states the principle.',
+      ties: 'Born into House Selent: Gnome engineers, canal guilds and representation reform are her ideology. The operation is run by House Miravel’s envoys (the Frost Palace alliance); House Aelor is what will expose her. Aelor cannot bring itself to destroy its own agent; it only gives her hard assignments and works to pull her from the post, because it wants one of its own line there, but the moment has passed and it is bitter.',
+      hook: 'If Meril is caught, Lethar will not know her: the “temporary exile” label exists for exactly this. The players may rescue, expose or interrogate her. Whether a High Elf can bond with the river is the question left open.',
+    },
+    prompt: 'a poised black-skinned High Elf noblewoman, a River Throne claimant, deep ebony skin, long pointed ears, sharp finely made face, vivid blue cat-like eyes with a fierce feral-cat gaze, slightly full lips, a slender masterfully shaped nose, dark hair with silver streaks in a loose braid, fitted black leather coat with embroidered corset and gloves, a small hidden silver star pin at her collar, cunning composed expression, standing in a candlelit stone hall beside still water, soft teal-grey light'
   }
 ]
