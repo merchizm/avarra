@@ -1,6 +1,7 @@
 ---
 title: First Shore
 outline: false
+pageClass: people-page city-page
 ---
 <div class="lore-kicker">Settlements · Government Center</div>
 
@@ -14,7 +15,7 @@ outline: false
 
 | Field | Record |
 | --- | --- |
-| Layer | [Seas of Avarra](../cografya/seas) · Mist Chain |
+| Layer | [Seas of Avarra](../cografya/denizler) · Mist Chain |
 | Physical site | A low island that grows and shrinks with tide, surrounded by shell rocks |
 | Access | Long Shell routes, shallow-water walks, and mist passages known only to local mapkeepers |
 | Nearby ties | Thousand Ropes, Mist Chain islands, Nareth’s coast, and Tortle monastery networks |

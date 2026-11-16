@@ -1,6 +1,7 @@
 ---
 title: Lethar Star Kingdom
 outline: false
+pageClass: people-page state-page
 ---
 
 <div class="lore-kicker">Asteron · State Record</div>

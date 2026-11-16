@@ -1,6 +1,7 @@
 ---
 title: Dokuz Fener Birliği
 outline: false
+pageClass: people-page state-page
 ---
 
 <div class="lore-kicker">Oyuk Ülkeler · Devlet Kaydı</div>

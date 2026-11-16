@@ -1,6 +1,7 @@
 ---
 title: Kharad
 outline: deep
+pageClass: people-page city-page
 ---
 
 <div class="lore-kicker">Settlements · Canyon Pass Free City</div>

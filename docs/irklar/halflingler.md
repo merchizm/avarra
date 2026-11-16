@@ -1,6 +1,7 @@
 ---
 title: Halflingler
 outline: false
+pageClass: people-page
 ---
 
 <div class="lore-kicker">Halklar · Yol ve Ocak</div>

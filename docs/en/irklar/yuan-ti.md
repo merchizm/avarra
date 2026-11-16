@@ -1,6 +1,7 @@
 ---
 title: Yuan-ti
 outline: false
+pageClass: people-page
 ---
 <div class="lore-kicker"> Ancient Peoples · Body Writing </div>
 

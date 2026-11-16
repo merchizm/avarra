@@ -1,6 +1,7 @@
 ---
 title: Free City of Nasima
 outline: deep
+pageClass: people-page state-page
 ---
 
 <div class="lore-kicker">Odraka · Free City and Coastal Law</div>

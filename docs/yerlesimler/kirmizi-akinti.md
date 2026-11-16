@@ -1,6 +1,7 @@
 ---
 title: Kırmızı Akıntı
 outline: false
+pageClass: people-page city-page
 ---
 
 <div class="lore-kicker">Yerleşimler · Devlet Merkezi</div>

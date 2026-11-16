@@ -1,6 +1,7 @@
 ---
 title: Szaïr
 outline: false
+pageClass: people-page
 ---
 
 <div class="lore-kicker">Peoples of Avarra · Kharizha and Diaspora</div>

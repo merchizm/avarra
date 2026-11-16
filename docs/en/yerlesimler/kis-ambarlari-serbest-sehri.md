@@ -1,6 +1,7 @@
 ---
 title: Free City of Winter Granaries
 outline: deep
+pageClass: people-page city-page
 ---
 
 <div class="lore-kicker">Settlements · Free City and Supply Centre</div>

@@ -1,6 +1,7 @@
 ---
 title: Nasima
 outline: deep
+pageClass: people-page city-page
 ---
 
 <div class="lore-kicker">Settlements · Old Coastal Free City</div>

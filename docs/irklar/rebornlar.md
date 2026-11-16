@@ -1,6 +1,7 @@
 ---
 title: Rebornlar
 outline: false
+pageClass: people-page
 ---
 
 <div class="lore-kicker">Halklar · İkinci Nefes</div>

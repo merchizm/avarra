@@ -1,6 +1,7 @@
 ---
 title: Karanlık Liman
 outline: false
+pageClass: people-page city-page
 ---
 
 <div class="lore-kicker">Yerleşimler · Devlet Merkezi</div>

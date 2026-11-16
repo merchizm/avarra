@@ -1,6 +1,7 @@
 ---
 title: Minotaurlar
 outline: false
+pageClass: people-page
 ---
 
 <div class="lore-kicker">Halklar · Odraka Kıyıları</div>

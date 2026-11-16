@@ -9,4 +9,4 @@ outline: false
 
 Organisations that are not states, but still shape the law, trade, and daily life of states.
 
-- [Shadow Union](./shadow-union): Umbraval’s shadow-registry and leasing monopoly.
+- [Shadow Union](./golge-birligi): Umbraval’s shadow-registry and leasing monopoly.

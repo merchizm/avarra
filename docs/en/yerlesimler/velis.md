@@ -1,6 +1,7 @@
 ---
 title: velis
 outline: false
+pageClass: people-page city-page
 ---
 <div class="lore-kicker">Settlements · Government Center</div>
 

@@ -1,6 +1,7 @@
 ---
 title: River Throne
 outline: false
+pageClass: people-page state-page
 ---
 
 <div class="lore-kicker">Nareth · State Record</div>

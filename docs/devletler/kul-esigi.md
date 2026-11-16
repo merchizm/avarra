@@ -1,6 +1,7 @@
 ---
 title: Kül Eşiği Şövalye Düzeni
 outline: deep
+pageClass: people-page state-page
 ---
 
 <div class="lore-kicker">Egemen Düzen · Ada Yurdu ve Eşrenî Koruma</div>

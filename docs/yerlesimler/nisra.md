@@ -1,6 +1,7 @@
 ---
 title: Nisra
 outline: deep
+pageClass: people-page city-page
 ---
 
 <div class="lore-kicker">Yerleşimler · Vaha Serbest Şehri</div>

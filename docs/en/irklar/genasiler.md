@@ -1,6 +1,7 @@
 ---
 title: Genasi
 outline: false
+pageClass: people-page
 ---
 
 <div class="lore-kicker">Peoples · Elemental Lineages</div>

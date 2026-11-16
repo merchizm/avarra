@@ -1,6 +1,7 @@
 ---
 title: Kor-Dum
 outline: false
+pageClass: people-page city-page
 ---
 <div class="lore-kicker">Settlements · Government Center</div>
 
@@ -14,7 +15,7 @@ outline: false
 
 | Field | Record |
 | --- | --- |
-| Layer | [Fire Rifts](../cografya/underground) · Hollow Foundry Line |
+| Layer | [Fire Rifts](../cografya/yeraltı) · Hollow Foundry Line |
 | Physical site | Foundry platforms linked by cooled basalt bridges along a slow magma river |
 | Access | Heat rails, mining tunnels, and bridge crossings tied to shift time |
 | Nearby ties | [Black Anvil](./kara-ors), Copper Chimney, Kar-Dur metal roads, and Warforged worker quarters |

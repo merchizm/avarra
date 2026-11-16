@@ -1,6 +1,7 @@
 ---
 title: Kara Mühür Adaları
 outline: deep
+pageClass: people-page state-page
 ---
 
 <div class="lore-kicker">Dış Denizler · Ada Devleti ve Ödeme Standardı</div>

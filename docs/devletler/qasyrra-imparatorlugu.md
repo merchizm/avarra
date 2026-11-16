@@ -1,6 +1,7 @@
 ---
 title: Qasyrra İmparatorluğu
 outline: false
+pageClass: people-page state-page
 ---
 
 <div class="lore-kicker">Kharizha Çölü · Uygarlık Kaydı</div>

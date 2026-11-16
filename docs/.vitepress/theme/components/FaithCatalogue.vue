@@ -5,7 +5,7 @@ import { useData, withBase } from 'vitepress'
 const { lang } = useData()
 const isEnglish = computed(() => lang.value.startsWith('en'))
 const query = ref('')
-const active = ref('all')
+const tab = ref('living')
 
 const records = [
   { slug: 'canli-butun', group: 'ancient', sigil: '◉', tr: 'Canlı Bütün', en: 'Living Whole', trText: 'Dünyanın kendisini canlı ve kutsal kabul eden, artık yalnız metin ve kalıntılarda izlenen inanç ailesi.', enText: 'An extinct faith family that understood the world itself as living and sacred, now traced only in texts and remnants.' },
@@ -53,56 +53,152 @@ const records = [
   { slug: 'perde-bekcileri', group: 'ancient', sigil: '☾', tr: 'Perde Bekçileri', en: 'Veil Keepers', trText: 'Rüya ve gölgede Eşik’i gözleyen eski uygulayıcıların kaydı.', enText: 'A record of old practitioners who watched the Threshold through dream and shadow.' },
   { slug: 'sessiz-sofra', group: 'ancient', sigil: '⌂', tr: 'Sessiz Sofra', en: 'Silent Table', trText: 'Ölü için boş yer bırakan tarihî konukluk geleneği.', enText: 'A historical guest rite that left a place for the dead.' }
 ]
-const countFor = (group) => records.filter((record) => record.group === group).length
-const groups = computed(() => [
-  { key: 'all', label: isEnglish.value ? 'All records' : 'Tüm kayıtlar', count: records.length },
-  { key: 'living', label: isEnglish.value ? 'Living faiths' : 'Yaşayan dinler', count: countFor('living') },
-  { key: 'ancient', label: isEnglish.value ? 'Ancient faiths' : 'Antik dinler', count: countFor('ancient') }
-])
-const familyBriefs = computed(() => [
-  {
-    key: 'living', sigil: '☉', count: countFor('living'),
-    trTitle: 'Yaşayan dinler', enTitle: 'Living faiths',
-    trQuestion: 'Hayat hangi kudrete borçlu?', enQuestion: 'What does life owe to power?',
-    trText: 'Qasyrra’da Azh-Khar; insan dünyasında Aşkarî, Vardûnî, Sairava, Eşrenî, Theskarî, Kharûmî, Marevî ve gizli Saelûnî gelenekleri ibadeti hâlâ hukuk ve gündelik hayatın içine taşır.', enText: 'In Qasyrra, Azh-Khar; in the human world, Aškari, Vardûni, Sairava, Eshrenic, Theskarite, Kharûmi, Marevi, and hidden Saeluni traditions still carry worship into law and daily life.'
-  },
-  {
-    key: 'ancient', sigil: '⌛', count: countFor('ancient'),
-    trTitle: 'Antik dinler', enTitle: 'Ancient faiths',
-    trQuestion: 'Kalıntılar neyi hatırlatır?', enQuestion: 'What do the remnants remember?',
-    trText: 'Canlı Bütün, Göksel Taç ve Eşik-Atalar artık yaşayan dinler değil; metin, harabe, hukuk ve halk hafızasında kalan geleneklerdir.', enText: 'Living Whole, Celestial Crown, and Threshold & Ancestors are no longer living faiths; they remain in texts, ruins, law, and public memory.'
-  }
-])
-const visible = computed(() => {
-  const q = query.value.trim().toLocaleLowerCase(isEnglish.value ? 'en-US' : 'tr-TR')
-  return records.filter((record) => (active.value === 'all' || record.group === active.value) && (!q || `${record.tr} ${record.en} ${record.trText} ${record.enText}`.toLocaleLowerCase(isEnglish.value ? 'en-US' : 'tr-TR').includes(q)))
+const bySlug = Object.fromEntries(records.map((r) => [r.slug, r]))
+// Yaşayan dinlerin ana gelenekleri ve onlara bağlı kollar/kurumlar. Sıra, sayfadaki sıradır.
+const tree = [
+  ['azh-khar', []],
+  ['askari-kultleri', []],
+  ['varduni-gelenekler', ['eram-kok-ahit', 'nadur-gocen-sahitler', 'selmev-muhurlu-sofra', 'raveth-acik-kapi', 'mareya-kuyu-ve-merhamet', 'tavren-sahit-kilici', 'ilyar-gorunmeyen-soz', 'kezran-donen-hukum']],
+  ['sairava-dinleri', ['dokuz-gecidin-evi', 'izsiz-cark', 'kok-donusu-soylari', 'sessiz-akis-manastirlari', 'kirik-cember-ogretisi', 'sairava-havzasi-ve-manastir-aglari']],
+  ['esreni-inanc', ['kul-sovalyeleri', 'kul-suikastcilari']],
+  ['theskar-gizemleri', ['safran-odasi', 'fisildayan-kavsak', 'zincir-aynasi']],
+  ['kharumi-ayinler', ['dugum-evleri', 'olcu-gecesi', 'olcusuzler']],
+  ['marevi-baglar', []],
+  ['saelun-ogretileri', []]
+]
+const l = computed(() => (isEnglish.value ? 'en' : 'tr'))
+const name = (r) => r[l.value]
+const text = (r) => (isEnglish.value ? r.enText : r.trText)
+const traditions = tree.map(([slug, kids], i) => ({ ...bySlug[slug], n: i + 1, kids: kids.map((k) => bySlug[k]).filter(Boolean) }))
+const ancient = records.filter((r) => r.group === 'ancient')
+const livingCount = tree.length
+const norm = (v) => v.toLocaleLowerCase(isEnglish.value ? 'en-US' : 'tr-TR')
+const searching = computed(() => query.value.trim() !== '')
+const results = computed(() => {
+  const q = norm(query.value.trim())
+  return records.filter((r) => norm(`${r.tr} ${r.en} ${r.trText} ${r.enText}`).includes(q))
 })
 const linkFor = (slug) => withBase(`${isEnglish.value ? '/en' : ''}/kulturler/dinler/${slug}`)
+const t = computed(() => isEnglish.value
+  ? { kicker: 'Avarra Encyclopaedia · Living Faith & Ancient Records', h1: 'Faith Archive', lead: 'Nine living traditions, and thirteen ancient records that survive only in texts, ruins and law. Start with a living faith, or read the old records.', search: 'Search records…', living: 'Living faiths', ancient: 'Ancient faiths', livingLead: 'Faiths still practised: in law, in daily life, in the open or in secret.', ancientLead: 'Records of faiths that no longer live, but still shape ruins, offices and law.', branches: 'Branches and houses', open: 'Open record', results: 'Results', none: 'No record matches this search.', records: 'records' }
+  : { kicker: 'Avarra Ansiklopedisi · Yaşayan İnanç ve Antik Kayıtlar', h1: 'İnanç Arşivi', lead: 'Dokuz yaşayan gelenek ve yalnız metin, harabe ve hukukta kalan on üç antik kayıt. Yaşayan bir inançla başlayın ya da eski kayıtları okuyun.', search: 'Kayıtlarda ara…', living: 'Yaşayan dinler', ancient: 'Antik dinler', livingLead: 'Bugün hâlâ uygulanan inançlar: hukukta, gündelik hayatta, açıkta ya da gizlice.', ancientLead: 'Artık yaşamayan ama harabeleri, makamları ve hukuku hâlâ biçimlendiren inançların kayıtları.', branches: 'Kollar ve evler', open: 'Kaydı aç', results: 'Sonuçlar', none: 'Bu aramayla eşleşen kayıt yok.', records: 'kayıt' })
 </script>
 
 <template>
-  <section class="faith-catalogue">
-    <div class="faith-main">
-      <header class="faith-heading">
-        <p class="lore-kicker">{{ isEnglish ? 'Avarra Encyclopaedia · Living Faith & Ancient Records' : 'Avarra Ansiklopedisi · Yaşayan İnanç ve Antik Kayıtlar' }}</p>
-        <h1>{{ isEnglish ? 'Faith Archive' : 'İnanç Arşivi' }}</h1>
-        <p>{{ isEnglish ? 'Azh-Khar in Qasyrra, alongside Aškari, Vardûni, Sairava, Eshrenic, Theskarite, Kharûmi, Marevi, and hidden Saeluni traditions in the human world, remain living faiths. The other thirteen records belong to ancient religions: traditions preserved in ruins, copied texts, inherited law, and contested memory rather than active worship.' : 'Qasyrra’da Azh-Khar; insan dünyasında Aşkarî, Vardûnî, Sairava, Eşrenî, Theskarî, Kharûmî, Marevî ve gizli Saelûnî gelenekleri yaşayan dinlerdir. Diğer on üç kayıt antik dinlere aittir: etkin ibadetten çok harabelerde, kopya metinlerde, miras hukukunda ve tartışmalı halk hafızasında yaşayan geleneklere.' }}</p>
-        <label class="faith-search faith-search--header"><span>⌕</span><input v-model="query" type="search" :placeholder="isEnglish ? 'Search records…' : 'Kayıtlarda ara…'" /></label>
-      </header>
-      <section class="faith-archive-guide" :aria-label="isEnglish ? 'How to read the archive' : 'Arşivi nasıl okumalı'">
-        <div><span>Ⅰ</span><p><b>{{ isEnglish ? 'Living faiths.' : 'Yaşayan dinler.' }}</b>{{ isEnglish ? 'Azh-Khar in Qasyrra, alongside Aškari, Vardûni, Sairava, Eshrenic, Theskarite, Kharûmi, Marevi, and hidden Saeluni traditions in the human world, remain part of public life and law.' : 'Qasyrra’daki Azh-Khar ile insan dünyasındaki Aşkarî, Vardûnî, Sairava, Eşrenî, Theskarî, Kharûmî, Marevî ve gizli Saelûnî gelenekleri kamusal hayatın ve hukukun parçasıdır.' }}</p></div>
-        <div><span>Ⅱ</span><p><b>{{ isEnglish ? 'Ancient does not mean harmless.' : 'Antik olmak zararsız olmak değildir.' }}</b>{{ isEnglish ? 'Old rites still shape ruins, inherited offices, family stories, and dangerous objects.' : 'Eski ayinler hâlâ harabeleri, miras makamları, aile anlatılarını ve tehlikeli nesneleri biçimlendirir.' }}</p></div>
-        <div><span>Ⅲ</span><p><b>{{ isEnglish ? 'The archive stays open.' : 'Arşiv açık kalır.' }}</b>{{ isEnglish ? 'New living traditions will receive their own records without being folded into the old faiths.' : 'Yeni yaşayan dinler, eski inançların içine katılmadan kendi kayıtlarını alacaktır.' }}</p></div>
-      </section>
-      <section class="faith-family-map" :aria-label="isEnglish ? 'Faith family map' : 'İnanç aileleri haritası'">
-        <button v-for="family in familyBriefs" :key="family.key" :class="['faith-family-entry', family.key, { active: active === family.key }]" @click="active = family.key">
-          <span class="faith-family-sigil">{{ family.sigil }}</span>
-          <span class="faith-family-copy"><small>{{ isEnglish ? family.enQuestion : family.trQuestion }}</small><strong>{{ isEnglish ? family.enTitle : family.trTitle }}</strong><em>{{ isEnglish ? family.enText : family.trText }}</em></span>
-          <b>{{ family.count }} {{ isEnglish ? 'records' : 'kayıt' }}</b>
-        </button>
-      </section>
-      <div class="faith-records-heading"><p class="lore-kicker">{{ active === 'all' ? (isEnglish ? 'All records' : 'Tüm kayıtlar') : (isEnglish ? 'Selected family' : 'Seçili aile') }}</p><span>{{ visible.length }} {{ isEnglish ? 'records shown' : 'kayıt gösteriliyor' }}</span></div>
-      <div class="faith-records"><a v-for="record in visible" :key="record.slug" :href="linkFor(record.slug)" class="faith-record"><span class="faith-sigil">{{ record.sigil }}</span><div><small>{{ groups.find((group) => group.key === record.group)?.label }}</small><h2>{{ isEnglish ? record.en : record.tr }}</h2><p>{{ isEnglish ? record.enText : record.trText }}</p></div><b>→</b></a></div>
+  <section class="fa">
+    <header class="fa-head">
+      <p class="fa-kicker">{{ t.kicker }}</p>
+      <h1>{{ t.h1 }}</h1>
+      <p class="fa-lead">{{ t.lead }}</p>
+    </header>
+
+    <div class="fa-bar">
+      <div class="fa-tabs" role="tablist">
+        <button type="button" role="tab" :aria-selected="tab === 'living' && !searching" :class="{ on: tab === 'living' && !searching }" @click="tab = 'living'; query = ''">{{ t.living }} <i>{{ livingCount }}</i></button>
+        <button type="button" role="tab" :aria-selected="tab === 'ancient' && !searching" :class="{ on: tab === 'ancient' && !searching }" @click="tab = 'ancient'; query = ''">{{ t.ancient }} <i>{{ ancient.length }}</i></button>
+      </div>
+      <label class="fa-search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="1.8" /><path d="m16 16 4.5 4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" /></svg><input v-model="query" type="search" :placeholder="t.search" :aria-label="t.search" /></label>
     </div>
+
+    <template v-if="searching">
+      <p class="fa-count"><b>{{ results.length }}</b> {{ t.records }} · {{ t.results }}</p>
+      <ul class="fa-rows">
+        <li v-for="r in results" :key="r.slug"><a :href="linkFor(r.slug)"><span class="fa-glyph">{{ r.sigil }}</span><span class="fa-rowtxt"><strong>{{ name(r) }}</strong><small>{{ r.group === 'living' ? t.living : t.ancient }}</small></span><em>{{ text(r) }}</em><b>→</b></a></li>
+      </ul>
+      <p v-if="!results.length" class="fa-none">{{ t.none }}</p>
+    </template>
+
+    <template v-else-if="tab === 'living'">
+      <p class="fa-tablead">{{ t.livingLead }}</p>
+      <div class="fa-grid">
+        <article v-for="tr in traditions" :key="tr.slug" class="fa-card" :class="{ solo: !tr.kids.length }">
+          <a class="fa-main" :href="linkFor(tr.slug)">
+            <span class="fa-num">{{ String(tr.n).padStart(2, '0') }}</span>
+            <span class="fa-glyph">{{ tr.sigil }}</span>
+            <strong>{{ name(tr) }}</strong>
+            <em>{{ text(tr) }}</em>
+            <span class="fa-open">{{ t.open }} <b>→</b></span>
+          </a>
+          <div v-if="tr.kids.length" class="fa-kids">
+            <p>{{ t.branches }} · {{ tr.kids.length }}</p>
+            <a v-for="k in tr.kids" :key="k.slug" :href="linkFor(k.slug)">{{ name(k) }}</a>
+          </div>
+        </article>
+      </div>
+    </template>
+
+    <template v-else>
+      <p class="fa-tablead">{{ t.ancientLead }}</p>
+      <ul class="fa-rows">
+        <li v-for="r in ancient" :key="r.slug"><a :href="linkFor(r.slug)"><span class="fa-glyph">{{ r.sigil }}</span><span class="fa-rowtxt"><strong>{{ name(r) }}</strong></span><em>{{ text(r) }}</em><b>→</b></a></li>
+      </ul>
+    </template>
   </section>
 </template>
+
+<style scoped>
+.fa { width: min(100% - 40px, 1240px); margin: 3rem auto 5rem; color: var(--vp-c-text-1); }
+.fa-kicker { margin: 0 0 .6rem; color: var(--vp-c-brand-1); font: 500 .78rem var(--font-ui); letter-spacing: .16em; text-transform: uppercase; }
+.fa-head { max-width: 46rem; }
+.fa h1 { margin: 0 0 1rem; padding: 0; border: 0; color: var(--vp-c-brand-3); font: 500 clamp(2.8rem, 7vw, 5.4rem)/1 var(--font-display); letter-spacing: -.035em; }
+.dark .fa h1 { color: var(--vp-c-text-1); }
+.fa-lead { margin: 0; color: var(--vp-c-text-2); font-size: 1.15rem; line-height: 1.65; }
+.fa-bar { display: flex; flex-wrap: wrap; gap: 1rem 2rem; align-items: center; justify-content: space-between; margin: 3rem 0 1.4rem; padding-top: 1.8rem; border-top: 1px solid var(--vp-c-divider); }
+.fa-tabs { display: inline-flex; padding: 5px; border-radius: 999px; box-shadow: inset 0 0 0 1px var(--vp-c-divider); }
+.fa-tabs button { display: inline-flex; gap: .55em; align-items: center; padding: .7em 1.5em; border: 0; border-radius: 999px; background: transparent; color: var(--vp-c-text-1); font: 500 1rem var(--font-ui); cursor: pointer; transition: background .35s, color .35s; }
+.fa-tabs button i { color: var(--vp-c-text-3); font-size: .8rem; font-style: normal; }
+.fa-tabs button.on { background: var(--vp-c-brand-3); color: #f4e6c8; }
+.fa-tabs button.on i { color: rgba(244, 230, 200, .7); }
+.dark .fa-tabs button.on { background: var(--vp-c-brand-1); color: #2a1500; }
+.dark .fa-tabs button.on i { color: rgba(42, 21, 0, .6); }
+.fa-search { display: flex; gap: .7rem; align-items: center; min-width: min(100%, 300px); height: 48px; padding: 0 20px; border-radius: 999px; background: var(--vp-c-bg-elv); box-shadow: inset 0 0 0 1px var(--vp-c-divider); color: var(--vp-c-brand-1); transition: box-shadow .3s; }
+.fa-search:focus-within { box-shadow: inset 0 0 0 1.5px var(--vp-c-brand-1); }
+.fa-search svg { width: 18px; height: 18px; flex: none; }
+.fa-search input { width: 100%; border: 0; outline: 0; background: transparent; color: var(--vp-c-text-1); font: 1rem var(--font-ui); }
+.fa-tablead { max-width: 40rem; margin: 0 0 2rem; color: var(--vp-c-text-2); font-size: 1.1rem; line-height: 1.6; }
+.fa-count { margin: 0 0 1.2rem; color: var(--vp-c-text-2); font: .95rem var(--font-ui); }
+.fa-count b { color: var(--vp-c-brand-1); }
+
+.fa-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.2rem; align-items: start; }
+.fa-card { display: flex; flex-direction: column; overflow: hidden; border-radius: 28px; background: var(--vp-c-bg-elv); box-shadow: inset 0 0 0 1px var(--vp-c-divider); transition: box-shadow .5s, transform .6s cubic-bezier(.22, 1, .36, 1); }
+.fa-card:hover { box-shadow: inset 0 0 0 1px var(--vp-c-brand-1), 0 28px 44px -26px rgba(60, 30, 0, .4); transform: translateY(-3px); }
+.fa-main { position: relative; isolation: isolate; display: grid; grid-template-columns: 56px 1fr; column-gap: 1.2rem; padding: 1.8rem 2rem 1.6rem; color: inherit; text-decoration: none; }
+.fa-num { position: absolute; top: 1.4rem; right: 1.8rem; color: color-mix(in srgb, var(--vp-c-brand-1) 38%, transparent); font: 500 .8rem var(--font-ui); letter-spacing: .14em; }
+.fa-glyph { display: grid; width: 56px; height: 56px; place-items: center; border-radius: 50%; box-shadow: inset 0 0 0 1px var(--vp-c-divider); color: var(--vp-c-brand-1); font-size: 1.5rem; transition: background .4s, color .4s, box-shadow .4s; }
+.fa-main:hover .fa-glyph { background: var(--vp-c-brand-3); color: #d9b878; box-shadow: none; }
+.dark .fa-main:hover .fa-glyph { background: var(--vp-c-brand-1); color: #2a1500; }
+.fa-main strong { align-self: center; font: 500 1.7rem/1.15 var(--font-display); letter-spacing: -.02em; }
+.fa-main em { grid-column: 1 / -1; margin: 1.1rem 0 0; color: var(--vp-c-text-2); font: normal 1.02rem/1.65 var(--font-ui); }
+.fa-open { grid-column: 1 / -1; margin-top: 1rem; color: var(--vp-c-brand-1); font: 500 .92rem var(--font-ui); }
+.fa-open b { display: inline-block; font-weight: 500; transition: transform .4s cubic-bezier(.22, 1, .36, 1); }
+.fa-main:hover .fa-open b { transform: translateX(5px); }
+.fa-kids { padding: 1.2rem 2rem 1.6rem; border-top: 1px solid var(--vp-c-divider); background: var(--vp-c-bg-soft); }
+.fa-kids p { width: 100%; margin: 0 0 .8rem; color: var(--vp-c-text-3); font: 500 .72rem var(--font-ui); letter-spacing: .14em; text-transform: uppercase; }
+.fa-kids { display: flex; flex-wrap: wrap; gap: .5rem; }
+.fa-kids a { padding: .45em 1em; border-radius: 999px; background: var(--vp-c-bg); box-shadow: inset 0 0 0 1px var(--vp-c-divider); color: var(--vp-c-text-1); font: 500 .88rem var(--font-ui); text-decoration: none; transition: background .3s, color .3s, box-shadow .3s; }
+.fa-kids a:hover { background: var(--vp-c-brand-3); color: #f4e6c8; box-shadow: none; }
+.dark .fa-kids a:hover { background: var(--vp-c-brand-1); color: #2a1500; }
+
+.fa-rows { display: grid; gap: .6rem; margin: 0; padding: 0; list-style: none; }
+.fa-rows--two { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .7rem 1.2rem; }
+.fa-rows li { margin: 0; }
+.fa-rows a { display: grid; grid-template-columns: 52px minmax(0, 12rem) minmax(0, 1fr) auto; gap: 1.2rem; align-items: center; height: 100%; padding: 1.05rem 1.4rem; border-radius: 22px; color: inherit; text-decoration: none; box-shadow: inset 0 0 0 1px var(--vp-c-divider); transition: background .3s, box-shadow .3s, transform .4s cubic-bezier(.22, 1, .36, 1); }
+.fa-rows--two a { grid-template-columns: 52px minmax(0, 1fr) auto; }
+.fa-rows--two em { display: none; }
+.fa-rows a:hover { background: var(--vp-c-bg-elv); box-shadow: inset 0 0 0 1px var(--vp-c-brand-1); transform: translateX(4px); }
+.fa-rows .fa-glyph { width: 52px; height: 52px; font-size: 1.3rem; }
+.fa-rowtxt { display: grid; gap: .15rem; }
+.fa-rowtxt strong { font: 500 1.25rem/1.2 var(--font-display); letter-spacing: -.01em; }
+.fa-rowtxt small { color: var(--vp-c-brand-1); font: 500 .68rem var(--font-ui); letter-spacing: .12em; text-transform: uppercase; }
+.fa-rows em { color: var(--vp-c-text-2); font: normal .95rem/1.5 var(--font-ui); }
+.fa-rows b { color: var(--vp-c-text-3); font-weight: 500; transition: transform .4s cubic-bezier(.22, 1, .36, 1), color .3s; }
+.fa-rows a:hover b { color: var(--vp-c-brand-1); transform: translateX(4px); }
+.fa-none { padding: 3rem 0; color: var(--vp-c-text-2); font: italic 1.15rem var(--font-display); text-align: center; }
+
+@media (max-width: 900px) {
+  .fa-grid, .fa-rows--two { grid-template-columns: 1fr; }
+  .fa-rows a { grid-template-columns: 52px minmax(0, 1fr) auto; }
+  .fa-rows a em { display: none; }
+}
+@media (max-width: 600px) { .fa { width: min(100% - 32px, 1240px); } .fa-main, .fa-kids { padding-left: 1.3rem; padding-right: 1.3rem; } }
+</style>

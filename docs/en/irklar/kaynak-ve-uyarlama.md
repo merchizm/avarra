@@ -1,5 +1,6 @@
 ---
 title: People Records — Source and Adaptation Policy
+pageClass: people-page
 ---
 
 # People Records — Source and Adaptation Policy

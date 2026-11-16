@@ -1,6 +1,7 @@
 ---
 title: Thorn Crown
 outline: false
+pageClass: people-page state-page
 ---
 
 <div class="lore-kicker">Nareth · State Record</div>

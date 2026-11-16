@@ -1,6 +1,7 @@
 ---
 title: Black Seal Isles
 outline: deep
+pageClass: people-page city-page
 ---
 
 <div class="lore-kicker">Settlements · Island State and Measure Centre</div>

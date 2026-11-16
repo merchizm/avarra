@@ -1,6 +1,7 @@
 ---
 title: Free City of Nisra
 outline: deep
+pageClass: people-page state-page
 ---
 
 <div class="lore-kicker">Odraka · Free City and Oasis Law</div>

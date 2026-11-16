@@ -1,6 +1,7 @@
 ---
 title: Guide to Peoples and Cultures
 outline: false
+pageClass: people-page culture-doc
 ---
 
 <div class="lore-kicker">Cultural Canon · Four Layers of Identity</div>
@@ -19,7 +20,7 @@ outline: false
 
 ## Canonical cultural principles
 
-## 1. The four layers of identity
+## The four layers of identity
 
 | Layer | Question | Example |
 | --- | --- | --- |
@@ -32,23 +33,23 @@ Tiefling, Aasimar, Reborn, Hexblood, and Dhampir are usually ancestral or transf
 
 Genasi are not one nation either. Elemental ancestry can appear within many peoples; in regions such as Camova and the River Throne, concentrations have formed distinct cultures.
 
-## 56. Mixed families
+## Mixed families
 
 Families between peoples are common in Avarra, although not every pairing produces biological children. Family law can be formed independently of biology through adoption, hearth bonds, road partnership, and name treaties.
 
 Terms such as Half-Elf and Half-Orc are bodily descriptions in some regions and crude outside labels in others. A person’s culture is shaped by family and where they were raised.
 
-## 57. Language canon
+## Language canon
 
 “Common” is not one natural world language. It is a language family simplified by trade, Ordan bureaucracy, and intercontinental road networks. Local languages will be detailed in a separate canon record.
 
 Principal language families include human crown languages; Veyran and Asteron languages; Elvish dialects and Sylvan; Dwarvish and ancient hearth scripts; Nimrûn; Goblinoid languages; Draconic and Odrakan languages; Aquan-derived water languages; and Underground Common.
 
-## 58. No ancestry-bound morality
+## No ancestry-bound morality
 
 No people is born good, evil, lawful, or chaotic. Alignment in stat blocks describes an individual or the institution they represent. Cultures can create behavioural pressure; biology does not create moral destiny.
 
-## 59. Canon scope check
+## Canon scope check
 
 This edition names every living people, lineage condition, and ancient sapient people explicitly present in Avarra World Atlas 0.1. It includes humans and Veyrans; Elven and Fey peoples; Firbolgs, Thornbloods, Satyrs; Dwarves, Duergar, Gnomes, Nimrûn, Halflings, Goblinoids; elemental lineages; Dragonborn and other Odrakan peoples; lineage marks; deep peoples; sea peoples; constructed peoples; Yuan-ti, Nagas, and sealed Mind Flayer remnants; and Dragons, Giants, Fomorians, Aboleths, and First Fey beings.
 

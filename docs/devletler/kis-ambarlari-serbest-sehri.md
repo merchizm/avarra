@@ -1,6 +1,7 @@
 ---
 title: Kış Ambarları Serbest Şehri
 outline: deep
+pageClass: people-page state-page
 ---
 
 <div class="lore-kicker">Ilyr-Khaz Kuzeybatısı · Ada Serbest Şehri ve Tedarik Devleti</div>

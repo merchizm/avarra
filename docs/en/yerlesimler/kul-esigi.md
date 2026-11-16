@@ -1,6 +1,7 @@
 ---
 title: Ash Threshold
 outline: deep
+pageClass: people-page city-page
 ---
 
 <div class="lore-kicker">Settlements · Island of the Ash Knights</div>

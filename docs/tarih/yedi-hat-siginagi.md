@@ -1,6 +1,7 @@
 ---
 title: Yedi Hat Sığınağı
 outline: false
+pageClass: people-page era-page
 ---
 
 <div class="lore-kicker">Çağ IV · SÖ 2640–2350 · Asteron</div>

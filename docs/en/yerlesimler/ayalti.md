@@ -1,6 +1,7 @@
 ---
 title: Ayalti
 outline: false
+pageClass: people-page city-page
 ---
 <div class="lore-kicker"> Settlements · Government Center </div>
 
@@ -14,7 +15,7 @@ outline: false
 
 | Field | Record |
 | --- | --- |
-| Layer | Rootbelow threshold, between the surface and the [Hollow Countries](../cografya/underground) |
+| Layer | Rootbelow threshold, between the surface and the [Hollow Countries](../cografya/yeraltı) |
 | Physical site | The inner lip and moonlit hanging terraces of a giant surface-facing cave mouth |
 | Access | Secret surface paths, silk descents, and wind bridges at the cave mouth |
 | Nearby ties | Vel-Shaar, surface exile networks, and the trade road down to Dark Harbor |

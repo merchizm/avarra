@@ -1,6 +1,7 @@
 ---
 title: Kuo-Toalar
 outline: false
+pageClass: people-page
 ---
 <div class="lore-kicker"> Peoples · Underground Sea </div>
 

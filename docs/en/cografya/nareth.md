@@ -20,4 +20,4 @@ outline: false
 
 Large cities—especially [Elyrakök](../yerlesimler/elyrakok), [Namaris](../yerlesimler/namaris), and [Halvek](../yerlesimler/halvek)—are multi-people cities. Small villages are not closed ethnic enclaves: they make a craft, kinship network, or local knowledge visible. A character can find familiar faces, guest households and work at both scales.
 
-**Related records:** [Peoples](../irklar/), [Settlements](../yerlesimler/), [Atlas](../atlas).
+**Related records:** [Peoples](../irklar/), [Settlements](../yerlesimler/), [Atlas](../haritalar/dunya).

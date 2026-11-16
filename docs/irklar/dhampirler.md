@@ -1,6 +1,7 @@
 ---
 title: Dhampirler
 outline: false
+pageClass: people-page
 ---
 
 <div class="lore-kicker">Halklar · Gece Soyu</div>

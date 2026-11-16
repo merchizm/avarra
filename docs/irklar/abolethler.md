@@ -1,6 +1,7 @@
 ---
 title: Abolethler
 outline: false
+pageClass: people-page
 ---
 <div class="lore-kicker">Kadim Büyük Halklar · Eski Hafıza</div>
 

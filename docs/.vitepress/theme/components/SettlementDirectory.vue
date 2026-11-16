@@ -68,33 +68,123 @@ const records = {
 }
 
 const fallback = (title) => [99, 'Nüfus bandı araştırılıyor', 'Population band under study', `${title} için ayrıntılı kayıt hazırlanıyor.`, `A detailed record is being prepared for ${title}.`]
-const items = computed(() => references
+const query = ref('')
+const coll = (a, b) => a.localeCompare(b, isEnglish.value ? 'en' : 'tr')
+const all = computed(() => references
   .filter((entry) => entry.path.startsWith('/yerlesimler/'))
   .map((entry) => {
     const slug = entry.path.split('/').at(-1)
     const data = records[slug] || fallback(entry.title)
-    return { ...entry, slug, priority: data[0], population: data[isEnglish.value ? 2 : 1], detail: data[isEnglish.value ? 4 : 3], title: isEnglish.value ? entry.enTitle : entry.title }
-  })
-  .sort((a, b) => {
-    if (sortMode.value === 'importance') return a.priority - b.priority || a.title.localeCompare(b.title, isEnglish.value ? 'en' : 'tr')
-    return sortMode.value === 'az' ? a.title.localeCompare(b.title, isEnglish.value ? 'en' : 'tr') : b.title.localeCompare(a.title, isEnglish.value ? 'en' : 'tr')
+    return { ...entry, slug, priority: data[0], population: data[isEnglish.value ? 2 : 1], detail: data[isEnglish.value ? 4 : 3], title: isEnglish.value ? entry.enTitle : entry.title, img: isEnglish.value ? entry.enImage : entry.image }
   }))
+const featured = computed(() => all.value.filter((e) => e.priority <= 8).sort((a, b) => a.priority - b.priority))
+const searching = computed(() => query.value.trim() !== '')
+const list = computed(() => {
+  const q = query.value.trim().toLocaleLowerCase(isEnglish.value ? 'en-US' : 'tr-TR')
+  const rows = all.value.filter((e) => !q || `${e.title} ${e.detail}`.toLocaleLowerCase(isEnglish.value ? 'en-US' : 'tr-TR').includes(q))
+  return rows.sort((a, b) => (sortMode.value === 'importance' ? a.priority - b.priority || coll(a.title, b.title) : sortMode.value === 'az' ? coll(a.title, b.title) : coll(b.title, a.title)))
+})
 const href = (entry) => withBase(isEnglish.value ? `/en${entry.path}` : entry.path)
-const sortLabels = computed(() => isEnglish.value ? { importance: 'By importance', az: 'A–Z', za: 'Z–A' } : { importance: 'Önem sırası', az: 'A–Z', za: 'Z–A' })
+const src = (u) => withBase(u)
+const t = computed(() => isEnglish.value
+  ? { kicker: 'Avarra Encyclopaedia · Settlements', h1: 'Settlement Register', lead: 'The First Eight are the priority city dossiers, not the limits of the atlas. Every settlement with an English record is listed below.', route: ['Nareth', 'Asteron', 'Star Plateau', 'Hollow Countries'], first: 'The First Eight', firstLead: 'Priority dossiers, in order of importance.', all: 'All settlements', records: 'records', search: 'Search settlements…', importance: 'By importance', open: 'Open record' }
+  : { kicker: 'Avarra Ansiklopedisi · Yerleşimler', h1: 'Şehir Sicili', lead: 'Şehirleri halkına göre değil; suya erişimi, yönetim biçimi, ekonomik bağımlılığı ve yaklaşan kırılma anı üzerinden karşılaştırın. İlk Sekiz, atlasın tamamı değil; ayrıntılı dünya kanonuna sahip öncelikli şehir dosyalarıdır.', route: ['Nareth', 'Asteron', 'Yıldız Yaylası', 'Oyuk Ülkeler'], first: 'İlk Sekiz', firstLead: 'Öncelikli şehir dosyaları, önem sırasıyla.', all: 'Tüm yerleşimler', records: 'kayıt', search: 'Yerleşim ara…', importance: 'Önem sırası', open: 'Kaydı aç' })
+const sortLabels = computed(() => ({ importance: t.value.importance, az: 'A–Z', za: 'Z–A' }))
 </script>
 
 <template>
-  <section class="settlement-directory">
-    <div class="settlement-sort" :aria-label="isEnglish ? 'Sort settlements' : 'Yerleşimleri sırala'">
-      <button v-for="mode in ['importance', 'az', 'za']" :key="mode" type="button" :class="{ active: sortMode === mode }" :aria-pressed="sortMode === mode" @click="sortMode = mode">{{ sortLabels[mode] }}</button>
+  <section class="sd">
+    <header class="sd-head">
+      <p class="sd-kicker">{{ t.kicker }}</p>
+      <h1>{{ t.h1 }}</h1>
+      <p class="sd-lead">{{ t.lead }}</p>
+      <div class="sd-route" aria-hidden="true"><template v-for="(r, i) in t.route" :key="r"><span>{{ r }}</span><i v-if="i < t.route.length - 1"></i></template></div>
+    </header>
+
+    <template v-if="!searching">
+      <div class="sd-sec"><h2>{{ t.first }}</h2><p>{{ t.firstLead }}</p></div>
+      <div class="sd-feat">
+        <a v-for="e in featured" :key="e.path" :href="href(e)" class="sd-card">
+          <span class="sd-img"><img v-if="e.img" :src="src(e.img)" :alt="e.title" loading="lazy" /><i v-else>{{ e.title.charAt(0) }}</i><em>{{ String(e.priority).padStart(2, '0') }}</em></span>
+          <strong>{{ e.title }}</strong>
+          <p>{{ e.detail }}</p>
+          <small>{{ e.population.split(' · ')[0] }}</small>
+        </a>
+      </div>
+    </template>
+
+    <div class="sd-bar">
+      <div class="sd-bar-title"><h2>{{ searching ? (isEnglish ? 'Results' : 'Sonuçlar') : t.all }}</h2><p><b>{{ list.length }}</b> {{ t.records }}</p></div>
+      <div class="sd-tools">
+        <div class="sd-sort" :aria-label="isEnglish ? 'Sort settlements' : 'Yerleşimleri sırala'">
+          <button v-for="mode in ['importance', 'az', 'za']" :key="mode" type="button" :class="{ on: sortMode === mode }" :aria-pressed="sortMode === mode" @click="sortMode = mode">{{ sortLabels[mode] }}</button>
+        </div>
+        <label class="sd-search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="1.8" /><path d="m16 16 4.5 4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" /></svg><input v-model="query" type="search" :placeholder="t.search" :aria-label="t.search" /></label>
+      </div>
     </div>
-    <div class="city-register-table" :aria-label="isEnglish ? 'All settlement records' : 'Tüm yerleşim kayıtları'">
-      <div class="city-register-labels"><span>{{ isEnglish ? 'Settlement' : 'Yerleşim' }}</span><span>{{ isEnglish ? 'Record' : 'Kayıt' }}</span><span>{{ isEnglish ? 'Scale' : 'Ölçek' }}</span></div>
-      <a v-for="entry in items" :key="entry.path" :href="href(entry)">
-        <b><small v-if="sortMode === 'importance'">{{ String(entry.priority).padStart(2, '0') }} · {{ isEnglish ? 'priority' : 'öncelik' }}</small><strong>{{ entry.title }}</strong></b>
-        <p><i>{{ entry.detail }}</i></p>
-        <em>{{ entry.population }}</em>
-      </a>
-    </div>
+    <TransitionGroup name="sdc" tag="ul" class="sd-rows">
+      <li v-for="(e, i) in list" :key="e.path" :style="{ '--i': Math.min(i, 11) }">
+        <a :href="href(e)"><strong>{{ e.title }}<small v-if="sortMode === 'importance' && e.priority < 99">{{ String(e.priority).padStart(2, '0') }}</small></strong><span>{{ e.detail }}</span><em>{{ e.population.split(' · ')[0] }}</em><b>→</b></a>
+      </li>
+    </TransitionGroup>
   </section>
 </template>
+
+<style scoped>
+.sd { width: min(100% - 40px, 1240px); margin: 3rem auto 5rem; color: var(--vp-c-text-1); }
+.sd-kicker { margin: 0 0 .6rem; color: var(--vp-c-brand-1); font: 500 .78rem var(--font-ui); letter-spacing: .16em; text-transform: uppercase; }
+.sd-head { max-width: 46rem; }
+.sd h1 { margin: 0 0 1rem; padding: 0; border: 0; color: var(--vp-c-brand-3); font: 500 clamp(2.8rem, 7vw, 5.4rem)/1 var(--font-display); letter-spacing: -.035em; }
+.dark .sd h1 { color: var(--vp-c-text-1); }
+.sd-lead { margin: 0; color: var(--vp-c-text-2); font-size: 1.15rem; line-height: 1.65; }
+.sd-route { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; margin-top: 1.8rem; }
+.sd-route span { padding: .45em 1.1em; border-radius: 999px; box-shadow: inset 0 0 0 1px var(--vp-c-divider); color: var(--vp-c-text-1); font: 500 .88rem var(--font-ui); }
+.sd-route i { width: 28px; border-top: 1px dashed var(--vp-c-brand-1); }
+.sd-sec { margin: 4.5rem 0 2rem; padding-top: 2.4rem; border-top: 1px solid var(--vp-c-divider); }
+.sd h2 { margin: 0; padding: 0; border: 0; font: 500 clamp(1.7rem, 3.4vw, 2.5rem)/1.1 var(--font-display); letter-spacing: -.03em; }
+.sd h2::after { display: none; }
+.sd-sec p { margin: .7rem 0 0; color: var(--vp-c-text-2); }
+.sd-feat { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 17rem), 1fr)); gap: 1.2rem; }
+.sd-card { display: flex; flex-direction: column; padding: 14px 14px 1.4rem; border-radius: 26px; background: var(--vp-c-bg-elv); box-shadow: inset 0 0 0 1px var(--vp-c-divider); color: inherit; text-decoration: none; transition: transform .5s cubic-bezier(.22, 1, .36, 1), box-shadow .5s; }
+.sd-card:hover, .sd-card:focus-visible { transform: translateY(-6px); box-shadow: inset 0 0 0 1px var(--vp-c-brand-1), 0 26px 40px -22px rgba(60, 30, 0, .45); outline: 0; }
+.sd-img { position: relative; display: grid; place-items: center; aspect-ratio: 4 / 3; overflow: hidden; border-radius: 16px; background: radial-gradient(circle at 50% 40%, #8a2a22, #590e0e 72%); color: #d9b878; }
+.sd-img img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; filter: saturate(.85) sepia(.08); transition: transform 1s cubic-bezier(.22, 1, .36, 1), filter .5s; }
+.sd-card:hover .sd-img img { transform: scale(1.06); filter: none; }
+.sd-img i { font: 3rem var(--font-display); font-style: normal; }
+.sd-img em { position: absolute; top: .8rem; left: .8rem; padding: .25em .7em; border-radius: 999px; background: rgba(43, 22, 0, .75); color: #ecd9b0; font: 500 .72rem var(--font-ui); font-style: normal; letter-spacing: .1em; }
+.sd-card strong { margin: 1.1rem .5rem .4rem; font: 500 1.5rem/1.15 var(--font-display); letter-spacing: -.02em; }
+.sd-card p { margin: 0 .5rem 1rem; color: var(--vp-c-text-2); font: .95rem/1.55 var(--font-ui); }
+.sd-card small { margin: auto .5rem 0; color: var(--vp-c-brand-1); font: 500 .82rem var(--font-ui); }
+
+.sd-bar { display: flex; flex-wrap: wrap; gap: 1.2rem 2rem; align-items: end; justify-content: space-between; margin: 5rem 0 1.6rem; padding-top: 2.4rem; border-top: 1px solid var(--vp-c-divider); }
+.sd-bar-title p { margin: .5rem 0 0; color: var(--vp-c-text-2); font: .95rem var(--font-ui); }
+.sd-bar-title b { color: var(--vp-c-brand-1); }
+.sd-tools { display: flex; flex-wrap: wrap; gap: .8rem 1rem; align-items: center; justify-content: flex-end; margin-left: auto; }
+@media (min-width: 760px) { .sd-tools { flex-wrap: nowrap; } }
+.sd-sort { display: inline-flex; padding: 4px; border-radius: 999px; box-shadow: inset 0 0 0 1px var(--vp-c-divider); }
+.sd-sort button { padding: .55em 1.2em; border: 0; border-radius: 999px; background: transparent; color: var(--vp-c-text-1); font: 500 .9rem var(--font-ui); cursor: pointer; transition: background .3s, color .3s; }
+.sd-sort button.on { background: var(--vp-c-brand-3); color: #f4e6c8; }
+.dark .sd-sort button.on { background: var(--vp-c-brand-1); color: #2a1500; }
+.sd-search { display: flex; gap: .7rem; align-items: center; min-width: min(100%, 260px); height: 44px; padding: 0 18px; border-radius: 999px; background: var(--vp-c-bg-elv); box-shadow: inset 0 0 0 1px var(--vp-c-divider); color: var(--vp-c-brand-1); }
+.sd-search:focus-within { box-shadow: inset 0 0 0 1.5px var(--vp-c-brand-1); }
+.sd-search svg { width: 17px; height: 17px; flex: none; }
+.sd-search input { width: 100%; border: 0; outline: 0; background: transparent; color: var(--vp-c-text-1); font: .95rem var(--font-ui); }
+.sd-rows { display: grid; gap: .5rem; margin: 0; padding: 0; list-style: none; }
+.sd-rows li { margin: 0; }
+.sd-rows a { display: grid; grid-template-columns: minmax(0, 15rem) minmax(0, 1fr) minmax(0, 11rem) auto; gap: 1.5rem; align-items: center; padding: 1rem 1.5rem; border-radius: 20px; color: inherit; text-decoration: none; box-shadow: inset 0 0 0 1px var(--vp-c-divider); transition: background .3s, box-shadow .3s, transform .4s cubic-bezier(.22, 1, .36, 1); }
+.sd-rows a:hover, .sd-rows a:focus-visible { background: var(--vp-c-bg-elv); box-shadow: inset 0 0 0 1px var(--vp-c-brand-1); transform: translateX(4px); outline: 0; }
+.sd-rows strong { display: flex; gap: .7rem; align-items: baseline; font: 500 1.25rem/1.2 var(--font-display); letter-spacing: -.01em; }
+.sd-rows strong small { color: var(--vp-c-brand-1); font: 500 .7rem var(--font-ui); letter-spacing: .1em; }
+.sd-rows span { color: var(--vp-c-text-2); font: .95rem/1.5 var(--font-ui); }
+.sd-rows em { color: var(--vp-c-brand-1); font: normal 500 .85rem var(--font-ui); text-align: right; }
+.sd-rows b { color: var(--vp-c-text-3); font-weight: 500; transition: transform .4s cubic-bezier(.22, 1, .36, 1), color .3s; }
+.sd-rows a:hover b { color: var(--vp-c-brand-1); transform: translateX(4px); }
+.sdc-enter-active { transition: opacity .4s ease, transform .5s cubic-bezier(.22, 1, .36, 1); transition-delay: calc(var(--i, 0) * 25ms); }
+.sdc-leave-active { transition: opacity .15s ease, transform .15s ease; }
+.sdc-move { transition: transform .45s cubic-bezier(.22, 1, .36, 1); }
+.sdc-enter-from { opacity: 0; transform: translateY(12px); }
+.sdc-leave-to { opacity: 0; transform: scale(.98); }
+@media (max-width: 900px) { .sd-rows a { grid-template-columns: minmax(0, 1fr) auto; } .sd-rows span, .sd-rows em { grid-column: 1 / -1; text-align: left; } .sd-rows b { grid-row: 1; grid-column: 2; } }
+@media (max-width: 600px) { .sd { width: min(100% - 32px, 1240px); } }
+@media (prefers-reduced-motion: reduce) { .sdc-enter-active, .sdc-leave-active, .sdc-move { transition: none; } }
+</style>

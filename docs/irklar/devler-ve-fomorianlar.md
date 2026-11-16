@@ -1,6 +1,7 @@
 ---
 title: Devler ve Fomorianlar
 outline: false
+pageClass: people-page
 ---
 <div class="lore-kicker">Kadim Büyük Halklar · Harabe Taşı</div>
 

@@ -1,6 +1,7 @@
 ---
 title: Autognomlar
 outline: false
+pageClass: people-page
 ---
 <div class="lore-kicker"> Peoples · Hearts of Brass </div>
 

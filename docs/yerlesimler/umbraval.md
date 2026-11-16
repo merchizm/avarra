@@ -1,6 +1,7 @@
 ---
 title: Umbraval
 outline: deep
+pageClass: people-page city-page
 ---
 
 <div class="lore-kicker">Yerleşimler · Serbest Şehir ve Kuzey Kıyısı Limanı</div>

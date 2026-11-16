@@ -1,6 +1,7 @@
 ---
 title: Veyranlar
 outline: false
+pageClass: people-page
 ---
 
 <div class="lore-kicker">Halklar · Asteron</div>
@@ -8,10 +9,6 @@ outline: false
 # Veyranlar
 
 <p class="lore-lead">Veyranlar bütünüyle insansı görünüşlü, çift halkalı irisleri ve ellerindeki ince doğal çizgileriyle tanınan halktır. Ordan'ın kurucu halkı olmaları, bütün Veyranların imparatorluğu desteklediği anlamına gelmez.</p>
-
-## Kaynak
-
-Veyranlar, D&D’nin yayımlanmış bir oyuncu halkının karşılığı değildir; Avarra için oluşturulmuş özgün halktır. Oyunsal olarak insanımsı bir karakter için kullanılabilir, ancak kimlikleri Player’s Handbook’taki bir soyun alt adı sayılmaz.
 
 ## Oluşum: Yedi Hat Sığınağı
 
@@ -47,3 +44,7 @@ Meridyen Veyranları kayıt ve ölçümü kutsal görür. Sınır Veyranları ye
 - İmparatorluğun “seçilmiş kurucu halk” anlatısı bir karakterin inancı, reddettiği propaganda ya da aile içi çatışması olabilir; biyolojik gerçek değildir.
 
 <div class="creature-layout"><section class="creature-statblock"><h2>Veyran Meridyen Müfettişi</h2><p class="creature-type">Orta Boy humanoid (Veyran), genellikle yasal eğilim</p><div class="creature-vitals"><p><b>Savunma</b> 16 (göğüslük)</p><p><b>Can Puanı</b> 60 (8d8 + 24)</p><p><b>Hız</b> 9 m.</p></div><div class="ability-grid"><div><b>GÜÇ</b><strong>13</strong><span>(+1)</span></div><div><b>ÇEV</b><strong>14</strong><span>(+2)</span></div><div><b>DAY</b><strong>16</strong><span>(+3)</span></div><div><b>ZEK</b><strong>17</strong><span>(+3)</span></div><div><b>BİL</b><strong>15</strong><span>(+2)</span></div><div><b>KAR</b><strong>14</strong><span>(+2)</span></div></div><div class="creature-details"><p><b>Kurtarışlar</b> Zek +5, Bil +4</p><p><b>Beceriler</b> Araştırma +7, İçgörü +4, İkna +4, Tarih +5</p><p><b>Duyular</b> pasif Algı 12</p><p><b>Diller</b> Ortak Dil, Veyranca ve bir eyalet dili</p><p><b>Tehdit</b> 3 · <b>Deneyim Ödülü</b> 700 • <b>Yeterlilik Bonusu</b> +2</p></div><div class="creature-section"><h3>Özellikler</h3><p><b>Çifte Odak.</b> Müfettiş, illüzyonları inceleme ve sahte belgeyi fark etme kontrollerinde avantaj sahibidir.</p><p><b>Kayıtlı Hedef.</b> Bonus eylem olarak görebildiği bir yaratığı 1 dakika kaydeder. Müfettiş, kayıtlı hedefe karşı saldırı ve Araştırma kontrollerine +1 kazanır.</p><p><b>Düzenli Zihin.</b> Müfettiş büyülenmiş durumuna karşı kurtarışlarda avantaj sahibidir.</p></div><div class="creature-section"><h3>Eylemler</h3><p><b>Çoklu Saldırı.</b> Müfettiş ölçü kılıcıyla iki saldırı yapar.</p><p><b>Ölçü Kılıcı.</b> Yakın Dövüş Silah Saldırısı: isabet için +4, menzil 1,5 m., bir hedef. İsabet: 7 (1d8 + 2 artı 1d4) kesici ve kuvvet hasarı.</p><p><b>Bağlayıcı Emir (Yeniden Şarj 5–6).</b> 9 metre içindeki bir yaratık GD 13 Bilgelik kurtarışı yapar. Başarısızsa sonraki turunun sonuna kadar hızı 0 olur ve tepki kullanamaz.</p></div></section><aside class="creature-profile"><div class="portrait-placeholder has-image"><img src="/assets/illustrations/veyran.png" alt="VEYRANLAR görseli" /></div></aside></div>
+
+## Kaynak
+
+Veyranlar, D&D’nin yayımlanmış bir oyuncu halkının karşılığı değildir; Avarra için oluşturulmuş özgün halktır. Oyunsal olarak insanımsı bir karakter için kullanılabilir, ancak kimlikleri Player’s Handbook’taki bir soyun alt adı sayılmaz.

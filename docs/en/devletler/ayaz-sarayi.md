@@ -1,6 +1,7 @@
 ---
 title: Frost Throne
 outline: false
+pageClass: people-page state-page
 ---
 <div class="lore-kicker">Ilyr-Khaz · State Register</div>
 

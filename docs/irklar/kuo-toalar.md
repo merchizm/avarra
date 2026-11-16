@@ -1,6 +1,7 @@
 ---
 title: Kuo-Toalar
 outline: false
+pageClass: people-page
 ---
 
 <div class="lore-kicker">Halklar · Yeraltı Denizi</div>

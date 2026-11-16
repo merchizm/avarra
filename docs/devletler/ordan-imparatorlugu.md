@@ -1,6 +1,7 @@
 ---
 title: Ordan İmparatorluğu
 outline: false
+pageClass: people-page state-page
 ---
 
 <div class="lore-kicker">Asteron · Devlet Kaydı</div>

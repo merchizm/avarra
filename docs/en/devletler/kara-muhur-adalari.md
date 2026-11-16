@@ -1,6 +1,7 @@
 ---
 title: Black Seal Isles
 outline: deep
+pageClass: people-page state-page
 ---
 
 <div class="lore-kicker">Outer Seas · Island State and Payment Standard</div>

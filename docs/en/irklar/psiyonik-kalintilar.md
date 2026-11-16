@@ -1,6 +1,7 @@
 ---
 title: Psiyonik Kalıntılar
 outline: false
+pageClass: people-page
 ---
 <div class="lore-kicker"> Ancient Peoples · Unsealed </div>
 

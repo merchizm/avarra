@@ -1,6 +1,7 @@
 ---
 title: Tortlelar
 outline: false
+pageClass: people-page
 ---
 
 <div class="lore-kicker">Halklar · Uzun Kabuk Yolları</div>

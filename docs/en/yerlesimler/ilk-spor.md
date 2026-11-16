@@ -1,6 +1,7 @@
 ---
 title: First Sport
 outline: false
+pageClass: people-page city-page
 ---
 <div class="lore-kicker">Settlements · Government Center</div>
 
@@ -14,7 +15,7 @@ outline: false
 
 | Field | Record |
 | --- | --- |
-| Layer | [Hollow Countries](../cografya/underground) |
+| Layer | [Hollow Countries](../cografya/yeraltı) |
 | Physical site | The old spore bowl and shared-memory pools at the heart of a wet fungus forest |
 | Access | Root paths marked by spore wind; outsiders need a filter mask and guide |
 | Nearby ties | Fisher Mother, Silent Hollow, and Hollow Ring healer routes |

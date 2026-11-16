@@ -1,6 +1,7 @@
 ---
 title: Warforgedler
 outline: false
+pageClass: people-page
 ---
 
 <div class="lore-kicker">Halklar · Yapay Halklar</div>

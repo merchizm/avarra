@@ -1,6 +1,7 @@
 ---
 title: Sis Adaları Cumhuriyeti
 outline: false
+pageClass: people-page state-page
 ---
 
 <div class="lore-kicker">Denizler · Ada Cumhuriyeti</div>

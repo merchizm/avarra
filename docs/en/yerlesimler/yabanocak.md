@@ -1,6 +1,7 @@
 ---
 title: Yabanocak
 outline: false
+pageClass: people-page city-page
 ---
 <div class="lore-kicker"> Top Eight Cities · Crown of Thorns Frontier </div>
 

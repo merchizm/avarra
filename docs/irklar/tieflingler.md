@@ -1,6 +1,7 @@
 ---
 title: Tieflingler
 outline: false
+pageClass: people-page
 ---
 
 <div class="lore-kicker">Halklar · Soy ve Dönüşüm</div>

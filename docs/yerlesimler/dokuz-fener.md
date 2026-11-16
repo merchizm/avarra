@@ -1,6 +1,7 @@
 ---
 title: Dokuz Fener Birliği
 outline: false
+pageClass: people-page city-page
 ---
 <div class="lore-kicker">İlk Sekiz Şehir · Oyuk Ülkeler</div>
 

@@ -1,6 +1,7 @@
 ---
 title: Kenkular
 outline: false
+pageClass: people-page
 ---
 
 <div class="lore-kicker">Halklar · Yankı Kervanları</div>

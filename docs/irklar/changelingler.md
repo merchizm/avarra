@@ -1,6 +1,7 @@
 ---
 title: Changelingler
 outline: false
+pageClass: people-page
 ---
 
 <div class="lore-kicker">Halklar · Sis Adaları</div>

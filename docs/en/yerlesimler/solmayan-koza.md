@@ -1,6 +1,7 @@
 ---
 title: Unfading Cocoon
 outline: false
+pageClass: people-page city-page
 ---
 <div class="lore-kicker">Settlements · Government Center</div>
 
@@ -14,7 +15,7 @@ outline: false
 
 | Field | Record |
 | --- | --- |
-| Layer | [Hollow Countries](../cografya/underground) · edge of the Sealed Deep |
+| Layer | [Hollow Countries](../cografya/yeraltı) · edge of the Sealed Deep |
 | Physical site | A dry fungus basin of silk and ash cocoons where life cycles slow |
 | Access | Quarantine gates, one-way supply tunnel, and supervised convoys from Dark Harbor |
 | Nearby ties | Vel-Shaar, Silent Hollow, and neighbouring-basin quarantine stations |

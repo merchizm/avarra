@@ -1,6 +1,7 @@
 ---
 title: Deniz Elfleri
 outline: false
+pageClass: people-page
 ---
 
 <div class="lore-kicker">Halklar · Mercan Sarayları</div>

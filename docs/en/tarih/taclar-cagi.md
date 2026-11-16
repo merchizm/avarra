@@ -1,6 +1,7 @@
 ---
 title: Age of Crowns
 outline: false
+pageClass: people-page era-page
 ---
 
 <div class="lore-kicker">Era V · 1500–350 BC</div>

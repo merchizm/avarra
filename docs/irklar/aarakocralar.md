@@ -1,6 +1,7 @@
 ---
 title: Aarakocralar
 outline: false
+pageClass: people-page
 ---
 
 <div class="lore-kicker">Halklar · Rüzgâr Kuleleri</div>

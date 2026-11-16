@@ -1,6 +1,7 @@
 ---
 title: İlk Fey Mirası
 outline: [2, 3]
+pageClass: people-page
 ---
 
 <div class="lore-kicker">Kadim Büyük Halklar · Kököte Rehberi</div>

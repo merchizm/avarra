@@ -1,6 +1,7 @@
 ---
 title: Red Stream
 outline: false
+pageClass: people-page city-page
 ---
 <div class="lore-kicker">Settlements · Government Center</div>
 
@@ -14,7 +15,7 @@ outline: false
 
 | Field | Record |
 | --- | --- |
-| Layer | [Seas of Avarra](../cografya/seas) · warm hunting current |
+| Layer | [Seas of Avarra](../cografya/denizler) · warm hunting current |
 | Physical site | A deep warm-current junction marked by bands of red algae |
 | Access | Underwater routes tracking hunting shoals and narrow rifts that open only to blood marks |
 | Nearby ties | [Triple Lance](./uclu-mizrak), open-ocean hunting grounds, and Sahuagin confederacies |

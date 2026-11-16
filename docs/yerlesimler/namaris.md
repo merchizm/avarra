@@ -1,6 +1,7 @@
 ---
 title: Namaris
 outline: false
+pageClass: people-page city-page
 ---
 <div class="lore-kicker">İlk Sekiz Şehir · Nehir Tahtı</div>
 

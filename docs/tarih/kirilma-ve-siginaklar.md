@@ -1,6 +1,7 @@
 ---
 title: Kırılma ve Sığınaklar Çağı
 outline: false
+pageClass: people-page era-page
 ---
 
 <div class="lore-kicker">Çağ IV · SÖ 2700–1500</div>

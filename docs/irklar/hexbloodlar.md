@@ -1,6 +1,7 @@
 ---
 title: Hexbloodlar
 outline: false
+pageClass: people-page
 ---
 
 <div class="lore-kicker">Halklar · Cadı Antları</div>

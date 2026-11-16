@@ -1,6 +1,7 @@
 ---
 title: Elyrakök
 outline: false
+pageClass: people-page city-page
 ---
 <div class="lore-kicker">İlk Sekiz Şehir · Diken Tacı</div>
 

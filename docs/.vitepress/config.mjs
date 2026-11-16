@@ -345,8 +345,15 @@ export default defineConfig({
     }
   },
   themeConfig: {
+    siteTitle: false,
     search: {
-      provider: 'local'
+      provider: 'local',
+      options: {
+        locales: {
+          root: { translations: { button: { buttonText: 'Kayıtlarda ara', buttonAriaLabel: 'Ara' }, modal: { displayDetails: 'Ayrıntıları göster', resetButtonTitle: 'Aramayı temizle', backButtonTitle: 'Aramayı kapat', noResultsText: 'Bu iz hiçbir kayda varmadı', footer: { selectText: 'seç', navigateText: 'gezin', closeText: 'kapat' } } } },
+          en: { translations: { button: { buttonText: 'Search the records', buttonAriaLabel: 'Search' }, modal: { displayDetails: 'Show details', resetButtonTitle: 'Clear search', backButtonTitle: 'Close search', noResultsText: 'This trail led to no record', footer: { selectText: 'select', navigateText: 'navigate', closeText: 'close' } } } }
+        }
+      }
     },
     nav: [
       { text: 'Atlas', link: '/haritalar/dunya' },

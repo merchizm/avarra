@@ -1,6 +1,7 @@
 ---
 title: Simic Melezleri
 outline: false
+pageClass: people-page
 ---
 
 <div class="lore-kicker">Avarra Halkları · Yerel Kayıt</div>

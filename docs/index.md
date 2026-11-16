@@ -4,16 +4,17 @@ title: Avarra Kronikleri
 outline: false
 ---
 
-<section class="chronicle-cover">
-  <div class="chronicle-sigil">✦</div>
-  <p class="chronicle-eyebrow">Avarra'nın Kadim Kayıtları</p>
-  <h1>AVARRA</h1>
-  <p class="chronicle-subtitle">Bilinen Dünyanın Atlası, Halkları ve Kadim Gelenekleri</p>
-  <div class="chronicle-rule"><span></span></div>
-  <p class="chronicle-intro">Bu sayfalar, hanedanların kurulduğu ve kapıların hâlâ başka âlemlere açıldığı dünyanın yaşayan hafızasıdır. Her kayıt, bir seyyahın notu; her harita, geri dönülmüş bir yol olsun.</p>
-  <div class="chronicle-actions"><a class="chronicle-button" href="./haritalar/dunya">Atlası Aç</a><HomeRandomRecord /></div>
+<section class="sbh" aria-labelledby="sbh-title">
+  <div class="sbh__grain" aria-hidden="true"></div>
+  <div class="sbh__content">
+    <h1 id="sbh-title" class="sbh__title"><span class="sbh__line"><span class="sbh__word"><span style="--i:0">Bilinen</span></span> <span class="sbh__word"><span style="--i:1">Dünyanın</span></span> </span><span class="sbh__line"><span class="sbh__word"><span style="--i:2">Kadim</span></span> <span class="sbh__word"><span style="--i:3">Hafızası</span></span> </span></h1>
+    <p class="sbh__sub">Avarra'nın atlası, halkları ve kadim gelenekleri. Her kayıt bir seyyahın notu; her harita, geri dönülmüş bir yol.</p>
+    <div class="sbh__ctas"><a class="sbh__btn sbh__btn--primary" href="./haritalar/dunya">Atlası Aç</a><HomeRandomRecord /></div>
+  </div>
+  <div class="sbh__stage"><div class="sbh__art"><div class="sbh__arch"><img src="/assets/brand/avarra-emblem.webp" alt="Avarra: kurdeleyle sarılı mızrak ve pusula amblemi" width="1136" height="1385"><div class="sbh__glow"></div><span class="sbh__star" style="left:50%;top:7%;--size:5%;--d:0s"></span><span class="sbh__star" style="left:17%;top:28%;--size:4%;--d:1.4s"></span><span class="sbh__star" style="left:83%;top:24%;--size:5%;--d:2.3s"></span><span class="sbh__star" style="left:10%;top:52%;--size:4%;--d:0.8s"></span><span class="sbh__star" style="left:90%;top:58%;--size:4%;--d:3.1s"></span><span class="sbh__star" style="left:20%;top:80%;--size:5%;--d:1.9s"></span><span class="sbh__star" style="left:80%;top:84%;--size:4%;--d:2.7s"></span></div></div></div>
 </section>
 
+<div class="sbh-hall">
 <section class="chronicle-orientation">
   <div><p class="lore-kicker">İlk adım</p><h2>Dünyaya bir kapıdan girin</h2></div>
   <p>Avarra, yalnız krallıkların ya da canavarların toplamı değildir. Bir şehir su hakkı yüzünden bölünebilir; bir inanç yol ağıyla ayakta kalabilir; eski bir çağ bugünün borçlarını belirleyebilir. Başlamak için aşağıdaki izlerden birini seçin.</p>
@@ -27,6 +28,7 @@ outline: false
   <a class="chronicle-entry" href="./kulturler/"><span>Ⅴ</span><div><small>Gelenekler</small><strong>İnançlar ve Kültürler</strong><p>Ritüeller, hukuklar, hatıralar ve gündelik yaşam.</p></div></a>
   <a class="chronicle-entry" href="./tarih/"><span>Ⅵ</span><div><small>Vekayiname</small><strong>Çağlar</strong><p>Kırılmalar, hanedanlar ve dünyanın uzun hafızası.</p></div></a>
 </section>
+</div>
 
 <HomeFigures />
 
@@ -40,6 +42,6 @@ outline: false
 </section>
 
 <section class="chronicle-atlas-callout">
-  <div><p class="lore-kicker">Yolculuğa başla</p><h2>Haritadan başlayın, kayıtlarda kaybolun.</h2><p>Atlas kıtaları, ada gruplarını ve büyük geçitleri gösterir; ardından bir limana, bir inanç evine, bir hanedanın borç defterine veya unutulmuş bir sığınağa inebilirsiniz.</p><p><small>Harita yapım aşamasındadır ve dünya geliştikçe değişebilir.</small></p><a class="chronicle-button" href="./haritalar/dunya">Dünya Atlası →</a></div>
-  <a href="./haritalar/dunya" aria-label="Dünya Atlası'nı aç"><img src="/assets/maps/avarra-world-map.jpg" alt="Avarra dünya haritası — yapım aşamasında"></a>
+  <div><p class="lore-kicker">Yolculuğa başla</p><h2>Haritadan başlayın, kayıtlarda kaybolun.</h2><p>Atlas kıtaları, ada gruplarını ve büyük geçitleri gösterir; ardından bir limana, bir inanç evine, bir hanedanın borç defterine veya unutulmuş bir sığınağa inebilirsiniz.</p><p><small>Dünya yapım aşamasındadır, her şey değişebilir.</small></p><a class="chronicle-button" href="./haritalar/dunya">Dünya Atlası</a></div>
+  <HomeMapInk href="./haritalar/dunya" label="Dünya Atlası'nı aç" alt="Avarra dünya haritası — yapım aşamasında" />
 </section>

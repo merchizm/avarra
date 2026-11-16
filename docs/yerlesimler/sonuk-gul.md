@@ -1,6 +1,7 @@
 ---
 title: Sönük Gül
 outline: deep
+pageClass: people-page city-page
 ---
 
 <div class="lore-kicker">Yerleşimler · Nareth Orman Kuşağı</div>

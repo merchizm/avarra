@@ -1,6 +1,7 @@
 ---
 title: Faded Rose
 outline: deep
+pageClass: people-page city-page
 ---
 
 <div class="lore-kicker">Settlements · Nareth Forest Belt</div>

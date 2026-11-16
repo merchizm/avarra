@@ -1,6 +1,7 @@
 ---
 title: Locathahlar
 outline: false
+pageClass: people-page
 ---
 
 <div class="lore-kicker">Halklar · Deltalar</div>

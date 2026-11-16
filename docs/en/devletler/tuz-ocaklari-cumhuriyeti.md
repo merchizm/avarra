@@ -1,6 +1,7 @@
 ---
 title: Tuz Ocakları Cumhuriyeti
 outline: false
+pageClass: people-page state-page
 ---
 <div class="lore-kicker"> Asteron · Government Registration </div>
 

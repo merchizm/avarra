@@ -1,6 +1,7 @@
 ---
 title: Kar-Dur
 outline: false
+pageClass: people-page city-page
 ---
 <div class="lore-kicker">İlk Sekiz Şehir · Kar-Dur Taş Tacı</div>
 

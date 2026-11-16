@@ -1,6 +1,7 @@
 ---
 title: Ossai
 outline: false
+pageClass: people-page
 ---
 
 <div class="lore-kicker">Peoples of Avarra · Kharizha Courts and Rivers</div>

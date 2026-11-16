@@ -1,6 +1,7 @@
 ---
 title: Sunmeadow Union
 outline: false
+pageClass: people-page state-page
 ---
 <div class="lore-kicker"> Nareth · Government Registration </div>
 

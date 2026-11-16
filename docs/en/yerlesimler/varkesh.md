@@ -1,6 +1,7 @@
 ---
 title: Varkesh
 outline: deep
+pageClass: people-page city-page
 ---
 
 <div class="lore-kicker">Settlements · Island-City and State Centre</div>
@@ -36,4 +37,4 @@ On market days Varkesh trades more than spice or cloth. Repair of a quarter cist
 
 The city likes its military and financial power to look orderly. But when a convoy is late, great vaults are not the first things to fail: quarter kitchens and harbour shifts are. A good ruler is therefore measured not by how much credit they open, but which cistern, bakery, and watch remains open when war is delayed.
 
-→ [Varkesh state record](../devletler/varkesh) · [Forty Bridges](./kirk-kopru) · [Mazaros](./mazaros) · [City Diasporas](../kulturler/city-diasporas)
+→ [Varkesh state record](../devletler/varkesh) · [Forty Bridges](./kirk-kopru) · [Mazaros](./mazaros) · [City Diasporas](../kulturler/sehir-diasporalari)

@@ -1,6 +1,7 @@
 ---
 title: Varkesh
 outline: deep
+pageClass: people-page city-page
 ---
 
 <div class="lore-kicker">Yerleşimler · Ada-Kent ve Devlet Merkezi</div>

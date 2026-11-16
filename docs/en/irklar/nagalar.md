@@ -1,6 +1,7 @@
 ---
 title: Nagalar
 outline: false
+pageClass: people-page
 ---
 <div class="lore-kicker"> Ancient Peoples · Ruin Watch </div>
 

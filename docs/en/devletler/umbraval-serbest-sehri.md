@@ -1,6 +1,7 @@
 ---
 title: Free City of Umbraval
 outline: deep
+pageClass: people-page state-page
 ---
 
 <div class="lore-kicker">Odraka · Free City and Centre of Shadow Law</div>
@@ -9,7 +10,7 @@ outline: deep
 
 <p class="lore-lead">Umbraval is an independent port on Odraka’s northern coast, facing Merria. Sea passage, deep-water pilotage, and contract law made it prosperous; its most disputed export is the right to use shadows forcibly separated from people.</p>
 
-Umbraval has one law, one citizenship, and one harbour tax. The sovereign entity is the city itself. The [Shadow Union](../institutions/shadow-union) is a powerful institution born within it, not a separate state: it registers, leases, and guarantees shadow contracts across borders.
+Umbraval has one law, one citizenship, and one harbour tax. The sovereign entity is the city itself. The [Shadow Union](../kurumlar/golge-birligi) is a powerful institution born within it, not a separate state: it registers, leases, and guarantees shadow contracts across borders.
 
 ## Shadow right
 
@@ -36,4 +37,4 @@ Humans form a plurality in Umbraval. Water Genasi and Sea Elves are strong in pi
 
 In SS 83, two foreign crowns claim the shadows of the same prisoners from the Merria route. The Quay Council must confront the fact that the bodies are kept in the Rotten Apple Depots while Umbraval still claims legal neutrality.
 
-→ [Umbraval](../yerlesimler/umbraval) · [Shadow Union](../institutions/shadow-union) · [Odraka](../cografya/odraka) · [Velis](../yerlesimler/velis)
+→ [Umbraval](../yerlesimler/umbraval) · [Shadow Union](../kurumlar/golge-birligi) · [Odraka](../cografya/odraka) · [Velis](../yerlesimler/velis)

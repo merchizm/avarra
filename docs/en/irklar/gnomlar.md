@@ -1,6 +1,7 @@
 ---
 title: Gnomlar
 outline: false
+pageClass: people-page
 ---
 <div class="lore-kicker"> Peoples · Scheme and Curiosity </div>
 

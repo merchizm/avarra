@@ -1,6 +1,7 @@
 ---
 title: The Veil Wars and the Root Closure
 outline: false
+pageClass: people-page era-page
 ---
 
 <div class="lore-kicker">Era IV · 2700–2580 BC · Root Gates and Free Courts</div>
@@ -38,4 +39,4 @@ The Root Closure did not erase gates. It created common law requiring a keeper f
 - A court envoy says the Root Closure is breaking; the local keeper says it is finally being followed.
 - A human family requests hospitality from the Fey house its ancestors protected during the war.
 
-**Links:** [Fey Roads and Rootbeyond](../kulturler/fey-roads), [Age of Breakage and Refuges](./kirilma-ve-siginaklar), [Vein Civilizations](./damar-uygarliklari), [Thorn Crown](../devletler/diken-taci).
+**Links:** [Fey Roads and Rootbeyond](../kulturler/fey-yollari), [Age of Breakage and Refuges](./kirilma-ve-siginaklar), [Vein Civilizations](./damar-uygarliklari), [Thorn Crown](../devletler/diken-taci).

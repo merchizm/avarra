@@ -1,6 +1,7 @@
 ---
 title: Ayaz Tahtı
 outline: false
+pageClass: people-page state-page
 ---
 
 <div class="lore-kicker">Ilyr-Khaz · Devlet Kaydı</div>

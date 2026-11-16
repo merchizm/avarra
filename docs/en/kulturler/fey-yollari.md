@@ -1,6 +1,7 @@
 ---
 title: Fey Roads and Rootbeyond
 outline: false
+pageClass: people-page culture-doc
 ---
 
 <div class="lore-kicker">Planar Atlas · Oath, Root, and Gate</div>
@@ -39,7 +40,7 @@ Courts dispute not land but **which story binds**. The First Fey concepts—Hung
 
 In the final centuries of the Vein Union, human scribes and military administrators attempted to turn Root Gates into measurable stations. Passage shares, gate taxes, and “security” claims on anchors broke the courts’ free-passage law. Some courts joined this order for protection or trade; most insisted no state could own a gate.
 
-The **Root Closure** at the end of the [Veil Wars](../tarih/veil-wars) made gates rare, oath-bound, and dependent on local care. It was not a Fey victory; it was a fragile settlement accepted at great cost by human villages, Fey houses, and gate keepers.
+The **Root Closure** at the end of the [Veil Wars](../tarih/perde-savaslari) made gates rare, oath-bound, and dependent on local care. It was not a Fey victory; it was a fragile settlement accepted at great cost by human villages, Fey houses, and gate keepers.
 
 ## Major root anchors in Avarra
 
@@ -57,4 +58,4 @@ The **Root Closure** at the end of the [Veil Wars](../tarih/veil-wars) made gate
 - A Rootbeyond-born character is not bound to one court. Leaving one is possible; the cost is usually an unfinished story rather than pursuit.
 - Rare gates make each Fey journey an adventure with a return time, hosting duty, and consequences in both worlds.
 
-**Links:** [First Fey Legacy](../irklar/ilk-fey), [Veil Wars](../tarih/veil-wars), [Thorn Crown](../devletler/diken-taci), [Threshold & Ancestors](./dinler/esik-ve-atalar).
+**Links:** [First Fey Legacy](../irklar/ilk-fey), [Veil Wars](../tarih/perde-savaslari), [Thorn Crown](../devletler/diken-taci), [Threshold & Ancestors](./dinler/esik-ve-atalar).

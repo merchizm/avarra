@@ -1,6 +1,7 @@
 ---
 title: Owlinler
 outline: false
+pageClass: people-page
 ---
 
 <div class="lore-kicker">Halklar · Gece Arşivleri</div>

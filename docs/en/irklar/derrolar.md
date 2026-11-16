@@ -1,6 +1,7 @@
 ---
 title: Derrolar
 outline: false
+pageClass: people-page
 ---
 <div class="lore-kicker"> Peoples · Seal Dreams </div>
 

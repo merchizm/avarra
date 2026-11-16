@@ -1,6 +1,7 @@
 ---
 title: Sâlvara
 outline: deep
+pageClass: people-page city-page
 ---
 
 <div class="lore-kicker">Settlements · Port of Lifespan Trade</div>
@@ -35,4 +36,4 @@ Sâlvarans speak of time as wealth that can be stored, divided, and inherited. I
 - A Late Gardens vault opens. The years do not return, but everyone in the house that took them ages in a single night.
 - A healer on Fading Quay finds a forbidden method that can save a prisoner’s organs without taking their years.
 
-→ [Sâlvara state record](../devletler/salvara) · Slave Bay · [Umbraval](./umbraval) · [Shadow Union](../institutions/shadow-union)
+→ [Sâlvara state record](../devletler/salvara) · Slave Bay · [Umbraval](./umbraval) · [Shadow Union](../kurumlar/golge-birligi)

@@ -1,6 +1,7 @@
 ---
 title: Kara Mühür Adaları
 outline: deep
+pageClass: people-page city-page
 ---
 
 <div class="lore-kicker">Yerleşimler · Ada Devleti ve Ölçü Merkezi</div>

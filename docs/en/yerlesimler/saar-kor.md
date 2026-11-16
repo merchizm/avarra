@@ -1,6 +1,7 @@
 ---
 title: Saar-Kor
 outline: false
+pageClass: people-page city-page
 ---
 <div class="lore-kicker">Settlements · Government Center</div>
 
@@ -8,7 +9,7 @@ outline: false
 
 ## Open neighbourhoods
 
-Giff freight workers, Leonin route wardens, and Flamekin hearthkeepers are familiar in caldera watches; see [City Diasporas](../kulturler/city-diasporas).
+Giff freight workers, Leonin route wardens, and Flamekin hearthkeepers are familiar in caldera watches; see [City Diasporas](../kulturler/sehir-diasporalari).
 
 <p class="lore-lead">It is the capital of the Red Saar, built on the terraces of the large inactive caldera. There are dragon tombs, war academies and genealogical archives.</p>
 

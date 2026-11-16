@@ -1,6 +1,7 @@
 ---
 title: Mazaros
 outline: false
+pageClass: people-page city-page
 ---
 <div class="lore-kicker">Settlements · Government Center</div>
 
@@ -8,7 +9,7 @@ outline: false
 
 ## Open neighbourhoods
 
-Hadozee, Thri-kreen, Harpy, and Kalamer households sustain port partnership and rescue shares; see [City Diasporas](../kulturler/city-diasporas).
+Hadozee, Thri-kreen, Harpy, and Kalamer households sustain port partnership and rescue shares; see [City Diasporas](../kulturler/sehir-diasporalari).
 
 <p class="lore-lead">It is the largest navy and shipyard city of the Labyrinth Ports. The streets are curved for defense, and the harbor pools are connected to each other by secret channels.</p>
 

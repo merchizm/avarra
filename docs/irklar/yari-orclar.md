@@ -1,6 +1,7 @@
 ---
 title: Yarı-Orclar
 outline: false
+pageClass: people-page
 ---
 
 <div class="lore-kicker">Halklar · Sınır Arabulucuları</div>

@@ -1,6 +1,9 @@
 ---
 title: City Diasporas and Open Neighbourhoods
+pageClass: people-page culture-doc
 ---
+
+<div class="lore-kicker">Culture Canon · City Life</div>
 
 # City Diasporas and Open Neighbourhoods
 

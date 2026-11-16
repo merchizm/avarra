@@ -19,4 +19,4 @@ outline: false
 
 [Kar-Dur](../yerlesimler/kar-dur) and the coastal ports are not cities for one people alone: sea peoples, artisans, migrant households and traders prepare for winter together. A Rimekin or Shadar-kai character can be rare without being alone, through guesthouses, guild partners and kinship ties.
 
-**Related records:** [Peoples](../irklar/), [Settlements](../yerlesimler/), [Atlas](../atlas).
+**Related records:** [Peoples](../irklar/), [Settlements](../yerlesimler/), [Atlas](../haritalar/dunya).

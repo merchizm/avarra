@@ -1,6 +1,7 @@
 ---
 title: Fey Yolları ve Kököte
 outline: false
+pageClass: people-page culture-doc
 ---
 
 <div class="lore-kicker">Düzlemler Arası Atlas · Ant, Kök ve Geçit</div>

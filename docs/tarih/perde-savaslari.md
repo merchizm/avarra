@@ -1,6 +1,7 @@
 ---
 title: Perde Savaşları ve Kök Kapanışı
 outline: false
+pageClass: people-page era-page
 ---
 
 <div class="lore-kicker">Çağ IV · SÖ 2700–2580 · Kök Kapıları ve Özgür Mahkemeler</div>

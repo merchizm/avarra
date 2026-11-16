@@ -1,6 +1,7 @@
 ---
 title: Umbraval
 outline: deep
+pageClass: people-page city-page
 ---
 
 <div class="lore-kicker">Settlements · Free City and Northern Coast Port</div>
@@ -37,4 +38,4 @@ The depots being on islands does not make those islands a separate slave state. 
 - In Four Word Courts, a noble’s term sentence ends. Their shadow returns, but three new debt records made in their name appear with it.
 - A Gardener says a body that escaped the Rotten Apple Depots cannot survive; the fugitive insists their shadow is still working.
 
-→ [Free City of Umbraval](../devletler/umbraval-serbest-sehri) · [Shadow Union](../institutions/shadow-union) · [Odraka](../cografya/odraka)
+→ [Free City of Umbraval](../devletler/umbraval-serbest-sehri) · [Shadow Union](../kurumlar/golge-birligi) · [Odraka](../cografya/odraka)

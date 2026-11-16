@@ -1,6 +1,7 @@
 ---
 title: Leonin
 outline: false
+pageClass: people-page
 ---
 
 <div class="lore-kicker">Peoples of Avarra · Local Record</div>

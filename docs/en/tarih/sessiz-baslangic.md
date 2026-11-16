@@ -1,6 +1,7 @@
 ---
 title: Silent Start
 outline: false
+pageClass: people-page era-page
 ---
 <div class="lore-kicker">Era I · Before 9000 BC</div>
 
@@ -11,4 +12,4 @@ outline: false
 
 ## The Fey thread
 
-The First Separation did not erase the Fey from Avarra. It shaped **Rootbeyond**, a separate plane, and the Echo-Root that reaches between the worlds. First Fey accounts refuse one cause: some call it protection, some the cost of first freedom, and some the world’s own choice. What can be stated is that its roots were not yet gates, but a shared wound between the two worlds. [Fey Roads](../kulturler/fey-roads) gives the common framework for these accounts.
+The First Separation did not erase the Fey from Avarra. It shaped **Rootbeyond**, a separate plane, and the Echo-Root that reaches between the worlds. First Fey accounts refuse one cause: some call it protection, some the cost of first freedom, and some the world’s own choice. What can be stated is that its roots were not yet gates, but a shared wound between the two worlds. [Fey Roads](../kulturler/fey-yollari) gives the common framework for these accounts.

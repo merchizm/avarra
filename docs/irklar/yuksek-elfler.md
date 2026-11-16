@@ -1,6 +1,7 @@
 ---
 title: Yüksek Elfler
 outline: false
+pageClass: people-page
 ---
 
 <div class="lore-kicker">Halklar · Lethar</div>

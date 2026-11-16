@@ -1,6 +1,7 @@
 ---
 title: Szaïrler
 outline: false
+pageClass: people-page
 ---
 
 <div class="lore-kicker">Avarra Halkları · Kharizha ve Diaspora</div>

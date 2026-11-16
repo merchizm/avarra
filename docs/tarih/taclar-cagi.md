@@ -1,6 +1,7 @@
 ---
 title: Taçlar Çağı
 outline: false
+pageClass: people-page era-page
 ---
 
 <div class="lore-kicker">Çağ V · SÖ 1500–350</div>

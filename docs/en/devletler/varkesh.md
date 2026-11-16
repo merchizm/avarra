@@ -1,6 +1,7 @@
 ---
 title: Varkesh
 outline: deep
+pageClass: people-page state-page
 ---
 
 <div class="lore-kicker">Between Nareth and Odraka · Island-City Sovereignty</div>

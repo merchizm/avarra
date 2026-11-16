@@ -9,6 +9,9 @@ outline: false
 
 <p class="lore-lead">Avarra'da dağlar dünyanın kemikleri, nehirler damarları, ormanlar hafızası sayılır. Bu yalnızca mecaz değildir: fay hatları büyü taşır, yaşlı ormanlar ölülerin anılarını saklayabilir ve antik yollar fiziksel yasaları değiştirebilir.</p>
 
+<div class="content-warning" role="note"><span class="cw-icon" aria-hidden="true">!</span><div><strong>İçerik güncel değil</strong><p>Bu sayfadaki coğrafya kayıtları güncel kanonla uyuşmayabilir. Güncel bilgi için Dünya Atlası, Devletler ve Yerleşimler sayfalarına bakın.</p></div></div>
+
+
 ## Kıtalar ve sınırlar
 
 <div class="lore-grid">

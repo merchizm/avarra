@@ -1,6 +1,7 @@
 ---
 title: Hexbloodlar
 outline: false
+pageClass: people-page
 ---
 <div class="lore-kicker"> Peoples · Witches' Oaths </div>
 

@@ -1,6 +1,7 @@
 ---
 title: İlk Uyanışlar Çağı
 outline: false
+pageClass: people-page era-page
 ---
 
 <div class="lore-kicker">Çağ II · SÖ 9000–5200</div>

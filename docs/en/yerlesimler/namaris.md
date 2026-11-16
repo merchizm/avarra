@@ -1,6 +1,7 @@
 ---
 title: Namaris
 outline: false
+pageClass: people-page city-page
 ---
 <div class="lore-kicker"> Top Eight Cities · River Throne </div>
 
@@ -8,7 +9,7 @@ outline: false
 
 ## Open neighbourhoods
 
-Plasmoid care pools, Boggart gardens, and sea-people wharf networks are part of the city fabric; see [City Diasporas](../kulturler/city-diasporas).
+Plasmoid care pools, Boggart gardens, and sea-people wharf networks are part of the city fabric; see [City Diasporas](../kulturler/sehir-diasporalari).
  <p class="lore-lead"> A vibrant capital city formed by a combination of stone islands, stilt quarters, floating platforms and underwater settlements. The map cannot be used without the seasonal date. </p>
 <div class="record-layout"> <div> <h2> City ID </h2> <p> <b> Function: </b> river law, inland transport, fishing, diplomacy, and water magic.  <b> Population: </b> 2.3–3.8 million; in flood season the quay districts briefly rise above that band.  <b> Peoples: </b> Water Genasi, Sea Elves, Locathahs; Halfling, Human, Triton, Grung, and coastal peoples.  <b> Belief: </b> Path of Flow. </p> <h2> Government and districts </h2> <p> Queen Samara rules as a temporary carrier of the basin alongside the Reed Council and basin delegates. Crown Current, Three Mouth Market, Sunken Steps, Dry Dock, Silent Branch, Pearl Gate, and the Shallow Gardens are as important as any street. </p> <h2> Crisis </h2> <p> Samara and the rivers slow together; Silent Branch shows signs of Stagnation, while the throne factions disagree over healing, succession, and an Ordan military-port offer. </p> </div> <aside class="record-profile"> <figure class="city-concept-art"><img src="/assets/illustrations/cities/namaris-concept.png" alt="" /></figure> </aside> </div>
 

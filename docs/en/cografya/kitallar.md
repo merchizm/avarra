@@ -15,6 +15,6 @@ outline: false
   <a class="lore-card" href="./asteron"><h3>Asteron</h3><p>River manifests, northern passes, Ordan’s record system, and local councils.</p></a>
   <a class="lore-card" href="./odraka"><h3>Odraka</h3><p>Savanna, monsoon forests, dragon heritage, migration law, and rift harbours.</p></a>
   <a class="lore-card" href="./ilyr-khaz"><h3>Ilyr-Khaz</h3><p>Fjords, ice rifts, short summers, and the politics of preservation.</p></a>
-  <a class="lore-card" href="./seas"><h3>The Seas</h3><p>Surface routes, deep states, spawning coves, and maritime law.</p></a>
-  <a class="lore-card" href="./underground"><h3>The Underground</h3><p>Hollow Countries, ancient roads, air law, and deep cities.</p></a>
+  <a class="lore-card" href="./denizler"><h3>The Seas</h3><p>Surface routes, deep states, spawning coves, and maritime law.</p></a>
+  <a class="lore-card" href="./yeraltı"><h3>The Underground</h3><p>Hollow Countries, ancient roads, air law, and deep cities.</p></a>
 </div>

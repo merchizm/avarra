@@ -1,6 +1,7 @@
 ---
 title: Saar'ın İki Ejderha Tacı
 outline: false
+pageClass: people-page state-page
 ---
 <div class="lore-kicker"> Odraka · Government Registration </div>
 

@@ -1,6 +1,7 @@
 ---
 title: Qezh
 outline: false
+pageClass: people-page
 ---
 
 <div class="lore-kicker">Peoples of Avarra · Kharizha Desert</div>

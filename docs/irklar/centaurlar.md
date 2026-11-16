@@ -1,6 +1,7 @@
 ---
 title: Centaurlar
 outline: false
+pageClass: people-page
 ---
 
 <div class="lore-kicker">Halklar · Uçsuz Yol</div>

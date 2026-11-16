@@ -1,6 +1,7 @@
 ---
 title: Tazir Serbest Şehri
 outline: deep
+pageClass: people-page state-page
 ---
 
 <div class="lore-kicker">Odraka · Serbest Şehir ve Sarnıç Hukuku</div>

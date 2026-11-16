@@ -1,6 +1,7 @@
 ---
 title: Sâlvara
 outline: deep
+pageClass: people-page state-page
 ---
 
 <div class="lore-kicker">Odraka · Lifespan Council and Slave State</div>
@@ -49,4 +50,4 @@ Daily life is shaped by age counts. A child’s birthday is not only a celebrati
 
 The council’s three oldest houses demand transfers at the same time. Vault physicians and harbour healers warn that storage seals are failing and the years could rebound at lethal speed during transfer. At that moment Umbraval voids a shadow contract held by a Sâlvaran house. As war captives disappear between the two states’ records, the city begins to ask whether the vaults are actually empty.
 
-→ [Sâlvara](../yerlesimler/salvara) · Slave Bay · [Free City of Umbraval](./umbraval-serbest-sehri) · [Shadow Union](../institutions/shadow-union)
+→ [Sâlvara](../yerlesimler/salvara) · Slave Bay · [Free City of Umbraval](./umbraval-serbest-sehri) · [Shadow Union](../kurumlar/golge-birligi)

@@ -20,6 +20,7 @@ const categories = {
 }
 const filters = computed(() => [
   { key: 'all', label: isEnglish.value ? 'All' : 'Tümü' },
+  { key: 'avarra', label: isEnglish.value ? 'Native to Avarra' : 'Avarra’ya özgü' },
   ...Object.entries(categories).map(([key, value]) => ({ key, label: isEnglish.value ? value.en : value.tr }))
 ])
 const sourceLabels = {
@@ -420,6 +421,8 @@ const peoples = [...corePeople, ...additionalPeople]
 
 const localizedPeople = computed(() => peoples.map((person) => ({
   ...person,
+  slug: person.link,
+  native: sourceByLink[person.link] === 'avarra',
   image: peopleImages[person.link] || person.image,
   thumbnail: peopleThumbnails[peopleImages[person.link] || person.image],
   name: isEnglish.value ? (person.enName || englishNames[person.link] || person.name) : person.name,
@@ -429,16 +432,26 @@ const localizedPeople = computed(() => peoples.map((person) => ({
   link: isEnglish.value ? `/en${person.link}` : person.link
 })))
 
+// Öne çıkan halklar: yeni okuyucunun önce tanıması gerekenler. Sırayı ve listeyi buradan değiştirin.
+const featuredSlugs = ['/irklar/veyranlar', '/irklar/qezhler', '/irklar/szairler', '/irklar/yuksek-elfler', '/irklar/cuceler', '/irklar/ossailer']
+const showAll = ref(false)
+const PREVIEW = 12
+
 const visiblePeople = computed(() => {
   const locale = isEnglish.value ? 'en-US' : 'tr-TR'
   const normalized = query.value.trim().toLocaleLowerCase(locale)
   return localizedPeople.value.filter((person) => {
-    const matchesFilter = filter.value === 'all' || person.type === filter.value
+    const matchesFilter = filter.value === 'all' || (filter.value === 'avarra' ? person.native : person.type === filter.value)
     const matchesSearch = !normalized || `${person.name} ${person.typeLabel} ${person.description}`
       .toLocaleLowerCase(locale).includes(normalized)
     return matchesFilter && matchesSearch
   })
 })
+
+const searching = computed(() => query.value.trim() !== '' || filter.value !== 'all')
+const featured = computed(() => featuredSlugs.map((slug) => localizedPeople.value.find((p) => p.slug === slug)).filter(Boolean))
+const rest = computed(() => visiblePeople.value.filter((p) => !featuredSlugs.includes(p.slug)))
+const listed = computed(() => (searching.value ? visiblePeople.value : showAll.value ? rest.value : rest.value.slice(0, PREVIEW)))
 </script>
 
 <template>
@@ -455,19 +468,44 @@ const visiblePeople = computed(() => {
       </label>
     </header>
 
+    <div class="pf-wrap" :class="{ closed: searching }" :inert="searching"><section class="pf" :aria-label="isEnglish ? 'Featured peoples' : 'Öne çıkan halklar'">
+      <div class="pf-head">
+        <p class="lore-kicker">{{ isEnglish ? 'Start here' : 'Buradan başlayın' }}</p>
+        <h2>{{ isEnglish ? 'The peoples you will meet first' : 'İlk tanışacağınız halklar' }}</h2>
+        <p>{{ isEnglish ? 'The records most stories lean on. The full register follows below.' : 'Hikâyelerin çoğunun dayandığı kayıtlar. Tam liste aşağıda.' }}</p>
+      </div>
+      <div class="pf-grid">
+        <a v-for="person in featured" :key="person.slug" :href="withBase(person.link)" class="pf-card">
+          <span class="pf-img">
+            <picture v-if="person.image">
+              <source v-if="person.thumbnail" :srcset="withBase(person.thumbnail)" type="image/webp" />
+              <img :src="withBase(person.image)" :alt="person.name + ' portresi'" loading="lazy" decoding="async" />
+            </picture>
+            <span v-else class="pf-crest">{{ person.crest }}</span>
+          </span>
+          <span class="pf-kind">{{ person.native ? (isEnglish ? 'Native to Avarra' : 'Avarra’ya özgü') : person.typeLabel }}</span>
+          <strong>{{ person.name }}</strong>
+          <small>{{ person.description }}</small>
+        </a>
+      </div>
+    </section></div>
+
     <div class="people-toolbar">
-      <p><b>{{ visiblePeople.length }}</b> {{ isEnglish ? 'records shown' : 'kayıt gösteriliyor' }}</p>
+      <div class="people-all-head">
+        <h2>{{ searching ? (isEnglish ? 'Results' : 'Sonuçlar') : (isEnglish ? 'All peoples' : 'Tüm halklar') }}</h2>
+        <p><b>{{ searching ? visiblePeople.length : localizedPeople.length }}</b> {{ isEnglish ? 'records' : 'kayıt' }}</p>
+      </div>
       <div class="people-filters" :aria-label="isEnglish ? 'Filter by people type' : 'Halk türüne göre filtrele'">
         <button v-for="item in filters" :key="item.key" :class="{ active: filter === item.key }" @click="filter = item.key">{{ item.label }}</button>
       </div>
     </div>
 
     <p v-if="filter === 'Fey kökenli'" class="people-fey-note">
-      <a :href="withBase(isEnglish ? '/en/kulturler/fey-roads' : '/kulturler/fey-yollari')">{{ isEnglish ? 'What does Fey-linked mean in Avarra?' : 'Avarra’da Fey bağlantılı ne demek?' }}</a>
+      <a :href="withBase(isEnglish ? '/en/kulturler/fey-yollari' : '/kulturler/fey-yollari')">{{ isEnglish ? 'What does Fey-linked mean in Avarra?' : 'Avarra’da Fey bağlantılı ne demek?' }}</a>
     </p>
 
-    <div class="people-grid">
-      <component :is="person.link ? 'a' : 'article'" v-for="person in visiblePeople" :key="person.name"
+    <TransitionGroup name="pc" tag="div" class="people-grid">
+      <component :is="person.link ? 'a' : 'article'" v-for="(person, index) in listed" :key="person.name" :style="{ '--i': Math.min(index, 11) }"
         :href="person.link ? withBase(person.link) : undefined" class="people-card" :class="[person.className, { 'is-draft': !person.link }]">
         <div class="people-visual" :class="{ 'has-image': person.image }">
           <picture v-if="person.image">
@@ -485,6 +523,13 @@ const visiblePeople = computed(() => {
           <span v-else class="people-draft">{{ isEnglish ? 'Record in preparation' : 'Arşivci kaydı hazırlıyor' }}</span>
         </div>
       </component>
+    </TransitionGroup>
+
+    <div v-if="!searching && rest.length > PREVIEW" class="people-more">
+      <button type="button" @click="showAll = !showAll">
+        {{ showAll ? (isEnglish ? 'Show fewer' : 'Daha az göster') : (isEnglish ? `Show all ${rest.length} remaining peoples` : `Kalan ${rest.length} halkın tamamını göster`) }}
+        <span aria-hidden="true">{{ showAll ? '↑' : '↓' }}</span>
+      </button>
     </div>
 
     <p v-if="!visiblePeople.length" class="people-empty">{{ isEnglish ? 'No people match this search or filter.' : 'Bu arama veya filtreyle eşleşen bir halk bulunamadı.' }}</p>

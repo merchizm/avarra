@@ -1,6 +1,7 @@
 ---
 title: Yuan-ti
 outline: false
+pageClass: people-page
 ---
 <div class="lore-kicker">Kadim Halklar · Beden Yazısı</div>
 

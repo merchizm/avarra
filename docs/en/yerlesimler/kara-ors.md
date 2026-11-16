@@ -1,6 +1,7 @@
 ---
 title: Black Anvil
 outline: false
+pageClass: people-page city-page
 ---
 <div class="lore-kicker">Settlements · Government Center</div>
 
@@ -14,7 +15,7 @@ outline: false
 
 | Field | Record |
 | --- | --- |
-| Layer | [Fire Rifts](../cografya/underground) |
+| Layer | [Fire Rifts](../cografya/yeraltı) |
 | Physical site | Chain palaces suspended over a great magma chamber, above hot worker platforms |
 | Access | Chain lifts, upper bridges held by lineage houses, and magma-edge freight piers |
 | Nearby ties | [Kor-Dum](./kor-dum), Foundry Line, Kar-Dur’s old roads, and noble escape networks |

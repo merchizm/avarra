@@ -1,6 +1,7 @@
 ---
 title: First Fey Legacy
 outline: [2, 3]
+pageClass: people-page
 ---
 
 <div class="lore-kicker">Ancient Great Peoples · A Rootbeyond Guide</div>
@@ -9,7 +10,7 @@ outline: [2, 3]
 
 <p class="lore-lead">Fey is not the name of one bloodline. In D&D it is a broad creature type associated with magic, nature, and otherworlds; in Avarra it is shared language for Rootbeyond’s peoples, courts, oaths, and the far older independent First Fey.</p>
 
-This entry places D&D fey families in Avarra. It does not reproduce official rules text or monster statistics: consult the official source for a species option, spell, or stat block. What matters here is **who a being is in the world, what it safeguards, and at what cost it relates to mortals**. [Source & Adaptation Principle](./source-and-adaptation) explains the use of source labels.
+This entry places D&D fey families in Avarra. It does not reproduce official rules text or monster statistics: consult the official source for a species option, spell, or stat block. What matters here is **who a being is in the world, what it safeguards, and at what cost it relates to mortals**. [Source & Adaptation Principle](./kaynak-ve-uyarlama) explains the use of source labels.
 
 ## First distinction: fey, fey lineage, and First Fey
 
@@ -70,7 +71,7 @@ In this public record, “fey blood” is not turned into a claim of nobility. T
 
 Rootbeyond is Avarra’s counterpart to the D&D Feywild, but it is not ruled by one queen’s court or a single good-versus-evil axis. Free courts rest on guarded gates, remembered stories, and oaths recognized by one another rather than a shared throne.
 
-A court may lean toward spring, darkness, hunting, or revelry without making every member identical. Court membership is not hereditary citizenship: a Fairy can have lived in Ordan for three generations, and a Human can witness a gate’s oath. [Fey Roads](../kulturler/fey-roads) explains passages; [the Veil Wars](../tarih/veil-wars) explains why crossing became rare.
+A court may lean toward spring, darkness, hunting, or revelry without making every member identical. Court membership is not hereditary citizenship: a Fairy can have lived in Ordan for three generations, and a Human can witness a gate’s oath. [Fey Roads](../kulturler/fey-yollari) explains passages; [the Veil Wars](../tarih/perde-savaslari) explains why crossing became rare.
 
 ## Independent First Fey
 

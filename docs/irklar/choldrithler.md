@@ -1,6 +1,7 @@
 ---
 title: Choldrithler
 outline: false
+pageClass: people-page
 ---
 <div class="lore-kicker">Halklar · İpek Mahkemeleri</div>
 

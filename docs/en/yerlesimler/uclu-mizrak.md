@@ -1,6 +1,7 @@
 ---
 title: Triple Lance
 outline: false
+pageClass: people-page city-page
 ---
 <div class="lore-kicker">Settlements · Government Center</div>
 
@@ -14,7 +15,7 @@ outline: false
 
 | Field | Record |
 | --- | --- |
-| Layer | [Seas of Avarra](../cografya/seas) · intersection of three sea trenches |
+| Layer | [Seas of Avarra](../cografya/denizler) · intersection of three sea trenches |
 | Physical site | Giant basalt pillars standing over three facing abyssal rifts |
 | Access | Deep-dive routes, spiral currents inside the pillars, and signal corridors patrolled by Watch fleets |
 | Nearby ties | Red Stream hunting grounds, Blue Crown reefs, and the Deep Current migration way |

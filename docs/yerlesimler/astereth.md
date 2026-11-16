@@ -1,6 +1,7 @@
 ---
 title: Astereth
 outline: false
+pageClass: people-page city-page
 ---
 <div class="lore-kicker">İlk Sekiz Şehir · Lethar Yıldız Krallığı</div>
 

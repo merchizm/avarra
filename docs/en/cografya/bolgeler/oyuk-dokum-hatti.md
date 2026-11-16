@@ -25,4 +25,4 @@ The **Hollow Ring Council** backs open watches; **Black Anvil contractors** want
 - Blind Hearth’s casting mould vanishes before wages can be paid.
 - Stone Curtain’s new face changes more than the light.
 
-**Links:** [Underground](../underground), [Ruinbound](../../irklar/ruinboundlar), [Gnolls](../../irklar/gnollar), [Medusae](../../irklar/medusalar), [Black Anvil](../../yerlesimler/kara-ors).
+**Links:** [Underground](../yeraltı), [Ruinbound](../../irklar/ruinboundlar), [Gnolls](../../irklar/gnollar), [Medusae](../../irklar/medusalar), [Black Anvil](../../yerlesimler/kara-ors).

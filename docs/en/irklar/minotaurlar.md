@@ -1,6 +1,7 @@
 ---
 title: Minotaurlar
 outline: false
+pageClass: people-page
 ---
 <div class="lore-kicker"> Peoples · Coasts of Odraka </div>
 

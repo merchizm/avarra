@@ -1,6 +1,7 @@
 ---
 title: Psiyonik Kalıntılar
 outline: false
+pageClass: people-page
 ---
 <div class="lore-kicker">Kadim Halklar · Mühürden Çıkanlar</div>
 

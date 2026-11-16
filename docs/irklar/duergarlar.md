@@ -1,6 +1,7 @@
 ---
 title: Duergarlar
 outline: false
+pageClass: people-page
 ---
 
 <div class="lore-kicker">Halklar · Yeraltı</div>

@@ -1,6 +1,7 @@
 ---
 title: Fisherman Mother
 outline: false
+pageClass: people-page city-page
 ---
 <div class="lore-kicker"> Settlements · Government Center </div>
 
@@ -14,7 +15,7 @@ outline: false
 
 | Field | Record |
 | --- | --- |
-| Layer | [Hollow Countries](../cografya/underground) · Waveless Lake |
+| Layer | [Hollow Countries](../cografya/yeraltı) · Waveless Lake |
 | Physical site | Stilt districts and submerged temples along a great underground lake without currents |
 | Access | Silent oarboats, lake-bottom swim routes, and wet paths from First Spore |
 | Nearby ties | First Spore, Dark Harbor, and lakeside fishing villages |

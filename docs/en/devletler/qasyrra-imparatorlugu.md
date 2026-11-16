@@ -1,6 +1,7 @@
 ---
 title: Qasyrra Empire
 outline: false
+pageClass: people-page state-page
 ---
 
 <div class="lore-kicker">Kharizha Desert · State Record</div>

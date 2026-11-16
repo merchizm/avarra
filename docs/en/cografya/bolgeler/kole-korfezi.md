@@ -28,4 +28,4 @@ Sâlvaran officials call the region the **North Reckoning Coast**. Umbraval maps
 - An escape network in Broken Tide tries to rescue someone whose shadow works elsewhere while their years are held in a Sâlvara vault.
 - An envoy from Merria proposes a trade treaty banning every map that uses the name Slave Bay.
 
-→ [Odraka](../odraka) · [Sâlvara](../../devletler/salvara) · [Free City of Umbraval](../../devletler/umbraval-serbest-sehri) · [Shadow Union](../../institutions/shadow-union)
+→ [Odraka](../odraka) · [Sâlvara](../../devletler/salvara) · [Free City of Umbraval](../../devletler/umbraval-serbest-sehri) · [Shadow Union](../../kurumlar/golge-birligi)

@@ -45,7 +45,7 @@ function badge(state, label) {
 
 function decorate(root = document) {
   root.querySelectorAll?.('a:not(.state-flag-link)').forEach((link) => {
-    if (link.closest('.wiki-reference-preview')) return
+    if (link.closest('.wiki-reference-preview, .si, .sf, .VPNav, .VPMenu, .VPFlyout, .VPNavScreen, .VPLocalSearchBox, .pa, .backlinks')) return
     if (link.querySelector('img.state-flag')) return
     const state = states.find((item) => link.href.includes(`/devletler/${item[2]}`))
     if (!state) return

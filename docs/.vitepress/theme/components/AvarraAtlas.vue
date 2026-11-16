@@ -1,76 +1,86 @@
 <script setup>
-import { computed } from 'vue'
+import { computed, onMounted, ref } from 'vue'
 import { useData, withBase } from 'vitepress'
 
 const { lang } = useData()
-const isEnglish = computed(() => lang.value.startsWith('en'))
+const en = computed(() => lang.value.startsWith('en'))
 const mapImage = withBase('/assets/maps/avarra-world-map.jpg')
+const p = (path) => withBase(`${en.value ? '/en' : ''}${path}`)
+const places = [['Nareth', '/cografya/nareth'], ['Asteron', '/cografya/asteron'], ['Odraka', '/cografya/odraka'], ['Ilyr-Khaz', '/cografya/ilyr-khaz'], ['Avarra', '/cografya/denizler']]
+const frame = ref(null)
+const on = ref(false)
+onMounted(() => {
+  if (!('IntersectionObserver' in window) || matchMedia('(prefers-reduced-motion: reduce)').matches) { on.value = true; return }
+  const io = new IntersectionObserver(([e]) => { if (e.isIntersecting) { on.value = true; io.disconnect() } }, { threshold: 0.25 })
+  io.observe(frame.value)
+})
 </script>
 
 <template>
-  <section class="atlas" :aria-label="isEnglish ? 'Avarra world map' : 'Avarra dünya haritası'">
-    <div class="atlas-heading">
-      <p>{{ isEnglish ? 'The World of Avarra' : 'Avarra Dünyası' }}</p>
-      <h1>{{ isEnglish ? 'World Atlas' : 'Dünya Atlası' }}</h1>
-      <span>{{ isEnglish ? 'A fixed reference map for the continents, island chains and shores.' : 'Kıtalar, ada grupları ve kıyılar için sabit başvuru haritası.' }}</span>
+  <section class="atlas" :aria-label="en ? 'Avarra world map' : 'Avarra dünya haritası'">
+    <header class="atlas-head">
+      <p>{{ en ? 'The World of Avarra' : 'Avarra Dünyası' }}</p>
+      <h1>{{ en ? 'World Atlas' : 'Dünya Atlası' }}</h1>
+      <span>{{ en ? 'A reference map for the continents, island chains and shores. Hover the map to see it in colour.' : 'Kıtalar, ada grupları ve kıyılar için başvuru haritası. Renkleri görmek için haritanın üzerine gelin.' }}</span>
+    </header>
+
+    <div ref="frame" class="atlas-frame" :class="{ on }">
+      <svg viewBox="0 0 1200 700" preserveAspectRatio="xMidYMid slice" role="img" :aria-label="en ? 'Avarra: continents and island groups' : 'Avarra: kıtalar ve ada grupları'">
+        <defs>
+          <filter id="atlasink-f" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB">
+            <feTurbulence type="fractalNoise" baseFrequency="0.014" numOctaves="4" seed="9" result="n" />
+            <feDisplacementMap in="SourceGraphic" in2="n" scale="220" xChannelSelector="R" yChannelSelector="G" result="d" />
+            <feGaussianBlur in="d" stdDeviation="3" result="b" />
+            <feComponentTransfer in="b"><feFuncA type="linear" slope="16" intercept="-7" /></feComponentTransfer>
+          </filter>
+          <mask id="atlasink-m" maskUnits="userSpaceOnUse" x="0" y="0" width="1200" height="700">
+            <g filter="url(#atlasink-f)" fill="#fff">
+              <circle class="b b1" cx="600" cy="350" r="0" />
+              <circle class="b b2" cx="170" cy="160" r="0" />
+              <circle class="b b3" cx="1030" cy="540" r="0" />
+              <circle class="b b4" cx="1020" cy="130" r="0" />
+              <circle class="b b5" cx="180" cy="570" r="0" />
+              <circle class="b b6" cx="620" cy="620" r="0" />
+            </g>
+          </mask>
+        </defs>
+        <image class="base" :href="mapImage" width="1200" height="700" preserveAspectRatio="xMidYMid slice" />
+        <image class="ink" :href="mapImage" width="1200" height="700" preserveAspectRatio="xMidYMid slice" mask="url(#atlasink-m)" />
+      </svg>
     </div>
 
-    <a
-      class="atlas-map"
-      :href="mapImage"
-      target="_blank"
-      rel="noopener"
-      :aria-label="isEnglish ? 'Open the full-resolution Avarra map' : 'Avarra haritasını tam çözünürlükte aç'"
-    >
-      <img
-        :src="mapImage"
-        :alt="isEnglish ? 'Avarra: continents and island groups' : 'Avarra: kıtalar ve ada grupları'"
-      >
-      <span>{{ isEnglish ? 'Open the full-resolution map ↗' : 'Haritayı tam çözünürlükte aç ↗' }}</span>
-    </a>
+    <div class="atlas-bar">
+      <nav class="atlas-places" :aria-label="en ? 'Continents' : 'Kıtalar'">
+        <a v-for="[name, path] in places" :key="path" :href="p(path)">{{ name }}</a>
+      </nav>
+      <a class="atlas-full" :href="mapImage" target="_blank" rel="noopener">{{ en ? 'Full-resolution map' : 'Tam çözünürlüklü harita' }} ↗</a>
+    </div>
 
-    <p class="atlas-note">
-      {{ isEnglish ? 'This map is a work in progress and may change as Avarra develops. Select a record below to read the geography and history of a place.' : 'Bu harita yapım aşamasındadır; Avarra geliştikçe değişebilir. Bir yerin coğrafyasını ve tarihini okumak için aşağıdaki kayıtlardan birini seçin.' }}
-    </p>
+    <p class="atlas-note">{{ en ? 'The world is a work in progress; everything may change. Choose a record below to read a place’s geography and history.' : 'Dünya yapım aşamasındadır, her şey değişebilir. Bir yerin coğrafyasını ve tarihini okumak için aşağıdaki kayıtlardan birini seçin.' }}</p>
   </section>
 </template>
 
 <style scoped>
-.atlas {
-  --a-ink: #352817; --a-accent: #87501f; --a-border: #8b7143; --a-pill: #473019; --a-pill-ink: #fff1c9;
-  width: min(100% - 48px, 1240px);
-  margin: 2rem auto 1.5rem;
-  padding: clamp(1rem, 3vw, 2rem);
-  border: 1px solid var(--a-border);
-  background:
-    linear-gradient(90deg, rgb(94 67 29 / .07) 1px, transparent 1px) 0 0 / 1.6rem 1.6rem,
-    radial-gradient(circle at 15% 0%, rgb(255 233 177 / .25), transparent 29rem),
-    #e9dbb9;
-  box-shadow: inset 0 0 3rem rgb(85 55 21 / .12), 0 .75rem 1.7rem rgb(0 0 0 / .13);
-  color: var(--a-ink);
-}
-.atlas-heading { max-width: 46rem; margin: 0 auto 1.4rem; text-align: center; }
-.atlas-heading p { margin: 0 0 .35rem; color: var(--a-accent); font-family: Cinzel, Georgia, serif; font-size: .72rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; }
-.atlas-heading h1 { margin: 0; color: inherit; font-family: Cinzel, Georgia, serif; font-size: clamp(1.6rem, 5vw, 2.6rem); line-height: 1.15; }
-.atlas-heading span, .atlas-note { display: block; margin-top: .55rem; line-height: 1.65; opacity: .8; }
-.atlas-map { position: relative; display: block; overflow: hidden; border: 1px solid var(--a-border); background: #8ad7eb; box-shadow: 0 .6rem 1.4rem rgb(0 0 0 / .25); }
-.atlas-map img { display: block; width: 100%; height: auto; transition: transform .22s ease; }
-.atlas-map span { position: absolute; right: .8rem; bottom: .8rem; padding: .45rem .75rem; border: 1px solid rgb(255 244 216 / .45); background: var(--a-pill); color: var(--a-pill-ink); font-family: Cinzel, Georgia, serif; font-size: .68rem; letter-spacing: .06em; }
-.atlas-map:hover img, .atlas-map:focus-visible img { transform: scale(1.012); }
-.atlas-map:focus-visible { outline: 3px solid #f2cf7c; outline-offset: 4px; }
-.atlas-note { margin: 1rem 0 0; text-align: center; font-size: .9rem; }
-@media (max-width: 700px) { .atlas { width: min(100% - 32px, 1240px); } }
-@media (max-width: 640px) {
-  .atlas-map span { right: .5rem; bottom: .5rem; padding: .35rem .55rem; font-size: .6rem; }
-}
-</style>
-
-<style>
-.dark .atlas {
-  --a-ink: #eadab6; --a-accent: #d9a566; --a-border: #8c7650;
-  background:
-    linear-gradient(90deg, rgb(229 193 122 / .05) 1px, transparent 1px) 0 0 / 1.6rem 1.6rem,
-    radial-gradient(circle at 15% 0%, rgb(191 142 61 / .12), transparent 29rem),
-    #1a2524;
-}
+.atlas { width: min(100% - 48px, 1240px); margin: 3rem auto 2rem; text-align: center; }
+.atlas-head p { margin: 0 0 .6rem; color: var(--vp-c-brand-1); font: 500 .78rem var(--font-ui); letter-spacing: .16em; text-transform: uppercase; }
+.atlas-head h1 { margin: 0; padding: 0; border: 0; font: 500 clamp(2.6rem, 7vw, 5.4rem)/1 var(--font-display); letter-spacing: -.035em; color: var(--vp-c-brand-3); }
+.dark .atlas-head h1 { color: var(--vp-c-text-1); }
+.atlas-head span { display: block; max-width: 36rem; margin: 1.1rem auto 0; color: var(--vp-c-text-2); font-size: 1.1rem; line-height: 1.6; }
+.atlas-frame { position: relative; aspect-ratio: 12 / 7; margin-top: 2.4rem; overflow: hidden; border-radius: 28px; background: var(--vp-c-bg-soft); box-shadow: 0 0 0 1px var(--vp-c-divider), 0 0 0 10px var(--vp-c-bg), 0 0 0 11px var(--vp-c-divider), 0 40px 70px -30px rgba(60, 30, 0, .5); }
+.atlas-frame svg { display: block; width: 100%; height: 100%; }
+.base { filter: grayscale(1) sepia(.5); opacity: .22; }
+.ink { filter: grayscale(1) contrast(1.06); transition: filter .8s ease; }
+.atlas-frame:hover .ink { filter: none; }
+@media (hover: none) { .ink { filter: none; } }
+.b { transition: r 4.5s cubic-bezier(.55, .05, .35, 1); }
+.on .b { r: 380px; }
+.on .b1 { r: 520px; }
+.b2 { transition-delay: .5s; } .b3 { transition-delay: 1s; } .b4 { transition-delay: .7s; } .b5 { transition-delay: 1.3s; } .b6 { transition-delay: .9s; }
+.atlas-bar { display: flex; flex-wrap: wrap; gap: .8rem 1.5rem; align-items: center; justify-content: space-between; margin-top: 2.2rem; }
+.atlas-places { display: flex; flex-wrap: wrap; gap: .5rem; }
+.atlas-places a, .atlas-full { padding: .6em 1.2em; border-radius: 999px; box-shadow: inset 0 0 0 1px var(--vp-c-divider); color: var(--vp-c-text-1); font: 500 .95rem var(--font-ui); text-decoration: none; transition: background .3s, color .3s, box-shadow .3s; }
+.atlas-places a:hover, .atlas-full:hover { background: var(--vp-c-brand-3); color: #f4e6c8; box-shadow: none; }
+.dark .atlas-places a:hover, .dark .atlas-full:hover { background: var(--vp-c-brand-1); color: #2a1500; }
+.atlas-note { max-width: 40rem; margin: 2rem auto 0; color: var(--vp-c-text-3); font-size: .95rem; line-height: 1.6; }
+@media (max-width: 700px) { .atlas { width: min(100% - 32px, 1240px); } .atlas-frame { aspect-ratio: 4 / 3; border-radius: 20px; } .atlas-bar { justify-content: center; } }
 </style>

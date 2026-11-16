@@ -1,6 +1,7 @@
 ---
 title: Damar Uygarlıkları Çağı
 outline: false
+pageClass: people-page era-page
 ---
 
 <div class="lore-kicker">Çağ III · SÖ 5200–2700</div>

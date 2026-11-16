@@ -1,6 +1,7 @@
 ---
 title: Age of First Awakenings
 outline: false
+pageClass: people-page era-page
 ---
 
 <div class="lore-kicker">Era II · 9000–5200 BC</div>

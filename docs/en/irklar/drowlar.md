@@ -1,6 +1,7 @@
 ---
 title: Drowlar
 outline: false
+pageClass: people-page
 ---
 <div class="lore-kicker"> Peoples · Underground </div>
 

@@ -1,6 +1,7 @@
 ---
 title: Thousand Ropes
 outline: false
+pageClass: people-page city-page
 ---
 <div class="lore-kicker"> Settlements · Government Center </div>
 
@@ -14,7 +15,7 @@ outline: false
 
 | Field | Record |
 | --- | --- |
-| Layer | [Seas of Avarra](../cografya/seas) · moving Mist Chain route |
+| Layer | [Seas of Avarra](../cografya/denizler) · moving Mist Chain route |
 | Physical site | A floating city of hundreds of boats, barges, and platforms, reshaped by current |
 | Access | Moving bridges, rope crossings, and harbour skiffs accepted only while the market lantern is lit |
 | Nearby ties | [First Shore](./ilk-kiyi), Mazaros, the Asteron–Nareth strait route, and coast markets |

@@ -1,6 +1,7 @@
 ---
 title: Ordanor
 outline: false
+pageClass: people-page city-page
 ---
 
 <div class="lore-kicker">İlk Sekiz Şehir · Ordan İmparatorluğu’nun Başkent Havzası</div>

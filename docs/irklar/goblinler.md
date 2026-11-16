@@ -1,6 +1,7 @@
 ---
 title: Goblinler
 outline: false
+pageClass: people-page
 ---
 
 <div class="lore-kicker">Halklar · Loncalar</div>

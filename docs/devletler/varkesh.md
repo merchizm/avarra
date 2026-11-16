@@ -1,6 +1,7 @@
 ---
 title: Varkesh
 outline: deep
+pageClass: people-page state-page
 ---
 
 <div class="lore-kicker">Nareth–Odraka Arası · Ada-Kent Egemenliği</div>

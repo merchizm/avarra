@@ -1,6 +1,7 @@
 ---
 title: Silent Hollow
 outline: false
+pageClass: people-page city-page
 ---
 <div class="lore-kicker">Settlements · Government Center</div>
 
@@ -14,7 +15,7 @@ outline: false
 
 | Field | Record |
 | --- | --- |
-| Layer | [Hollow Countries](../cografya/underground) |
+| Layer | [Hollow Countries](../cografya/yeraltı) |
 | Region | The northern echo shadow of Nine Lanterns |
 | Physical site | A sealed dome of sound-eating stone and gallery rings that emit no light |
 | Access | Neutral Exchange Tunnel; only Nimrûn guides know the city road |

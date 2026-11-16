@@ -1,6 +1,7 @@
 ---
 title: Hobgoblinler
 outline: false
+pageClass: people-page
 ---
 <div class="lore-kicker"> Peoples · Cities </div>
 

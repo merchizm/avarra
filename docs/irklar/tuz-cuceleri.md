@@ -1,6 +1,7 @@
 ---
 title: Tuz Cüceleri
 outline: false
+pageClass: people-page
 ---
 <div class="lore-kicker">Halklar · Tuz Mahzenleri</div>
 

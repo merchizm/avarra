@@ -1,6 +1,7 @@
 ---
 title: Dikenkanlılar
 outline: false
+pageClass: people-page
 ---
 
 <div class="lore-kicker">Halklar · Diken Tacı</div>

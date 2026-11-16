@@ -1,6 +1,7 @@
 ---
 title: Blue Crown
 outline: false
+pageClass: people-page city-page
 ---
 <div class="lore-kicker">Settlements · Government Center</div>
 
@@ -14,7 +15,7 @@ outline: false
 
 | Field | Record |
 | --- | --- |
-| Layer | [Seas of Avarra](../cografya/seas) · Deep Current |
+| Layer | [Seas of Avarra](../cografya/denizler) · Deep Current |
 | Physical site | Living coral reefs and underwater domes on the outer shelf of a great estuary |
 | Access | Tidal Mirror surface embassy, reef gates, and current passages known only to sea peoples |
 | Nearby ties | [Namaris](./namaris), estuary villages, and deep sea-people routes |

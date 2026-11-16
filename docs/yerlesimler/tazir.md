@@ -1,6 +1,7 @@
 ---
 title: Tazir
 outline: deep
+pageClass: people-page city-page
 ---
 
 <div class="lore-kicker">Yerleşimler · Sarnıç Serbest Şehri</div>

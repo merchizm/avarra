@@ -1,6 +1,7 @@
 ---
 title: Lizardfolklar
 outline: false
+pageClass: people-page
 ---
 
 <div class="lore-kicker">Halklar · Odraka Deltaları</div>

@@ -1,6 +1,7 @@
 ---
 title: Myconidler
 outline: false
+pageClass: people-page
 ---
 
 <div class="lore-kicker">Halklar · Derin Hafıza</div>

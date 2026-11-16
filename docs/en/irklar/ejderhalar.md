@@ -1,6 +1,7 @@
 ---
 title: Ejderhalar
 outline: false
+pageClass: people-page
 ---
 <div class="lore-kicker"> Ancient Great Peoples · Veins of the World </div>
 

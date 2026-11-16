@@ -1,6 +1,7 @@
 ---
 title: Orman Elfleri
 outline: false
+pageClass: people-page
 ---
 <div class="lore-kicker"> Peoples · Crown of Thorns </div>
 

@@ -1,6 +1,7 @@
 ---
 title: Ordan Empire
 outline: false
+pageClass: people-page state-page
 ---
 
 <div class="lore-kicker">Asteron · State Record</div>
@@ -16,7 +17,7 @@ outline: false
 
 Ordan ideology holds that unmanaged nature produces famine and monsters. Rivers, forests, and peoples must be measured, recorded, and bound into state order. The empire brings roads, granaries, and courts to conquered places; in return, it demands taxes, soldiers, and cultural conformity.
 
-This ideology is a selective reading of the [Seven Lines Refuge](../tarih/seven-lines-refuge). Measure and record began there to make aid visible during disaster; in the empire, they became the language of conquest and control.
+This ideology is a selective reading of the [Seven Lines Refuge](../tarih/yedi-hat-siginagi). Measure and record began there to make aid visible during disaster; in the empire, they became the language of conquest and control.
 
 ## Succession candidates
 

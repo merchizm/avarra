@@ -20,4 +20,4 @@ outline: false
 
 [Ordanor](../yerlesimler/ordanor), [Astereth](../yerlesimler/astereth) and the river ports contain neighbourhoods, guilds and shrines without an origin test. Small Gith, Kalashtar and Vedalken settlements are local nodes of the continent’s road, knowledge and civic networks—not places outside it.
 
-**Related records:** [Peoples](../irklar/), [Settlements](../yerlesimler/), [Atlas](../atlas).
+**Related records:** [Peoples](../irklar/), [Settlements](../yerlesimler/), [Atlas](../haritalar/dunya).

@@ -1,6 +1,7 @@
 ---
 title: Meridian Age
 outline: false
+pageClass: people-page era-page
 ---
 
 <div class="lore-kicker">Era VI · 350–0 BC</div>
@@ -172,4 +173,4 @@ None of these accounts cleanly refutes the others; each reads the same traces th
 - An Anti-Order village hides the original ledger of the Great Correction; a Meridian inspector is looking for it.
 - On a single surviving page of the closed session’s minutes, only three words are written: *No one will be lost.*
 
-**Links:** [Age of Crowns](./taclar-cagi), [The Seven Lines Refuge](./seven-lines-refuge), [Age of Drift](./suruklenme-cagi), [Ordan Empire](../devletler/ordan-imparatorlugu), [River Throne](../devletler/nehir-tahti), [Veyrans](../irklar/veyranlar).
+**Links:** [Age of Crowns](./taclar-cagi), [The Seven Lines Refuge](./yedi-hat-siginagi), [Age of Drift](./suruklenme-cagi), [Ordan Empire](../devletler/ordan-imparatorlugu), [River Throne](../devletler/nehir-tahti), [Veyrans](../irklar/veyranlar).

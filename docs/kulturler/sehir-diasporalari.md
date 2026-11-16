@@ -1,6 +1,9 @@
 ---
 title: Şehir Diasporaları ve Açık Mahalleler
+pageClass: people-page culture-doc
 ---
+
+<div class="lore-kicker">Kültür Kanonu · Şehir Hayatı</div>
 
 # Şehir Diasporaları ve Açık Mahalleler
 

@@ -1,6 +1,7 @@
 ---
 title: Güneşçayır Birliği
 outline: false
+pageClass: people-page state-page
 ---
 
 <div class="lore-kicker">Nareth · Devlet Kaydı</div>

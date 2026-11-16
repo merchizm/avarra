@@ -1,6 +1,7 @@
 ---
 title: Tritonlar
 outline: false
+pageClass: people-page
 ---
 
 <div class="lore-kicker">Halklar · Derin Nöbet</div>

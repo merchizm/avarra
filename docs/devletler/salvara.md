@@ -1,6 +1,7 @@
 ---
 title: Sâlvara
 outline: deep
+pageClass: people-page state-page
 ---
 
 <div class="lore-kicker">Odraka · Ömür Meclisi ve Köle Devleti</div>

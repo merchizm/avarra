@@ -1,6 +1,7 @@
 ---
 title: Deep Pulse
 outline: false
+pageClass: people-page city-page
 ---
 <div class="lore-kicker"> Settlements · Government Center </div>
 
@@ -14,7 +15,7 @@ outline: false
 
 | Field | Record |
 | --- | --- |
-| Layer | Edge of the [Sealed Deep](../cografya/underground) |
+| Layer | Edge of the [Sealed Deep](../cografya/yeraltı) |
 | Physical site | Blind stone terraces around earthquake wells and resonance walls |
 | Access | Dry tunnels found by vibration signs; entering with light is dangerous |
 | Nearby ties | Unfading Cocoon’s quarantine line, Fire Rifts, and forbidden ancient stations |

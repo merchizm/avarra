@@ -21,12 +21,22 @@ import Timeline from './components/Timeline.vue'
 import Figures from './components/Figures.vue'
 import FigurePage from './components/FigurePage.vue'
 import HomeFigures from './components/HomeFigures.vue'
+import themeLayout from './components/ThemeLayout.js'
+import ThemeToggle from './components/ThemeToggle.vue'
+import StatesIndex from './components/StatesIndex.vue'
+import HomeMapInk from './components/HomeMapInk.vue'
+import PeopleAside from './components/PeopleAside.vue'
+import NavBrand from './components/NavBrand.vue'
+import SiteFooter from './components/SiteFooter.vue'
 import HomeRandomRecord from './components/HomeRandomRecord.vue'
 
 export default {
   extends: DefaultTheme,
-  Layout: () => h(DefaultTheme.Layout, null, {
-      'doc-before': () => h(StateIdentity),
+  Layout: themeLayout({
+      'nav-bar-content-after': () => h(ThemeToggle),
+      'nav-bar-title-before': () => h(NavBrand),
+      'layout-bottom': () => h(SiteFooter),
+      'doc-before': () => [h(StateIdentity), h(PeopleAside)],
       'doc-after': () => [h(PeoplePortraits), h(WikiReferenceLinks), h(AssetPathFixer), h(StateFlagLinks), h(PeopleHistoryReference), h(PeopleCultureReference), h(StateRelations), h(CapitalLife), h(EraPopulationDossier), h(Backlinks), h(EraFooter)]
   }),
     enhanceApp({ app }) {
@@ -35,6 +45,8 @@ export default {
       app.component('Figures', Figures)
       app.component('FigurePage', FigurePage)
       app.component('HomeFigures', HomeFigures)
+      app.component('HomeMapInk', HomeMapInk)
+      app.component('StatesIndex', StatesIndex)
       app.component('HomeRandomRecord', HomeRandomRecord)
       app.component('SettlementDirectory', SettlementDirectory)
     app.component('PeopleGallery', PeopleGallery)

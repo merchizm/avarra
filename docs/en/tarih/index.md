@@ -1,6 +1,7 @@
 ---
 title: Ages of Avarra
 outline: false
+pageClass: era-index
 ---
 
 <div class="lore-kicker">Chronology · Memory · Population</div>

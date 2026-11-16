@@ -1,6 +1,7 @@
 ---
 title: Copper Chimney
 outline: false
+pageClass: people-page city-page
 ---
 <div class="lore-kicker"> Settlements · Government Center </div>
 
@@ -14,7 +15,7 @@ outline: false
 
 | Field | Record |
 | --- | --- |
-| Layer | [Hollow Countries](../cografya/underground) |
+| Layer | [Hollow Countries](../cografya/yeraltı) |
 | Region | Air throat between the Hollow Ring and the [Foundry Line](../cografya/bolgeler/oyuk-dokum-hatti) |
 | Physical site | Copper-clad chimney terraces around seven natural air shafts |
 | Access | Maintenance rails, narrow Kobold passages, and freight lifts from upper cities |

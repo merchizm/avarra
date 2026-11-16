@@ -1,6 +1,7 @@
 ---
 title: Dragonbornlar
 outline: false
+pageClass: people-page
 ---
 <div class="lore-kicker"> Peoples · Odraka </div>
 

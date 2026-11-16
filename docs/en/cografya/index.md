@@ -8,6 +8,9 @@ outline: false
 
  <p class="lore-lead"> In Avarra, mountains are considered the bones of the world, rivers are its veins, and forests are its memory. It's not just metaphor: fault lines carry magic, old-growth forests can hold memories of the dead, and ancient roads can alter physical laws. </p>
 
+<div class="content-warning" role="note"><span class="cw-icon" aria-hidden="true">!</span><div><strong>Content out of date</strong><p>The geography records on this page may no longer match current canon. For up-to-date information, see the World Atlas, States and Settlements pages.</p></div></div>
+
+
 ## Continents and borders
 
  <div class="lore-grid">
@@ -30,8 +33,8 @@ The [World Atlas](../haritalar/dunya) is the visual entry point for continents, 
   <a class="lore-card" href="./nareth"><h3>Nareth</h3><p>Forest borders, salt basin, water rights and caravan roads.</p></a>
   <a class="lore-card" href="./asteron"><h3>Asteron</h3><p>River manifests, road permits and the limits of central record.</p></a>
   <a class="lore-card" href="./ilyr-khaz"><h3>Ilyr-Khaz</h3><p>Fjord councils, ice passages and brief-summer logistics.</p></a>
-  <a class="lore-card" href="./seas"><h3>The seas</h3><p>Surface routes, deep states, spawning coves, and maritime law.</p></a>
-  <a class="lore-card" href="./underground"><h3>The underground</h3><p>The Hollow Countries, ancient roads, air law, and deep cities.</p></a>
+  <a class="lore-card" href="./denizler"><h3>The seas</h3><p>Surface routes, deep states, spawning coves, and maritime law.</p></a>
+  <a class="lore-card" href="./yeraltı"><h3>The underground</h3><p>The Hollow Countries, ancient roads, air law, and deep cities.</p></a>
   <a class="lore-card" href="./bolgeler/kole-korfezi"><h3>Slave Bay</h3><p>Lifespan trade, shadow contracts, coastal flight, and contested maps.</p></a>
   <a class="lore-card" href="./bolgeler/skeldra-adasi"><h3>Skeldra Island</h3><p>Ice-free harbour, winter granaries, and supply law at the polar edge.</p></a>
 </div>

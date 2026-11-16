@@ -1,6 +1,7 @@
 ---
 title: Age of Drift
 outline: false
+pageClass: people-page era-page
 ---
 <div class="lore-kicker">Era VII · SS 0–83</div>
 

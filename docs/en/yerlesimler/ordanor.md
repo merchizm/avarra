@@ -1,6 +1,7 @@
 ---
 title: Ordanor
 outline: false
+pageClass: people-page city-page
 ---
 
 <div class="lore-kicker">First Eight Cities · Capital Basin of the Ordan Empire</div>
@@ -43,7 +44,7 @@ Four great roads enter the city: the **Grain Meridian** from Halvek, the **Train
 | **The Unregistered** | Not one official district: temporary rooms and hidden work around lower canals | An evacuation order can leave thousands unseen |
 | **Barge End** | River quay, warehouses, repairs, guesthouses for distant peoples | Lost cargo—or a chosen embargo? |
 
-Kalashtar listening houses, Vedalken record rooms, Khoravar shipyard kinship, and Gith road households appear through most of these areas; no people is confined to a “foreign quarter.” For the broader network, see [City Diasporas](../kulturler/city-diasporas).
+Kalashtar listening houses, Vedalken record rooms, Khoravar shipyard kinship, and Gith road households appear through most of these areas; no people is confined to a “foreign quarter.” For the broader network, see [City Diasporas](../kulturler/sehir-diasporalari).
 
 ### A day in Ordanor
 

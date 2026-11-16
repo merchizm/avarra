@@ -1,6 +1,7 @@
 ---
 title: Satyrler
 outline: false
+pageClass: people-page
 ---
 
 <div class="lore-kicker">Halklar · Şarap ve Patika</div>

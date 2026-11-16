@@ -1,6 +1,7 @@
 ---
 title: Avarra Çağları
 outline: false
+pageClass: era-index
 ---
 
 <div class="lore-kicker">Kronoloji · Hafıza · Nüfus</div>

@@ -1,6 +1,7 @@
 ---
 title: Ash Threshold Knightly Order
 outline: deep
+pageClass: people-page state-page
 ---
 
 <div class="lore-kicker">Sovereign Order · Island Home and Eshrenic Protection</div>

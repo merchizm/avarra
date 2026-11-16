@@ -1,6 +1,7 @@
 ---
 title: Bell Well
 outline: false
+pageClass: people-page city-page
 ---
 <div class="lore-kicker"> Settlements · Government Center </div>
 
@@ -14,7 +15,7 @@ outline: false
 
 | Field | Record |
 | --- | --- |
-| Layer | Vertical passage between Rootbelow and the [Hollow Countries](../cografya/underground) |
+| Layer | Vertical passage between Rootbelow and the [Hollow Countries](../cografya/yeraltı) |
 | Physical site | A natural shaft descending from a surface gate to an underground river |
 | Access | Floor lifts, spiral freight roads, and river boats at the lower quay |
 | Nearby ties | Surface caravans, Copper Chimney lines, and the Wet Deep route |

@@ -1,6 +1,7 @@
 ---
 title: Humans
 outline: false
+pageClass: people-page
 ---
 
 <div class="lore-kicker">Peoples · The Homeless</div>

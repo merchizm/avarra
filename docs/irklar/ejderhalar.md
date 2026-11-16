@@ -1,6 +1,7 @@
 ---
 title: Ejderhalar
 outline: false
+pageClass: people-page
 ---
 <div class="lore-kicker">Kadim Büyük Halklar · Dünya Damarları</div>
 

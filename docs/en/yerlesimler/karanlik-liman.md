@@ -1,6 +1,7 @@
 ---
 title: Dark Harbor
 outline: false
+pageClass: people-page city-page
 ---
 <div class="lore-kicker">Settlements · Government Center</div>
 
@@ -14,7 +15,7 @@ outline: false
 
 | Field | Record |
 | --- | --- |
-| Layer | [Hollow Countries](../cografya/underground) · Wet Deep |
+| Layer | [Hollow Countries](../cografya/yeraltı) · Wet Deep |
 | Physical site | A salt harbour where cavern rivers meet the north shore of the underground sea |
 | Access | Underground sailcraft, Bell Well’s river line, and narrow surface descents |
 | Nearby ties | Vel-Shaar, Kuo-Toa lake cities, the Duergar foundry line, and surface trading houses |

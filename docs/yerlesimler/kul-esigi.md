@@ -1,6 +1,7 @@
 ---
 title: Kül Eşiği
 outline: deep
+pageClass: people-page city-page
 ---
 
 <div class="lore-kicker">Yerleşimler · Kül Şövalyeleri Adası</div>

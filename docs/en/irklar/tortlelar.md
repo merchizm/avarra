@@ -1,6 +1,7 @@
 ---
 title: Tortlelar
 outline: false
+pageClass: people-page
 ---
 <div class="lore-kicker"> Peoples · Long Shell Paths </div>
 

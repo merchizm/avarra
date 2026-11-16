@@ -1,6 +1,7 @@
 ---
 title: The Seven Lines Refuge
 outline: false
+pageClass: people-page era-page
 ---
 
 <div class="lore-kicker">Era IV · 2640–2350 BC · Asteron</div>

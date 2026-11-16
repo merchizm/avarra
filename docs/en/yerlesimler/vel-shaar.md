@@ -1,6 +1,7 @@
 ---
 title: Vel-Shaar
 outline: false
+pageClass: people-page city-page
 ---
 <div class="lore-kicker">Settlements · Government Center</div>
 
@@ -14,7 +15,7 @@ outline: false
 
 | Field | Record |
 | --- | --- |
-| Layer | [Hollow Countries](../cografya/underground) |
+| Layer | [Hollow Countries](../cografya/yeraltı) |
 | Regional threshold | The broad cavern roof above the deep fungus forests |
 | Physical site | Silk bridges and stalactite terraces connecting the chasm voids |
 | Access | House-controlled bridge crossings, fungus lifts, and restricted surface rifts |

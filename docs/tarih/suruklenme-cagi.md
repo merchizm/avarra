@@ -1,6 +1,7 @@
 ---
 title: Sürüklenme Çağı
 outline: false
+pageClass: people-page era-page
 ---
 <div class="lore-kicker">Çağ VII · SS 0–83</div>
 

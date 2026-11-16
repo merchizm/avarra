@@ -1,6 +1,7 @@
 ---
 title: Goliathlar
 outline: false
+pageClass: people-page
 ---
 <div class="lore-kicker">Halklar · Buz Yolları</div>
 

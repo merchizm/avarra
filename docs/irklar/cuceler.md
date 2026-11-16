@@ -1,6 +1,7 @@
 ---
 title: Cüceler
 outline: false
+pageClass: people-page
 ---
 
 <div class="lore-kicker">Halklar · Dağ ve Ocak</div>

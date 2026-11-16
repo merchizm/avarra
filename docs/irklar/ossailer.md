@@ -1,6 +1,7 @@
 ---
 title: Ossailer
 outline: false
+pageClass: people-page
 ---
 
 <div class="lore-kicker">Avarra Halkları · Kharizha Sarayları ve Nehirleri</div>

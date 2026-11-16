@@ -25,4 +25,4 @@ The **Deep Bell watchers** defend neutrality; the **Private Beacon Company** wan
 - Walking Coral leaves an unknown chest on shore as it withdraws.
 - Every rope at Shell Pier is cut with the same knot.
 
-**Links:** [Seas](../seas), [Kalamer](../../irklar/kalamerler), [Hadozee](../../irklar/hadozeeler), [Nine Lanterns](../../yerlesimler/dokuz-fener).
+**Links:** [Seas](../denizler), [Kalamer](../../irklar/kalamerler), [Hadozee](../../irklar/hadozeeler), [Nine Lanterns](../../yerlesimler/dokuz-fener).

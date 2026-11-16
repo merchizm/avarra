@@ -1,6 +1,7 @@
 ---
 title: Free City of Winter Granaries
 outline: deep
+pageClass: people-page state-page
 ---
 
 <div class="lore-kicker">Nareth · Free City and Supply State</div>

@@ -1,6 +1,7 @@
 ---
 title: Kış Ambarları Serbest Şehri
 outline: deep
+pageClass: people-page city-page
 ---
 
 <div class="lore-kicker">Yerleşimler · Serbest Şehir ve Tedarik Merkezi</div>

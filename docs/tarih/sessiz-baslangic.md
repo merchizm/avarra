@@ -1,6 +1,7 @@
 ---
 title: Sessiz Başlangıç
 outline: false
+pageClass: people-page era-page
 ---
 <div class="lore-kicker">Çağ I · SÖ 9000 öncesi</div>
 

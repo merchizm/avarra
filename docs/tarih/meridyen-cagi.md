@@ -1,6 +1,7 @@
 ---
 title: Meridyen Çağı
 outline: false
+pageClass: people-page era-page
 ---
 
 <div class="lore-kicker">Çağ VI · SÖ 350–0</div>
